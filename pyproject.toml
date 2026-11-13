@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "geophotoloc"
+version = "0.1.0"
+description = "Geometry foundation for tourist-photo viewpoint localization"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "pydantic>=2.10,<3",
+    "numpy>=2.2,<3",
+    "shapely>=2.0,<3",
+    "pyproj>=3.7,<4",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.3,<10"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
