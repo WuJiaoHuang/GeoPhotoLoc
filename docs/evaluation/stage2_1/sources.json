@@ -1,0 +1,80 @@
+[
+  {
+    "id": "guangzhou_skyline",
+    "file": "images/guangzhou_skyline.jpg",
+    "title": "File:GuangzhouSkyline2020.jpg",
+    "page_id": 89481087,
+    "source_page": "https://commons.wikimedia.org/wiki/File:GuangzhouSkyline2020.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/GuangzhouSkyline2020.jpg/1920px-GuangzhouSkyline2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/GuangzhouSkyline2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download_sha256": "3a3d572b0d87903b4acb26d83cdab1d2dd3bfb5aaf99df7f323191f5224d0f49",
+    "retrieved_date": "2026-11-14",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Josephua&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Josephua (page does not exist)\">Josephua</a>",
+      "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "UsageTerms": "Creative Commons Attribution-Share Alike 4.0",
+      "AttributionRequired": "true",
+      "ImageDescription": "Guangzhou skyline separated by the Pearl River. The Tianhe CBD is on the right side of the river while the Canton Tower is on the left side of the river. Taken from Liede Bridge.",
+      "DateTimeOriginal": "2020-04-25"
+    },
+    "changes": "Wikimedia thumbnail; uncropped. Evaluation overlays are separate derivatives.",
+    "download_size": {
+      "width": 1920,
+      "height": 895
+    }
+  },
+  {
+    "id": "oriental_pearl",
+    "file": "images/oriental_pearl.jpg",
+    "title": "File:Oriental Pearl Tower in Shanghai.jpg",
+    "page_id": 37902070,
+    "source_page": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_in_Shanghai.jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Oriental_Pearl_Tower_in_Shanghai.jpg/1920px-Oriental_Pearl_Tower_in_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Oriental_Pearl_Tower_in_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download_sha256": "8ce868a80a6317a7665f7951c8bbc2aa7cb012ecf13688f734976cf00471cf9d",
+    "retrieved_date": "2026-11-14",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Dmottl\" title=\"User:Dmottl\">Dmitry A. Mottl</a>",
+      "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "UsageTerms": "Creative Commons Attribution-Share Alike 4.0",
+      "AttributionRequired": "true",
+      "ImageDescription": "Oriental Pearl Tower in Shanghai, China",
+      "DateTimeOriginal": "2014-12-22 13:46:19"
+    },
+    "changes": "Wikimedia thumbnail; uncropped. Evaluation overlays are separate derivatives.",
+    "download_size": {
+      "width": 1920,
+      "height": 2880
+    }
+  },
+  {
+    "id": "beijing_cbd",
+    "file": "images/beijing_cbd.jpg",
+    "title": "File:Parkview Green and CBD skyline (20210927131419).jpg",
+    "page_id": 110490462,
+    "source_page": "https://commons.wikimedia.org/wiki/File:Parkview_Green_and_CBD_skyline_(20210927131419).jpg",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Parkview_Green_and_CBD_skyline_%2820210927131419%29.jpg/1920px-Parkview_Green_and_CBD_skyline_%2820210927131419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Parkview_Green_and_CBD_skyline_%2820210927131419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download_sha256": "a91efa9f21990642d97001246cfe716e334dcb66c3acb038dc4015c94225db1e",
+    "retrieved_date": "2026-11-14",
+    "attribution": {
+      "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:N509FZ\" title=\"User:N509FZ\">N509FZ</a>",
+      "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "LicenseShortName": "CC BY-SA 4.0",
+      "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "UsageTerms": "Creative Commons Attribution-Share Alike 4.0",
+      "AttributionRequired": "true",
+      "ImageDescription": "\"Yerba Buena\" and its back.",
+      "DateTimeOriginal": "2021-09-27 13:14:19"
+    },
+    "changes": "Wikimedia thumbnail; uncropped. Evaluation overlays are separate derivatives.",
+    "download_size": {
+      "width": 1920,
+      "height": 1280
+    }
+  }
+]

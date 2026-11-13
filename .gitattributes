@@ -1,0 +1,2 @@
+# Preserve exact evidence bytes: request/result SHA-256 must survive checkout.
+docs/evaluation/stage2_1/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

@@ -1,0 +1,321 @@
+{
+  "notes": "Small-sample diagnostics only. Correspondences use explicit manual visual review against pre-recorded reference boxes. Generic detections and tentative candidates are not confirmed identities. Additional model objects and unlisted relations are not included in reference semantic scores.",
+  "ground_truth_sha256": "c9c020bc341e30925d6767b05da7c44b83c68e4d41f14e348f3f44c93c5f9352",
+  "summary": {
+    "reference_samples": 3,
+    "completed_samples": 3,
+    "missing_results": [],
+    "reference_targets": 7,
+    "primary_name_matches": 2,
+    "correct_candidate_only": 2,
+    "correct_candidate_with_alternatives": 1,
+    "generic_detection_without_identity": 1,
+    "missed_objects": 1,
+    "localized_reference_objects": 6,
+    "localized_at_iou_0_5": 6,
+    "centers_in_reference_box": 6,
+    "reference_pairs": 8,
+    "correct_pairs": 6,
+    "opposite_pairs": 0,
+    "not_emitted_pairs": 0,
+    "unscorable_pairs": 2
+  },
+  "samples": [
+    {
+      "sample_id": "guangzhou_skyline",
+      "model_landmarks": 4,
+      "model_directed_relations": 22,
+      "targets": [
+        {
+          "reference_id": "gz_canton",
+          "reference_name": "广州塔",
+          "primary_name_match": true,
+          "identity_outcome": "correct_primary_name",
+          "matching_candidates": [
+            "Canton Tower"
+          ],
+          "model_id": "lm_1",
+          "model_name": "Canton Tower",
+          "model_identity_uncertain": false,
+          "model_coordinates_reliable": true,
+          "center": {
+            "x": 0.29,
+            "y": 0.4
+          },
+          "model_bbox": {
+            "x_min": 0.27,
+            "y_min": 0.15,
+            "x_max": 0.31,
+            "y_max": 0.66
+          },
+          "reference_bbox": {
+            "x_min": 0.276,
+            "y_min": 0.155,
+            "x_max": 0.31,
+            "y_max": 0.665
+          },
+          "box_iou": 0.8347,
+          "center_error": 0.0104,
+          "center_in_reference_box": true
+        },
+        {
+          "reference_id": "gz_ifc",
+          "reference_name": "广州国际金融中心",
+          "primary_name_match": false,
+          "identity_outcome": "missed_object",
+          "candidate_name_only_ids": [
+            "lm_2"
+          ]
+        },
+        {
+          "reference_id": "gz_ctf",
+          "reference_name": "广州周大福金融中心",
+          "primary_name_match": false,
+          "identity_outcome": "correct_candidate_with_alternatives",
+          "matching_candidates": [
+            "Guangzhou CTF Finance Centre"
+          ],
+          "model_id": "lm_2",
+          "model_name": "Tall rectangular skyscraper",
+          "model_identity_uncertain": true,
+          "model_coordinates_reliable": true,
+          "center": {
+            "x": 0.85,
+            "y": 0.43
+          },
+          "model_bbox": {
+            "x_min": 0.83,
+            "y_min": 0.22,
+            "x_max": 0.87,
+            "y_max": 0.65
+          },
+          "reference_bbox": {
+            "x_min": 0.836,
+            "y_min": 0.228,
+            "x_max": 0.868,
+            "y_max": 0.659
+          },
+          "box_iou": 0.7722,
+          "center_error": 0.0136,
+          "center_in_reference_box": true
+        }
+      ],
+      "reference_relations": [
+        {
+          "subject_id": "gz_canton",
+          "object_id": "gz_ifc",
+          "relation_type": "LEFT_OF",
+          "outcome": "unscorable_missing_object"
+        },
+        {
+          "subject_id": "gz_canton",
+          "object_id": "gz_ctf",
+          "relation_type": "LEFT_OF",
+          "outcome": "correct",
+          "model_subject_id": "lm_1",
+          "model_object_id": "lm_2"
+        },
+        {
+          "subject_id": "gz_ifc",
+          "object_id": "gz_ctf",
+          "relation_type": "LEFT_OF",
+          "outcome": "unscorable_missing_object"
+        }
+      ],
+      "unscored_model_ids": [
+        "lm_3",
+        "lm_4"
+      ]
+    },
+    {
+      "sample_id": "beijing_cbd",
+      "model_landmarks": 7,
+      "model_directed_relations": 76,
+      "targets": [
+        {
+          "reference_id": "bj_zun",
+          "reference_name": "中国尊",
+          "primary_name_match": false,
+          "identity_outcome": "correct_candidate_only",
+          "matching_candidates": [
+            "CITIC Tower (China Zun)"
+          ],
+          "model_id": "lm_1",
+          "model_name": "Flared-top glass skyscraper",
+          "model_identity_uncertain": true,
+          "model_coordinates_reliable": true,
+          "center": {
+            "x": 0.565,
+            "y": 0.27
+          },
+          "model_bbox": {
+            "x_min": 0.54,
+            "y_min": 0.09,
+            "x_max": 0.59,
+            "y_max": 0.45
+          },
+          "reference_bbox": {
+            "x_min": 0.542,
+            "y_min": 0.092,
+            "x_max": 0.592,
+            "y_max": 0.457
+          },
+          "box_iou": 0.9013,
+          "center_error": 0.0049,
+          "center_in_reference_box": true
+        },
+        {
+          "reference_id": "bj_cctv",
+          "reference_name": "中央电视台总部大楼",
+          "primary_name_match": false,
+          "identity_outcome": "correct_candidate_only",
+          "matching_candidates": [
+            "CCTV Headquarters"
+          ],
+          "model_id": "lm_2",
+          "model_name": "Cantilevered loop tower",
+          "model_identity_uncertain": true,
+          "model_coordinates_reliable": true,
+          "center": {
+            "x": 0.47,
+            "y": 0.41
+          },
+          "model_bbox": {
+            "x_min": 0.42,
+            "y_min": 0.34,
+            "x_max": 0.52,
+            "y_max": 0.49
+          },
+          "reference_bbox": {
+            "x_min": 0.422,
+            "y_min": 0.345,
+            "x_max": 0.524,
+            "y_max": 0.48
+          },
+          "box_iou": 0.8514,
+          "center_error": 0.0039,
+          "center_in_reference_box": true
+        },
+        {
+          "reference_id": "bj_parkview",
+          "reference_name": "侨福芳草地",
+          "primary_name_match": false,
+          "identity_outcome": "generic_detection_without_identity",
+          "matching_candidates": [],
+          "model_id": "lm_7",
+          "model_name": "Glass pyramid roof structure",
+          "model_identity_uncertain": true,
+          "model_coordinates_reliable": true,
+          "center": {
+            "x": 0.545,
+            "y": 0.61
+          },
+          "model_bbox": {
+            "x_min": 0.36,
+            "y_min": 0.48,
+            "x_max": 0.73,
+            "y_max": 0.75
+          },
+          "reference_bbox": {
+            "x_min": 0.358,
+            "y_min": 0.48,
+            "x_max": 0.731,
+            "y_max": 0.754
+          },
+          "box_iou": 0.9775,
+          "center_error": 0.007,
+          "center_in_reference_box": true
+        }
+      ],
+      "reference_relations": [
+        {
+          "subject_id": "bj_cctv",
+          "object_id": "bj_zun",
+          "relation_type": "LEFT_OF",
+          "outcome": "correct",
+          "model_subject_id": "lm_2",
+          "model_object_id": "lm_1"
+        },
+        {
+          "subject_id": "bj_cctv",
+          "object_id": "bj_parkview",
+          "relation_type": "LEFT_OF",
+          "outcome": "correct",
+          "model_subject_id": "lm_2",
+          "model_object_id": "lm_7"
+        },
+        {
+          "subject_id": "bj_zun",
+          "object_id": "bj_cctv",
+          "relation_type": "ABOVE",
+          "outcome": "correct",
+          "model_subject_id": "lm_1",
+          "model_object_id": "lm_2"
+        },
+        {
+          "subject_id": "bj_zun",
+          "object_id": "bj_parkview",
+          "relation_type": "ABOVE",
+          "outcome": "correct",
+          "model_subject_id": "lm_1",
+          "model_object_id": "lm_7"
+        },
+        {
+          "subject_id": "bj_cctv",
+          "object_id": "bj_parkview",
+          "relation_type": "ABOVE",
+          "outcome": "correct",
+          "model_subject_id": "lm_2",
+          "model_object_id": "lm_7"
+        }
+      ],
+      "unscored_model_ids": [
+        "lm_3",
+        "lm_4",
+        "lm_5",
+        "lm_6"
+      ]
+    },
+    {
+      "sample_id": "oriental_pearl",
+      "model_landmarks": 1,
+      "model_directed_relations": 0,
+      "targets": [
+        {
+          "reference_id": "sh_pearl",
+          "reference_name": "东方明珠广播电视塔",
+          "primary_name_match": true,
+          "identity_outcome": "correct_primary_name",
+          "matching_candidates": [
+            "Oriental Pearl Tower"
+          ],
+          "model_id": "lm_1",
+          "model_name": "Oriental Pearl Tower",
+          "model_identity_uncertain": false,
+          "model_coordinates_reliable": true,
+          "center": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "model_bbox": {
+            "x_min": 0.33,
+            "y_min": 0.02,
+            "x_max": 0.79,
+            "y_max": 0.95
+          },
+          "reference_bbox": {
+            "x_min": 0.337,
+            "y_min": 0.025,
+            "x_max": 0.787,
+            "y_max": 0.962
+          },
+          "box_iou": 0.9609,
+          "center_error": 0.0623,
+          "center_in_reference_box": true
+        }
+      ],
+      "reference_relations": [],
+      "unscored_model_ids": []
+    }
+  ]
+}

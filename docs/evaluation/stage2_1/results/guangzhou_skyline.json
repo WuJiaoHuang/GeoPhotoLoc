@@ -1,0 +1,256 @@
+{
+  "landmarks": [
+    {
+      "name": "Canton Tower",
+      "x": 0.29,
+      "y": 0.4,
+      "confidence": 0.95,
+      "matched_landmark_id": null,
+      "id": "lm_1",
+      "name_candidates": [
+        "Canton Tower",
+        "Guangzhou TV Tower"
+      ],
+      "bbox": {
+        "x_min": 0.27,
+        "y_min": 0.15,
+        "x_max": 0.31,
+        "y_max": 0.66
+      },
+      "visual_evidence": [
+        "Tall, hyperboloid lattice structure with a tapering waist and a distinct antenna spire at the top."
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Tall rectangular skyscraper",
+      "x": 0.85,
+      "y": 0.43,
+      "confidence": 0.8,
+      "matched_landmark_id": null,
+      "id": "lm_2",
+      "name_candidates": [
+        "Guangzhou CTF Finance Centre",
+        "Guangzhou International Finance Center"
+      ],
+      "bbox": {
+        "x_min": 0.83,
+        "y_min": 0.22,
+        "x_max": 0.87,
+        "y_max": 0.65
+      },
+      "visual_evidence": [
+        "Very tall, dark rectangular skyscraper with a slightly angled or stepped top, standing prominently in a cluster of high-rise buildings on the right side of the river."
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "River island with stadium structure",
+      "x": 0.55,
+      "y": 0.65,
+      "confidence": 0.85,
+      "matched_landmark_id": null,
+      "id": "lm_3",
+      "name_candidates": [
+        "Haixinsha Island"
+      ],
+      "bbox": {
+        "x_min": 0.47,
+        "y_min": 0.61,
+        "x_max": 0.63,
+        "y_max": 0.69
+      },
+      "visual_evidence": [
+        "Elongated island in the middle of the river covered with dense trees, featuring a stadium-like structure with tall light masts or supports."
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Building with CCB logo",
+      "x": 0.97,
+      "y": 0.54,
+      "confidence": 0.9,
+      "matched_landmark_id": null,
+      "id": "lm_4",
+      "name_candidates": [],
+      "bbox": {
+        "x_min": 0.94,
+        "y_min": 0.4,
+        "x_max": 1.0,
+        "y_max": 0.68
+      },
+      "visual_evidence": [
+        "Multi-story building on the far right edge of the image with the letters 'CCB' visible on its upper facade."
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    }
+  ],
+  "scene_features": [
+    "Wide river",
+    "Overcast or hazy sky",
+    "City skyline with high-rise buildings",
+    "Water reflections of buildings and sky",
+    "Tree-lined riverbank promenade"
+  ],
+  "warnings": [
+    "Model confidence is an uncalibrated self-assessment, not a probability."
+  ],
+  "image": {
+    "original_size": {
+      "width": 1920,
+      "height": 895
+    },
+    "oriented_size": {
+      "width": 1920,
+      "height": 895
+    },
+    "processed_size": {
+      "width": 1600,
+      "height": 746
+    },
+    "original_format": "JPEG",
+    "encoded_format": "JPEG",
+    "original_bytes": 221850,
+    "processed_bytes": 139423,
+    "orientation_corrected": false
+  },
+  "relations": [
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_4",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    }
+  ],
+  "relation_min_gap": 0.03
+}

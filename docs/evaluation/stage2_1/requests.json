@@ -1,0 +1,72 @@
+[
+  {
+    "attempt": 1,
+    "sample_id": "guangzhou_skyline",
+    "started_at_utc": "2026-11-13T16:38:25.850432+00:00",
+    "model": "qwen3.8-flash",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "sdk_max_retries": 0,
+    "timeout_seconds": 60.0,
+    "input_sha256": "3a3d572b0d87903b4acb26d83cdab1d2dd3bfb5aaf99df7f323191f5224d0f49",
+    "ground_truth_sha256": "c9c020bc341e30925d6767b05da7c44b83c68e4d41f14e348f3f44c93c5f9352",
+    "status": "failed",
+    "error": "Vision request timed out after configured retries",
+    "finished_at_utc": "2026-11-13T16:39:25.918999+00:00"
+  },
+  {
+    "attempt": 2,
+    "sample_id": "beijing_cbd",
+    "started_at_utc": "2026-11-13T16:39:26.038941+00:00",
+    "model": "qwen3.8-flash",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "sdk_max_retries": 0,
+    "timeout_seconds": 60.0,
+    "input_sha256": "a91efa9f21990642d97001246cfe716e334dcb66c3acb038dc4015c94225db1e",
+    "ground_truth_sha256": "c9c020bc341e30925d6767b05da7c44b83c68e4d41f14e348f3f44c93c5f9352",
+    "status": "failed",
+    "error": "Vision request timed out after configured retries",
+    "finished_at_utc": "2026-11-13T16:40:26.138497+00:00"
+  },
+  {
+    "attempt": 3,
+    "sample_id": "oriental_pearl",
+    "started_at_utc": "2026-11-13T16:40:26.289316+00:00",
+    "model": "qwen3.8-flash",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "sdk_max_retries": 0,
+    "timeout_seconds": 60.0,
+    "input_sha256": "8ce868a80a6317a7665f7951c8bbc2aa7cb012ecf13688f734976cf00471cf9d",
+    "ground_truth_sha256": "c9c020bc341e30925d6767b05da7c44b83c68e4d41f14e348f3f44c93c5f9352",
+    "status": "success",
+    "result_sha256": "af5791bcf72a7c5ac0686a6300d009fc6ba33355fa6ca3730d1e0f20e884c783",
+    "finished_at_utc": "2026-11-13T16:40:33.309153+00:00"
+  },
+  {
+    "attempt": 4,
+    "sample_id": "guangzhou_skyline",
+    "started_at_utc": "2026-11-13T16:40:57.745086+00:00",
+    "model": "qwen3.8-flash",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "sdk_max_retries": 0,
+    "timeout_seconds": 180.0,
+    "input_sha256": "3a3d572b0d87903b4acb26d83cdab1d2dd3bfb5aaf99df7f323191f5224d0f49",
+    "ground_truth_sha256": "c9c020bc341e30925d6767b05da7c44b83c68e4d41f14e348f3f44c93c5f9352",
+    "status": "success",
+    "result_sha256": "2dac6f674c60a86207b088eddfff134478ed531041553bb6611710deb5ae3e19",
+    "finished_at_utc": "2026-11-13T16:41:41.118313+00:00"
+  },
+  {
+    "attempt": 5,
+    "sample_id": "beijing_cbd",
+    "started_at_utc": "2026-11-13T16:41:41.229027+00:00",
+    "model": "qwen3.8-flash",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "sdk_max_retries": 0,
+    "timeout_seconds": 180.0,
+    "input_sha256": "a91efa9f21990642d97001246cfe716e334dcb66c3acb038dc4015c94225db1e",
+    "ground_truth_sha256": "c9c020bc341e30925d6767b05da7c44b83c68e4d41f14e348f3f44c93c5f9352",
+    "status": "success",
+    "result_sha256": "553c20e5557afff07b7db0e5b7eff4e28932cabeb08446ea5881d80c7ac11558",
+    "finished_at_utc": "2026-11-13T16:42:07.819295+00:00"
+  }
+]

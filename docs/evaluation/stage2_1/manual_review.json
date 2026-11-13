@@ -1,0 +1,35 @@
+{
+  "reviewed_date": "2026-11-14",
+  "method": "Post-inference visual correspondence review against original photos and the pre-inference reference rectangles. A correspondence identifies which visible object a prediction describes, not whether its name was identified. Predictions/results remain unchanged.",
+  "samples": {
+    "guangzhou_skyline": {
+      "correspondences": {"gz_canton": "lm_1", "gz_ifc": null, "gz_ctf": "lm_2"},
+      "observations": [
+        "lm_1 correctly names and encloses Canton Tower.",
+        "lm_2 encloses the visible CTF/East Tower, but its primary name is generic and candidates mix CTF and IFC; this is ambiguous identity, not two recognized towers.",
+        "No separate prediction encloses the real IFC/West Tower to the left of CTF; IFC is missed even though its name occurs in lm_2 candidates.",
+        "lm_3 center and box cover the central river island; if the target includes the stadium structure described in evidence, tall masts above y=0.61 are not fully covered. Candidate Haixinsha Island is outside the fixed identity scoring scope.",
+        "lm_4 approximately encloses the far-right building bearing CCB signage; no unverified proper identity is assigned.",
+        "All six output horizontal pair orders agree visually. The five emitted vertical pair-axis relations agree with approximate visible centers; lm_1/lm_2 has a 0.03 center gap and correctly has no vertical relation. These center orders do not assert whole-object non-overlap or depth. Only fixed reference target pairs enter scored geometry results."
+      ]
+    },
+    "beijing_cbd": {
+      "correspondences": {"bj_zun": "lm_1", "bj_cctv": "lm_2", "bj_parkview": "lm_7"},
+      "observations": [
+        "lm_1 box encloses China Zun with a generic primary description and a correct but uncertain CITIC Tower (China Zun) candidate.",
+        "lm_2 box encloses CCTV Headquarters with a generic primary description and correct but uncertain CCTV Headquarters candidate. Its projected center lies in the bounding rectangle and can fall on foreground occlusion rather than a visible facade pixel.",
+        "lm_7 box encloses Parkview Green's glass pyramid envelope accurately, but no proper-name candidate is given.",
+        "lm_3, lm_4, lm_5, lm_6 boxes and centers correspond approximately to the visible FFC-signed, rightmost tapered, lattice-crowned and far-left dark towers. These additional identities are not independently scored.",
+        "All five fixed pair-axis relations can be visually checked and are correctly emitted; no arbitrary geographic direction or depth follows from them."
+      ]
+    },
+    "oriental_pearl": {
+      "correspondences": {"sh_pearl": "lm_1"},
+      "observations": [
+        "Correct Oriental Pearl Tower identity; bbox encloses spire, spheres, shaft and major support legs with small boundary differences.",
+        "Reported center (0.5,0.5) is visibly on the shaft but is not the exact rectangle midpoint (0.56,0.485); this is an approximate model measurement, not a deterministic conversion error.",
+        "Only one extracted target, so an empty relation list is appropriate."
+      ]
+    }
+  }
+}

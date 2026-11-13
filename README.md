@@ -137,3 +137,7 @@ uv run python scripts/smoke_vision.py
 - `uv sync --locked` 成功；`uv run pytest`：**180 passed，0 failed，0 skipped**，包含 Stage 1 的全部 76 项回归测试。
 - 使用已有 `.env` 配置，向指定百炼地址的 `qwen3.8-flash` 发送 **2 次真实请求，2 次成功，0 次失败，0 次重试**。合成场景返回 2 个身份不确定的通用地标及 4 条空间关系；纯白图片返回 0 个地标、0 条关系。
 - 调用前后比对确认已有 `.env` 字节内容未改变。未调用其他模型，未上传用户照片，未验证真实旅游照片上的身份识别准确率。没有尚未解决的功能或测试阻塞。
+
+## Stage 2.1 真实照片验证
+
+真实照片的来源、独立参考答案、完整 JSON、标注框、API 请求账本、成功与失败案例见 [STAGE2_REAL_IMAGE_EVALUATION.md](docs/STAGE2_REAL_IMAGE_EVALUATION.md)。本次验证 3 张 CC BY-SA 4.0 真实照片，实际请求 5 次（3 成功、2 超时）；7 个固定目标中明确主名称正确 2 个，另有不确定候选、通用描述和漏检。人工对应后 8 条参考关系有 6 条正确，2 条因漏检不可核验，不作为普遍准确率。最终全部自动化测试为 **185 passed，0 failed，0 skipped**。生产识别和几何算法未修改。

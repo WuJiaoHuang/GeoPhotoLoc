@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "created_date": "2026-11-14",
+  "method": "Reference identities from Commons descriptions, linked identity reference files, and independent visual inspection before any Stage 2.1 model request. Approximate rectangles enclose visible architecture, not extrapolated hidden parts. Coordinates are normalized, top-left origin, x right, y down. No EXIF GPS used.",
+  "box_policy": "Approximate human rectangles; IoU and center distance are diagnostic, not pixel-perfect annotations. Do not infer geographic direction or depth from these relations.",
+  "samples": [
+    {
+      "id": "guangzhou_skyline",
+      "file": "images/guangzhou_skyline.jpg",
+      "references": [
+        "https://commons.wikimedia.org/wiki/File:GuangzhouSkyline2020.jpg",
+        "https://commons.wikimedia.org/wiki/Category:Guangzhou_International_Finance_Center",
+        "https://commons.wikimedia.org/wiki/Category:Guangzhou_Chow_Tai_Fook_Finance_Center",
+        "https://commons.wikimedia.org/wiki/File:Guangzhou_Two_Towers_b_02-10-2018.jpg"
+      ],
+      "landmarks": [
+        {
+          "id": "gz_canton", "name": "广州塔", "aliases": ["Canton Tower", "Guangzhou Tower", "小蛮腰"],
+          "bbox": {"x_min": 0.276, "y_min": 0.155, "x_max": 0.310, "y_max": 0.665},
+          "evidence": "Left of the river/CBD group; thin twisted lattice shaft with antenna. Source caption explicitly names Canton Tower on the left."
+        },
+        {
+          "id": "gz_ifc", "name": "广州国际金融中心", "aliases": ["Guangzhou International Finance Center", "Guangzhou IFC", "广州西塔", "West Tower"],
+          "bbox": {"x_min": 0.776, "y_min": 0.348, "x_max": 0.801, "y_max": 0.653},
+          "evidence": "Right-hand CBD, rounded dark tower left of the taller flat-topped East Tower; lower portion obscured by foreground buildings. Identity checked visually against Commons category reference, not model output."
+        },
+        {
+          "id": "gz_ctf", "name": "广州周大福金融中心", "aliases": ["Guangzhou CTF Finance Centre", "Guangzhou CTF Finance Center", "广州东塔", "East Tower"],
+          "bbox": {"x_min": 0.836, "y_min": 0.228, "x_max": 0.868, "y_max": 0.659},
+          "evidence": "Tallest visible right-hand tower, broad flat/sloped crown to the right of IFC. Lower part hidden; rectangle covers visible portion."
+        }
+      ],
+      "relations": [
+        {"subject_id": "gz_canton", "object_id": "gz_ifc", "relation_type": "LEFT_OF"},
+        {"subject_id": "gz_canton", "object_id": "gz_ctf", "relation_type": "LEFT_OF"},
+        {"subject_id": "gz_ifc", "object_id": "gz_ctf", "relation_type": "LEFT_OF"}
+      ],
+      "relation_notes": "Three clear left-to-right target pairs. Vertical order deliberately not scored for this distant/partly occluded skyline. Reciprocal RIGHT_OF edges are not counted separately. Pearl River is visible foreground context, not an identity-scored architectural target."
+    },
+    {
+      "id": "beijing_cbd",
+      "file": "images/beijing_cbd.jpg",
+      "references": [
+        "https://commons.wikimedia.org/wiki/File:Parkview_Green_and_CBD_skyline_(20210927131419).jpg",
+        "https://commons.wikimedia.org/wiki/File:Parkview_Green_and_CBD_skyline_(20210927131419)_2_1_1_1.jpg",
+        "https://commons.wikimedia.org/wiki/Category:CCTV_Headquarters_(2010)"
+      ],
+      "landmarks": [
+        {
+          "id": "bj_zun", "name": "中国尊", "aliases": ["China Zun", "CITIC Tower", "中信大厦", "中信总部大厦"],
+          "bbox": {"x_min": 0.542, "y_min": 0.092, "x_max": 0.592, "y_max": 0.457},
+          "evidence": "Tall central waisted tower with flared crown; independently named China Zun by the linked crop of the exact source photograph. Lower floors obscured."
+        },
+        {
+          "id": "bj_cctv", "name": "中央电视台总部大楼", "aliases": ["CCTV Headquarters", "CCTV Tower", "央视总部大楼", "央视大楼", "大裤衩"],
+          "bbox": {"x_min": 0.422, "y_min": 0.345, "x_max": 0.524, "y_max": 0.480},
+          "evidence": "Distinctive folded loop with diagonal facade, immediately left of China Zun. Identity visually checked against independent Commons reference."
+        },
+        {
+          "id": "bj_parkview", "name": "侨福芳草地", "aliases": ["Parkview Green", "Parkview Green FangCaoDi", "芳草地"],
+          "bbox": {"x_min": 0.358, "y_min": 0.480, "x_max": 0.731, "y_max": 0.754},
+          "evidence": "Large foreground glass triangular/pyramidal envelope; source filename and depicts metadata name Parkview Green."
+        }
+      ],
+      "relations": [
+        {"subject_id": "bj_cctv", "object_id": "bj_zun", "relation_type": "LEFT_OF"},
+        {"subject_id": "bj_cctv", "object_id": "bj_parkview", "relation_type": "LEFT_OF"},
+        {"subject_id": "bj_zun", "object_id": "bj_cctv", "relation_type": "ABOVE"},
+        {"subject_id": "bj_zun", "object_id": "bj_parkview", "relation_type": "ABOVE"},
+        {"subject_id": "bj_cctv", "object_id": "bj_parkview", "relation_type": "ABOVE"}
+      ],
+      "relation_notes": "Center-based relations consistent with Stage 2 semantics, not complete box non-overlap. China Zun and Parkview have nearly aligned horizontal centers: no LEFT_OF/RIGHT_OF reference for that pair. Inverse edges not double counted."
+    },
+    {
+      "id": "oriental_pearl",
+      "file": "images/oriental_pearl.jpg",
+      "references": ["https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_in_Shanghai.jpg"],
+      "landmarks": [
+        {
+          "id": "sh_pearl", "name": "东方明珠广播电视塔", "aliases": ["东方明珠", "Oriental Pearl Tower", "Oriental Pearl Radio & Television Tower"],
+          "bbox": {"x_min": 0.337, "y_min": 0.025, "x_max": 0.787, "y_max": 0.962},
+          "evidence": "Dominant tower with antenna, multiple pink spheres, concrete shafts and diagonal support legs; source explicitly names Oriental Pearl Tower."
+        }
+      ],
+      "relations": [],
+      "relation_notes": "Single named target; cross-landmark relations are not applicable. Other background buildings are not assigned unverifiable identities."
+    }
+  ]
+}

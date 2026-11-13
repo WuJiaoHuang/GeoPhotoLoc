@@ -1,0 +1,63 @@
+{
+  "landmarks": [
+    {
+      "name": "Oriental Pearl Tower",
+      "x": 0.5,
+      "y": 0.5,
+      "confidence": 0.97,
+      "matched_landmark_id": null,
+      "id": "lm_1",
+      "name_candidates": [
+        "Oriental Pearl Tower",
+        "Shanghai TV Tower"
+      ],
+      "bbox": {
+        "x_min": 0.33,
+        "y_min": 0.02,
+        "x_max": 0.79,
+        "y_max": 0.95
+      },
+      "visual_evidence": [
+        "Tall tower with two large pink/purple spherical sections stacked vertically",
+        "Lower sphere covered in pink triangular glass panels",
+        "Upper smaller sphere with pink lattice pattern",
+        "Vertical column with a series of small pod-like balconies between spheres",
+        "Tripod-like angled legs with metallic spherical nodes near the base",
+        "Slender antenna spire at the top"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    }
+  ],
+  "scene_features": [
+    "Clear blue sky",
+    "Row of colorful flags at the base of the tower",
+    "Low-rise buildings and a domed structure visible at the horizon",
+    "Trees and shrubbery in the foreground",
+    "Modern skyscrapers partially visible behind the tower base"
+  ],
+  "warnings": [
+    "Model confidence is an uncalibrated self-assessment, not a probability."
+  ],
+  "image": {
+    "original_size": {
+      "width": 1920,
+      "height": 2880
+    },
+    "oriented_size": {
+      "width": 1920,
+      "height": 2880
+    },
+    "processed_size": {
+      "width": 1067,
+      "height": 1600
+    },
+    "original_format": "JPEG",
+    "encoded_format": "JPEG",
+    "original_bytes": 674272,
+    "processed_bytes": 162131,
+    "orientation_corrected": false
+  },
+  "relations": [],
+  "relation_min_gap": 0.03
+}
