@@ -1,0 +1,57 @@
+[
+  {
+    "case": "beijing_cbd",
+    "source": "https://commons.wikimedia.org/wiki/File:Parkview_Green_and_CBD_skyline_(20210927131419).jpg",
+    "truth_kind": "camera_location",
+    "evaluated": true,
+    "status": "AMBIGUOUS",
+    "candidate_regions": 2,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": 624.0965477579831,
+    "top1_point_distance_m": 2559.0214039715934,
+    "top1_area_m2": 2413548.6967521845,
+    "participating_landmarks": 2,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "truth_inside_searched_extent": false
+  },
+  {
+    "case": "oriental_pearl",
+    "source": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_in_Shanghai.jpg",
+    "truth_kind": "camera_location",
+    "evaluated": true,
+    "status": "INSUFFICIENT_EVIDENCE",
+    "candidate_regions": 0,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": null,
+    "top1_point_distance_m": null,
+    "top1_area_m2": null,
+    "participating_landmarks": 0,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "truth_inside_searched_extent": null
+  },
+  {
+    "case": "north_bund",
+    "source": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_view_from_the_North_Bund,_Oct._21st,_2026.jpg",
+    "truth_kind": "camera_location",
+    "evaluated": true,
+    "status": "AMBIGUOUS",
+    "candidate_regions": 5,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": 19.08462285770428,
+    "top1_point_distance_m": 60.140091834098655,
+    "top1_area_m2": 983251.7300005789,
+    "participating_landmarks": 5,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "truth_inside_searched_extent": true
+  },
+  {
+    "case": "guangzhou_skyline",
+    "source": "https://commons.wikimedia.org/wiki/File:GuangzhouSkyline2020.jpg",
+    "truth_kind": "coarse_description",
+    "evaluated": false,
+    "reason": "Only bridge-level description; no metre error calculated"
+  }
+]

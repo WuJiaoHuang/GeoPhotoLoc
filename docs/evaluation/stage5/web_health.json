@@ -1,0 +1,20 @@
+[
+  {
+    "startup_cycle": 1,
+    "port": 42216,
+    "health_status": 200,
+    "health_body": "ok",
+    "page_status": 200,
+    "html_bytes": 7863,
+    "browser_manual_interaction": false
+  },
+  {
+    "startup_cycle": 2,
+    "port": 42231,
+    "health_status": 200,
+    "health_body": "ok",
+    "page_status": 200,
+    "html_bytes": 7863,
+    "browser_manual_interaction": false
+  }
+]

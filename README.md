@@ -1,6 +1,29 @@
-# GeoPhotoLoc — Stage 4
+# GeoPhotoLoc — 端到端旅拍机位粗定位 Demo
 
-旅游照片拍摄机位粗定位 Demo。已完成基础几何（Stage 1）、图像语义（Stage 2）、真实照片验证（Stage 2.1）、OSM 检索与匹配（Stage 3）、候选摄影机位区域搜索（Stage 4）。Stage 1 算法保持不变，尚未开发 Stage 5 Web UI。
+已完成 Stage 1～5：旅游照片 → 视觉地标/图像关系 → OSM 实体 Top-K → 几何候选区域 → 中文交互地图。输出粗定位候选及不确定性，不把地标中心当摄影机位，不承诺精确定位。
+
+## 最少步骤启动
+
+```powershell
+uv sync --locked
+uv run streamlit run src/geophotoloc/app/main.py
+```
+
+浏览器打开终端给出的本地地址（默认 [http://localhost:8501](http://localhost:8501)）。默认「离线案例」可直接查看北京、广州、东方明珠，**无需 API Key、SQLite 或外网**。离线地图使用随项目打包的 Leaflet/jQuery，显示本地几何与标记，不请求网络底图；页面明确标注“离线复现实验结果，非本次实时模型推理”。
+
+在线模式额外步骤：已有 `.env` 时保留原文件，仅补充配置；没有时复制 `.env.example`，在本地填写百炼 API Key。然后初始化已定义的有限 OSM 覆盖：
+
+```powershell
+uv run python -m geophotoloc.cli demo-setup
+```
+
+该命令复用有效地区，仅顺序导入缺失的上海陆家嘴、北京 CBD、广州珠江新城/广州塔。支持 `--offline`、`--db`；服务失败会明确提示，不覆盖已有有效数据，不要求手动编辑 SQLite。页面也有初始化按钮。地图未准备好时不会先消耗视觉调用。
+
+选择在线模式，上传 JPEG/PNG/WebP 并点击「开始定位」。只在显式点击时运行真实 Pipeline；页面重绘不请求模型，同会话同图像重复运行命中缓存时明确标注。相同图片改变搜索参数可复用视觉识别，只重算地图和几何。会话缓存有数量上限，不使用全局可变密钥。在线底图可使用 OSM 网络瓦片并显示版权；每次上传不重新调用 Overpass。
+
+界面与算法分层：`app/main.py` 负责呈现，`pipeline.py` 注入并串联 VisionAnalyzer → MapMatcher → PoseSolver，`visualization.py` 负责标注与地图，`demo_data.py` 只读历史结果，`setup.py` 初始化有限覆盖。真实机位评估在独立脚本中读取求解结果后执行，不进入定位 Pipeline。
+
+运行测试：`uv run pytest`。最终验收见 [STAGE5_FINAL_EVALUATION.md](docs/STAGE5_FINAL_EVALUATION.md)，导师演示流程见 [DEMO_GUIDE.md](docs/DEMO_GUIDE.md)。项目设置本地 `.cache/uv`，避免本机曾出现的跨盘 uv 缓存问题；历史环境说明保留在下文。
 
 ## 环境与执行
 

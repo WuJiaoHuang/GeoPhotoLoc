@@ -1,0 +1,36 @@
+[
+  {
+    "title": "File:GuangzhouSkyline2020.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:GuangzhouSkyline2020.jpg",
+    "templates": [],
+    "review_status": "no explicit camera point; source only says Liede Bridge",
+    "reviewed_date": "2026-11-14"
+  },
+  {
+    "title": "File:Oriental Pearl Tower in Shanghai.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_in_Shanghai.jpg",
+    "templates": [
+      "{{Location dec|31.240411666667|121.49693}}"
+    ],
+    "review_status": "verified Camera location label and template; self-reported, not surveyed",
+    "reviewed_date": "2026-11-14"
+  },
+  {
+    "title": "File:Parkview Green and CBD skyline (20210927131419).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Parkview_Green_and_CBD_skyline_(20210927131419).jpg",
+    "templates": [
+      "{{Location|39.92115|116.435464|heading:132.34066767830046}}"
+    ],
+    "review_status": "verified Camera location label and template; self-reported, not surveyed",
+    "reviewed_date": "2026-11-14"
+  },
+  {
+    "title": "File:Oriental Pearl Tower view from the North Bund, Oct. 21st, 2026.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_view_from_the_North_Bund,_Oct._21st,_2026.jpg",
+    "templates": [
+      "{{Location|31.247889|121.492517}}"
+    ],
+    "review_status": "verified Camera location label and template; self-reported, not surveyed",
+    "reviewed_date": "2026-11-14"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "attempt": 1,
+    "model": "qwen3.8-flash",
+    "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "timeout_seconds": 180,
+    "max_retries": 0,
+    "started_utc": "2026-11-14T04:46:40.785944+00:00",
+    "status": "success",
+    "vision_landmarks": 7,
+    "matched_objects": 5,
+    "pose_status": "AMBIGUOUS",
+    "regions": 5,
+    "duplicate_run_used_cache": true
+  }
+]

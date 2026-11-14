@@ -32,6 +32,9 @@ def _write_json(path: Path, content: str):
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="geophotoloc")
     commands = parser.add_subparsers(dest="command", required=True)
+    demo_setup = commands.add_parser('demo-setup',help='Initialize/reuse finite Demo OSM coverage')
+    demo_setup.add_argument('--db',type=Path,default=Path('.cache/geophotoloc/maps.sqlite3'))
+    demo_setup.add_argument('--offline',action='store_true')
     analyze = commands.add_parser("analyze", help="Extract landmarks and image-space relations")
     analyze.add_argument("image", type=Path)
     analyze.add_argument("--output", help="JSON output path, or - for JSON on stdout")
@@ -61,6 +64,12 @@ def main(argv: list[str] | None = None) -> int:
     localize.add_argument("--fov", nargs="+",type=float,help="Horizontal FOV hypotheses in degrees")
     args = parser.parse_args(argv)
     try:
+        if args.command == 'demo-setup':
+            from geophotoloc.app.setup import setup_demo
+            result=setup_demo(args.db,offline=args.offline)
+            for item in result:
+                print(f"{item['region']}: {item['status']} " + item.get('message',''))
+            return int(any(item['status']=='failed' for item in result))
         if args.command == "localize":
             return _localize_command(args)
         if args.command in {"map-import", "map-match"}:

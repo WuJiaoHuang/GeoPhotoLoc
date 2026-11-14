@@ -1,0 +1,35 @@
+[
+  {
+    "case": "beijing_cbd",
+    "kind": "camera_location",
+    "latitude": 39.92115,
+    "longitude": 116.435464,
+    "source": "https://commons.wikimedia.org/wiki/File:Parkview_Green_and_CBD_skyline_(20210927131419).jpg",
+    "source_template": "{{Location|39.92115|116.435464|heading:132.34066767830046}}",
+    "meaning": "Commons page explicitly labels Camera location, not object location; photographer self-report, precision not independently surveyed."
+  },
+  {
+    "case": "oriental_pearl",
+    "kind": "camera_location",
+    "latitude": 31.240411666667,
+    "longitude": 121.49693,
+    "source": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_in_Shanghai.jpg",
+    "source_template": "{{Location dec|31.240411666667|121.49693}}",
+    "meaning": "Commons Camera location; self-reported camera coordinate, not the depicted tower coordinate."
+  },
+  {
+    "case": "north_bund",
+    "kind": "camera_location",
+    "latitude": 31.247889,
+    "longitude": 121.492517,
+    "source": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_view_from_the_North_Bund,_Oct._21st,_2026.jpg",
+    "source_template": "{{Location|31.247889|121.492517}}",
+    "meaning": "Commons Camera location, explicitly verified separately from object location; self-report with unknown measurement accuracy."
+  },
+  {
+    "case": "guangzhou_skyline",
+    "kind": "coarse_description",
+    "source": "https://commons.wikimedia.org/wiki/File:GuangzhouSkyline2020.jpg",
+    "meaning": "Taken from Liede Bridge only; no exact point. Not eligible for metre error metrics."
+  }
+]
