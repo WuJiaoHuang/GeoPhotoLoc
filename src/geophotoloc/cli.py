@@ -48,8 +48,21 @@ def main(argv: list[str] | None = None) -> int:
     map_match.add_argument("--db", type=Path, default=Path(".cache/geophotoloc/maps.sqlite3"))
     map_match.add_argument("--top-k", type=int, default=5)
     map_match.add_argument("--output")
+    localize = commands.add_parser("localize", help="Search viewpoint regions from saved vision JSON, without a vision API")
+    localize.add_argument("input", type=Path)
+    localize.add_argument("--db", type=Path, default=Path(".cache/geophotoloc/maps.sqlite3"))
+    localize.add_argument("--output")
+    localize.add_argument("--geojson", type=Path)
+    localize.add_argument("--radius", type=float, default=2200)
+    localize.add_argument("--coarse-spacing", type=float, default=180)
+    localize.add_argument("--fine-spacing", type=float, default=60)
+    localize.add_argument("--max-points", type=int, default=24000)
+    localize.add_argument("--bounds", nargs=4,type=float,metavar=("SOUTH","WEST","NORTH","EAST"))
+    localize.add_argument("--fov", nargs="+",type=float,help="Horizontal FOV hypotheses in degrees")
     args = parser.parse_args(argv)
     try:
+        if args.command == "localize":
+            return _localize_command(args)
         if args.command in {"map-import", "map-match"}:
             return _map_command(args)
         if args.output and args.output != "-":
@@ -85,6 +98,45 @@ def main(argv: list[str] | None = None) -> int:
     except sqlite3.Error:
         print("Error: cannot read or update map database", file=sys.stderr)
         return 1
+
+
+def _localize_command(args):
+    import json
+    from geophotoloc.localization import PoseSolver, PoseSearchConfig
+    paths = [Path(value).resolve() for value in (args.output,args.geojson) if value and str(value)!="-"]
+    if len(paths)!=len(set(paths)) or any(path in {args.input.resolve(),args.db.resolve()} for path in paths):
+        raise ValueError("Localization outputs must differ from input, database and each other")
+    if args.output and args.output!="-" and Path(args.output).suffix.lower()!=".json":
+        raise ValueError("Localization result needs a .json output path")
+    if args.geojson and args.geojson.suffix.lower() not in {'.geojson','.json'}:
+        raise ValueError("GeoJSON needs a .geojson or .json output path")
+    vision = VisionExtractionResult.model_validate_json(args.input.read_text(encoding="utf-8-sig"))
+    options = {}
+    if args.bounds:
+        from geophotoloc.models.maps import GeoBounds
+        options['search_bounds'] = GeoBounds(**dict(zip(('south','west','north','east'),args.bounds)))
+    if args.fov:
+        options['fov_degrees'] = tuple(args.fov)
+    config = PoseSearchConfig(search_radius_m=args.radius,coarse_spacing_m=args.coarse_spacing,
+                              fine_spacing_m=args.fine_spacing,max_total_points=args.max_points,**options)
+    with LandmarkStore(args.db) as store:
+        matched = MapMatcher(store).match(vision)
+        result = PoseSolver(store,config).solve(vision,matched)
+    if args.geojson:
+        _write_json(args.geojson,json.dumps(result.geojson,ensure_ascii=False,indent=2))
+    if args.output=="-":
+        print(result.model_dump_json(indent=2))
+    else:
+        if args.output:
+            _write_json(Path(args.output),result.model_dump_json(indent=2))
+        print(f"Status: {result.status}; candidate regions: {len(result.regions)}; elapsed: {result.elapsed_seconds:.3f}s")
+        for region in result.regions[:5]:
+            print(f"- {region.id}: {region.best_location.model_dump()}; heading={region.heading:.2f}; "
+                  f"score={region.best_score.score:.4f}; satisfied={region.best_score.satisfied}; "
+                  f"conflicts={region.best_score.conflicts}; assignments={region.assignments}")
+        for warning in result.warnings:
+            print("Warning:",warning)
+    return 0
 
 
 def _map_command(args):

@@ -1,6 +1,6 @@
-# GeoPhotoLoc — Stage 3
+# GeoPhotoLoc — Stage 4
 
-旅游照片拍摄机位粗定位 Demo。已完成基础工程与几何工具（Stage 1）、图像语义识别与关系提取（Stage 2）、真实照片验证（Stage 2.1）、OSM 地标获取与保留歧义的实体匹配（Stage 3）。尚未实现摄影机位求解，Stage 1 几何算法保持不变。
+旅游照片拍摄机位粗定位 Demo。已完成基础几何（Stage 1）、图像语义（Stage 2）、真实照片验证（Stage 2.1）、OSM 检索与匹配（Stage 3）、候选摄影机位区域搜索（Stage 4）。Stage 1 算法保持不变，尚未开发 Stage 5 Web UI。
 
 ## 环境与执行
 
@@ -195,3 +195,24 @@ with LandmarkStore() as store:
 空间检查只验证共同区域、实体唯一性与默认 15 km 两两地标距离，以有界 beam 保留组合；低支持地区可保留，输出截断会警告。图像左右/上下不当作地图方位，互逆关系去重后供后续使用，不用于重复加分。评分为 `0.70×名称 + 0.15×类别 + 0.15×身份线索`，明确类别冲突另扣 0.30，默认阈值 0.68；分数不是概率，身份不自动确认。
 
 真实样本有 6 个已检测参考目标：4 个 Top-1 正确、1 个 Top-1 错误但正确实体在 Top-K、1 个未匹配；视觉漏检的西塔不补造。正确 Top-K 身份覆盖 5/6，同时保留了错误候选和东西塔歧义，不宣称普遍准确率。当前全部测试 **245 passed，0 failed，0 skipped**，离线测试不依赖 Overpass 公网。数据署名为 © OpenStreetMap contributors / ODbL，详见 [地图数据来源](docs/evaluation/stage3/ATTRIBUTION.md)。
+
+
+## Stage 4 候选摄影机位区域
+
+当前完整回归结果：**270 passed，0 failed，0 skipped**。
+
+新增 `localization/{projection,scoring,search,regions,solver}.py` 和 `models/pose.py`。实际使用局部米制投影、有限粗/细网格、Stage 1 方位角/左右工具、全局水平视场、软横向投影残差、完整建筑/水域过滤及连通区域提取。多个地图身份组合分别求解，不只取 Top-1；单地标返回证据不足。原有 CandidatePose/LocalizationResult 保持兼容。
+
+```powershell
+uv run python -m geophotoloc.cli localize vision.json
+uv run python -m geophotoloc.cli localize vision.json --output localization.json --geojson candidate_regions.geojson
+uv run python -m geophotoloc.cli localize vision.json --radius 2200 --coarse-spacing 180 --fine-spacing 60 --max-points 24000 --fov 60 75 90 110 130
+uv run python scripts/evaluate_stage4.py
+uv run pytest
+```
+
+`localize` 从本地数据库自动执行 Stage 3 与 Stage 4，不调用视觉 API；支持 `--db`、`--bounds SOUTH WEST NORTH EAST` 及上述预算参数。文件输出为 UTF-8；GeoJSON 支持 Polygon/MultiPolygon 和实际搜索的代表点，轴顺序为经度、纬度。保留匹配实体、相机假设、分项评分、过滤原始分数、预算及边界限制。
+
+Python API：`PoseSolver(store, PoseSearchConfig(...)).solve(vision_result, map_matching_result)`；可从 `geophotoloc.localization` 或 `geophotoloc.models.pose` 导入模型。结果 `.model_dump_json()` 提供完整证据，`.geojson` 提供可直接展示的 FeatureCollection。
+
+真实验证：北京 2 个区域（AMBIGUOUS）；广州 8 个区域（SEARCH_LIMITED），东西塔组合均可行且未消歧；东方明珠 0 个区域（INSUFFICIENT_EVIDENCE）。区域是粗/细单元集合的近似，不保证所有内部像素均可行；未知 FOV、地图裁剪和只有两地标的连续解会造成宽区域。网格间距、残差和启发式分数不表示米级精度或统计置信度。完整参数、实际耗时、JSON/GeoJSON 及限制见 [STAGE4_EVALUATION.md](docs/STAGE4_EVALUATION.md)。

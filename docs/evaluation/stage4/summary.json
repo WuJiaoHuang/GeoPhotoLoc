@@ -1,0 +1,143 @@
+[
+  {
+    "sample": "beijing_cbd",
+    "status": "AMBIGUOUS",
+    "regions": 2,
+    "vision_sha256": "553c20e5557afff07b7db0e5b7eff4e28932cabeb08446ea5881d80c7ac11558",
+    "seconds": 0.756804,
+    "points": 1228,
+    "hypotheses": [
+      {
+        "id": "hyp_1",
+        "assignments": {
+          "lm_1": "osm:way:599547918",
+          "lm_2": "osm:relation:7820447"
+        },
+        "points": 1228,
+        "feasible": 915,
+        "filtered": 221,
+        "limited": false,
+        "reasons": [
+          "search_extent_clipped_by_map_coverage"
+        ]
+      }
+    ]
+  },
+  {
+    "sample": "guangzhou_skyline",
+    "status": "SEARCH_LIMITED",
+    "regions": 8,
+    "vision_sha256": "2dac6f674c60a86207b088eddfff134478ed531041553bb6611710deb5ae3e19",
+    "seconds": 2.607754,
+    "points": 5446,
+    "hypotheses": [
+      {
+        "id": "hyp_1",
+        "assignments": {
+          "lm_1": "osm:way:584204634",
+          "lm_2": "osm:way:184738716"
+        },
+        "points": 2113,
+        "feasible": 1622,
+        "filtered": 286,
+        "limited": true,
+        "reasons": [
+          "search_extent_clipped_by_map_coverage",
+          "component_refinement_budget; coarse feasible regions retained"
+        ]
+      },
+      {
+        "id": "hyp_2",
+        "assignments": {
+          "lm_1": "osm:way:584204634",
+          "lm_2": "osm:way:299687657"
+        },
+        "points": 1992,
+        "feasible": 1497,
+        "filtered": 270,
+        "limited": true,
+        "reasons": [
+          "search_extent_clipped_by_map_coverage",
+          "component_refinement_budget; coarse feasible regions retained"
+        ]
+      },
+      {
+        "id": "hyp_3",
+        "assignments": {
+          "lm_1": "osm:way:511404889",
+          "lm_2": "osm:way:184738716"
+        },
+        "points": 651,
+        "feasible": 326,
+        "filtered": 117,
+        "limited": false,
+        "reasons": [
+          "search_extent_clipped_by_map_coverage"
+        ]
+      },
+      {
+        "id": "hyp_4",
+        "assignments": {
+          "lm_1": "osm:way:184738716",
+          "lm_2": "osm:way:299687657"
+        },
+        "points": 690,
+        "feasible": 421,
+        "filtered": 115,
+        "limited": false,
+        "reasons": [
+          "search_extent_clipped_by_map_coverage"
+        ]
+      },
+      {
+        "id": "hyp_5",
+        "assignments": {
+          "lm_2": "osm:way:729214974"
+        },
+        "points": 0,
+        "feasible": 0,
+        "filtered": 0,
+        "limited": false,
+        "reasons": [
+          "fewer_than_two_reliable_landmarks; no precise pose generated"
+        ]
+      }
+    ]
+  },
+  {
+    "sample": "oriental_pearl",
+    "status": "INSUFFICIENT_EVIDENCE",
+    "regions": 0,
+    "vision_sha256": "af5791bcf72a7c5ac0686a6300d009fc6ba33355fa6ca3730d1e0f20e884c783",
+    "seconds": 0.000287,
+    "points": 0,
+    "hypotheses": [
+      {
+        "id": "hyp_1",
+        "assignments": {
+          "lm_1": "osm:way:40778038"
+        },
+        "points": 0,
+        "feasible": 0,
+        "filtered": 0,
+        "limited": false,
+        "reasons": [
+          "fewer_than_two_reliable_landmarks; no precise pose generated"
+        ]
+      },
+      {
+        "id": "hyp_2",
+        "assignments": {
+          "lm_1": "osm:way:165792123"
+        },
+        "points": 0,
+        "feasible": 0,
+        "filtered": 0,
+        "limited": false,
+        "reasons": [
+          "fewer_than_two_reliable_landmarks; no precise pose generated"
+        ]
+      }
+    ]
+  }
+]
