@@ -5,11 +5,13 @@ from shapely.geometry import Point, box, shape, mapping
 from shapely import get_coordinates
 from geophotoloc.maps.matching import same_physical_entity
 from geophotoloc.models.maps import GeoBounds
-from geophotoloc.models.pose import PoseSearchConfig, PoseHypothesis, CandidateRegion, PoseLocalizationResult
+from geophotoloc.models.pose import PoseSearchConfig, PoseHypothesis, CandidateRegion, PoseLocalizationResult, PoseConstraintScore
 from .projection import to_local_geometry
 from .scoring import evaluate_pose
 from .search import SearchContext, grid
 from .regions import cell_region, geographic_mapping
+from .extent import adaptive_search_extent, distance_batches
+from .enhanced import evaluate_enhanced_pose
 
 
 class PoseSolver:
@@ -81,10 +83,19 @@ class PoseSolver:
                 else:
                     report.reasons.append(f"{key}: point/partial geometry downgrade")
             xy = list(coordinates.values())
+            distance_geometries = {key:(target_geometries[key] if entity.complete_geometry and
+                                   entity.geometry_precision == 'complete_outline' and target_geometries[key] is not None
+                                   and target_geometries[key].geom_type in {'Polygon','MultiPolygon'} else Point(coordinates[key]))
+                                   for key,entity in entities.items()}
             radius = config.search_radius_m
             expanded = box(min(p[0] for p in xy)-radius,min(p[1] for p in xy)-radius,
                            max(p[0] for p in xy)+radius,max(p[1] for p in xy)+radius)
-            search = expanded.intersection(context.coverage)
+            if config.adaptive_extent:
+                expanded = adaptive_search_extent(list(distance_geometries.values()),config.max_observation_distance_m)
+                search = expanded
+                report.reasons.append('adaptive_rectangle_then_exact_all_target_distance_filter; map_bbox_not_camera_boundary')
+            else:
+                search = expanded.intersection(context.coverage)
             if config.search_bounds is not None:
                 b = config.search_bounds
                 search = search.intersection(to_local_geometry(box(b.west,b.south,b.east,b.north),context.system))
@@ -92,8 +103,10 @@ class PoseSolver:
             if search.is_empty:
                 report.reasons.append("empty_search_coverage_intersection")
                 continue
-            coverage_clipped = not context.coverage.covers(expanded)
+            coverage_clipped = not config.adaptive_extent and not context.coverage.covers(expanded)
             report.search_geometry = geographic_mapping(search,context)
+            report.search_area_m2 = search.area
+            report.map_coverage_status = context.coverage_status(search)
             if coverage_clipped:
                 report.reasons.append("search_extent_clipped_by_map_coverage")
             scores,coarse,fine,seen = {},[],[],set()
@@ -101,7 +114,8 @@ class PoseSolver:
 
             def assess(points, destination, coarse_level):
                 nonlocal total_points,limited
-                for p in points:
+                batches = distance_batches(points,list(distance_geometries.values()),config.max_observation_distance_m) if config.adaptive_extent else ((p,True) for p in points)
+                for p,within_distance in batches:
                     if p in seen:
                         continue
                     if report.searched_points >= config.max_points_per_hypothesis or total_points >= config.max_total_points:
@@ -115,9 +129,22 @@ class PoseSolver:
                         report.coarse_points += 1
                     else:
                         report.fine_points += 1
-                    score = evaluate_pose(p,observations,entities,coordinates,outlines,
-                                          [candidate.score for _,candidate in selected],vision_result.relations,config)
-                    filters = context.filter_reasons(p,list(target_geometries.values()))
+                    if not within_distance:
+                        report.distance_filtered_points += 1
+                        continue
+                    filters = context.filter_reasons(p,list(target_geometries.values()),allow_uncovered=config.adaptive_extent)
+                    if config.footprint_constraints or config.visibility_soft:
+                        score = evaluate_enhanced_pose(p,observations,entities,coordinates,outlines,
+                            [candidate.score for _,candidate in selected],vision_result.relations,config,context,
+                            target_geometries,standing_filters=filters)
+                    elif config.adaptive_extent and any(g.distance(Point(p)) <= config.minimum_distance_m for g in distance_geometries.values()):
+                        score = PoseConstraintScore(feasible=False,score=0,reasons=['observer_coincident_or_too_close_to_geometry'])
+                    else:
+                        score = evaluate_pose(p,observations,entities,coordinates,outlines,
+                                              [candidate.score for _,candidate in selected],vision_result.relations,config)
+                    score.map_coverage_status = context.coverage_status(Point(p))
+                    report.confirmed_order_conflicts += score.conflicts
+                    report.potentially_occluded_targets += sum(v['blocked_rays']>0 for v in score.visibility_evidence)
                     score.filter_reasons = filters
                     if filters:
                         report.filtered_points += 1
@@ -168,7 +195,8 @@ class PoseSolver:
                         geometry=geographic,best_location=context.system.to_geographic(best),best_score=scores[best],
                         area_m2=polygon.area,bounds_wgs84=shape(geographic).bounds,candidate_point_count=len(members),
                         assignments=hypothesis.assignments,heading=scores[best].heading,refined=any(p in fine for p in members),
-                        touches_search_boundary=touches,uncertainty=uncertainty))
+                        touches_search_boundary=touches,uncertainty=uncertainty,
+                        map_coverage_status=context.coverage_status(polygon)))
             report.elapsed_seconds = round(perf_counter()-begin,6)
         regions.sort(key=lambda r:(-r.best_score.score,r.hypothesis_id,r.best_location.latitude,r.best_location.longitude))
         informative = any(len(h.assignments)>=2 for h in hypotheses)
@@ -197,3 +225,16 @@ class PoseSolver:
                                       warnings=warnings,matched_landmarks=list(used_entities.values()),
                                       elapsed_seconds=round(perf_counter()-started,6),
                                       geojson={"type":"FeatureCollection","features":features})
+
+
+class BaselinePoseSolver(PoseSolver):
+    """Original defaults, with all three enhancement switches forced off."""
+    def __init__(self,store,config=None):
+        config = config or PoseSearchConfig()
+        super().__init__(store,config.model_copy(update=dict(adaptive_extent=False,footprint_constraints=False,visibility_soft=False)))
+
+
+class EnhancedPoseSolver(PoseSolver):
+    """Full enhancement defaults; explicit configurations support ablation."""
+    def __init__(self,store,config=None):
+        super().__init__(store,config or PoseSearchConfig(adaptive_extent=True,footprint_constraints=True,visibility_soft=True))

@@ -23,6 +23,19 @@ class PoseSearchConfig(BaseModel):
     x_tolerance: float = Field(default=0.03, gt=0, lt=0.3)
     minimum_distance_m: float = Field(default=5, gt=0)
     score_window: float = Field(default=0.08, ge=0, le=1)
+    adaptive_extent: bool = False
+    footprint_constraints: bool = False
+    visibility_soft: bool = False
+    max_observation_distance_m: float = Field(default=5000, gt=5, le=10000)
+    visibility_max_rays: int = Field(default=12, ge=1, le=12)
+
+    @model_validator(mode="before")
+    @classmethod
+    def enhanced_grid_default(cls, values):
+        if isinstance(values,dict) and any(values.get(k) for k in ('adaptive_extent','footprint_constraints','visibility_soft')):
+            values=dict(values)
+            values.setdefault('coarse_spacing_m',250)
+        return values
 
     @model_validator(mode="after")
     def valid_search(self):
@@ -53,6 +66,9 @@ class PoseConstraintScore(BaseModel):
     distances_m: dict[str, float] = Field(default_factory=dict)
     reasons: list[str] = Field(default_factory=list)
     filter_reasons: list[str] = Field(default_factory=list)
+    map_coverage_status: Literal['COMPLETE','PARTIAL','UNKNOWN'] = 'UNKNOWN'
+    footprint_evidence: list[dict] = Field(default_factory=list)
+    visibility_evidence: list[dict] = Field(default_factory=list)
 
 
 class PoseHypothesis(BaseModel):
@@ -69,6 +85,11 @@ class PoseHypothesis(BaseModel):
     limited: bool = False
     reasons: list[str] = Field(default_factory=list)
     filtered_examples: list[dict] = Field(default_factory=list)
+    search_area_m2: float = 0
+    distance_filtered_points: int = 0
+    confirmed_order_conflicts: int = 0
+    potentially_occluded_targets: int = 0
+    map_coverage_status: Literal['COMPLETE','PARTIAL','UNKNOWN'] = 'UNKNOWN'
 
 
 class CandidateRegion(BaseModel):
@@ -86,6 +107,7 @@ class CandidateRegion(BaseModel):
     refined: bool
     touches_search_boundary: bool
     uncertainty: list[str]
+    map_coverage_status: Literal['COMPLETE','PARTIAL','UNKNOWN'] = 'UNKNOWN'
 
 
 class PoseLocalizationResult(BaseModel):

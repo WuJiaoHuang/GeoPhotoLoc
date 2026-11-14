@@ -7,7 +7,7 @@ from geophotoloc.models.pose import PoseConstraintScore
 from .projection import angular_span
 
 
-def evaluate_pose(point, observations, entities, coordinates, outlines, identity_scores, relations, config):
+def evaluate_pose(point, observations, entities, coordinates, outlines, identity_scores, relations, config, *, order_evaluator=None):
     ids = sorted(entities)
     bearings, distances = {}, {}
     for key in ids:
@@ -49,6 +49,15 @@ def evaluate_pose(point, observations, entities, coordinates, outlines, identity
             score.conflicts += 1
             continue
         left,right = next(iter(orders))
+        if order_evaluator is not None:
+            outcome = order_evaluator(left,right)
+            if outcome == 'SATISFIED':
+                score.satisfied += 1
+            elif outcome == 'CONFLICT':
+                score.conflicts += 1
+            else:
+                score.indeterminate += 1
+            continue
         result = check_left_right(point, coordinates[left], coordinates[right], "LEFT_OF")
         separation = abs(signed_angle_difference(bearings[left], bearings[right]))
         if (result.satisfied is None or separation <= angular_width[left]+angular_width[right]+config.angular_tolerance_deg):

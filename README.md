@@ -239,3 +239,33 @@ uv run pytest
 Python API：`PoseSolver(store, PoseSearchConfig(...)).solve(vision_result, map_matching_result)`；可从 `geophotoloc.localization` 或 `geophotoloc.models.pose` 导入模型。结果 `.model_dump_json()` 提供完整证据，`.geojson` 提供可直接展示的 FeatureCollection。
 
 真实验证：北京 2 个区域（AMBIGUOUS）；广州 8 个区域（SEARCH_LIMITED），东西塔组合均可行且未消歧；东方明珠 0 个区域（INSUFFICIENT_EVIDENCE）。区域是粗/细单元集合的近似，不保证所有内部像素均可行；未知 FOV、地图裁剪和只有两地标的连续解会造成宽区域。网格间距、残差和启发式分数不表示米级精度或统计置信度。完整参数、实际耗时、JSON/GeoJSON 及限制见 [STAGE4_EVALUATION.md](docs/STAGE4_EVALUATION.md)。
+
+
+## Stage 5.1A 自适应范围与完整轮廓
+
+`PoseSolver` 默认仍为原 Stage 4 Baseline（粗网格 180 m）；新增 `BaselinePoseSolver`、`EnhancedPoseSolver`。增强默认粗网格 250 m、细网格 60 m、最大观察距离 5000 m（配置上限 10000 m），保留全部预算机制。
+
+```python
+from geophotoloc.localization import EnhancedPoseSolver, PoseSearchConfig
+
+config = PoseSearchConfig(adaptive_extent=True, footprint_constraints=True, visibility_soft=True)
+result = EnhancedPoseSolver(store, config).solve(vision_result, map_matching_result)
+json_text = result.model_dump_json()
+geojson = result.geojson
+```
+
+三个独立开关支持消融。自适应范围按每个完整建筑轮廓的最短距离过滤，缺失轮廓时使用代表点，搜索不再裁剪到 OSM 导入 bbox。`map_coverage_status` 由导入记录与覆盖范围确定；覆盖外候选保留，站立条件和遮挡证据不足明确标记。完整外环角区间处理跨北向、MultiPolygon、孔洞和退化；二维遮挡使用现有 STRtree、最多 12 条前边界视线，只参与软评分。UNKNOWN 分量取 0.5，不等于 CLEAR；即使全部二维视线被阻挡也不单独硬剔除。
+
+实际执行命令（均不调用视觉 API）：
+
+```powershell
+uv run python scripts/evaluate_stage5_1a.py
+# 覆盖降级与硬过滤顺序修复后重跑增强评分组
+uv run python scripts/evaluate_stage5_1a.py --group footprint_only --group full_enhanced
+uv run python scripts/evaluate_stage5_1a_truth.py
+uv run pytest -q
+```
+
+四组实验使用相同的原始视觉/匹配结果和通用参数，仅切换三个标志。推理脚本不读取真值，独立后评估才读取来源自报的相机位置。结果保存在 `docs/evaluation/stage5_1a/`，每个完整 JSON 内含 GeoJSON；Stage 4、Stage 5 的历史结果保持原样。实际数字、失败案例和后续连续优化接口见 [STAGE5_1A_EVALUATION.md](docs/STAGE5_1A_EVALUATION.md)。
+
+本阶段完整测试：**324 passed，0 failed，0 skipped**（原有 300 项全部通过）。北京来源点进入新范围，但 Top-1 仍偏离；北外滩增强结果发生退化，详情和全部 A/B/C/D 实测数据见上述报告。

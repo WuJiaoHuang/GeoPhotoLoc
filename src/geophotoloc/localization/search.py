@@ -1,5 +1,6 @@
 """Deterministic bounded grids and obstacle-aware search context."""
 import numpy as np
+import json
 from shapely.geometry import Point, box, shape
 from shapely.ops import unary_union
 from shapely.strtree import STRtree
@@ -24,7 +25,28 @@ class SearchContext:
         self.coverage = to_local_geometry(box(bounds.west,bounds.south,bounds.east,bounds.north),self.system)
         self.obstacles = []
         self.obstacle_types = []
+        self.obstacle_entities = []
+        self.uncertain_areas = []
+        self.coverage_confirmed = False
+        count = store.connection.execute('SELECT count(*) FROM memberships WHERE region_id=?',(region_id,)).fetchone()[0]
+        for row in store.connection.execute('SELECT metadata_json FROM imports WHERE region_id=?',(region_id,)):
+            metadata = json.loads(row[0])
+            # Only successful full-building imports establish coverage provenance.
+            if (metadata.get('source') and metadata.get('fetched_at') and metadata.get('query_sha256')
+                    and metadata.get('stored_entities') == count and count > 0
+                    and 'out meta geom;' in metadata.get('query','')
+                    and '["building"]' in metadata.get('query','') and not metadata.get('warnings')
+                    and metadata.get('bounds') == bounds.model_dump()):
+                self.coverage_confirmed = True
         for entity in store.list_entities(regions=[region_id]):
+            is_building = entity.tags.get('building') not in (None,'no') or entity.tags.get('building:part') not in (None,'no')
+            if is_building and (not entity.complete_geometry or entity.geometry_precision != 'complete_outline'):
+                raw = shape(entity.geometry) if entity.geometry else None
+                # Known partial extent is uncertain; a point-only building has
+                # no bounded footprint, so conservatively downgrade the scope.
+                uncertain = (to_local_geometry(raw.envelope,self.system) if raw is not None and
+                             not raw.is_empty and raw.geom_type != 'Point' else self.coverage)
+                self.uncertain_areas.append(uncertain)
             if not entity.complete_geometry or entity.geometry_precision != "complete_outline" or not entity.geometry:
                 continue
             raw = shape(entity.geometry)
@@ -36,12 +58,24 @@ class SearchContext:
                 geometry = to_local_geometry(raw,self.system)
                 self.obstacles.append(geometry)
                 self.obstacle_types.append("building_interior" if is_building else "water_area")
+                self.obstacle_entities.append(entity)
         self.tree = STRtree(self.obstacles)
+        self.uncertainty_tree = STRtree(self.uncertain_areas)
 
-    def filter_reasons(self, point, target_geometries):
+    def coverage_status(self, geometry):
+        """Import-confirmed scope only; COMPLETE does not imply a perfect OSM map."""
+        if not self.coverage_confirmed or geometry.is_empty:
+            return 'UNKNOWN'
+        if self.coverage.covers(geometry):
+            if len(self.uncertainty_tree.query(geometry,predicate='intersects')):
+                return 'PARTIAL'
+            return 'COMPLETE'
+        return 'PARTIAL' if self.coverage.intersects(geometry) else 'UNKNOWN'
+
+    def filter_reasons(self, point, target_geometries, *, allow_uncovered=False):
         p = Point(point)
         reasons = []
-        if not self.coverage.covers(p):
+        if not allow_uncovered and not self.coverage.covers(p):
             reasons.append("outside_map_coverage")
         for index in self.tree.query(p):
             if self.obstacles[index].covers(p):
