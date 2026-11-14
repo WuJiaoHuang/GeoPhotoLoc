@@ -1,0 +1,15 @@
+{
+  "version": 0.6,
+  "osm3s": {"timestamp_osm_base": "2026-11-01T00:00:00Z"},
+  "elements": [
+    {"type": "node", "id": 1, "lat": 31.24, "lon": 121.50, "timestamp": "2026-10-01T00:00:00Z", "tags": {"name": "测试甲塔", "name:en": "Alpha Tower", "name:zh": "测试甲塔", "alt_name": "甲塔;Alpha Spire", "official_name": "Alpha Official Tower", "short_name": "Alpha", "wikidata": "Q100001", "man_made": "tower", "height": "300", "tourism": "attraction"}},
+    {"type": "way", "id": 2, "tags": {"name": "测试乙楼", "name:en": "Beta Tower", "building": "commercial", "height": "250"}, "geometry": [{"lat": 31.241, "lon": 121.501}, {"lat": 31.241, "lon": 121.502}, {"lat": 31.242, "lon": 121.502}, {"lat": 31.242, "lon": 121.501}, {"lat": 31.241, "lon": 121.501}]},
+    {"type": "relation", "id": 3, "tags": {"name": "Courtyard Complex", "type": "multipolygon", "building": "yes"}, "members": [
+      {"type": "way", "ref": 31, "role": "outer", "geometry": [{"lat": 31.243, "lon": 121.503}, {"lat": 31.243, "lon": 121.505}, {"lat": 31.245, "lon": 121.505}]},
+      {"type": "way", "ref": 32, "role": "outer", "geometry": [{"lat": 31.245, "lon": 121.505}, {"lat": 31.245, "lon": 121.503}, {"lat": 31.243, "lon": 121.503}]},
+      {"type": "way", "ref": 33, "role": "inner", "geometry": [{"lat": 31.2435, "lon": 121.5035}, {"lat": 31.2435, "lon": 121.5045}, {"lat": 31.2445, "lon": 121.5045}, {"lat": 31.2445, "lon": 121.5035}, {"lat": 31.2435, "lon": 121.5035}]}
+    ]},
+    {"type": "way", "id": 4, "center": {"lat": 31.246, "lon": 121.506}, "tags": {"name:en": "Center Only Building", "building": "yes"}},
+    {"type": "node", "id": 5, "lat": 31.247, "lon": 121.507, "tags": {"historic": "memorial"}}
+  ]
+}

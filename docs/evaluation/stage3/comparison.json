@@ -1,0 +1,142 @@
+{
+  "method": "Separate offline identity review using preexisting photo references and real OSM identities. Inputs were not edited. Region hypotheses are coverage hypotheses, not camera locations. Only the fixed targets are scored; extra candidate errors are listed explicitly.",
+  "summary": {
+    "reference_targets": 7,
+    "targets_present_in_vision": 6,
+    "targets_missing_from_vision": 1,
+    "top1_correct": 4,
+    "top1_wrong_correct_in_topk": 1,
+    "unmatched": 1,
+    "correct_in_topk": 5,
+    "confirmed_identities": 0
+  },
+  "records": [
+    {
+      "sample_id": "guangzhou_skyline",
+      "reference_id": "gz_canton",
+      "image_id": "lm_1",
+      "visual_name": "Canton Tower",
+      "visual_candidates": [
+        "Canton Tower",
+        "Guangzhou TV Tower"
+      ],
+      "expected_entity_id": "osm:way:584204634",
+      "expected_name": "广州塔",
+      "top1_entity_id": "osm:way:584204634",
+      "top1_name": "广州塔",
+      "correct_candidate_ranks": [
+        1
+      ],
+      "outcome": "top1_correct",
+      "identity_certain": false,
+      "additional_wrong_candidate_ids": [
+        "osm:way:184738716",
+        "osm:way:511404889"
+      ]
+    },
+    {
+      "sample_id": "guangzhou_skyline",
+      "reference_id": "gz_ctf",
+      "image_id": "lm_2",
+      "visual_name": "Tall rectangular skyscraper",
+      "visual_candidates": [
+        "Guangzhou CTF Finance Centre",
+        "Guangzhou International Finance Center"
+      ],
+      "expected_entity_id": "osm:way:299687657",
+      "expected_name": "广州周大福金融中心",
+      "top1_entity_id": "osm:way:184738716",
+      "top1_name": "广州国际金融中心(广州西塔)",
+      "correct_candidate_ranks": [
+        2
+      ],
+      "outcome": "top1_wrong_correct_in_topk",
+      "identity_certain": false,
+      "additional_wrong_candidate_ids": [
+        "osm:way:184738716",
+        "osm:way:729214974"
+      ]
+    },
+    {
+      "sample_id": "beijing_cbd",
+      "reference_id": "bj_zun",
+      "image_id": "lm_1",
+      "visual_name": "Flared-top glass skyscraper",
+      "visual_candidates": [
+        "CITIC Tower (China Zun)"
+      ],
+      "expected_entity_id": "osm:way:599547918",
+      "expected_name": "中国尊",
+      "top1_entity_id": "osm:way:599547918",
+      "top1_name": "中国尊",
+      "correct_candidate_ranks": [
+        1
+      ],
+      "outcome": "top1_correct",
+      "identity_certain": false,
+      "additional_wrong_candidate_ids": []
+    },
+    {
+      "sample_id": "beijing_cbd",
+      "reference_id": "bj_cctv",
+      "image_id": "lm_2",
+      "visual_name": "Cantilevered loop tower",
+      "visual_candidates": [
+        "CCTV Headquarters"
+      ],
+      "expected_entity_id": "osm:relation:7820447",
+      "expected_name": "中央电视台总部大楼",
+      "top1_entity_id": "osm:relation:7820447",
+      "top1_name": "中央电视台总部大楼",
+      "correct_candidate_ranks": [
+        1
+      ],
+      "outcome": "top1_correct",
+      "identity_certain": false,
+      "additional_wrong_candidate_ids": []
+    },
+    {
+      "sample_id": "beijing_cbd",
+      "reference_id": "bj_parkview",
+      "image_id": "lm_7",
+      "visual_name": "Glass pyramid roof structure",
+      "visual_candidates": [],
+      "expected_entity_id": "osm:way:156297801",
+      "expected_name": "侨福芳草地购物中心",
+      "top1_entity_id": null,
+      "top1_name": null,
+      "correct_candidate_ranks": [],
+      "outcome": "unmatched",
+      "identity_certain": false,
+      "additional_wrong_candidate_ids": []
+    },
+    {
+      "sample_id": "oriental_pearl",
+      "reference_id": "sh_pearl",
+      "image_id": "lm_1",
+      "visual_name": "Oriental Pearl Tower",
+      "visual_candidates": [
+        "Oriental Pearl Tower",
+        "Shanghai TV Tower"
+      ],
+      "expected_entity_id": "osm:way:40778038",
+      "expected_name": "东方明珠电视塔",
+      "top1_entity_id": "osm:way:40778038",
+      "top1_name": "东方明珠电视塔",
+      "correct_candidate_ranks": [
+        1
+      ],
+      "outcome": "top1_correct",
+      "identity_certain": false,
+      "additional_wrong_candidate_ids": [
+        "osm:way:165792123"
+      ]
+    }
+  ],
+  "missing_visual_objects": [
+    {
+      "sample_id": "guangzhou_skyline",
+      "reference_id": "gz_ifc"
+    }
+  ]
+}

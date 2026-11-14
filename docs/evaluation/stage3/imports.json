@@ -1,0 +1,71 @@
+[
+  {
+    "region_id": "shanghai",
+    "bounds": {
+      "south": 31.215,
+      "west": 121.475,
+      "north": 31.265,
+      "east": 121.535
+    },
+    "source": "https://overpass-api.de/api/interpreter",
+    "fetched_at": "2026-11-13T17:02:09.369900+00:00",
+    "query_sha256": "e22bf13a973fa683c195ee3fcc7330cd970009d812dd5caa480d6a873cade818",
+    "query": "[out:json][timeout:45][maxsize:33554432];(node[~\"^(name(:.*)?|alt_name|official_name|short_name)$\"~\".\"](31.215,121.475,31.265,121.535);way[~\"^(name(:.*)?|alt_name|official_name|short_name)$\"~\".\"](31.215,121.475,31.265,121.535);relation[\"type\"=\"multipolygon\"][~\"^(name(:.*)?|alt_name|official_name|short_name)$\"~\".\"](31.215,121.475,31.265,121.535);way[\"building\"](31.215,121.475,31.265,121.535);relation[\"building\"](31.215,121.475,31.265,121.535);nwr[\"man_made\"~\"^(tower|communications_tower|water_tower)$\"](31.215,121.475,31.265,121.535););out meta geom;",
+    "osm_base_timestamp": "2026-11-13T17:00:51Z",
+    "raw_elements": 12456,
+    "stored_entities": 12456,
+    "named_entities": 6398,
+    "complete_outlines": 7358,
+    "center_only": 0,
+    "cache_hit": true,
+    "stale_cache": false,
+    "warnings": [],
+    "license": "OpenStreetMap contributors, ODbL 1.0; https://www.openstreetmap.org/copyright"
+  },
+  {
+    "region_id": "beijing",
+    "bounds": {
+      "south": 39.899,
+      "west": 116.44,
+      "north": 39.928,
+      "east": 116.478
+    },
+    "source": "https://overpass-api.de/api/interpreter",
+    "fetched_at": "2026-11-13T17:02:40.980207+00:00",
+    "query_sha256": "4c91765e73741de6c78fff065d1d331fad78f097ba6bc4a5ef684229908f970c",
+    "query": "[out:json][timeout:45][maxsize:33554432];(node[~\"^(name(:.*)?|alt_name|official_name|short_name)$\"~\".\"](39.899,116.44,39.928,116.478);way[~\"^(name(:.*)?|alt_name|official_name|short_name)$\"~\".\"](39.899,116.44,39.928,116.478);relation[\"type\"=\"multipolygon\"][~\"^(name(:.*)?|alt_name|official_name|short_name)$\"~\".\"](39.899,116.44,39.928,116.478);way[\"building\"](39.899,116.44,39.928,116.478);relation[\"building\"](39.899,116.44,39.928,116.478);nwr[\"man_made\"~\"^(tower|communications_tower|water_tower)$\"](39.899,116.44,39.928,116.478););out meta geom;",
+    "osm_base_timestamp": "2026-11-13T17:00:51Z",
+    "raw_elements": 3481,
+    "stored_entities": 3481,
+    "named_entities": 1713,
+    "complete_outlines": 2081,
+    "center_only": 0,
+    "cache_hit": true,
+    "stale_cache": false,
+    "warnings": [],
+    "license": "OpenStreetMap contributors, ODbL 1.0; https://www.openstreetmap.org/copyright"
+  },
+  {
+    "region_id": "guangzhou",
+    "bounds": {
+      "south": 23.1,
+      "west": 113.306,
+      "north": 23.14,
+      "east": 113.34
+    },
+    "source": "https://overpass-api.de/api/interpreter",
+    "fetched_at": "2026-11-13T17:03:15.929483+00:00",
+    "query_sha256": "5abbefd788d25a4c701001e71b4bc4f179069846c9e44076c7eda8edda59fe56",
+    "query": "[out:json][timeout:45][maxsize:33554432];(node[~\"^(name(:.*)?|alt_name|official_name|short_name)$\"~\".\"](23.1,113.306,23.14,113.34);way[~\"^(name(:.*)?|alt_name|official_name|short_name)$\"~\".\"](23.1,113.306,23.14,113.34);relation[\"type\"=\"multipolygon\"][~\"^(name(:.*)?|alt_name|official_name|short_name)$\"~\".\"](23.1,113.306,23.14,113.34);way[\"building\"](23.1,113.306,23.14,113.34);relation[\"building\"](23.1,113.306,23.14,113.34);nwr[\"man_made\"~\"^(tower|communications_tower|water_tower)$\"](23.1,113.306,23.14,113.34););out meta geom;",
+    "osm_base_timestamp": "2026-11-13T17:01:50Z",
+    "raw_elements": 5241,
+    "stored_entities": 5241,
+    "named_entities": 3233,
+    "complete_outlines": 2715,
+    "center_only": 0,
+    "cache_hit": true,
+    "stale_cache": false,
+    "warnings": [],
+    "license": "OpenStreetMap contributors, ODbL 1.0; https://www.openstreetmap.org/copyright"
+  }
+]

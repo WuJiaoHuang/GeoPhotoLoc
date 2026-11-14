@@ -1,0 +1,28 @@
+{
+  "active_entities": 21178,
+  "inactive_previous_snapshot_records_excluded_from_search": 1265,
+  "active_geometry_precision_counts": {
+    "complete_geometry": 4257,
+    "complete_outline": 12154,
+    "node": 4765,
+    "partial_geometry": 2
+  },
+  "active_category_counts": {
+    "attraction": 110,
+    "bridge": 210,
+    "building": 11286,
+    "historic": 7,
+    "hotel": 164,
+    "island": 3,
+    "leisure": 104,
+    "other": 2650,
+    "road": 3516,
+    "service": 3,
+    "shop": 596,
+    "tower": 8,
+    "transport": 2472,
+    "viewpoint": 8,
+    "water": 41
+  },
+  "duplicate_osm_identity_groups": 0
+}

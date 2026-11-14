@@ -1,10 +1,10 @@
-# GeoPhotoLoc — Stage 2
+# GeoPhotoLoc — Stage 3
 
-旅游照片拍摄机位粗定位 Demo。已完成基础工程与几何工具（Stage 1）、图像语义识别与图像空间关系提取（Stage 2）。尚未开发地图检索、实体匹配和候选机位求解，Stage 1 几何算法保持不变。
+旅游照片拍摄机位粗定位 Demo。已完成基础工程与几何工具（Stage 1）、图像语义识别与关系提取（Stage 2）、真实照片验证（Stage 2.1）、OSM 地标获取与保留歧义的实体匹配（Stage 3）。尚未实现摄影机位求解，Stage 1 几何算法保持不变。
 
 ## 环境与执行
 
-使用 Python 3.11、uv；运行依赖为 Pydantic、NumPy、Shapely、PyProj、OpenAI SDK、Pillow、python-dotenv，测试依赖为 pytest。`uv.lock` 固定依赖版本，`.python-version` 固定 Python 3.11。几何功能与 Mock 测试不需要 API Key；真实视觉识别需要配置百炼 API Key。
+使用 Python 3.11、uv；运行依赖为 Pydantic、NumPy、Shapely、PyProj、OpenAI SDK、Pillow、python-dotenv、httpx；SQLite 使用 Python 标准库，测试依赖为 pytest。`uv.lock` 固定依赖版本，`.python-version` 固定 Python 3.11。几何功能、地图命令和离线测试不需要 API Key；真实视觉识别需要百炼 API Key。
 
 通用安装与测试命令（项目根目录）：
 
@@ -45,19 +45,33 @@ GeoPhotoLoc/
 │   │   ├── landmark.py
 │   │   ├── observation.py
 │   │   ├── localization.py
-│   │   └── vision.py
+│   │   ├── vision.py
+│   │   └── maps.py
 │   ├── geometry/
 │   │   ├── __init__.py
 │   │   ├── coordinates.py
 │   │   ├── bearing.py
 │   │   └── constraints.py
+│   ├── maps/
+│   │   ├── __init__.py
+│   │   ├── regions.py
+│   │   ├── names.py
+│   │   ├── overpass.py
+│   │   ├── parsing.py
+│   │   ├── store.py
+│   │   ├── importing.py
+│   │   └── matching.py
 │   └── vision/
 │       ├── __init__.py
 │       ├── preprocessing.py
 │       ├── client.py
 │       └── relations.py
 ├── scripts/
-│   └── smoke_vision.py
+│   ├── smoke_vision.py
+│   ├── evaluate_real_images.py
+│   ├── compare_real_images.py
+│   ├── evaluate_stage3.py
+│   └── compare_stage3.py
 └── tests/
     ├── conftest.py
     ├── test_coordinates.py
@@ -141,3 +155,43 @@ uv run python scripts/smoke_vision.py
 ## Stage 2.1 真实照片验证
 
 真实照片的来源、独立参考答案、完整 JSON、标注框、API 请求账本、成功与失败案例见 [STAGE2_REAL_IMAGE_EVALUATION.md](docs/STAGE2_REAL_IMAGE_EVALUATION.md)。本次验证 3 张 CC BY-SA 4.0 真实照片，实际请求 5 次（3 成功、2 超时）；7 个固定目标中明确主名称正确 2 个，另有不确定候选、通用描述和漏检。人工对应后 8 条参考关系有 6 条正确，2 条因漏检不可核验，不作为普遍准确率。最终全部自动化测试为 **185 passed，0 failed，0 skipped**。生产识别和几何算法未修改。
+
+## Stage 3 地图数据与实体匹配
+
+真实 OSM 覆盖、Top-K、正确/错误身份、名称缺口、完整坐标与已知限制见 [STAGE3_EVALUATION.md](docs/STAGE3_EVALUATION.md)。三个区域获取并缓存成功，当前有效 SQLite 覆盖 **21,178** 个要素，包含 **12,154** 个完整面轮廓。本阶段不调用视觉模型，不读取 GPS，不求摄影机位。
+
+```powershell
+uv sync --locked
+uv run python -m geophotoloc.cli map-import --region shanghai
+uv run python -m geophotoloc.cli map-import --region beijing
+uv run python -m geophotoloc.cli map-import --region guangzhou
+
+uv run python -m geophotoloc.cli map-match result.json --region shanghai
+uv run python -m geophotoloc.cli map-match result.json --output matches.json
+uv run python -m geophotoloc.cli map-match result.json --output -
+```
+
+`map-import` 支持 `--offline`（只用现有缓存）、`--refresh`（主动刷新）、`--cache-dir`、`--db`、`--output`。默认 SQLite 位于 `.cache/geophotoloc/maps.sqlite3`，缓存位于 `.cache/geophotoloc/overpass`，成功响应默认保留 7 天有效期；服务异常时可回退旧缓存并标记 stale，获取时间不重置。源响应不完整/非法时不缓存。请求按有限 bbox 执行，应用不进行并发批量下载。
+
+`map-match` 支持 `--top-k`（默认 5）、`--db`、`--output`。`--region` 可重复，用于限制已导入覆盖；省略时从所有已加载区域进行通用名称检索并推导区域假设，不需要知道照片城市或当前 GPS。JSON 输出文件和模块 CLI 标准流使用 UTF-8，失败退出非零；地图命令不读取视觉 API Key。
+
+`maps/overpass.py` 管理受限下载与缓存，`parsing.py` 解析 node/way/relation、名称/多语言别名/原始标签/建筑轮廓与内环，`store.py` 管理 SQLite 名称、类别、OSM ID、几何范围索引与区域成员，`matching.py` 管理可解释评分、Top-K 和区域组合。SQLite 写入按 OSM 类型/ID 幂等，事务回滚不破坏已有覆盖；刷新后非当前区域成员不参与检索。
+
+稳定 Python 接口：
+
+```python
+from geophotoloc.maps import LandmarkStore, MapMatcher, import_region
+from geophotoloc.models import VisionExtractionResult
+
+with LandmarkStore() as store:
+    import_region(store, "shanghai", offline=True)
+    result = MapMatcher(store).match(vision)  # vision: VisionExtractionResult
+```
+
+等价函数接口为 `match_landmarks(vision, store, regions=None, config=None)`。`MapMatchingResult.matches` 中每项对应原图像 ID，候选携带完整 `MapLandmark`、OSM ID、真实坐标、几何、精度、坐标含义、来源时间、评分组件与未校准分数。`region_hypotheses` 给出共同覆盖区域、图像 ID→实体 ID 的组合、两两最大距离及检查依据。核心类型也可从 `geophotoloc.models.maps` 导入。
+
+算法不把通用高楼描述强行映射为建筑，也不把一个对象的多个候选名拆成其他漏检物体。标准名称、名称语言变体、分号别名和 OSM Wikipedia 标题可参与匹配；NFKC/大小写/标点归一化与模糊检索不做额外在线翻译。车站、售票点、酒店和观景点等与塔楼的明显类别冲突会被降权过滤。Wikidata 等价表示保留引用，不重复充当不同对象；同名近邻建筑表示也保守检查重复分配。
+
+空间检查只验证共同区域、实体唯一性与默认 15 km 两两地标距离，以有界 beam 保留组合；低支持地区可保留，输出截断会警告。图像左右/上下不当作地图方位，互逆关系去重后供后续使用，不用于重复加分。评分为 `0.70×名称 + 0.15×类别 + 0.15×身份线索`，明确类别冲突另扣 0.30，默认阈值 0.68；分数不是概率，身份不自动确认。
+
+真实样本有 6 个已检测参考目标：4 个 Top-1 正确、1 个 Top-1 错误但正确实体在 Top-K、1 个未匹配；视觉漏检的西塔不补造。正确 Top-K 身份覆盖 5/6，同时保留了错误候选和东西塔歧义，不宣称普遍准确率。当前全部测试 **245 passed，0 failed，0 skipped**，离线测试不依赖 Overpass 公网。数据署名为 © OpenStreetMap contributors / ODbL，详见 [地图数据来源](docs/evaluation/stage3/ATTRIBUTION.md)。

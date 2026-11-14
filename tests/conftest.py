@@ -64,3 +64,13 @@ def mock_api():
     yield make
     for client in clients:
         client.close()
+
+
+@pytest.fixture
+def osm_snapshot():
+    from datetime import datetime, timezone
+    from pathlib import Path
+    from geophotoloc.maps.overpass import OverpassSnapshot
+    payload = json.loads((Path(__file__).parent / "fixtures/osm_sample.json").read_text(encoding="utf-8"))
+    return OverpassSnapshot(payload, "https://example.test/overpass",
+                            datetime(2026, 11, 1, tzinfo=timezone.utc), "fixture", False)
