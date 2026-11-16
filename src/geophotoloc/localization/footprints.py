@@ -96,3 +96,41 @@ def footprint_order(a,b,heading,tolerance_deg=.5):
     if aa[0]>bb[1]+tolerance_deg:
         return OrderStatus.CONFLICT
     return OrderStatus.INDETERMINATE
+
+
+def circular_segments(start,width):
+    """Closed angular arc as nonwrapping intervals on [0,360]."""
+    if width>=360:return [(0.,360.)]
+    start=start%360
+    end=start+max(0.,width)
+    return [(start,end)] if end<=360 else [(0.,end-360),(start,360.)]
+
+
+def intersect_segments(a,b):
+    return [(max(x,u),min(y,v)) for x,y in a for u,v in b if max(x,u)<=min(y,v)+1e-10]
+
+
+def visible_footprint(footprint,heading,fov,minimum_fraction=.05,minimum_angle=.02):
+    """Horizontal frame intersection only, never a claim of 3D visibility."""
+    if not footprint.valid:
+        return dict(status='UNKNOWN',fraction=None,intervals=[],sufficient=False)
+    if footprint.geometry_quality=='POINT_DOWNGRADE':
+        angle=signed_angle_difference(heading,footprint.center_bearing_deg)
+        inside=abs(angle)<=fov/2+1e-10
+        return dict(status='POINT_APPROXIMATION' if inside else 'OUTSIDE',fraction=None,
+                    intervals=[(angle,angle)] if inside else [],sufficient=inside)
+    width=footprint.angular_width_deg
+    if width<=1e-10:
+        return dict(status='UNKNOWN',fraction=None,intervals=[],sufficient=False)
+    camera=circular_segments(heading-fov/2,fov)
+    target=circular_segments(footprint.left_bound_deg,width)
+    overlap=intersect_segments(camera,target)
+    intervals=[]
+    for lo,hi in overlap:
+        mid=(lo+hi)/2
+        local=signed_angle_difference(heading,mid)
+        intervals.append((local-(hi-lo)/2,local+(hi-lo)/2))
+    length=sum(max(0.,hi-lo) for lo,hi in intervals)
+    required=min(width,minimum_angle) if width<.1 else width*minimum_fraction
+    return dict(status='OUTSIDE' if length<=1e-10 else 'FULL' if length>=width-1e-8 else 'PARTIAL',
+                fraction=min(1.,length/width),intervals=intervals,sufficient=length+1e-10>=required)

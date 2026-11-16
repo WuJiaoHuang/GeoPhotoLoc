@@ -4,3 +4,4 @@ docs/evaluation/stage3/** -text whitespace=trailing-space,space-before-tab,cr-at
 docs/evaluation/stage4/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
 docs/evaluation/stage5/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
 docs/evaluation/stage5_1a/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+docs/evaluation/stage5_1a_fix/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

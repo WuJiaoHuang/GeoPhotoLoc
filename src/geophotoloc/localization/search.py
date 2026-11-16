@@ -20,6 +20,9 @@ def grid(geometry, spacing):
 
 class SearchContext:
     def __init__(self, store, region_id, bounds):
+        self.strtree_queries = 0
+        self.visibility_elapsed = 0
+        self.projected_entities = {}
         self.system = LocalCoordinateSystem(GeoPoint(latitude=(bounds.south+bounds.north)/2,
                                                       longitude=(bounds.west+bounds.east)/2))
         self.coverage = to_local_geometry(box(bounds.west,bounds.south,bounds.east,bounds.north),self.system)
@@ -55,18 +58,24 @@ class SearchContext:
             is_building = entity.tags.get("building") not in (None,"no") or entity.tags.get("building:part") not in (None,"no")
             is_water = (entity.tags.get("natural") == "water" or entity.tags.get("waterway") in {"riverbank","dock"})
             if is_building or is_water:
-                geometry = to_local_geometry(raw,self.system)
+                geometry = self.project_entity(entity)
                 self.obstacles.append(geometry)
                 self.obstacle_types.append("building_interior" if is_building else "water_area")
                 self.obstacle_entities.append(entity)
         self.tree = STRtree(self.obstacles)
         self.uncertainty_tree = STRtree(self.uncertain_areas)
 
+    def project_entity(self,entity):
+        if entity.id not in self.projected_entities:
+            self.projected_entities[entity.id] = to_local_geometry(shape(entity.geometry),self.system) if entity.geometry else None
+        return self.projected_entities[entity.id]
+
     def coverage_status(self, geometry):
         """Import-confirmed scope only; COMPLETE does not imply a perfect OSM map."""
         if not self.coverage_confirmed or geometry.is_empty:
             return 'UNKNOWN'
         if self.coverage.covers(geometry):
+            self.strtree_queries += 1
             if len(self.uncertainty_tree.query(geometry,predicate='intersects')):
                 return 'PARTIAL'
             return 'COMPLETE'
@@ -77,6 +86,7 @@ class SearchContext:
         reasons = []
         if not allow_uncovered and not self.coverage.covers(p):
             reasons.append("outside_map_coverage")
+        self.strtree_queries += 1
         for index in self.tree.query(p):
             if self.obstacles[index].covers(p):
                 reasons.append(self.obstacle_types[index])
@@ -85,4 +95,5 @@ class SearchContext:
         return sorted(set(reasons))
 
     def obstacle_union(self, geometry):
+        self.strtree_queries += 1
         return unary_union([self.obstacles[index] for index in self.tree.query(geometry)])

@@ -12,6 +12,7 @@ from .search import SearchContext, grid
 from .regions import cell_region, geographic_mapping
 from .extent import adaptive_search_extent, distance_batches
 from .enhanced import evaluate_enhanced_pose
+from .sampling import feasible_medoid
 
 
 class PoseSolver:
@@ -19,6 +20,9 @@ class PoseSolver:
         self.store,self.config = store,config or PoseSearchConfig()
 
     def solve(self, vision_result, map_matching_result):
+        if self.config.viewpoint_fix and (self.config.adaptive_extent or self.config.footprint_constraints or self.config.visibility_soft):
+            from .fixed import solve_fixed
+            return solve_fixed(self.store,self.config,vision_result,map_matching_result)
         started = perf_counter()
         config = self.config
         coverage = self.store.coverage_regions()
@@ -42,6 +46,7 @@ class PoseSolver:
             begin = perf_counter()
             identifier = f"hyp_{index+1}"
             report = PoseHypothesis(id=identifier,region_id=hypothesis.region_id,assignments=hypothesis.assignments)
+            report.budget=min(config.max_points_per_hypothesis,config.max_total_points-total_points)
             reports.append(report)
             selected = []
             for image_id,entity_id in sorted(hypothesis.assignments.items()):
@@ -111,6 +116,7 @@ class PoseSolver:
                 report.reasons.append("search_extent_clipped_by_map_coverage")
             scores,coarse,fine,seen = {},[],[],set()
             coarse_support = set()
+            visited=[]
 
             def assess(points, destination, coarse_level):
                 nonlocal total_points,limited
@@ -123,6 +129,8 @@ class PoseSolver:
                         report.reasons.append("point_budget_exhausted; unsearched cells not classified infeasible")
                         break
                     seen.add(p)
+                    if config.record_sample_trace:
+                        visited.append((p,config.coarse_spacing_m if coarse_level else config.fine_spacing_m))
                     report.searched_points += 1
                     total_points += 1
                     if coarse_level:
@@ -131,6 +139,8 @@ class PoseSolver:
                         report.fine_points += 1
                     if not within_distance:
                         report.distance_filtered_points += 1
+                        if config.record_sample_trace:
+                            report.sample_trace.append(dict(x=p[0],y=p[1],feasible=False,reasons=['outside_exact_distance_domain']))
                         continue
                     filters = context.filter_reasons(p,list(target_geometries.values()),allow_uncovered=config.adaptive_extent)
                     if config.footprint_constraints or config.visibility_soft:
@@ -146,6 +156,8 @@ class PoseSolver:
                     report.confirmed_order_conflicts += score.conflicts
                     report.potentially_occluded_targets += sum(v['blocked_rays']>0 for v in score.visibility_evidence)
                     score.filter_reasons = filters
+                    if config.record_sample_trace:
+                        report.sample_trace.append(dict(x=p[0],y=p[1],feasible=score.feasible and not filters,score=score.score,reasons=filters or (score.reasons if not score.feasible else [])))
                     if filters:
                         report.filtered_points += 1
                         if len(report.filtered_examples)<8:
@@ -154,7 +166,10 @@ class PoseSolver:
                     if score.feasible and not filters:
                         scores[p] = score
                         destination.append(p)
+            phase_started=perf_counter()
             assess(grid(search,config.coarse_spacing_m),coarse,True)
+            report.timings['coarse_seconds']=perf_counter()-phase_started
+            phase_started=perf_counter()
             if coarse:
                 cutoff = max(scores[p].score for p in coarse)-config.score_window
                 coarse_support = {p for p in coarse if scores[p].score>=cutoff}
@@ -166,6 +181,8 @@ class PoseSolver:
                     report.reasons.append("coarse_only_search_configured; fine refinement disabled")
                 for polygon in (initial[:config.max_refine_components] if config.refinement_levels else []):
                     assess(grid(polygon.buffer(config.coarse_spacing_m).intersection(search),config.fine_spacing_m),fine,False)
+            report.timings['fine_seconds']=perf_counter()-phase_started
+            phase_started=perf_counter()
             report.feasible_points = len(scores)
             if scores:
                 cutoff = max(value.score for value in scores.values())-config.score_window
@@ -196,7 +213,17 @@ class PoseSolver:
                         area_m2=polygon.area,bounds_wgs84=shape(geographic).bounds,candidate_point_count=len(members),
                         assignments=hypothesis.assignments,heading=scores[best].heading,refined=any(p in fine for p in members),
                         touches_search_boundary=touches,uncertainty=uncertainty,
+                        best_scored_point=context.system.to_geographic(best) if config.record_sample_trace else None,
+                        region_medoid=context.system.to_geographic(feasible_medoid(members)) if config.record_sample_trace else None,
                         map_coverage_status=context.coverage_status(polygon)))
+            report.timings['regions_seconds']=perf_counter()-phase_started
+            if config.record_sample_trace:
+                from shapely.ops import unary_union
+                sampled=unary_union([box(p[0]-s/2,p[1]-s/2,p[0]+s/2,p[1]+s/2) for p,s in visited]).intersection(search)
+                report.sampled_geometry=geographic_mapping(sampled,context)
+                report.unsearched_area_m2=max(0,search.area-sampled.area)
+                report.sampling_completion_ratio=report.searched_points/max(1,report.budget)
+                report.coarse_spacing_m=config.coarse_spacing_m
             report.elapsed_seconds = round(perf_counter()-begin,6)
         regions.sort(key=lambda r:(-r.best_score.score,r.hypothesis_id,r.best_location.latitude,r.best_location.longitude))
         informative = any(len(h.assignments)>=2 for h in hypotheses)
@@ -224,17 +251,31 @@ class PoseSolver:
         return PoseLocalizationResult(status=status,regions=regions,hypotheses=reports,config=config,
                                       warnings=warnings,matched_landmarks=list(used_entities.values()),
                                       elapsed_seconds=round(perf_counter()-started,6),
-                                      geojson={"type":"FeatureCollection","features":features})
+                                      geojson={"type":"FeatureCollection","features":features},
+                                      diagnostics=dict(timings={key:sum(r.timings.get(key,0) for r in reports) for key in ('coarse_seconds','fine_seconds','regions_seconds')},
+                                          visibility_seconds=sum(c.visibility_elapsed for c in contexts.values()),
+                                          visibility_review_points=sum(getattr(c,'visibility_evaluated_points',0) for c in contexts.values()),
+                                          strtree_queries=sum(c.strtree_queries for c in contexts.values())))
 
 
 class BaselinePoseSolver(PoseSolver):
     """Original defaults, with all three enhancement switches forced off."""
     def __init__(self,store,config=None):
         config = config or PoseSearchConfig()
-        super().__init__(store,config.model_copy(update=dict(adaptive_extent=False,footprint_constraints=False,visibility_soft=False)))
+        super().__init__(store,config.model_copy(update=dict(adaptive_extent=False,footprint_constraints=False,visibility_soft=False,viewpoint_fix=False)))
 
 
 class EnhancedPoseSolver(PoseSolver):
-    """Full enhancement defaults; explicit configurations support ablation."""
+    """Repaired enhancement defaults; explicit viewpoint_fix=False replays 5.1A."""
     def __init__(self,store,config=None):
-        super().__init__(store,config or PoseSearchConfig(adaptive_extent=True,footprint_constraints=True,visibility_soft=True))
+        config=config or PoseSearchConfig(adaptive_extent=True,footprint_constraints=True,visibility_soft=True)
+        if 'viewpoint_fix' not in config.model_fields_set:
+            config=config.model_copy(update={'viewpoint_fix':True})
+        super().__init__(store,config)
+
+
+class FixedPoseSolver(PoseSolver):
+    """Fixed sampling/partial-frame/two-stage implementation; legacy stays available."""
+    def __init__(self,store,config=None):
+        config=config or PoseSearchConfig(adaptive_extent=True,footprint_constraints=True,visibility_soft=True)
+        super().__init__(store,config.model_copy(update={'viewpoint_fix':True}))

@@ -1,0 +1,58 @@
+{
+  "artifacts": {
+    "baseline_beijing_cbd.json": "40bd23d3b5cc17e8193947857d6f00afb97dfc241a3d3a2fd6adb1a48f669dd6",
+    "baseline_north_bund.json": "624a7c43ac388ac6e9ad6a6f0543d01d93262d9f66e4be8c4d7e117d72504a22",
+    "baseline_guangzhou_skyline.json": "59d1b5eb7d309abcac2d7dc85fb88f6e7c65d67071055ef2463334c141d01c4d",
+    "baseline_oriental_pearl.json": "de179fe9d03245e4fbdfd85e5bbf9d58e232c730108189d0b0e55ab09e87427f",
+    "extent_only_beijing_cbd.json": "298088ea6bb18a47f591a7ba7c6cb8dcd3011f4a039ae54263ffab555c17b62e",
+    "extent_only_north_bund.json": "8e7cc6071100550516f05a2be7f58ca6c8f74f7126549128bd9da315535777c8",
+    "extent_only_guangzhou_skyline.json": "a2b00ed1d0242f9b6d114c5ed04e1307206fa34e0eca6e72db7fba69c00b8214",
+    "extent_only_oriental_pearl.json": "6caef58ed83d044fda8aa27f7ad5adb6f3a57f5f8e3924088154d5151819966c",
+    "footprint_only_beijing_cbd.json": "b175d9e41cdf96c8ae695cd18fc45c309f3583b2ff4bcdb11cf4c15a0d29d857",
+    "footprint_only_north_bund.json": "2fb053e178aaa29f9453dbd5bf19355cdda45f7ada32e889c1e10bee93fd89f4",
+    "footprint_only_guangzhou_skyline.json": "e404d5688464736702c16f0d15512f2d9e484f10250606631d7f10b2d1282664",
+    "footprint_only_oriental_pearl.json": "655c75983bda4198c265a3eeeeb062c49f2ca09a52996d2a34bdc937408de87e",
+    "full_enhanced_beijing_cbd.json": "589b38dea07fb4b4013e097fbf3d78f424bbcd1c71653037861a9136832446a1",
+    "full_enhanced_north_bund.json": "e31fee2b7cd8957e40babd2715fb828eac393c2b035e04330bda88d9f006a7ce",
+    "full_enhanced_guangzhou_skyline.json": "64daa460dc84ace531063fe3d6df4d2acda7c35088712487647813ca7d5ba9ee",
+    "full_enhanced_oriental_pearl.json": "6ed5992f1dbeac06ef9fe574186a5845113a3c0bfb0c15f45b0b5703626d5188",
+    "baseline_summary.json": "f855d1e97364f08b317f54046de63847842631d4f86a32366f24a6e256aaeb1d",
+    "extent_only_summary.json": "469bc8ba150c81426f485009cbb6374997c6b1ca46968e010cf4fe1636e4e16a",
+    "footprint_only_summary.json": "247ba80a91dc6e6ba26f6f36a5e0d695a13e4871d3e0b45ccb231c2fe38b01e5",
+    "full_enhanced_summary.json": "32c25aba7a3f3b712fecc5412e6e17b44117ae145e31e6134d0bf0d27ae2ae14"
+  },
+  "source_sha256": {
+    "src\\geophotoloc\\localization\\__init__.py": "ccc4d135149b079b940f7420500cbd0030705cc53744b3b613903b7614863458",
+    "src\\geophotoloc\\localization\\enhanced.py": "fef4fc2370236b1d6f9fe273185bf27db24aff1cabd906cdd7f1ea9961c0afdb",
+    "src\\geophotoloc\\localization\\extent.py": "b31bea6686b5e918dce709fcf24d6853b46ffb51aa176610e3232db6fb07074f",
+    "src\\geophotoloc\\localization\\fixed.py": "18bc3de136d636d28d8d2effcd307c8f653b252411b6b40403ba8c329b33edef",
+    "src\\geophotoloc\\localization\\footprints.py": "f2af119eb18c37b037b63891ab87aeec0204b9bf394b1bf4ed788f9a492182bd",
+    "src\\geophotoloc\\localization\\partial.py": "98067c6c165fdd073dc8b803a4f090ec77ad96a12d3f009437f67185bf3b9a89",
+    "src\\geophotoloc\\localization\\projection.py": "a96a0f7fe981412887c46879be84dde045bde66ea53373fdb4bdb565df1fd2c3",
+    "src\\geophotoloc\\localization\\regions.py": "85d52f91c8cf82c04d496ceb7036292c11aa622ee0fb48dab8c9efd7cc055d8a",
+    "src\\geophotoloc\\localization\\sampling.py": "c24137e0b9a58cbd5801a506c3e6a02cc45ab3171100eb9b5d243f73b39da897",
+    "src\\geophotoloc\\localization\\scoring.py": "7989ac6131577a1068f7cc0893d502314887b00f293bd2f886f60511ed7e634c",
+    "src\\geophotoloc\\localization\\search.py": "b2c99054de06c5bb08e71ff4907b9d73d8c652486c68dd6af92a74375dee02c5",
+    "src\\geophotoloc\\localization\\solver.py": "47f97e4e99d7d0113e38850551c55f24e8bf75a05fec639e416a6c7da6bad7e5",
+    "src\\geophotoloc\\localization\\visibility.py": "f0604dcf29d4affb731664fa8e7ff77fe28f1acc3f021e0aec983bd549eed789",
+    "src\\geophotoloc\\models\\pose.py": "7985e29edf5f00277d2aeaaefb23b6956695f7dbc9474fa25f4ed6b5b4d57c5a",
+    "scripts\\evaluate_stage5_1a_fix.py": "15ab57d1bde1580409b4b48c89789cc7262f0adea49d3f120c6a37d601eabd2b"
+  },
+  "environment": {
+    "python": "3.11.18 (main, Oct 26 2026, 14:08:50) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "dependencies": {
+      "shapely": "2.2.0",
+      "numpy": "2.4.6",
+      "pyproj": "3.7.2",
+      "pydantic": "2.14.3"
+    }
+  },
+  "post_run_edge_fix": {
+    "path": "src\\geophotoloc\\localization\\sampling.py",
+    "snapshot": "sampling_at_inference.py",
+    "at_inference_sha256": "c24137e0b9a58cbd5801a506c3e6a02cc45ab3171100eb9b5d243f73b39da897",
+    "current_sha256": "0176da8f74dd5e23e3be723a10814d2a7457b000c8d18e01f5aeeab0cdffa466",
+    "reason": "Zero per-hypothesis review cap must allocate zero; positive caps unchanged. No real image re-search or output/ranking modification."
+  }
+}

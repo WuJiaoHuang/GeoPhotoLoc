@@ -28,6 +28,18 @@ class PoseSearchConfig(BaseModel):
     visibility_soft: bool = False
     max_observation_distance_m: float = Field(default=5000, gt=5, le=10000)
     visibility_max_rays: int = Field(default=12, ge=1, le=12)
+    viewpoint_fix: bool = False
+    record_sample_trace: bool = False
+    coarse_budget_fraction: float = Field(default=.6,gt=0,lt=1)
+    fine_budget_fraction: float = Field(default=.3,ge=0,lt=1)
+    minimum_coarse_spacing_m: float = Field(default=180,gt=0)
+    maximum_coarse_spacing_m: float = Field(default=600,gt=0)
+    minimum_visible_fraction: float = Field(default=.05,gt=0,le=1)
+    minimum_visible_angle_deg: float = Field(default=.02,gt=0,lt=1)
+    observation_x_tolerance: float = Field(default=.06,gt=0,le=.2)
+    max_visibility_points_per_hypothesis: int = Field(default=20,ge=0,le=100)
+    max_visibility_points_total: int = Field(default=100,ge=0,le=500)
+    visibility_cache_size: int = Field(default=2048,ge=1,le=10000)
 
     @model_validator(mode="before")
     @classmethod
@@ -39,6 +51,10 @@ class PoseSearchConfig(BaseModel):
 
     @model_validator(mode="after")
     def valid_search(self):
+        if self.coarse_budget_fraction+self.fine_budget_fraction>1:
+            raise ValueError('Coarse and fine budget fractions exceed one')
+        if self.minimum_coarse_spacing_m>self.maximum_coarse_spacing_m:
+            raise ValueError('Invalid dynamic spacing bounds')
         if self.fine_spacing_m > self.coarse_spacing_m:
             raise ValueError("Fine spacing cannot exceed coarse spacing")
         if not self.fov_degrees or any(not 1 < x < 170 for x in self.fov_degrees):
@@ -69,6 +85,10 @@ class PoseConstraintScore(BaseModel):
     map_coverage_status: Literal['COMPLETE','PARTIAL','UNKNOWN'] = 'UNKNOWN'
     footprint_evidence: list[dict] = Field(default_factory=list)
     visibility_evidence: list[dict] = Field(default_factory=list)
+    stage1_score: float | None = None
+    stage2_score: float | None = None
+    visibility_reviewed: bool = False
+    partial_visibility_evidence: list[dict] = Field(default_factory=list)
 
 
 class PoseHypothesis(BaseModel):
@@ -90,6 +110,17 @@ class PoseHypothesis(BaseModel):
     confirmed_order_conflicts: int = 0
     potentially_occluded_targets: int = 0
     map_coverage_status: Literal['COMPLETE','PARTIAL','UNKNOWN'] = 'UNKNOWN'
+    budget: int = 0
+    budget_allocation: dict = Field(default_factory=dict)
+    component_sampling: list[dict] = Field(default_factory=list)
+    sampled_geometry: dict | None = None
+    unsearched_area_m2: float = 0
+    sampling_completion_ratio: float = 0
+    coarse_spacing_m: float | None = None
+    timings: dict[str,float] = Field(default_factory=dict)
+    sample_trace: list[dict] = Field(default_factory=list)
+    visibility_review_points: int = 0
+    strtree_queries: int = 0
 
 
 class CandidateRegion(BaseModel):
@@ -108,6 +139,8 @@ class CandidateRegion(BaseModel):
     touches_search_boundary: bool
     uncertainty: list[str]
     map_coverage_status: Literal['COMPLETE','PARTIAL','UNKNOWN'] = 'UNKNOWN'
+    best_scored_point: GeoPoint | None = None
+    region_medoid: GeoPoint | None = None
 
 
 class PoseLocalizationResult(BaseModel):
@@ -119,3 +152,5 @@ class PoseLocalizationResult(BaseModel):
     matched_landmarks: list[dict] = Field(default_factory=list)
     elapsed_seconds: float = 0
     geojson: dict
+    diagnostics: dict = Field(default_factory=dict)
+    reviewed_candidates: list[dict] = Field(default_factory=list)

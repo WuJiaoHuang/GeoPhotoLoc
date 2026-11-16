@@ -1,0 +1,2268 @@
+[
+  {
+    "case": "beijing_cbd",
+    "hypothesis_id": "hyp_1",
+    "assignments": {
+      "lm_1": "osm:way:599547918",
+      "lm_2": "osm:relation:7820447"
+    },
+    "known_surface_filters": [],
+    "original_full_outline_model_at_reference": {
+      "feasible": true,
+      "score": 0.51522156,
+      "satisfied": 0,
+      "conflicts": 0,
+      "indeterminate": 1,
+      "landmark_count": 2,
+      "components": {
+        "order": 0.0,
+        "global_fov": 1.0,
+        "horizontal_projection": 0.890301511886493,
+        "distinct_landmark_support": 0.5,
+        "identity": 0.9096664999999999,
+        "geometry_quality": 1.0,
+        "observation_reliability": 1.0,
+        "outline_angular_uncertainty_deg": 3.4137831925188777,
+        "base_score": 0.51902695,
+        "footprint_consistency": 0.5,
+        "visibility_quality": 0.5,
+        "footprint_evidence_coverage": 0.0,
+        "visibility_evidence_coverage": 0.0,
+        "geometry_completeness": 1.0
+      },
+      "heading": 112.02419866492383,
+      "fov_degrees": 60.0,
+      "principal_point_x": 0.47,
+      "projection_rmse": 0.021939697622701412,
+      "span_deg": 3.37107744934616,
+      "camera_assumptions": [
+        {
+          "fov_degrees": 60.0,
+          "principal_point_x": 0.47,
+          "heading": 112.02419866492383,
+          "projection_rmse": 0.021939697622701412
+        },
+        {
+          "fov_degrees": 60.0,
+          "principal_point_x": 0.5,
+          "heading": 114.00009500853152,
+          "projection_rmse": 0.022005418033735433
+        },
+        {
+          "fov_degrees": 60.0,
+          "principal_point_x": 0.53,
+          "heading": 115.97871492619474,
+          "projection_rmse": 0.022010473247090555
+        },
+        {
+          "fov_degrees": 75.0,
+          "principal_point_x": 0.47,
+          "heading": 111.00684178070286,
+          "projection_rmse": 0.028225055820286723
+        },
+        {
+          "fov_degrees": 75.0,
+          "principal_point_x": 0.5,
+          "heading": 113.62398912902492,
+          "projection_rmse": 0.028311604928617437
+        },
+        {
+          "fov_degrees": 75.0,
+          "principal_point_x": 0.53,
+          "heading": 116.24743313672283,
+          "projection_rmse": 0.02831826164757816
+        },
+        {
+          "fov_degrees": 90.0,
+          "principal_point_x": 0.47,
+          "heading": 109.77527484298271,
+          "projection_rmse": 0.03265830800973468
+        },
+        {
+          "fov_degrees": 90.0,
+          "principal_point_x": 0.5,
+          "heading": 113.16761750415534,
+          "projection_rmse": 0.03276924113040202
+        },
+        {
+          "fov_degrees": 90.0,
+          "principal_point_x": 0.53,
+          "heading": 116.57355862313847,
+          "projection_rmse": 0.03277777069788969
+        },
+        {
+          "fov_degrees": 110.0,
+          "principal_point_x": 0.47,
+          "heading": 107.56348638062778,
+          "projection_rmse": 0.037023176289403006
+        },
+        {
+          "fov_degrees": 110.0,
+          "principal_point_x": 0.5,
+          "heading": 112.34421431441471,
+          "projection_rmse": 0.037173978266604214
+        },
+        {
+          "fov_degrees": 110.0,
+          "principal_point_x": 0.53,
+          "heading": 117.16217772658476,
+          "projection_rmse": 0.03718555250699952
+        },
+        {
+          "fov_degrees": 130.0,
+          "principal_point_x": 0.47,
+          "heading": 104.06988385049515,
+          "projection_rmse": 0.04041479789087328
+        },
+        {
+          "fov_degrees": 130.0,
+          "principal_point_x": 0.5,
+          "heading": 111.03139104833288,
+          "projection_rmse": 0.04060905498390288
+        },
+        {
+          "fov_degrees": 130.0,
+          "principal_point_x": 0.53,
+          "heading": 118.10134612409333,
+          "projection_rmse": 0.040623766744038683
+        }
+      ],
+      "bearings_deg": {
+        "lm_1": 116.83979711185077,
+        "lm_2": 113.46871966250463
+      },
+      "distances_m": {
+        "lm_1": 2373.484494793949,
+        "lm_2": 2043.4144494353677
+      },
+      "reasons": [
+        "global_order_and_common_FOV_checked",
+        "horizontal_spacing_is_soft_evidence",
+        "outline_intervals_allow_indeterminate_order",
+        "ABOVE_BELOW_not_used_as_planar_constraints",
+        "weak_or_narrow_angular_geometry",
+        "enhanced_weights_0.80_base_0.15_footprint_0.05_visibility_not_probabilities",
+        "standing_surface_unknown_outside_confirmed_import_coverage"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "UNKNOWN",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 116.84945641672564,
+          "left_bound_deg": 115.58341622993498,
+          "right_bound_deg": 118.1154966035163,
+          "angular_width_deg": 2.532080373581323,
+          "distance_m": 2320.249151847148,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 113.01800136971171,
+          "left_bound_deg": 110.05493646998575,
+          "right_bound_deg": 115.98106626943768,
+          "angular_width_deg": 5.926129799451928,
+          "distance_m": 1984.279687902078,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 0,
+          "blocked_rays": 0,
+          "blocked_ratio": null,
+          "complete_ray_fraction": 0,
+          "fully_blocked_2d": false,
+          "quality": 0.5,
+          "reason": "disabled_or_insufficient_geometry_or_standing_conflict"
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 0,
+          "blocked_rays": 0,
+          "blocked_ratio": null,
+          "complete_ray_fraction": 0,
+          "fully_blocked_2d": false,
+          "quality": 0.5,
+          "reason": "disabled_or_insufficient_geometry_or_standing_conflict"
+        }
+      ],
+      "stage1_score": null,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": []
+    },
+    "partial_model_at_reference": {
+      "feasible": true,
+      "score": 0.53277332,
+      "satisfied": 0,
+      "conflicts": 0,
+      "indeterminate": 1,
+      "landmark_count": 2,
+      "components": {
+        "base_score": 0.54096665,
+        "footprint_consistency": 0.5,
+        "visibility_quality": 0.5,
+        "geometry_completeness": 1.0,
+        "footprint_evidence_coverage": 0.0,
+        "visibility_evidence_coverage": 0.0,
+        "order": 0.0,
+        "global_fov": 1.0,
+        "horizontal_projection": 1.0,
+        "identity": 0.9096664999999999
+      },
+      "heading": 110.94643810831828,
+      "fov_degrees": 60.0,
+      "principal_point_x": 0.47,
+      "projection_rmse": 0.0,
+      "span_deg": null,
+      "camera_assumptions": [
+        {
+          "heading": 110.94643810831828,
+          "fov_degrees": 60.0,
+          "principal_point_x": 0.47,
+          "projection_rmse": 0.0
+        },
+        {
+          "heading": 112.92782436533204,
+          "fov_degrees": 60.0,
+          "principal_point_x": 0.5,
+          "projection_rmse": 0.0
+        },
+        {
+          "heading": 114.9119802743025,
+          "fov_degrees": 60.0,
+          "principal_point_x": 0.53,
+          "projection_rmse": 0.0
+        },
+        {
+          "heading": 109.91747444682571,
+          "fov_degrees": 75.0,
+          "principal_point_x": 0.47,
+          "projection_rmse": 0.0013615588073536535
+        },
+        {
+          "heading": 112.54739063450413,
+          "fov_degrees": 75.0,
+          "principal_point_x": 0.5,
+          "projection_rmse": 0.0015575626488281316
+        },
+        {
+          "heading": 115.18379266993114,
+          "fov_degrees": 75.0,
+          "principal_point_x": 0.53,
+          "projection_rmse": 0.0015728201295287928
+        },
+        {
+          "heading": 108.66174336008086,
+          "fov_degrees": 90.0,
+          "principal_point_x": 0.47,
+          "projection_rmse": 0.011953726781269025
+        },
+        {
+          "heading": 112.08193200668401,
+          "fov_degrees": 90.0,
+          "principal_point_x": 0.5,
+          "projection_rmse": 0.012227969050552488
+        },
+        {
+          "heading": 115.51641914980691,
+          "fov_degrees": 90.0,
+          "principal_point_x": 0.53,
+          "projection_rmse": 0.012249068961140953
+        },
+        {
+          "heading": 106.3683854705842,
+          "fov_degrees": 110.0,
+          "principal_point_x": 0.47,
+          "projection_rmse": 0.022377927876357694
+        },
+        {
+          "heading": 111.22728635759778,
+          "fov_degrees": 110.0,
+          "principal_point_x": 0.5,
+          "projection_rmse": 0.022770732900995024
+        },
+        {
+          "heading": 116.12742149745256,
+          "fov_degrees": 110.0,
+          "principal_point_x": 0.53,
+          "projection_rmse": 0.022800948354011072
+        },
+        {
+          "heading": 102.60089213009348,
+          "fov_degrees": 130.0,
+          "principal_point_x": 0.47,
+          "projection_rmse": 0.030391099772788633
+        },
+        {
+          "heading": 109.80496177177088,
+          "fov_degrees": 130.0,
+          "principal_point_x": 0.5,
+          "projection_rmse": 0.03098001279221434
+        },
+        {
+          "heading": 117.14530461197609,
+          "fov_degrees": 130.0,
+          "principal_point_x": 0.53,
+          "projection_rmse": 0.031025299191426145
+        }
+      ],
+      "bearings_deg": {
+        "lm_1": 116.83979711185077,
+        "lm_2": 113.46871966250463
+      },
+      "distances_m": {
+        "lm_1": 2320.249151847148,
+        "lm_2": 1984.279687902078
+      },
+      "reasons": [
+        "partial_horizontal_frame_not_3D_visibility",
+        "image_center_is_an_interval_observation_not_building_center",
+        "ambiguous_pose_not_unique_location"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "UNKNOWN",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 116.84945641672564,
+          "left_bound_deg": 115.58341622993498,
+          "right_bound_deg": 118.1154966035163,
+          "angular_width_deg": 2.532080373581323,
+          "distance_m": 2320.249151847148,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 113.01800136971171,
+          "left_bound_deg": 110.05493646998575,
+          "right_bound_deg": 115.98106626943768,
+          "angular_width_deg": 5.926129799451928,
+          "distance_m": 1984.279687902078,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [],
+      "stage1_score": 0.53277332,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              4.636978121616693,
+              7.169058495198016
+            ]
+          ],
+          "sufficient": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              -0.891501638332528,
+              5.0346281611194
+            ]
+          ],
+          "sufficient": true
+        }
+      ]
+    },
+    "heading_observation_witness": [
+      {
+        "fov": 60.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            106.09170150253595,
+            115.8011747141006
+          ]
+        ]
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            108.0709457889484,
+            117.7847029417157
+          ]
+        ]
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            110.05493646998575,
+            119.76902407861922
+          ]
+        ]
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            104.79401963051531,
+            115.04092926313612
+          ]
+        ]
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            107.41892201632464,
+            117.6758592526836
+          ]
+        ]
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            110.05493646998575,
+            120.31264886987654
+          ]
+        ]
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            103.2121630573548,
+            114.11132366280692
+          ]
+        ]
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            106.62130610753522,
+            117.54255790583282
+          ]
+        ]
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            110.05493646998575,
+            120.97790182962807
+          ]
+        ]
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            100.33018606441186,
+            112.40658487675654
+          ]
+        ]
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            105.15728902001612,
+            117.29728369517943
+          ]
+        ]
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            110.05493646998575,
+            122.19990652491936
+          ]
+        ]
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            95.62352432641258,
+            109.5782599337744
+          ]
+        ]
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            102.7229505909467,
+            116.88697295259507
+          ]
+        ]
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": null,
+        "heading_intervals": [
+          [
+            110.05493646998575,
+            124.23567275396641
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "case": "north_bund",
+    "hypothesis_id": "hyp_1",
+    "assignments": {
+      "lm_1": "osm:way:40778038",
+      "lm_2": "osm:way:165792123",
+      "lm_3": "osm:way:10691100",
+      "lm_4": "osm:way:376075961",
+      "lm_6": "osm:way:164970992"
+    },
+    "known_surface_filters": [],
+    "original_full_outline_model_at_reference": {
+      "feasible": false,
+      "score": 0.0,
+      "satisfied": 5,
+      "conflicts": 1,
+      "indeterminate": 0,
+      "landmark_count": 5,
+      "components": {},
+      "heading": null,
+      "fov_degrees": null,
+      "principal_point_x": null,
+      "projection_rmse": null,
+      "span_deg": 26.89091232914592,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 158.37077640633117,
+        "lm_2": 148.4808476950843,
+        "lm_3": 141.3686068948338,
+        "lm_4": 144.28814571745522,
+        "lm_6": 168.25951922397968
+      },
+      "distances_m": {
+        "lm_1": 708.8186928641849,
+        "lm_2": 1591.9498767480563,
+        "lm_3": 1605.6384637147487,
+        "lm_4": 1452.7784107500092,
+        "lm_6": 1285.892708119651
+      },
+      "reasons": [
+        "horizontal_order_conflict"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "PARTIAL",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 159.1282891179812,
+          "left_bound_deg": 155.0687216808594,
+          "right_bound_deg": 163.18785655510302,
+          "angular_width_deg": 8.119134874243628,
+          "distance_m": 672.4790194973567,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 148.8274552308953,
+          "left_bound_deg": 147.18729373701467,
+          "right_bound_deg": 150.46761672477595,
+          "angular_width_deg": 3.2803229877612807,
+          "distance_m": 1556.4010363669393,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 141.3610005680243,
+          "left_bound_deg": 139.8775077090581,
+          "right_bound_deg": 142.8444934269905,
+          "angular_width_deg": 2.9669857179324026,
+          "distance_m": 1564.1027774498618,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 144.30986589275514,
+          "left_bound_deg": 142.6731277441551,
+          "right_bound_deg": 145.9466040413552,
+          "angular_width_deg": 3.273476297200091,
+          "distance_m": 1408.2624327230533,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_6",
+          "center_bearing_deg": 168.19954150481584,
+          "left_bound_deg": 167.03517004323385,
+          "right_bound_deg": 169.36391296639783,
+          "angular_width_deg": 2.3287429231639862,
+          "distance_m": 1256.3949106608736,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [],
+      "stage1_score": null,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": []
+    },
+    "partial_model_at_reference": {
+      "feasible": false,
+      "score": 0.0,
+      "satisfied": 0,
+      "conflicts": 1,
+      "indeterminate": 0,
+      "landmark_count": 5,
+      "components": {},
+      "heading": null,
+      "fov_degrees": null,
+      "principal_point_x": null,
+      "projection_rmse": null,
+      "span_deg": null,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 158.37077640633117,
+        "lm_2": 148.4808476950843,
+        "lm_3": 141.3686068948338,
+        "lm_4": 144.28814571745522,
+        "lm_6": 168.25951922397968
+      },
+      "distances_m": {
+        "lm_1": 672.4790194973567,
+        "lm_2": 1556.4010363669393,
+        "lm_3": 1564.1027774498618,
+        "lm_4": 1408.2624327230533,
+        "lm_6": 1256.3949106608736
+      },
+      "reasons": [
+        "horizontal_order_conflict"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "UNKNOWN",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 159.1282891179812,
+          "left_bound_deg": 155.0687216808594,
+          "right_bound_deg": 163.18785655510302,
+          "angular_width_deg": 8.119134874243628,
+          "distance_m": 672.4790194973567,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 148.8274552308953,
+          "left_bound_deg": 147.18729373701467,
+          "right_bound_deg": 150.46761672477595,
+          "angular_width_deg": 3.2803229877612807,
+          "distance_m": 1556.4010363669393,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 141.3610005680243,
+          "left_bound_deg": 139.8775077090581,
+          "right_bound_deg": 142.8444934269905,
+          "angular_width_deg": 2.9669857179324026,
+          "distance_m": 1564.1027774498618,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 144.30986589275514,
+          "left_bound_deg": 142.6731277441551,
+          "right_bound_deg": 145.9466040413552,
+          "angular_width_deg": 3.273476297200091,
+          "distance_m": 1408.2624327230533,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_6",
+          "center_bearing_deg": 168.19954150481584,
+          "left_bound_deg": 167.03517004323385,
+          "right_bound_deg": 169.36391296639783,
+          "angular_width_deg": 2.3287429231639862,
+          "distance_m": 1256.3949106608736,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [],
+      "stage1_score": null,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": []
+    },
+    "heading_observation_witness": [
+      {
+        "fov": 60.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      }
+    ]
+  },
+  {
+    "case": "north_bund",
+    "hypothesis_id": "hyp_2",
+    "assignments": {
+      "lm_1": "osm:way:40778038",
+      "lm_2": "osm:way:165792123",
+      "lm_3": "osm:way:376075961",
+      "lm_4": "osm:way:10691100",
+      "lm_6": "osm:way:164970992"
+    },
+    "known_surface_filters": [],
+    "original_full_outline_model_at_reference": {
+      "feasible": false,
+      "score": 0.0,
+      "satisfied": 5,
+      "conflicts": 1,
+      "indeterminate": 0,
+      "landmark_count": 5,
+      "components": {},
+      "heading": null,
+      "fov_degrees": null,
+      "principal_point_x": null,
+      "projection_rmse": null,
+      "span_deg": 26.89091232914592,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 158.37077640633117,
+        "lm_2": 148.4808476950843,
+        "lm_3": 144.28814571745522,
+        "lm_4": 141.3686068948338,
+        "lm_6": 168.25951922397968
+      },
+      "distances_m": {
+        "lm_1": 708.8186928641849,
+        "lm_2": 1591.9498767480563,
+        "lm_3": 1452.7784107500092,
+        "lm_4": 1605.6384637147487,
+        "lm_6": 1285.892708119651
+      },
+      "reasons": [
+        "horizontal_order_conflict"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "PARTIAL",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 159.1282891179812,
+          "left_bound_deg": 155.0687216808594,
+          "right_bound_deg": 163.18785655510302,
+          "angular_width_deg": 8.119134874243628,
+          "distance_m": 672.4790194973567,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 148.8274552308953,
+          "left_bound_deg": 147.18729373701467,
+          "right_bound_deg": 150.46761672477595,
+          "angular_width_deg": 3.2803229877612807,
+          "distance_m": 1556.4010363669393,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 144.30986589275514,
+          "left_bound_deg": 142.6731277441551,
+          "right_bound_deg": 145.9466040413552,
+          "angular_width_deg": 3.273476297200091,
+          "distance_m": 1408.2624327230533,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 141.3610005680243,
+          "left_bound_deg": 139.8775077090581,
+          "right_bound_deg": 142.8444934269905,
+          "angular_width_deg": 2.9669857179324026,
+          "distance_m": 1564.1027774498618,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_6",
+          "center_bearing_deg": 168.19954150481584,
+          "left_bound_deg": 167.03517004323385,
+          "right_bound_deg": 169.36391296639783,
+          "angular_width_deg": 2.3287429231639862,
+          "distance_m": 1256.3949106608736,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [],
+      "stage1_score": null,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": []
+    },
+    "partial_model_at_reference": {
+      "feasible": false,
+      "score": 0.0,
+      "satisfied": 0,
+      "conflicts": 1,
+      "indeterminate": 0,
+      "landmark_count": 5,
+      "components": {},
+      "heading": null,
+      "fov_degrees": null,
+      "principal_point_x": null,
+      "projection_rmse": null,
+      "span_deg": null,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 158.37077640633117,
+        "lm_2": 148.4808476950843,
+        "lm_3": 144.28814571745522,
+        "lm_4": 141.3686068948338,
+        "lm_6": 168.25951922397968
+      },
+      "distances_m": {
+        "lm_1": 672.4790194973567,
+        "lm_2": 1556.4010363669393,
+        "lm_3": 1408.2624327230533,
+        "lm_4": 1564.1027774498618,
+        "lm_6": 1256.3949106608736
+      },
+      "reasons": [
+        "horizontal_order_conflict"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "UNKNOWN",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 159.1282891179812,
+          "left_bound_deg": 155.0687216808594,
+          "right_bound_deg": 163.18785655510302,
+          "angular_width_deg": 8.119134874243628,
+          "distance_m": 672.4790194973567,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 148.8274552308953,
+          "left_bound_deg": 147.18729373701467,
+          "right_bound_deg": 150.46761672477595,
+          "angular_width_deg": 3.2803229877612807,
+          "distance_m": 1556.4010363669393,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 144.30986589275514,
+          "left_bound_deg": 142.6731277441551,
+          "right_bound_deg": 145.9466040413552,
+          "angular_width_deg": 3.273476297200091,
+          "distance_m": 1408.2624327230533,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 141.3610005680243,
+          "left_bound_deg": 139.8775077090581,
+          "right_bound_deg": 142.8444934269905,
+          "angular_width_deg": 2.9669857179324026,
+          "distance_m": 1564.1027774498618,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_6",
+          "center_bearing_deg": 168.19954150481584,
+          "left_bound_deg": 167.03517004323385,
+          "right_bound_deg": 169.36391296639783,
+          "angular_width_deg": 2.3287429231639862,
+          "distance_m": 1256.3949106608736,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [],
+      "stage1_score": null,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": []
+    },
+    "heading_observation_witness": [
+      {
+        "fov": 60.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      }
+    ]
+  },
+  {
+    "case": "north_bund",
+    "hypothesis_id": "hyp_3",
+    "assignments": {
+      "lm_1": "osm:way:40778038",
+      "lm_2": "osm:way:165792123",
+      "lm_3": "osm:way:10691100",
+      "lm_4": "osm:way:380339835",
+      "lm_6": "osm:way:164970992"
+    },
+    "known_surface_filters": [],
+    "original_full_outline_model_at_reference": {
+      "feasible": false,
+      "score": 0.0,
+      "satisfied": 5,
+      "conflicts": 1,
+      "indeterminate": 0,
+      "landmark_count": 5,
+      "components": {},
+      "heading": null,
+      "fov_degrees": null,
+      "principal_point_x": null,
+      "projection_rmse": null,
+      "span_deg": 77.2912880679313,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 158.37077640633117,
+        "lm_2": 148.4808476950843,
+        "lm_3": 141.3686068948338,
+        "lm_4": 218.65989496276504,
+        "lm_6": 168.25951922397968
+      },
+      "distances_m": {
+        "lm_1": 708.8186928641849,
+        "lm_2": 1591.9498767480563,
+        "lm_3": 1605.6384637147487,
+        "lm_4": 1609.6567353403843,
+        "lm_6": 1285.892708119651
+      },
+      "reasons": [
+        "horizontal_order_conflict"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "PARTIAL",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 159.1282891179812,
+          "left_bound_deg": 155.0687216808594,
+          "right_bound_deg": 163.18785655510302,
+          "angular_width_deg": 8.119134874243628,
+          "distance_m": 672.4790194973567,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 148.8274552308953,
+          "left_bound_deg": 147.18729373701467,
+          "right_bound_deg": 150.46761672477595,
+          "angular_width_deg": 3.2803229877612807,
+          "distance_m": 1556.4010363669393,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 141.3610005680243,
+          "left_bound_deg": 139.8775077090581,
+          "right_bound_deg": 142.8444934269905,
+          "angular_width_deg": 2.9669857179324026,
+          "distance_m": 1564.1027774498618,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 218.66061529633026,
+          "left_bound_deg": 217.8623644103531,
+          "right_bound_deg": 219.45886618230742,
+          "angular_width_deg": 1.5965017719543084,
+          "distance_m": 1589.045702530157,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_6",
+          "center_bearing_deg": 168.19954150481584,
+          "left_bound_deg": 167.03517004323385,
+          "right_bound_deg": 169.36391296639783,
+          "angular_width_deg": 2.3287429231639862,
+          "distance_m": 1256.3949106608736,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [],
+      "stage1_score": null,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": []
+    },
+    "partial_model_at_reference": {
+      "feasible": false,
+      "score": 0.0,
+      "satisfied": 0,
+      "conflicts": 1,
+      "indeterminate": 0,
+      "landmark_count": 5,
+      "components": {},
+      "heading": null,
+      "fov_degrees": null,
+      "principal_point_x": null,
+      "projection_rmse": null,
+      "span_deg": null,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 158.37077640633117,
+        "lm_2": 148.4808476950843,
+        "lm_3": 141.3686068948338,
+        "lm_4": 218.65989496276504,
+        "lm_6": 168.25951922397968
+      },
+      "distances_m": {
+        "lm_1": 672.4790194973567,
+        "lm_2": 1556.4010363669393,
+        "lm_3": 1564.1027774498618,
+        "lm_4": 1589.045702530157,
+        "lm_6": 1256.3949106608736
+      },
+      "reasons": [
+        "horizontal_order_conflict"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "UNKNOWN",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 159.1282891179812,
+          "left_bound_deg": 155.0687216808594,
+          "right_bound_deg": 163.18785655510302,
+          "angular_width_deg": 8.119134874243628,
+          "distance_m": 672.4790194973567,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 148.8274552308953,
+          "left_bound_deg": 147.18729373701467,
+          "right_bound_deg": 150.46761672477595,
+          "angular_width_deg": 3.2803229877612807,
+          "distance_m": 1556.4010363669393,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 141.3610005680243,
+          "left_bound_deg": 139.8775077090581,
+          "right_bound_deg": 142.8444934269905,
+          "angular_width_deg": 2.9669857179324026,
+          "distance_m": 1564.1027774498618,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 218.66061529633026,
+          "left_bound_deg": 217.8623644103531,
+          "right_bound_deg": 219.45886618230742,
+          "angular_width_deg": 1.5965017719543084,
+          "distance_m": 1589.045702530157,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_6",
+          "center_bearing_deg": 168.19954150481584,
+          "left_bound_deg": 167.03517004323385,
+          "right_bound_deg": 169.36391296639783,
+          "angular_width_deg": 2.3287429231639862,
+          "distance_m": 1256.3949106608736,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [],
+      "stage1_score": null,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": []
+    },
+    "heading_observation_witness": [
+      {
+        "fov": 60.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      }
+    ]
+  },
+  {
+    "case": "north_bund",
+    "hypothesis_id": "hyp_4",
+    "assignments": {
+      "lm_1": "osm:way:40778038",
+      "lm_2": "osm:way:165792123",
+      "lm_3": "osm:way:376075961",
+      "lm_4": "osm:way:380339835",
+      "lm_6": "osm:way:164970992"
+    },
+    "known_surface_filters": [],
+    "original_full_outline_model_at_reference": {
+      "feasible": false,
+      "score": 0.0,
+      "satisfied": 5,
+      "conflicts": 1,
+      "indeterminate": 0,
+      "landmark_count": 5,
+      "components": {},
+      "heading": null,
+      "fov_degrees": null,
+      "principal_point_x": null,
+      "projection_rmse": null,
+      "span_deg": 74.37174924530984,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 158.37077640633117,
+        "lm_2": 148.4808476950843,
+        "lm_3": 144.28814571745522,
+        "lm_4": 218.65989496276504,
+        "lm_6": 168.25951922397968
+      },
+      "distances_m": {
+        "lm_1": 708.8186928641849,
+        "lm_2": 1591.9498767480563,
+        "lm_3": 1452.7784107500092,
+        "lm_4": 1609.6567353403843,
+        "lm_6": 1285.892708119651
+      },
+      "reasons": [
+        "horizontal_order_conflict"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "PARTIAL",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 159.1282891179812,
+          "left_bound_deg": 155.0687216808594,
+          "right_bound_deg": 163.18785655510302,
+          "angular_width_deg": 8.119134874243628,
+          "distance_m": 672.4790194973567,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 148.8274552308953,
+          "left_bound_deg": 147.18729373701467,
+          "right_bound_deg": 150.46761672477595,
+          "angular_width_deg": 3.2803229877612807,
+          "distance_m": 1556.4010363669393,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 144.30986589275514,
+          "left_bound_deg": 142.6731277441551,
+          "right_bound_deg": 145.9466040413552,
+          "angular_width_deg": 3.273476297200091,
+          "distance_m": 1408.2624327230533,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 218.66061529633026,
+          "left_bound_deg": 217.8623644103531,
+          "right_bound_deg": 219.45886618230742,
+          "angular_width_deg": 1.5965017719543084,
+          "distance_m": 1589.045702530157,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_6",
+          "center_bearing_deg": 168.19954150481584,
+          "left_bound_deg": 167.03517004323385,
+          "right_bound_deg": 169.36391296639783,
+          "angular_width_deg": 2.3287429231639862,
+          "distance_m": 1256.3949106608736,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [],
+      "stage1_score": null,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": []
+    },
+    "partial_model_at_reference": {
+      "feasible": false,
+      "score": 0.0,
+      "satisfied": 0,
+      "conflicts": 1,
+      "indeterminate": 0,
+      "landmark_count": 5,
+      "components": {},
+      "heading": null,
+      "fov_degrees": null,
+      "principal_point_x": null,
+      "projection_rmse": null,
+      "span_deg": null,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 158.37077640633117,
+        "lm_2": 148.4808476950843,
+        "lm_3": 144.28814571745522,
+        "lm_4": 218.65989496276504,
+        "lm_6": 168.25951922397968
+      },
+      "distances_m": {
+        "lm_1": 672.4790194973567,
+        "lm_2": 1556.4010363669393,
+        "lm_3": 1408.2624327230533,
+        "lm_4": 1589.045702530157,
+        "lm_6": 1256.3949106608736
+      },
+      "reasons": [
+        "horizontal_order_conflict"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "UNKNOWN",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 159.1282891179812,
+          "left_bound_deg": 155.0687216808594,
+          "right_bound_deg": 163.18785655510302,
+          "angular_width_deg": 8.119134874243628,
+          "distance_m": 672.4790194973567,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 148.8274552308953,
+          "left_bound_deg": 147.18729373701467,
+          "right_bound_deg": 150.46761672477595,
+          "angular_width_deg": 3.2803229877612807,
+          "distance_m": 1556.4010363669393,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 144.30986589275514,
+          "left_bound_deg": 142.6731277441551,
+          "right_bound_deg": 145.9466040413552,
+          "angular_width_deg": 3.273476297200091,
+          "distance_m": 1408.2624327230533,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 218.66061529633026,
+          "left_bound_deg": 217.8623644103531,
+          "right_bound_deg": 219.45886618230742,
+          "angular_width_deg": 1.5965017719543084,
+          "distance_m": 1589.045702530157,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_6",
+          "center_bearing_deg": 168.19954150481584,
+          "left_bound_deg": 167.03517004323385,
+          "right_bound_deg": 169.36391296639783,
+          "angular_width_deg": 2.3287429231639862,
+          "distance_m": 1256.3949106608736,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [],
+      "stage1_score": null,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": []
+    },
+    "heading_observation_witness": [
+      {
+        "fov": 60.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      }
+    ]
+  },
+  {
+    "case": "north_bund",
+    "hypothesis_id": "hyp_5",
+    "assignments": {
+      "lm_1": "osm:way:40778038",
+      "lm_2": "osm:way:165792123",
+      "lm_3": "osm:way:380339835",
+      "lm_4": "osm:way:10691100",
+      "lm_6": "osm:way:164970992"
+    },
+    "known_surface_filters": [],
+    "original_full_outline_model_at_reference": {
+      "feasible": false,
+      "score": 0.0,
+      "satisfied": 4,
+      "conflicts": 2,
+      "indeterminate": 0,
+      "landmark_count": 5,
+      "components": {},
+      "heading": null,
+      "fov_degrees": null,
+      "principal_point_x": null,
+      "projection_rmse": null,
+      "span_deg": 77.2912880679313,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 158.37077640633117,
+        "lm_2": 148.4808476950843,
+        "lm_3": 218.65989496276504,
+        "lm_4": 141.3686068948338,
+        "lm_6": 168.25951922397968
+      },
+      "distances_m": {
+        "lm_1": 708.8186928641849,
+        "lm_2": 1591.9498767480563,
+        "lm_3": 1609.6567353403843,
+        "lm_4": 1605.6384637147487,
+        "lm_6": 1285.892708119651
+      },
+      "reasons": [
+        "horizontal_order_conflict"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "PARTIAL",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 159.1282891179812,
+          "left_bound_deg": 155.0687216808594,
+          "right_bound_deg": 163.18785655510302,
+          "angular_width_deg": 8.119134874243628,
+          "distance_m": 672.4790194973567,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 148.8274552308953,
+          "left_bound_deg": 147.18729373701467,
+          "right_bound_deg": 150.46761672477595,
+          "angular_width_deg": 3.2803229877612807,
+          "distance_m": 1556.4010363669393,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 218.66061529633026,
+          "left_bound_deg": 217.8623644103531,
+          "right_bound_deg": 219.45886618230742,
+          "angular_width_deg": 1.5965017719543084,
+          "distance_m": 1589.045702530157,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 141.3610005680243,
+          "left_bound_deg": 139.8775077090581,
+          "right_bound_deg": 142.8444934269905,
+          "angular_width_deg": 2.9669857179324026,
+          "distance_m": 1564.1027774498618,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_6",
+          "center_bearing_deg": 168.19954150481584,
+          "left_bound_deg": 167.03517004323385,
+          "right_bound_deg": 169.36391296639783,
+          "angular_width_deg": 2.3287429231639862,
+          "distance_m": 1256.3949106608736,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [],
+      "stage1_score": null,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": []
+    },
+    "partial_model_at_reference": {
+      "feasible": false,
+      "score": 0.0,
+      "satisfied": 0,
+      "conflicts": 2,
+      "indeterminate": 0,
+      "landmark_count": 5,
+      "components": {},
+      "heading": null,
+      "fov_degrees": null,
+      "principal_point_x": null,
+      "projection_rmse": null,
+      "span_deg": null,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 158.37077640633117,
+        "lm_2": 148.4808476950843,
+        "lm_3": 218.65989496276504,
+        "lm_4": 141.3686068948338,
+        "lm_6": 168.25951922397968
+      },
+      "distances_m": {
+        "lm_1": 672.4790194973567,
+        "lm_2": 1556.4010363669393,
+        "lm_3": 1589.045702530157,
+        "lm_4": 1564.1027774498618,
+        "lm_6": 1256.3949106608736
+      },
+      "reasons": [
+        "horizontal_order_conflict"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "UNKNOWN",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 159.1282891179812,
+          "left_bound_deg": 155.0687216808594,
+          "right_bound_deg": 163.18785655510302,
+          "angular_width_deg": 8.119134874243628,
+          "distance_m": 672.4790194973567,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 148.8274552308953,
+          "left_bound_deg": 147.18729373701467,
+          "right_bound_deg": 150.46761672477595,
+          "angular_width_deg": 3.2803229877612807,
+          "distance_m": 1556.4010363669393,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 218.66061529633026,
+          "left_bound_deg": 217.8623644103531,
+          "right_bound_deg": 219.45886618230742,
+          "angular_width_deg": 1.5965017719543084,
+          "distance_m": 1589.045702530157,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 141.3610005680243,
+          "left_bound_deg": 139.8775077090581,
+          "right_bound_deg": 142.8444934269905,
+          "angular_width_deg": 2.9669857179324026,
+          "distance_m": 1564.1027774498618,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_6",
+          "center_bearing_deg": 168.19954150481584,
+          "left_bound_deg": 167.03517004323385,
+          "right_bound_deg": 169.36391296639783,
+          "angular_width_deg": 2.3287429231639862,
+          "distance_m": 1256.3949106608736,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [],
+      "stage1_score": null,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": []
+    },
+    "heading_observation_witness": [
+      {
+        "fov": 60.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      }
+    ]
+  },
+  {
+    "case": "north_bund",
+    "hypothesis_id": "hyp_6",
+    "assignments": {
+      "lm_1": "osm:way:40778038",
+      "lm_2": "osm:way:165792123",
+      "lm_3": "osm:way:380339835",
+      "lm_4": "osm:way:376075961",
+      "lm_6": "osm:way:164970992"
+    },
+    "known_surface_filters": [],
+    "original_full_outline_model_at_reference": {
+      "feasible": false,
+      "score": 0.0,
+      "satisfied": 4,
+      "conflicts": 2,
+      "indeterminate": 0,
+      "landmark_count": 5,
+      "components": {},
+      "heading": null,
+      "fov_degrees": null,
+      "principal_point_x": null,
+      "projection_rmse": null,
+      "span_deg": 74.37174924530984,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 158.37077640633117,
+        "lm_2": 148.4808476950843,
+        "lm_3": 218.65989496276504,
+        "lm_4": 144.28814571745522,
+        "lm_6": 168.25951922397968
+      },
+      "distances_m": {
+        "lm_1": 708.8186928641849,
+        "lm_2": 1591.9498767480563,
+        "lm_3": 1609.6567353403843,
+        "lm_4": 1452.7784107500092,
+        "lm_6": 1285.892708119651
+      },
+      "reasons": [
+        "horizontal_order_conflict"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "PARTIAL",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 159.1282891179812,
+          "left_bound_deg": 155.0687216808594,
+          "right_bound_deg": 163.18785655510302,
+          "angular_width_deg": 8.119134874243628,
+          "distance_m": 672.4790194973567,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 148.8274552308953,
+          "left_bound_deg": 147.18729373701467,
+          "right_bound_deg": 150.46761672477595,
+          "angular_width_deg": 3.2803229877612807,
+          "distance_m": 1556.4010363669393,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 218.66061529633026,
+          "left_bound_deg": 217.8623644103531,
+          "right_bound_deg": 219.45886618230742,
+          "angular_width_deg": 1.5965017719543084,
+          "distance_m": 1589.045702530157,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 144.30986589275514,
+          "left_bound_deg": 142.6731277441551,
+          "right_bound_deg": 145.9466040413552,
+          "angular_width_deg": 3.273476297200091,
+          "distance_m": 1408.2624327230533,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_6",
+          "center_bearing_deg": 168.19954150481584,
+          "left_bound_deg": 167.03517004323385,
+          "right_bound_deg": 169.36391296639783,
+          "angular_width_deg": 2.3287429231639862,
+          "distance_m": 1256.3949106608736,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [],
+      "stage1_score": null,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": []
+    },
+    "partial_model_at_reference": {
+      "feasible": false,
+      "score": 0.0,
+      "satisfied": 0,
+      "conflicts": 2,
+      "indeterminate": 0,
+      "landmark_count": 5,
+      "components": {},
+      "heading": null,
+      "fov_degrees": null,
+      "principal_point_x": null,
+      "projection_rmse": null,
+      "span_deg": null,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 158.37077640633117,
+        "lm_2": 148.4808476950843,
+        "lm_3": 218.65989496276504,
+        "lm_4": 144.28814571745522,
+        "lm_6": 168.25951922397968
+      },
+      "distances_m": {
+        "lm_1": 672.4790194973567,
+        "lm_2": 1556.4010363669393,
+        "lm_3": 1589.045702530157,
+        "lm_4": 1408.2624327230533,
+        "lm_6": 1256.3949106608736
+      },
+      "reasons": [
+        "horizontal_order_conflict"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "UNKNOWN",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 159.1282891179812,
+          "left_bound_deg": 155.0687216808594,
+          "right_bound_deg": 163.18785655510302,
+          "angular_width_deg": 8.119134874243628,
+          "distance_m": 672.4790194973567,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 148.8274552308953,
+          "left_bound_deg": 147.18729373701467,
+          "right_bound_deg": 150.46761672477595,
+          "angular_width_deg": 3.2803229877612807,
+          "distance_m": 1556.4010363669393,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 218.66061529633026,
+          "left_bound_deg": 217.8623644103531,
+          "right_bound_deg": 219.45886618230742,
+          "angular_width_deg": 1.5965017719543084,
+          "distance_m": 1589.045702530157,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 144.30986589275514,
+          "left_bound_deg": 142.6731277441551,
+          "right_bound_deg": 145.9466040413552,
+          "angular_width_deg": 3.273476297200091,
+          "distance_m": 1408.2624327230533,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_6",
+          "center_bearing_deg": 168.19954150481584,
+          "left_bound_deg": 167.03517004323385,
+          "right_bound_deg": 169.36391296639783,
+          "angular_width_deg": 2.3287429231639862,
+          "distance_m": 1256.3949106608736,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [],
+      "stage1_score": null,
+      "stage2_score": null,
+      "visibility_reviewed": false,
+      "partial_visibility_evidence": []
+    },
+    "heading_observation_witness": [
+      {
+        "fov": 60.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 60.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 75.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 90.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 110.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.47,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.5,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      },
+      {
+        "fov": 130.0,
+        "principal": 0.53,
+        "first_inconsistent_image_id": "lm_2",
+        "heading_intervals": []
+      }
+    ]
+  }
+]

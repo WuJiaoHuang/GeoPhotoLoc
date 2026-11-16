@@ -1,0 +1,119 @@
+[
+  {
+    "case": "beijing_cbd",
+    "historical_stage5_1a_seconds": 88.974331,
+    "same_environment_legacy_seconds": 30.685529,
+    "fixed_seconds": 5.879397299999255,
+    "speedup": 5.219162345093414,
+    "legacy_phases": {
+      "timings": {
+        "coarse_seconds": 7.012549799997942,
+        "fine_seconds": 22.838102500001696,
+        "regions_seconds": 0.4577355000001262
+      },
+      "visibility_seconds": 26.910636300028273,
+      "visibility_review_points": 3152,
+      "strtree_queries": 80645
+    },
+    "fixed_phases": {
+      "timings": {
+        "preparation_seconds": 0.3758276999978989,
+        "coarse_seconds": 1.7615220000006957,
+        "fine_seconds": 1.7081171999998332,
+        "supplemental_seconds": 0.5147204999993846,
+        "coverage_accounting_seconds": 0.22990089999802876,
+        "regions_seconds": 1.2254893999997876,
+        "visibility_seconds": 0.06341800000154763
+      },
+      "strtree_queries": 5163,
+      "visibility_review_points": 9,
+      "context_loads": 1,
+      "visibility_cache_hits": 0,
+      "visibility_cache_misses": 18,
+      "assigned_budget": 4500,
+      "unused_global_budget": 19500
+    },
+    "legacy_points": 4500,
+    "fixed_points": 4500,
+    "target_seconds": 30,
+    "target_met": true
+  },
+  {
+    "case": "north_bund",
+    "historical_stage5_1a_seconds": 477.347091,
+    "same_environment_legacy_seconds": 140.42049,
+    "fixed_seconds": 18.26353360000212,
+    "speedup": 7.688571832560578,
+    "legacy_phases": {
+      "timings": {
+        "coarse_seconds": 11.594539300007455,
+        "fine_seconds": 126.40093689999776,
+        "regions_seconds": 0.787777500001539
+      },
+      "visibility_seconds": 128.66669000009279,
+      "visibility_review_points": 2750,
+      "strtree_queries": 224213
+    },
+    "fixed_phases": {
+      "timings": {
+        "preparation_seconds": 2.046035999996093,
+        "coarse_seconds": 7.107358799999929,
+        "fine_seconds": 1.1500000255182385e-05,
+        "supplemental_seconds": 8.129354200009402,
+        "coverage_accounting_seconds": 0.9780136000008497,
+        "regions_seconds": 0.00023499999952036887,
+        "visibility_seconds": 4.6000022848602384e-06
+      },
+      "strtree_queries": 23988,
+      "visibility_review_points": 0,
+      "context_loads": 1,
+      "visibility_cache_hits": 0,
+      "visibility_cache_misses": 0,
+      "assigned_budget": 24000,
+      "unused_global_budget": 0
+    },
+    "legacy_points": 16177,
+    "fixed_points": 24000,
+    "target_seconds": 60,
+    "target_met": true
+  },
+  {
+    "case": "guangzhou_skyline",
+    "historical_stage5_1a_seconds": 181.005912,
+    "same_environment_legacy_seconds": 55.989732,
+    "fixed_seconds": 9.178641999998945,
+    "speedup": 6.100001721388244,
+    "legacy_phases": {
+      "timings": {
+        "coarse_seconds": 27.51689500000066,
+        "fine_seconds": 26.899620800002594,
+        "regions_seconds": 0.6665208999984316
+      },
+      "visibility_seconds": 47.438598199940316,
+      "visibility_review_points": 7332,
+      "strtree_queries": 285345
+    },
+    "fixed_phases": {
+      "timings": {
+        "preparation_seconds": 0.7768453999997291,
+        "coarse_seconds": 2.8892940999976418,
+        "fine_seconds": 1.6494592999988527,
+        "supplemental_seconds": 2.2782749000107287,
+        "coverage_accounting_seconds": 0.7285338000001502,
+        "regions_seconds": 0.7846867999978713,
+        "visibility_seconds": 0.07088889999795356
+      },
+      "strtree_queries": 21209,
+      "visibility_review_points": 17,
+      "context_loads": 1,
+      "visibility_cache_hits": 0,
+      "visibility_cache_misses": 34,
+      "assigned_budget": 18000,
+      "unused_global_budget": 6000
+    },
+    "legacy_points": 12866,
+    "fixed_points": 18000,
+    "target_seconds": 60,
+    "target_met": true
+  }
+]

@@ -269,3 +269,26 @@ uv run pytest -q
 四组实验使用相同的原始视觉/匹配结果和通用参数，仅切换三个标志。推理脚本不读取真值，独立后评估才读取来源自报的相机位置。结果保存在 `docs/evaluation/stage5_1a/`，每个完整 JSON 内含 GeoJSON；Stage 4、Stage 5 的历史结果保持原样。实际数字、失败案例和后续连续优化接口见 [STAGE5_1A_EVALUATION.md](docs/STAGE5_1A_EVALUATION.md)。
 
 本阶段完整测试：**324 passed，0 failed，0 skipped**（原有 300 项全部通过）。北京来源点进入新范围，但 Top-1 仍偏离；北外滩增强结果发生退化，详情和全部 A/B/C/D 实测数据见上述报告。
+
+
+## Stage 5.1A-Fix
+
+修复大范围预算偏置、完整建筑必须全部入画和逐网格射线耗时。新增 `localization/{sampling,partial,fixed}.py`：保守距离 buffer 交集与精确距离过滤、按身份/连通分量公平分配、180–600 m 动态粗采样/60 m 细采样、错开补充层、部分水平视场与图像 x±0.06 一致性、有限候选两阶段遮挡复核。
+
+```python
+from geophotoloc.localization import EnhancedPoseSolver, FixedPoseSolver, PoseSearchConfig
+result = EnhancedPoseSolver(store).solve(vision_result, map_matching_result)
+# FixedPoseSolver 明确启用修复；PoseSolver 默认保留原 Stage 4 Baseline。
+# PoseSolver(store, config.model_copy(update={"viewpoint_fix": False})) 回放 Stage 5.1A。
+```
+
+每区域保留兼容的 best_location，并新增 best_scored_point 和 region_medoid；实际样点、预算与完成率、未覆盖单元面积、分段耗时、STRtree 次数、S1/S2 和是否复核均写入 JSON。未复核或覆盖未知不标 CLEAR，射线 r=1 也不硬拒绝。
+
+```powershell
+uv run python scripts/evaluate_stage5_1a_fix.py
+uv run python scripts/evaluate_stage5_1a_fix.py --legacy-performance
+uv run python scripts/evaluate_stage5_1a_fix_truth.py
+uv run pytest -q
+```
+
+真实四组输出与摘要在 `docs/evaluation/stage5_1a_fix/`，含输入与输出指纹；参考坐标仅在完成独立求解后读取。当前 **354 passed，0 failed，0 skipped**，原 324 项均通过。D 实测北京 5.88 s、北外滩 18.26 s、广州 9.18 s。北京范围覆盖修复但仍未包含来源点；北外滩 B 包含来源点，C/D 无候选，失败未隐藏。旧结果保持原样，全部对照和限制见 [STAGE5_1A_FIX_EVALUATION.md](docs/STAGE5_1A_FIX_EVALUATION.md)。

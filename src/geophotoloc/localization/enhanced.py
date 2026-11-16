@@ -1,5 +1,6 @@
 """Optional full-footprint hard constraints and bounded 2D visibility scoring."""
 from shapely.geometry import Point
+from time import perf_counter
 from geophotoloc.models.pose import PoseConstraintScore
 from .footprints import angular_footprint, shortest_arc, footprint_order, local_interval
 from .scoring import evaluate_pose
@@ -65,9 +66,13 @@ def evaluate_enhanced_pose(point, observations, entities, coordinates, outlines,
     pair_count = result.satisfied+result.indeterminate
     footprint_quality = (result.satisfied+.5*result.indeterminate)/pair_count if pair_count else .5
     visibilities = []
+    if config.visibility_soft and not standing_filters and any(fp.geometry_quality=='COMPLETE_OUTLINE' for fp in footprints.values()):
+        context.visibility_evaluated_points=getattr(context,'visibility_evaluated_points',0)+1
     for key,fp in footprints.items():
         if config.visibility_soft and not standing_filters and fp.geometry_quality == 'COMPLETE_OUTLINE':
+            started=perf_counter()
             visibility = potential_visibility(point,geometries[key],context,target_entity=entities[key],max_rays=config.visibility_max_rays)
+            context.visibility_elapsed=getattr(context,'visibility_elapsed',0)+perf_counter()-started
         else:
             visibility = VisibilityResult(reason='disabled_or_insufficient_geometry_or_standing_conflict')
         visibilities.append(visibility)

@@ -1,6 +1,8 @@
 """Potential 2D obstruction only: never proves real 3D invisibility."""
 from dataclasses import dataclass,asdict
 from types import SimpleNamespace
+from collections import OrderedDict
+from time import perf_counter
 import numpy as np
 from shapely import get_coordinates
 from shapely.geometry import Point,LineString
@@ -77,6 +79,7 @@ def potential_visibility(observer_xy,target_geometry,context,*,target_entity=Non
         obstructed=False
         # GEOS applies the exact predicate inside the index query, avoiding
         # Python intersections for every building in a long ray's bbox.
+        context.strtree_queries=getattr(context,'strtree_queries',0)+1
         for index in context.tree.query(ray,predicate='intersects'):
             if context.obstacle_types[index]!='building_interior':
                 continue
@@ -104,3 +107,21 @@ def potential_visibility(observer_xy,target_geometry,context,*,target_entity=Non
                             len(rays),blocked,ratio,complete/len(rays),blocked==len(rays),
                             1-.5*ratio if known else .5,
                             'two_dimensional_only_height_and_pitch_unknown' if known else 'ray_corridor_not_fully_covered')
+
+
+def cached_visibility(observer_xy,target_geometry,context,*,target_entity=None,max_rays=12,cache_size=2048):
+    """Bounded context-local LRU, keyed by exact sample position and entity."""
+    if not hasattr(context,'visibility_results'):
+        context.visibility_results=OrderedDict()
+    key=(tuple(observer_xy),target_entity.id if target_entity else None,
+         target_geometry.wkb if target_geometry is not None else None,max_rays)
+    if key in context.visibility_results:
+        context.visibility_cache_hits=getattr(context,'visibility_cache_hits',0)+1
+        context.visibility_results.move_to_end(key)
+        return context.visibility_results[key]
+    result=potential_visibility(observer_xy,target_geometry,context,target_entity=target_entity,max_rays=max_rays)
+    context.visibility_cache_misses=getattr(context,'visibility_cache_misses',0)+1
+    context.visibility_results[key]=result
+    while len(context.visibility_results)>cache_size:
+        context.visibility_results.popitem(last=False)
+    return result

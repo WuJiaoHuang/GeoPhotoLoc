@@ -46,7 +46,10 @@ def test_saved_real_ablation_evidence_is_complete_and_consistent():
         for record in records:
             case=record['case']
             result=PoseLocalizationResult.model_validate_json((output/f'{group}_{case}.json').read_text(encoding='utf-8'))
-            assert record['config']==result.config.model_dump(mode='json')
+            # Historical JSON lacks newly added optional config fields. Verify
+            # every recorded field and require legacy dispatch on reload.
+            assert record['config']=={k:result.config.model_dump(mode='json')[k] for k in record['config']}
+            assert result.config.viewpoint_fix is False
             assert record['searched_points']==sum(h.searched_points for h in result.hypotheses)
             assert record['candidate_regions']==len(result.regions)
             assert all(h.searched_points<=4500 for h in result.hypotheses)

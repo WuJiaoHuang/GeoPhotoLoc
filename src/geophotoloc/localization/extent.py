@@ -2,7 +2,28 @@
 import itertools
 import numpy as np
 from shapely import points,distance
-from shapely.geometry import box
+from shapely.geometry import box,Polygon
+
+
+def distance_feasible_domain(geometries,max_distance_m,quad_segs=32):
+    """Conservative buffer intersection; exact distances still gate samples.
+
+    GEOS buffers use inscribed arcs. Circumscribing each arc avoids losing
+    truly feasible boundary positions; the small outer sliver is filtered.
+    """
+    adaptive_search_extent(geometries,max_distance_m)
+    if any(a.distance(b)>2*max_distance_m for a,b in itertools.combinations(geometries,2)):
+        return Polygon()
+    radius=max_distance_m/np.cos(np.pi/(4*quad_segs))
+    domain=None
+    for geometry in geometries:
+        if not geometry.is_valid:
+            raise ValueError('Invalid distance geometry')
+        buffered=geometry.buffer(float(radius),quad_segs=quad_segs)
+        domain=buffered if domain is None else domain.intersection(buffered)
+        if domain.is_empty:
+            break
+    return domain
 
 
 def adaptive_search_extent(geometries,max_distance_m):

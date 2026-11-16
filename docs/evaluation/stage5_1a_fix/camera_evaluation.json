@@ -1,0 +1,2741 @@
+[
+  {
+    "group": "baseline",
+    "case": "beijing_cbd",
+    "source": "https://commons.wikimedia.org/wiki/File:Parkview_Green_and_CBD_skyline_(20210927131419).jpg",
+    "reference_kind": "camera_location",
+    "evaluated": true,
+    "status": "AMBIGUOUS",
+    "candidate_regions": 1,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": 624.0965477579831,
+    "top1_point_distance_m": 2559.0214039715934,
+    "top1_area_m2": 2492426.7646664474,
+    "participating_landmarks": 2,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "top1_medoid_distance_m": 2007.4184779123793,
+    "reference_inside_search_domain": false,
+    "reference_inside_sampled_cell_coverage": false,
+    "nearby_grid_diagnostics": [
+      {
+        "hypothesis_id": "hyp_1",
+        "nearest_evaluated_sample_m": 464.873722915735,
+        "samples_within_200m": 0,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {},
+        "closest_existing_samples": []
+      }
+    ],
+    "nearest_actual_sample_m": 464.873722915735
+  },
+  {
+    "group": "baseline",
+    "case": "oriental_pearl",
+    "source": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_in_Shanghai.jpg",
+    "reference_kind": "camera_location",
+    "evaluated": true,
+    "status": "INSUFFICIENT_EVIDENCE",
+    "candidate_regions": 0,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": null,
+    "top1_point_distance_m": null,
+    "top1_area_m2": null,
+    "participating_landmarks": 0,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "top1_medoid_distance_m": null,
+    "reference_inside_search_domain": false,
+    "reference_inside_sampled_cell_coverage": false,
+    "nearby_grid_diagnostics": [],
+    "nearest_actual_sample_m": null
+  },
+  {
+    "group": "baseline",
+    "case": "north_bund",
+    "source": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_view_from_the_North_Bund,_Oct._21st,_2026.jpg",
+    "reference_kind": "camera_location",
+    "evaluated": true,
+    "status": "SEARCH_LIMITED",
+    "candidate_regions": 6,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": 19.08462285770428,
+    "top1_point_distance_m": 60.140091834098655,
+    "top1_area_m2": 974934.0489502404,
+    "participating_landmarks": 5,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "top1_medoid_distance_m": 843.4375065329856,
+    "reference_inside_search_domain": true,
+    "reference_inside_sampled_cell_coverage": true,
+    "nearby_grid_diagnostics": [
+      {
+        "hypothesis_id": "hyp_1",
+        "nearest_evaluated_sample_m": 138.8277010070793,
+        "samples_within_200m": 2,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 1,
+          "building_interior": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 138.8277010070793,
+            "x": -1250.0,
+            "y": 750.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 139.27799978683714,
+            "x": -1250.0,
+            "y": 1000.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "building_interior"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_2",
+        "nearest_evaluated_sample_m": 27.508748671244607,
+        "samples_within_200m": 36,
+        "feasible_within_200m": 15,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 18,
+          "building_interior": 3
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 27.508748671244607,
+            "x": -1200.0,
+            "y": 900.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 36.423562368431426,
+            "x": -1200.0,
+            "y": 840.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 55.19860508891212,
+            "x": -1140.0,
+            "y": 900.0,
+            "feasible": true,
+            "score": 0.78310602,
+            "reasons": []
+          },
+          {
+            "distance_m": 60.1400918349065,
+            "x": -1140.0,
+            "y": 840.0,
+            "feasible": true,
+            "score": 0.78567071,
+            "reasons": []
+          },
+          {
+            "distance_m": 75.27666639240695,
+            "x": -1260.0,
+            "y": 900.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 78.97164773070803,
+            "x": -1260.0,
+            "y": 840.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 85.94641709407315,
+            "x": -1200.0,
+            "y": 960.0,
+            "feasible": false,
+            "score": 0.77400775,
+            "reasons": [
+              "building_interior"
+            ]
+          },
+          {
+            "distance_m": 95.37620530172254,
+            "x": -1200.0,
+            "y": 780.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 98.37144586521215,
+            "x": -1140.0,
+            "y": 960.0,
+            "feasible": true,
+            "score": 0.78032139,
+            "reasons": []
+          },
+          {
+            "distance_m": 106.70883416128348,
+            "x": -1140.0,
+            "y": 780.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 110.89017928114473,
+            "x": -1260.0,
+            "y": 960.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 111.96892762755945,
+            "x": -1080.0,
+            "y": 900.0,
+            "feasible": true,
+            "score": 0.72211739,
+            "reasons": []
+          },
+          {
+            "distance_m": 114.48574320069272,
+            "x": -1080.0,
+            "y": 840.0,
+            "feasible": true,
+            "score": 0.72563179,
+            "reasons": []
+          },
+          {
+            "distance_m": 118.34891544687831,
+            "x": -1260.0,
+            "y": 780.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 133.3282481428814,
+            "x": -1320.0,
+            "y": 900.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 135.44875929663982,
+            "x": -1320.0,
+            "y": 840.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 138.44528201392902,
+            "x": -1080.0,
+            "y": 960.0,
+            "feasible": true,
+            "score": 0.71862016,
+            "reasons": []
+          },
+          {
+            "distance_m": 138.8277010070793,
+            "x": -1250.0,
+            "y": 750.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 139.27799978683714,
+            "x": -1250.0,
+            "y": 1000.0,
+            "feasible": false,
+            "score": 0.76716566,
+            "reasons": [
+              "building_interior"
+            ]
+          },
+          {
+            "distance_m": 144.4885117868001,
+            "x": -1080.0,
+            "y": 780.0,
+            "feasible": true,
+            "score": 0.72907735,
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_3",
+        "nearest_evaluated_sample_m": 138.8277010070793,
+        "samples_within_200m": 2,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 1,
+          "building_interior": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 138.8277010070793,
+            "x": -1250.0,
+            "y": 750.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 139.27799978683714,
+            "x": -1250.0,
+            "y": 1000.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "building_interior"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_4",
+        "nearest_evaluated_sample_m": 27.508748671244607,
+        "samples_within_200m": 36,
+        "feasible_within_200m": 15,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 18,
+          "building_interior": 3
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 27.508748671244607,
+            "x": -1200.0,
+            "y": 900.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 36.423562368431426,
+            "x": -1200.0,
+            "y": 840.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 55.19860508891212,
+            "x": -1140.0,
+            "y": 900.0,
+            "feasible": true,
+            "score": 0.72550333,
+            "reasons": []
+          },
+          {
+            "distance_m": 60.1400918349065,
+            "x": -1140.0,
+            "y": 840.0,
+            "feasible": true,
+            "score": 0.72550333,
+            "reasons": []
+          },
+          {
+            "distance_m": 75.27666639240695,
+            "x": -1260.0,
+            "y": 900.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 78.97164773070803,
+            "x": -1260.0,
+            "y": 840.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 85.94641709407315,
+            "x": -1200.0,
+            "y": 960.0,
+            "feasible": false,
+            "score": 0.72550333,
+            "reasons": [
+              "building_interior"
+            ]
+          },
+          {
+            "distance_m": 95.37620530172254,
+            "x": -1200.0,
+            "y": 780.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 98.37144586521215,
+            "x": -1140.0,
+            "y": 960.0,
+            "feasible": true,
+            "score": 0.72725686,
+            "reasons": []
+          },
+          {
+            "distance_m": 106.70883416128348,
+            "x": -1140.0,
+            "y": 780.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 110.89017928114473,
+            "x": -1260.0,
+            "y": 960.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 111.96892762755945,
+            "x": -1080.0,
+            "y": 900.0,
+            "feasible": true,
+            "score": 0.65883667,
+            "reasons": []
+          },
+          {
+            "distance_m": 114.48574320069272,
+            "x": -1080.0,
+            "y": 840.0,
+            "feasible": true,
+            "score": 0.65883667,
+            "reasons": []
+          },
+          {
+            "distance_m": 118.34891544687831,
+            "x": -1260.0,
+            "y": 780.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 133.3282481428814,
+            "x": -1320.0,
+            "y": 900.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 135.44875929663982,
+            "x": -1320.0,
+            "y": 840.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 138.44528201392902,
+            "x": -1080.0,
+            "y": 960.0,
+            "feasible": true,
+            "score": 0.66472647,
+            "reasons": []
+          },
+          {
+            "distance_m": 138.8277010070793,
+            "x": -1250.0,
+            "y": 750.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 139.27799978683714,
+            "x": -1250.0,
+            "y": 1000.0,
+            "feasible": false,
+            "score": 0.72550333,
+            "reasons": [
+              "building_interior"
+            ]
+          },
+          {
+            "distance_m": 144.4885117868001,
+            "x": -1080.0,
+            "y": 780.0,
+            "feasible": true,
+            "score": 0.65883667,
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_5",
+        "nearest_evaluated_sample_m": 138.8277010070793,
+        "samples_within_200m": 2,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 1,
+          "building_interior": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 138.8277010070793,
+            "x": -1250.0,
+            "y": 750.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 139.27799978683714,
+            "x": -1250.0,
+            "y": 1000.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "building_interior"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_6",
+        "nearest_evaluated_sample_m": 138.8277010070793,
+        "samples_within_200m": 2,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 1,
+          "building_interior": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 138.8277010070793,
+            "x": -1250.0,
+            "y": 750.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 139.27799978683714,
+            "x": -1250.0,
+            "y": 1000.0,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "building_interior"
+            ]
+          }
+        ]
+      }
+    ],
+    "nearest_actual_sample_m": 27.508748671244607
+  },
+  {
+    "group": "baseline",
+    "case": "guangzhou_skyline",
+    "source": "https://commons.wikimedia.org/wiki/File:GuangzhouSkyline2020.jpg",
+    "reference_kind": "coarse_description",
+    "evaluated": false,
+    "reason": "Bridge-level description only; no fabricated metre error"
+  },
+  {
+    "group": "extent_only",
+    "case": "beijing_cbd",
+    "source": "https://commons.wikimedia.org/wiki/File:Parkview_Green_and_CBD_skyline_(20210927131419).jpg",
+    "reference_kind": "camera_location",
+    "evaluated": true,
+    "status": "SEARCH_LIMITED",
+    "candidate_regions": 8,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": 320.4752870883499,
+    "top1_point_distance_m": 1894.4747915669122,
+    "top1_area_m2": 23487302.13079155,
+    "participating_landmarks": 2,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "top1_medoid_distance_m": 2933.5406842938396,
+    "reference_inside_search_domain": true,
+    "reference_inside_sampled_cell_coverage": true,
+    "nearby_grid_diagnostics": [
+      {
+        "hypothesis_id": "hyp_1",
+        "nearest_evaluated_sample_m": 68.24195466553003,
+        "samples_within_200m": 9,
+        "feasible_within_200m": 9,
+        "rejection_reasons": {},
+        "closest_existing_samples": [
+          {
+            "distance_m": 68.24195466553003,
+            "x": -1966.213493,
+            "y": 799.192679,
+            "feasible": true,
+            "score": 0.52059872,
+            "reasons": []
+          },
+          {
+            "distance_m": 101.0626700572191,
+            "x": -1982.090238,
+            "y": 753.176014,
+            "feasible": true,
+            "score": 0.52216021,
+            "reasons": []
+          },
+          {
+            "distance_m": 108.26012876546869,
+            "x": -1912.581456,
+            "y": 892.193579,
+            "feasible": true,
+            "score": 0.51730554,
+            "reasons": []
+          },
+          {
+            "distance_m": 116.97218476825056,
+            "x": -2121.107803,
+            "y": 892.193579,
+            "feasible": true,
+            "score": 0.51794527,
+            "reasons": []
+          },
+          {
+            "distance_m": 137.42583113822127,
+            "x": -1966.213493,
+            "y": 979.192679,
+            "feasible": true,
+            "score": 0.51479429,
+            "reasons": []
+          },
+          {
+            "distance_m": 143.26045632844938,
+            "x": -2146.213493,
+            "y": 799.192679,
+            "feasible": true,
+            "score": 0.52063811,
+            "reasons": []
+          },
+          {
+            "distance_m": 185.7820436108563,
+            "x": -2051.599021,
+            "y": 1031.211144,
+            "feasible": true,
+            "score": 0.51374718,
+            "reasons": []
+          },
+          {
+            "distance_m": 186.42009825899729,
+            "x": -2146.213493,
+            "y": 979.192679,
+            "feasible": true,
+            "score": 0.51558536,
+            "reasons": []
+          },
+          {
+            "distance_m": 199.69649449606976,
+            "x": -1831.213493,
+            "y": 934.192679,
+            "feasible": true,
+            "score": 0.51537305,
+            "reasons": []
+          }
+        ]
+      }
+    ],
+    "nearest_actual_sample_m": 68.24195466553003
+  },
+  {
+    "group": "extent_only",
+    "case": "oriental_pearl",
+    "source": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_in_Shanghai.jpg",
+    "reference_kind": "camera_location",
+    "evaluated": true,
+    "status": "INSUFFICIENT_EVIDENCE",
+    "candidate_regions": 0,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": null,
+    "top1_point_distance_m": null,
+    "top1_area_m2": null,
+    "participating_landmarks": 0,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "top1_medoid_distance_m": null,
+    "reference_inside_search_domain": false,
+    "reference_inside_sampled_cell_coverage": false,
+    "nearby_grid_diagnostics": [],
+    "nearest_actual_sample_m": null
+  },
+  {
+    "group": "extent_only",
+    "case": "north_bund",
+    "source": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_view_from_the_North_Bund,_Oct._21st,_2026.jpg",
+    "reference_kind": "camera_location",
+    "evaluated": true,
+    "status": "SEARCH_LIMITED",
+    "candidate_regions": 16,
+    "truth_inside_any": true,
+    "containing_ranks": [
+      1
+    ],
+    "nearest_region_distance_m": 0.0,
+    "top1_point_distance_m": 63.75494997719292,
+    "top1_area_m2": 246393.34505604484,
+    "participating_landmarks": 5,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "top1_medoid_distance_m": 309.0048658705804,
+    "reference_inside_search_domain": true,
+    "reference_inside_sampled_cell_coverage": true,
+    "nearby_grid_diagnostics": [
+      {
+        "hypothesis_id": "hyp_1",
+        "nearest_evaluated_sample_m": 43.45047853125453,
+        "samples_within_200m": 5,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 4,
+          "known_standing_surface_conflict": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 43.45047853125453,
+            "x": -1170.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 63.75495067609269,
+            "x": -1125.583655,
+            "y": 880.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 141.8964208080918,
+            "x": -1170.583655,
+            "y": 1015.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 166.21550960630316,
+            "x": -1350.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 185.5210057706646,
+            "x": -1125.583655,
+            "y": 700.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_2",
+        "nearest_evaluated_sample_m": 43.45047853125453,
+        "samples_within_200m": 13,
+        "feasible_within_200m": 7,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 5,
+          "known_standing_surface_conflict": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 43.45047853125453,
+            "x": -1170.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 63.75495067609269,
+            "x": -1125.583655,
+            "y": 880.434678,
+            "feasible": true,
+            "score": 0.78558993,
+            "reasons": []
+          },
+          {
+            "distance_m": 70.15217200146427,
+            "x": -1140.583655,
+            "y": 925.434678,
+            "feasible": true,
+            "score": 0.78188349,
+            "reasons": []
+          },
+          {
+            "distance_m": 84.59842670417495,
+            "x": -1140.583655,
+            "y": 805.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 108.90007653338141,
+            "x": -1080.583655,
+            "y": 865.434678,
+            "feasible": true,
+            "score": 0.72409514,
+            "reasons": []
+          },
+          {
+            "distance_m": 138.11110412624677,
+            "x": -1140.583655,
+            "y": 745.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 141.8964208080918,
+            "x": -1170.583655,
+            "y": 1015.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 154.99567769675932,
+            "x": -1080.583655,
+            "y": 985.434678,
+            "feasible": true,
+            "score": 0.71711627,
+            "reasons": []
+          },
+          {
+            "distance_m": 166.21550960630316,
+            "x": -1350.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 177.44227419705948,
+            "x": -1140.583655,
+            "y": 1045.434678,
+            "feasible": true,
+            "score": 0.77616335,
+            "reasons": []
+          },
+          {
+            "distance_m": 182.2007851284664,
+            "x": -1020.583655,
+            "y": 805.434678,
+            "feasible": true,
+            "score": 0.7316602,
+            "reasons": []
+          },
+          {
+            "distance_m": 185.05547376831757,
+            "x": -1260.583655,
+            "y": 1045.434678,
+            "feasible": true,
+            "score": 0.76488597,
+            "reasons": []
+          },
+          {
+            "distance_m": 195.428913841121,
+            "x": -1140.583655,
+            "y": 685.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_3",
+        "nearest_evaluated_sample_m": 43.45047853125453,
+        "samples_within_200m": 7,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 6,
+          "known_standing_surface_conflict": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 43.45047853125453,
+            "x": -1170.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 63.75495067609269,
+            "x": -1125.583655,
+            "y": 880.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 88.38096194022224,
+            "x": -1215.583655,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 141.8964208080918,
+            "x": -1170.583655,
+            "y": 1015.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 166.21550960630316,
+            "x": -1350.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 175.13292918349467,
+            "x": -1035.583655,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 180.88171007026392,
+            "x": -1035.583655,
+            "y": 970.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_4",
+        "nearest_evaluated_sample_m": 50.669054345743184,
+        "samples_within_200m": 21,
+        "feasible_within_200m": 10,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 10,
+          "known_standing_surface_conflict": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 50.669054345743184,
+            "x": -1157.120662,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 50.72317507723582,
+            "x": -1187.120662,
+            "y": 925.434678,
+            "feasible": true,
+            "score": 0.72550333,
+            "reasons": []
+          },
+          {
+            "distance_m": 58.778809632054184,
+            "x": -1247.120662,
+            "y": 865.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 77.05300240491573,
+            "x": -1247.120662,
+            "y": 925.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 77.12953865047875,
+            "x": -1246.773619,
+            "y": 925.944709,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 85.31666922223282,
+            "x": -1202.120662,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 92.97355734034554,
+            "x": -1127.120662,
+            "y": 805.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 122.31914973818765,
+            "x": -1067.120662,
+            "y": 865.434678,
+            "feasible": true,
+            "score": 0.65883667,
+            "reasons": []
+          },
+          {
+            "distance_m": 126.84925115297516,
+            "x": -1127.120662,
+            "y": 985.434678,
+            "feasible": true,
+            "score": 0.72732825,
+            "reasons": []
+          },
+          {
+            "distance_m": 128.4581249641609,
+            "x": -1307.120662,
+            "y": 925.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 143.3940920912289,
+            "x": -1127.120662,
+            "y": 745.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 144.2705902872929,
+            "x": -1157.120662,
+            "y": 1015.434678,
+            "feasible": true,
+            "score": 0.72550333,
+            "reasons": []
+          },
+          {
+            "distance_m": 153.16764389837684,
+            "x": -1337.120662,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 161.8138022146401,
+            "x": -1307.120662,
+            "y": 985.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 164.7009648677704,
+            "x": -1067.120662,
+            "y": 985.434678,
+            "feasible": true,
+            "score": 0.664524,
+            "reasons": []
+          },
+          {
+            "distance_m": 177.7569716128507,
+            "x": -1067.120662,
+            "y": 745.434678,
+            "feasible": true,
+            "score": 0.65883667,
+            "reasons": []
+          },
+          {
+            "distance_m": 180.2819974798187,
+            "x": -1247.120662,
+            "y": 1045.434678,
+            "feasible": true,
+            "score": 0.72550333,
+            "reasons": []
+          },
+          {
+            "distance_m": 181.58455120389866,
+            "x": -1127.120662,
+            "y": 1045.434678,
+            "feasible": true,
+            "score": 0.72550333,
+            "reasons": []
+          },
+          {
+            "distance_m": 188.89114966251813,
+            "x": -1007.120662,
+            "y": 925.434678,
+            "feasible": true,
+            "score": 0.67085381,
+            "reasons": []
+          },
+          {
+            "distance_m": 194.71885626494023,
+            "x": -1007.120662,
+            "y": 805.434678,
+            "feasible": true,
+            "score": 0.65883667,
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_5",
+        "nearest_evaluated_sample_m": 43.45047853125453,
+        "samples_within_200m": 7,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 6,
+          "known_standing_surface_conflict": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 43.45047853125453,
+            "x": -1170.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 63.75495067609269,
+            "x": -1125.583655,
+            "y": 880.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 88.38096194022224,
+            "x": -1215.583655,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 141.8964208080918,
+            "x": -1170.583655,
+            "y": 1015.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 166.21550960630316,
+            "x": -1350.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 175.13292918349467,
+            "x": -1035.583655,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 180.88171007026392,
+            "x": -1035.583655,
+            "y": 970.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_6",
+        "nearest_evaluated_sample_m": 50.669054345743184,
+        "samples_within_200m": 5,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 5
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 50.669054345743184,
+            "x": -1157.120662,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 85.31666922223282,
+            "x": -1202.120662,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 144.2705902872929,
+            "x": -1157.120662,
+            "y": 1015.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 153.16764389837684,
+            "x": -1337.120662,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 187.04534203793418,
+            "x": -1022.120662,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      }
+    ],
+    "nearest_actual_sample_m": 43.45047853125453
+  },
+  {
+    "group": "extent_only",
+    "case": "guangzhou_skyline",
+    "source": "https://commons.wikimedia.org/wiki/File:GuangzhouSkyline2020.jpg",
+    "reference_kind": "coarse_description",
+    "evaluated": false,
+    "reason": "Bridge-level description only; no fabricated metre error"
+  },
+  {
+    "group": "footprint_only",
+    "case": "beijing_cbd",
+    "source": "https://commons.wikimedia.org/wiki/File:Parkview_Green_and_CBD_skyline_(20210927131419).jpg",
+    "reference_kind": "camera_location",
+    "evaluated": true,
+    "status": "SEARCH_LIMITED",
+    "candidate_regions": 2,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": 518.6385845731747,
+    "top1_point_distance_m": 2465.044217010474,
+    "top1_area_m2": 2734386.2124830117,
+    "participating_landmarks": 2,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "top1_medoid_distance_m": 2029.1768212272018,
+    "reference_inside_search_domain": false,
+    "reference_inside_sampled_cell_coverage": false,
+    "nearby_grid_diagnostics": [
+      {
+        "hypothesis_id": "hyp_1",
+        "nearest_evaluated_sample_m": 426.75289088039534,
+        "samples_within_200m": 0,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {},
+        "closest_existing_samples": []
+      }
+    ],
+    "nearest_actual_sample_m": 426.75289088039534
+  },
+  {
+    "group": "footprint_only",
+    "case": "oriental_pearl",
+    "source": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_in_Shanghai.jpg",
+    "reference_kind": "camera_location",
+    "evaluated": true,
+    "status": "INSUFFICIENT_EVIDENCE",
+    "candidate_regions": 0,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": null,
+    "top1_point_distance_m": null,
+    "top1_area_m2": null,
+    "participating_landmarks": 0,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "top1_medoid_distance_m": null,
+    "reference_inside_search_domain": false,
+    "reference_inside_sampled_cell_coverage": false,
+    "nearby_grid_diagnostics": [],
+    "nearest_actual_sample_m": null
+  },
+  {
+    "group": "footprint_only",
+    "case": "north_bund",
+    "source": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_view_from_the_North_Bund,_Oct._21st,_2026.jpg",
+    "reference_kind": "camera_location",
+    "evaluated": true,
+    "status": "SEARCH_LIMITED",
+    "candidate_regions": 0,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": null,
+    "top1_point_distance_m": null,
+    "top1_area_m2": null,
+    "participating_landmarks": 0,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "top1_medoid_distance_m": null,
+    "reference_inside_search_domain": true,
+    "reference_inside_sampled_cell_coverage": true,
+    "nearby_grid_diagnostics": [
+      {
+        "hypothesis_id": "hyp_1",
+        "nearest_evaluated_sample_m": 62.05856473295803,
+        "samples_within_200m": 11,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 9,
+          "known_standing_surface_conflict": 2
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 62.05856473295803,
+            "x": -1148.655377,
+            "y": 827.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 85.45461934752697,
+            "x": -1103.655377,
+            "y": 872.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 88.03644960555147,
+            "x": -1193.655377,
+            "y": 962.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 92.19565578485114,
+            "x": -1193.655377,
+            "y": 782.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 94.59367545940282,
+            "x": -1283.655377,
+            "y": 872.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 138.93035294803937,
+            "x": -1148.655377,
+            "y": 1007.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 147.29812261465807,
+            "x": -1328.655377,
+            "y": 827.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 192.73586702883014,
+            "x": -1328.655377,
+            "y": 1007.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 196.22676930037528,
+            "x": -1013.655377,
+            "y": 962.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 197.36481317950972,
+            "x": -1103.655377,
+            "y": 1052.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 198.12765449707078,
+            "x": -1013.655377,
+            "y": 782.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_2",
+        "nearest_evaluated_sample_m": 62.05856473295803,
+        "samples_within_200m": 11,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 8,
+          "known_standing_surface_conflict": 2,
+          "no_common_partial_frame_observation_consistency": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 62.05856473295803,
+            "x": -1148.655377,
+            "y": 827.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 85.45461934752697,
+            "x": -1103.655377,
+            "y": 872.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 88.03644960555147,
+            "x": -1193.655377,
+            "y": 962.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 92.19565578485114,
+            "x": -1193.655377,
+            "y": 782.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 94.59367545940282,
+            "x": -1283.655377,
+            "y": 872.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 138.93035294803937,
+            "x": -1148.655377,
+            "y": 1007.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 147.29812261465807,
+            "x": -1328.655377,
+            "y": 827.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 192.73586702883014,
+            "x": -1328.655377,
+            "y": 1007.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 196.22676930037528,
+            "x": -1013.655377,
+            "y": 962.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "no_common_partial_frame_observation_consistency"
+            ]
+          },
+          {
+            "distance_m": 197.36481317950972,
+            "x": -1103.655377,
+            "y": 1052.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 198.12765449707078,
+            "x": -1013.655377,
+            "y": 782.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_3",
+        "nearest_evaluated_sample_m": 62.05856473295803,
+        "samples_within_200m": 11,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 9,
+          "known_standing_surface_conflict": 2
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 62.05856473295803,
+            "x": -1148.655377,
+            "y": 827.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 85.45461934752697,
+            "x": -1103.655377,
+            "y": 872.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 88.03644960555147,
+            "x": -1193.655377,
+            "y": 962.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 92.19565578485114,
+            "x": -1193.655377,
+            "y": 782.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 94.59367545940282,
+            "x": -1283.655377,
+            "y": 872.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 138.93035294803937,
+            "x": -1148.655377,
+            "y": 1007.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 147.29812261465807,
+            "x": -1328.655377,
+            "y": 827.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 192.73586702883014,
+            "x": -1328.655377,
+            "y": 1007.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 196.22676930037528,
+            "x": -1013.655377,
+            "y": 962.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 197.36481317950972,
+            "x": -1103.655377,
+            "y": 1052.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 198.12765449707078,
+            "x": -1013.655377,
+            "y": 782.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_4",
+        "nearest_evaluated_sample_m": 62.05856473295803,
+        "samples_within_200m": 11,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 8,
+          "known_standing_surface_conflict": 2,
+          "no_common_partial_frame_observation_consistency": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 62.05856473295803,
+            "x": -1148.655377,
+            "y": 827.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 85.45461934752697,
+            "x": -1103.655377,
+            "y": 872.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 88.03644960555147,
+            "x": -1193.655377,
+            "y": 962.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 92.19565578485114,
+            "x": -1193.655377,
+            "y": 782.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 94.59367545940282,
+            "x": -1283.655377,
+            "y": 872.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 138.93035294803937,
+            "x": -1148.655377,
+            "y": 1007.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 147.29812261465807,
+            "x": -1328.655377,
+            "y": 827.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 192.73586702883014,
+            "x": -1328.655377,
+            "y": 1007.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 196.22676930037528,
+            "x": -1013.655377,
+            "y": 962.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "no_common_partial_frame_observation_consistency"
+            ]
+          },
+          {
+            "distance_m": 197.36481317950972,
+            "x": -1103.655377,
+            "y": 1052.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 198.12765449707078,
+            "x": -1013.655377,
+            "y": 782.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_5",
+        "nearest_evaluated_sample_m": 62.05856473295803,
+        "samples_within_200m": 11,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 9,
+          "known_standing_surface_conflict": 2
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 62.05856473295803,
+            "x": -1148.655377,
+            "y": 827.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 85.45461934752697,
+            "x": -1103.655377,
+            "y": 872.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 88.03644960555147,
+            "x": -1193.655377,
+            "y": 962.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 92.19565578485114,
+            "x": -1193.655377,
+            "y": 782.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 94.59367545940282,
+            "x": -1283.655377,
+            "y": 872.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 138.93035294803937,
+            "x": -1148.655377,
+            "y": 1007.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 147.29812261465807,
+            "x": -1328.655377,
+            "y": 827.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 192.73586702883014,
+            "x": -1328.655377,
+            "y": 1007.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 196.22676930037528,
+            "x": -1013.655377,
+            "y": 962.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 197.36481317950972,
+            "x": -1103.655377,
+            "y": 1052.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 198.12765449707078,
+            "x": -1013.655377,
+            "y": 782.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_6",
+        "nearest_evaluated_sample_m": 62.05856473295803,
+        "samples_within_200m": 11,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 9,
+          "known_standing_surface_conflict": 2
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 62.05856473295803,
+            "x": -1148.655377,
+            "y": 827.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 85.45461934752697,
+            "x": -1103.655377,
+            "y": 872.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 88.03644960555147,
+            "x": -1193.655377,
+            "y": 962.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 92.19565578485114,
+            "x": -1193.655377,
+            "y": 782.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 94.59367545940282,
+            "x": -1283.655377,
+            "y": 872.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 138.93035294803937,
+            "x": -1148.655377,
+            "y": 1007.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 147.29812261465807,
+            "x": -1328.655377,
+            "y": 827.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 192.73586702883014,
+            "x": -1328.655377,
+            "y": 1007.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 196.22676930037528,
+            "x": -1013.655377,
+            "y": 962.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 197.36481317950972,
+            "x": -1103.655377,
+            "y": 1052.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 198.12765449707078,
+            "x": -1013.655377,
+            "y": 782.667254,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      }
+    ],
+    "nearest_actual_sample_m": 62.05856473295803
+  },
+  {
+    "group": "footprint_only",
+    "case": "guangzhou_skyline",
+    "source": "https://commons.wikimedia.org/wiki/File:GuangzhouSkyline2020.jpg",
+    "reference_kind": "coarse_description",
+    "evaluated": false,
+    "reason": "Bridge-level description only; no fabricated metre error"
+  },
+  {
+    "group": "full_enhanced",
+    "case": "beijing_cbd",
+    "source": "https://commons.wikimedia.org/wiki/File:Parkview_Green_and_CBD_skyline_(20210927131419).jpg",
+    "reference_kind": "camera_location",
+    "evaluated": true,
+    "status": "SEARCH_LIMITED",
+    "candidate_regions": 8,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": 147.227080135571,
+    "top1_point_distance_m": 3216.828343205716,
+    "top1_area_m2": 24160409.844586898,
+    "participating_landmarks": 2,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "top1_medoid_distance_m": 2753.7410691213527,
+    "reference_inside_search_domain": true,
+    "reference_inside_sampled_cell_coverage": true,
+    "nearby_grid_diagnostics": [
+      {
+        "hypothesis_id": "hyp_1",
+        "nearest_evaluated_sample_m": 68.24195466553003,
+        "samples_within_200m": 8,
+        "feasible_within_200m": 8,
+        "rejection_reasons": {},
+        "closest_existing_samples": [
+          {
+            "distance_m": 68.24195466553003,
+            "x": -1966.213493,
+            "y": 799.192679,
+            "feasible": true,
+            "score": 0.53277332,
+            "reasons": []
+          },
+          {
+            "distance_m": 100.88024504848534,
+            "x": -1921.735716,
+            "y": 804.902384,
+            "feasible": true,
+            "score": 0.53277332,
+            "reasons": []
+          },
+          {
+            "distance_m": 137.42583113822127,
+            "x": -1966.213493,
+            "y": 979.192679,
+            "feasible": true,
+            "score": 0.53277332,
+            "reasons": []
+          },
+          {
+            "distance_m": 143.26045632844938,
+            "x": -2146.213493,
+            "y": 799.192679,
+            "feasible": true,
+            "score": 0.53277332,
+            "reasons": []
+          },
+          {
+            "distance_m": 150.36101764654524,
+            "x": -2129.630735,
+            "y": 943.499063,
+            "feasible": true,
+            "score": 0.53277332,
+            "reasons": []
+          },
+          {
+            "distance_m": 186.42009825899729,
+            "x": -2146.213493,
+            "y": 979.192679,
+            "feasible": true,
+            "score": 0.53277332,
+            "reasons": []
+          },
+          {
+            "distance_m": 192.07877975497496,
+            "x": -2198.929074,
+            "y": 804.902384,
+            "feasible": true,
+            "score": 0.53277332,
+            "reasons": []
+          },
+          {
+            "distance_m": 199.69649449606976,
+            "x": -1831.213493,
+            "y": 934.192679,
+            "feasible": true,
+            "score": 0.53277332,
+            "reasons": []
+          }
+        ]
+      }
+    ],
+    "nearest_actual_sample_m": 68.24195466553003
+  },
+  {
+    "group": "full_enhanced",
+    "case": "oriental_pearl",
+    "source": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_in_Shanghai.jpg",
+    "reference_kind": "camera_location",
+    "evaluated": true,
+    "status": "INSUFFICIENT_EVIDENCE",
+    "candidate_regions": 0,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": null,
+    "top1_point_distance_m": null,
+    "top1_area_m2": null,
+    "participating_landmarks": 0,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "top1_medoid_distance_m": null,
+    "reference_inside_search_domain": false,
+    "reference_inside_sampled_cell_coverage": false,
+    "nearby_grid_diagnostics": [],
+    "nearest_actual_sample_m": null
+  },
+  {
+    "group": "full_enhanced",
+    "case": "north_bund",
+    "source": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_view_from_the_North_Bund,_Oct._21st,_2026.jpg",
+    "reference_kind": "camera_location",
+    "evaluated": true,
+    "status": "SEARCH_LIMITED",
+    "candidate_regions": 0,
+    "truth_inside_any": false,
+    "containing_ranks": [],
+    "nearest_region_distance_m": null,
+    "top1_point_distance_m": null,
+    "top1_area_m2": null,
+    "participating_landmarks": 0,
+    "note": "来源自报 camera location，不是测量级真值；空候选不计算虚构距离。",
+    "top1_medoid_distance_m": null,
+    "reference_inside_search_domain": true,
+    "reference_inside_sampled_cell_coverage": true,
+    "nearby_grid_diagnostics": [
+      {
+        "hypothesis_id": "hyp_1",
+        "nearest_evaluated_sample_m": 43.45047853125453,
+        "samples_within_200m": 5,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 4,
+          "known_standing_surface_conflict": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 43.45047853125453,
+            "x": -1170.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 63.75495067609269,
+            "x": -1125.583655,
+            "y": 880.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 141.8964208080918,
+            "x": -1170.583655,
+            "y": 1015.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 166.21550960630316,
+            "x": -1350.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 185.5210057706646,
+            "x": -1125.583655,
+            "y": 700.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_2",
+        "nearest_evaluated_sample_m": 43.45047853125453,
+        "samples_within_200m": 5,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 4,
+          "known_standing_surface_conflict": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 43.45047853125453,
+            "x": -1170.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 63.75495067609269,
+            "x": -1125.583655,
+            "y": 880.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 141.8964208080918,
+            "x": -1170.583655,
+            "y": 1015.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 166.21550960630316,
+            "x": -1350.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 185.5210057706646,
+            "x": -1125.583655,
+            "y": 700.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_3",
+        "nearest_evaluated_sample_m": 43.45047853125453,
+        "samples_within_200m": 7,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 6,
+          "known_standing_surface_conflict": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 43.45047853125453,
+            "x": -1170.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 63.75495067609269,
+            "x": -1125.583655,
+            "y": 880.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 88.38096194022224,
+            "x": -1215.583655,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 141.8964208080918,
+            "x": -1170.583655,
+            "y": 1015.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 166.21550960630316,
+            "x": -1350.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 175.13292918349467,
+            "x": -1035.583655,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 180.88171007026392,
+            "x": -1035.583655,
+            "y": 970.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_4",
+        "nearest_evaluated_sample_m": 50.669054345743184,
+        "samples_within_200m": 5,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 5
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 50.669054345743184,
+            "x": -1157.120662,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 85.31666922223282,
+            "x": -1202.120662,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 144.2705902872929,
+            "x": -1157.120662,
+            "y": 1015.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 153.16764389837684,
+            "x": -1337.120662,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 187.04534203793418,
+            "x": -1022.120662,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_5",
+        "nearest_evaluated_sample_m": 43.45047853125453,
+        "samples_within_200m": 7,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 6,
+          "known_standing_surface_conflict": 1
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 43.45047853125453,
+            "x": -1170.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 63.75495067609269,
+            "x": -1125.583655,
+            "y": 880.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 88.38096194022224,
+            "x": -1215.583655,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 141.8964208080918,
+            "x": -1170.583655,
+            "y": 1015.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "known_standing_surface_conflict"
+            ]
+          },
+          {
+            "distance_m": 166.21550960630316,
+            "x": -1350.583655,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 175.13292918349467,
+            "x": -1035.583655,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 180.88171007026392,
+            "x": -1035.583655,
+            "y": 970.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "hypothesis_id": "hyp_6",
+        "nearest_evaluated_sample_m": 50.669054345743184,
+        "samples_within_200m": 5,
+        "feasible_within_200m": 0,
+        "rejection_reasons": {
+          "horizontal_order_conflict": 5
+        },
+        "closest_existing_samples": [
+          {
+            "distance_m": 50.669054345743184,
+            "x": -1157.120662,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 85.31666922223282,
+            "x": -1202.120662,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 144.2705902872929,
+            "x": -1157.120662,
+            "y": 1015.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 153.16764389837684,
+            "x": -1337.120662,
+            "y": 835.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          },
+          {
+            "distance_m": 187.04534203793418,
+            "x": -1022.120662,
+            "y": 790.434678,
+            "feasible": false,
+            "score": 0.0,
+            "reasons": [
+              "horizontal_order_conflict"
+            ]
+          }
+        ]
+      }
+    ],
+    "nearest_actual_sample_m": 43.45047853125453
+  },
+  {
+    "group": "full_enhanced",
+    "case": "guangzhou_skyline",
+    "source": "https://commons.wikimedia.org/wiki/File:GuangzhouSkyline2020.jpg",
+    "reference_kind": "coarse_description",
+    "evaluated": false,
+    "reason": "Bridge-level description only; no fabricated metre error"
+  }
+]
