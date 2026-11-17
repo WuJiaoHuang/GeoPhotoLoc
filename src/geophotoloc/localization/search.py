@@ -1,6 +1,8 @@
 """Deterministic bounded grids and obstacle-aware search context."""
 import numpy as np
 import json
+from collections import OrderedDict
+from time import perf_counter
 from shapely.geometry import Point, box, shape
 from shapely.ops import unary_union
 from shapely.strtree import STRtree
@@ -96,4 +98,18 @@ class SearchContext:
 
     def obstacle_union(self, geometry):
         self.strtree_queries += 1
-        return unary_union([self.obstacles[index] for index in self.tree.query(geometry)])
+        indexes=self.tree.query(geometry)
+        if not getattr(self,'enable_union_cache',False):
+            return unary_union([self.obstacles[index] for index in indexes])
+        if not hasattr(self,'obstacle_unions'):self.obstacle_unions=OrderedDict()
+        key=tuple(sorted(indexes.tolist()))
+        started=perf_counter()
+        if key not in self.obstacle_unions:
+            self.obstacle_union_misses=getattr(self,'obstacle_union_misses',0)+1
+            if len(self.obstacle_unions)>=8:self.obstacle_unions.popitem(last=False)
+            self.obstacle_unions[key]=unary_union([self.obstacles[index] for index in indexes])
+        else:
+            self.obstacle_union_hits=getattr(self,'obstacle_union_hits',0)+1
+            self.obstacle_unions.move_to_end(key)
+        self.obstacle_union_seconds=getattr(self,'obstacle_union_seconds',0)+perf_counter()-started
+        return self.obstacle_unions[key]

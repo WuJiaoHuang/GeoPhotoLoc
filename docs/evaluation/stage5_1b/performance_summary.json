@@ -1,0 +1,65 @@
+[
+  {
+    "case": "beijing_cbd",
+    "wall_seconds": 3.4539571999994223,
+    "cpu_seconds": 3.4375,
+    "target_seconds": 30,
+    "target_met": true,
+    "previous_fix_full_seconds": 5.879397299999255,
+    "timings": {
+      "preparation_seconds": 0.2625676999996358,
+      "coarse_seconds": 0.8841455000001588,
+      "fine_seconds": 1.0469873000001826,
+      "supplemental_seconds": 0.3631061999985832,
+      "coverage_accounting_seconds": 0.16232859999945504,
+      "regions_seconds": 0.5687481000022672,
+      "visibility_seconds": 0.1400175999988278
+    },
+    "visibility_review_points": 15,
+    "strtree_queries": 5386,
+    "obstacle_union_cache_hits": 3,
+    "obstacle_union_cache_misses": 1
+  },
+  {
+    "case": "north_bund",
+    "wall_seconds": 43.03168369999912,
+    "cpu_seconds": 42.546875,
+    "target_seconds": 60,
+    "target_met": true,
+    "previous_fix_full_seconds": 18.26353360000212,
+    "timings": {
+      "preparation_seconds": 1.0462516999905347,
+      "coarse_seconds": 11.487204299999576,
+      "fine_seconds": 13.261991900002613,
+      "supplemental_seconds": 2.615806599995267,
+      "coverage_accounting_seconds": 1.035265900001832,
+      "regions_seconds": 9.940788300002168,
+      "visibility_seconds": 3.269789400001173
+    },
+    "visibility_review_points": 100,
+    "strtree_queries": 37937,
+    "obstacle_union_cache_hits": 35,
+    "obstacle_union_cache_misses": 2
+  },
+  {
+    "case": "guangzhou_skyline",
+    "wall_seconds": 11.937595400002465,
+    "cpu_seconds": 11.796875,
+    "target_seconds": 60,
+    "target_met": true,
+    "previous_fix_full_seconds": 9.178641999998945,
+    "timings": {
+      "preparation_seconds": 0.537814300005266,
+      "coarse_seconds": 2.740622799999983,
+      "fine_seconds": 3.6448311999993166,
+      "supplemental_seconds": 1.5368768000043929,
+      "coverage_accounting_seconds": 0.6178061999962665,
+      "regions_seconds": 2.3579482000022836,
+      "visibility_seconds": 0.4429482999985339
+    },
+    "visibility_review_points": 50,
+    "strtree_queries": 22428,
+    "obstacle_union_cache_hits": 12,
+    "obstacle_union_cache_misses": 1
+  }
+]

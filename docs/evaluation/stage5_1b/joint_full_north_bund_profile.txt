@@ -1,0 +1,46 @@
+         68902828 function calls (68067337 primitive calls) in 245.434 seconds
+
+   Ordered by: cumulative time
+   List reduced from 638 to 40 due to restriction <40>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.172    0.172  245.670  245.670 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\solver.py:22(solve)
+        1    0.119    0.119  245.485  245.485 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\fixed.py:36(solve_fixed)
+867887/867709    1.416    0.000  140.179    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\.venv\Lib\site-packages\shapely\decorators.py:182(wrapper)
+     1753    0.004    0.000  102.713    0.059 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\.venv\Lib\site-packages\shapely\ops.py:117(unary_union)
+     1753  102.562    0.059  102.615    0.059 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\.venv\Lib\site-packages\shapely\set_operations.py:456(union_all)
+       96    1.035    0.011   90.783    0.946 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\fixed.py:109(assess)
+    22096   12.937    0.001   75.997    0.003 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\robust_scoring.py:52(evaluate_robust_pose)
+       36    0.069    0.002   72.208    2.006 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\regions.py:15(cell_region)
+       36    0.002    0.000   60.158    1.671 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\search.py:97(obstacle_union)
+    97927    2.870    0.000   21.877    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\footprints.py:48(angular_footprint)
+   457053    0.731    0.000   18.997    0.000 {built-in method builtins.sum}
+        2    0.005    0.003   17.475    8.738 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\fixed.py:286(<genexpr>)
+   119664   10.049    0.000   14.251    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\robust_scoring.py:112(fit)
+       12    0.157    0.013   13.874    1.156 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\region_selection.py:10(preferred_entries)
+    11919    0.020    0.000   12.017    0.001 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\.venv\Lib\site-packages\shapely\geometry\base.py:698(intersection)
+    11919   11.994    0.001   11.994    0.001 {intersection_scalar}
+       48    0.000    0.000    9.430    0.196 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\.venv\Lib\site-packages\shapely\geometry\base.py:677(difference)
+       48    9.429    0.196    9.429    0.196 {difference_scalar}
+      444    0.006    0.000    8.197    0.018 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\visibility.py:112(cached_visibility)
+      359    0.074    0.000    8.157    0.023 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\visibility.py:69(potential_visibility)
+    37936    0.238    0.000    7.552    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\.venv\Lib\site-packages\shapely\strtree.py:108(query)
+   204512    0.572    0.000    7.296    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\.venv\Lib\site-packages\shapely\geometry\polygon.py:238(__new__)
+    97927    1.749    0.000    7.286    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\footprints.py:29(shortest_arc)
+    24000    2.815    0.000    7.143    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\extent.py:40(within_observation_distance)
+    22096    0.242    0.000    7.062    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\robust_scoring.py:151(<listcomp>)
+    97568    0.085    0.000    6.820    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\footprints.py:19(to_dict)
+    98012    0.169    0.000    6.775    0.000 D:\HuaweiMoveData\Users\HW\.uv-python\cpython-3.11-windows-x86_64-none\Lib\dataclasses.py:1265(asdict)
+      178    0.002    0.000    6.599    0.037 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\.venv\Lib\site-packages\shapely\geometry\base.py:473(buffer)
+      178    6.591    0.037    6.593    0.037 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\.venv\Lib\site-packages\shapely\constructive.py:136(buffer)
+784540/98012    2.450    0.000    6.524    0.000 D:\HuaweiMoveData\Users\HW\.uv-python\cpython-3.11-windows-x86_64-none\Lib\dataclasses.py:1289(_asdict_inner)
+    37936    6.478    0.000    6.478    0.000 {method 'query' of 'shapely.lib.STRtree' objects}
+    22096    3.735    0.000    6.203    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\robust_scoring.py:30(order_constraints)
+   251347    1.350    0.000    5.707    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\.venv\Lib\site-packages\shapely\geometry\point.py:59(__new__)
+   208057    0.148    0.000    5.188    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\.venv\Lib\site-packages\shapely\geometry\base.py:798(is_valid)
+   208057    5.039    0.000    5.039    0.000 {is_valid_scalar}
+   134406    0.203    0.000    3.986    0.000 {built-in method builtins.any}
+        1    0.062    0.062    3.830    3.830 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\search.py:22(__init__)
+   205651    0.570    0.000    3.513    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\.venv\Lib\site-packages\shapely\geometry\polygon.py:66(__new__)
+    82805    0.107    0.000    3.399    0.000 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\.venv\Lib\site-packages\shapely\geometry\geo.py:46(box)
+       96    0.054    0.001    3.367    0.035 D:\HuaweiMoveData\Users\HW\Desktop\GeoPhotoLoc\src\geophotoloc\localization\sampling.py:66(plan_samples)

@@ -20,7 +20,7 @@ class PoseSolver:
         self.store,self.config = store,config or PoseSearchConfig()
 
     def solve(self, vision_result, map_matching_result):
-        if self.config.viewpoint_fix and (self.config.adaptive_extent or self.config.footprint_constraints or self.config.visibility_soft):
+        if self.config.viewpoint_fix and (self.config.adaptive_extent or self.config.footprint_constraints or self.config.visibility_soft or self.config.robust_geometry or self.config.joint_identity or self.config.dual_regions):
             from .fixed import solve_fixed
             return solve_fixed(self.store,self.config,vision_result,map_matching_result)
         started = perf_counter()
@@ -279,3 +279,10 @@ class FixedPoseSolver(PoseSolver):
     def __init__(self,store,config=None):
         config=config or PoseSearchConfig(adaptive_extent=True,footprint_constraints=True,visibility_soft=True)
         super().__init__(store,config.model_copy(update={'viewpoint_fix':True}))
+
+
+class JointPoseSolver(FixedPoseSolver):
+    """Stage 5.1B defaults; no positional reference accepted by solve()."""
+    def __init__(self,store,config=None):
+        super().__init__(store,config or PoseSearchConfig(adaptive_extent=True,robust_geometry=True,joint_identity=True,
+            dual_regions=True,audit_hard_feasibility=True,visibility_soft=True,max_hypotheses=12))

@@ -292,3 +292,25 @@ uv run pytest -q
 ```
 
 真实四组输出与摘要在 `docs/evaluation/stage5_1a_fix/`，含输入与输出指纹；参考坐标仅在完成独立求解后读取。当前 **354 passed，0 failed，0 skipped**，原 324 项均通过。D 实测北京 5.88 s、北外滩 18.26 s、广州 9.18 s。北京范围覆盖修复但仍未包含来源点；北外滩 B 包含来源点，C/D 无候选，失败未隐藏。旧结果保持原样，全部对照和限制见 [STAGE5_1A_FIX_EVALUATION.md](docs/STAGE5_1A_FIX_EVALUATION.md)。
+
+
+## Stage 5.1B 联合身份、鲁棒几何与双层区域
+
+新增 `localization/{hypotheses,robust_scoring,region_selection}.py`，复用 `fixed.py` 搜索：每对象最多 3 个地图候选与 UNKNOWN，Beam 24/几何组合最多 12；FOV 归一化 Huber 损失与软左右证据，最多排除 1 个异常观测且至少保留 2 个独立可靠锚点。联合权重固定 0.40/0.20/0.25/0.15，原 Baseline/历史结果保留。
+
+```python
+from geophotoloc.localization import JointPoseSolver
+result = JointPoseSolver(store).solve(vision_result, map_matching_result)
+# result.regions / preferred_regions：启发式优选
+# result.feasible_regions：尚不能按物理约束排除，非高置信位置
+```
+
+新增双层 GeoJSON 的 `layer_type`，保留旧 `candidate_region` 兼容字段；分数、UNKNOWN、OUTLIER、逐地标误差与保留/排除比较可审计。两个地标仍明确歧义，单地标不输出机位。可见性继续后置、有界复核，不参与额外改动四项联合分。
+
+```powershell
+uv run python scripts/evaluate_stage5_1b.py
+uv run python scripts/evaluate_stage5_1b_truth.py
+uv run pytest -q
+```
+
+完整实验 JSON 无损压缩保存于 `docs/evaluation/stage5_1b/*.json.gz`，由评估脚本 `read_result` 读取；API 的 `model_dump_json()` 仍是普通完整 JSON。推理文件指纹冻结后才读取参考机位。**378 passed，0 failed，0 skipped**。D 实测北京 3.45 s、北外滩 43.03 s、广州 11.94 s。北京/北外滩 Feasible 保留来源位置，北外滩恢复候选；D Preferred 未命中，Top-1 没有改善，不能把大区域包含率当精确定位成功。详见 [STAGE5_1B_EVALUATION.md](docs/STAGE5_1B_EVALUATION.md)。

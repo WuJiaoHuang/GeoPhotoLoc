@@ -40,6 +40,27 @@ class PoseSearchConfig(BaseModel):
     max_visibility_points_per_hypothesis: int = Field(default=20,ge=0,le=100)
     max_visibility_points_total: int = Field(default=100,ge=0,le=500)
     visibility_cache_size: int = Field(default=2048,ge=1,le=10000)
+    robust_geometry: bool = False
+    joint_identity: bool = False
+    dual_regions: bool = False
+    audit_hard_feasibility: bool = False
+    max_identity_candidates: int = Field(default=3,ge=1,le=10)
+    identity_beam_width: int = Field(default=24,ge=1,le=100)
+    max_joint_hypotheses: int = Field(default=12,ge=1,le=50)
+    same_object_groups: dict[str,str] = Field(default_factory=dict)
+    huber_delta: float = Field(default=1.,gt=0,le=10)
+    point_geometry_uncertainty_deg: float = Field(default=2.,ge=0,le=15)
+    max_outliers: int = Field(default=1,ge=0,le=1)
+    outlier_residual_threshold: float = Field(default=2.5,gt=1)
+    outlier_loss_improvement: float = Field(default=1.,ge=0)
+    outlier_identity_penalty: float = Field(default=.08,ge=0,le=1)
+    contradictory_relation_weight: float = Field(default=.25,ge=0,le=1)
+    unknown_projection_score: float = Field(default=.25,ge=0,le=.5)
+    projection_weight: float = Field(default=.40,ge=0,le=1)
+    order_weight: float = Field(default=.20,ge=0,le=1)
+    identity_weight: float = Field(default=.25,ge=0,le=1)
+    geometry_weight: float = Field(default=.15,ge=0,le=1)
+    preferred_tile_size_m: float = Field(default=750,ge=180,le=3000)
 
     @model_validator(mode="before")
     @classmethod
@@ -51,6 +72,8 @@ class PoseSearchConfig(BaseModel):
 
     @model_validator(mode="after")
     def valid_search(self):
+        if abs(self.projection_weight+self.order_weight+self.identity_weight+self.geometry_weight-1)>1e-8:
+            raise ValueError('Joint score weights must sum to one')
         if self.coarse_budget_fraction+self.fine_budget_fraction>1:
             raise ValueError('Coarse and fine budget fractions exceed one')
         if self.minimum_coarse_spacing_m>self.maximum_coarse_spacing_m:
@@ -89,6 +112,13 @@ class PoseConstraintScore(BaseModel):
     stage2_score: float | None = None
     visibility_reviewed: bool = False
     partial_visibility_evidence: list[dict] = Field(default_factory=list)
+    projection_evidence: list[dict] = Field(default_factory=list)
+    order_evidence: list[dict] = Field(default_factory=list)
+    outlier_image_ids: list[str] = Field(default_factory=list)
+    outlier_comparisons: list[dict] = Field(default_factory=list)
+    unknown_image_ids: list[str] = Field(default_factory=list)
+    reliable_landmark_count: int = 0
+    identifiability: str | None = None
 
 
 class PoseHypothesis(BaseModel):
@@ -121,6 +151,7 @@ class PoseHypothesis(BaseModel):
     sample_trace: list[dict] = Field(default_factory=list)
     visibility_review_points: int = 0
     strtree_queries: int = 0
+    unknown_image_ids: list[str] = Field(default_factory=list)
 
 
 class CandidateRegion(BaseModel):
@@ -143,6 +174,21 @@ class CandidateRegion(BaseModel):
     region_medoid: GeoPoint | None = None
 
 
+class FeasibleRegion(BaseModel):
+    """Unexcluded sampled envelope, explicitly not a high-confidence prediction."""
+    id: str
+    hypothesis_id: str
+    region_id: str
+    geometry: dict
+    area_m2: float = Field(ge=0)
+    candidate_point_count: int
+    component_count: int
+    assignments: dict[str,str]
+    map_coverage_status: Literal['COMPLETE','PARTIAL','UNKNOWN'] = 'UNKNOWN'
+    priority: Literal['LOW_UNRANKED'] = 'LOW_UNRANKED'
+    explanation: str = 'Not excluded by physical constraints; sampled cells are approximate, not high-confidence locations'
+
+
 class PoseLocalizationResult(BaseModel):
     status: Literal["SUCCESS", "AMBIGUOUS", "INSUFFICIENT_EVIDENCE", "NO_FEASIBLE_POSE", "SEARCH_LIMITED"]
     regions: list[CandidateRegion]
@@ -154,3 +200,9 @@ class PoseLocalizationResult(BaseModel):
     geojson: dict
     diagnostics: dict = Field(default_factory=dict)
     reviewed_candidates: list[dict] = Field(default_factory=list)
+    feasible_regions: list[FeasibleRegion] = Field(default_factory=list)
+    preferred_regions: list[CandidateRegion] = Field(default_factory=list)
+    feasible_area_m2: float = 0
+    preferred_area_m2: float = 0
+    identity_hypotheses: list[dict] = Field(default_factory=list)
+    identifiability: str | None = None
