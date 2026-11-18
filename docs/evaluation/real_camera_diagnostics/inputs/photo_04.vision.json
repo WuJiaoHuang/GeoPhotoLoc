@@ -1,0 +1,846 @@
+{
+  "landmarks": [
+    {
+      "name": "HSBC Building",
+      "x": 0.19,
+      "y": 0.5,
+      "confidence": 0.95,
+      "matched_landmark_id": null,
+      "id": "lm_1",
+      "name_candidates": [
+        "HSBC Building"
+      ],
+      "bbox": {
+        "x_min": 0.13,
+        "y_min": 0.23,
+        "x_max": 0.25,
+        "y_max": 0.78
+      },
+      "visual_evidence": [
+        "Tall rectangular skyscraper",
+        "'HSBC' logo clearly visible on the top facade"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Jin Mao Tower",
+      "x": 0.47,
+      "y": 0.25,
+      "confidence": 0.9,
+      "matched_landmark_id": null,
+      "id": "lm_2",
+      "name_candidates": [
+        "Jin Mao Tower"
+      ],
+      "bbox": {
+        "x_min": 0.43,
+        "y_min": 0.13,
+        "x_max": 0.51,
+        "y_max": 0.37
+      },
+      "visual_evidence": [
+        "Distinctive tiered, pagoda-like architectural style",
+        "Tall skyscraper with a spire"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Shanghai World Financial Center",
+      "x": 0.56,
+      "y": 0.45,
+      "confidence": 0.9,
+      "matched_landmark_id": null,
+      "id": "lm_3",
+      "name_candidates": [
+        "Shanghai World Financial Center"
+      ],
+      "bbox": {
+        "x_min": 0.51,
+        "y_min": 0.07,
+        "x_max": 0.61,
+        "y_max": 0.84
+      },
+      "visual_evidence": [
+        "Extremely tall skyscraper",
+        "Large trapezoidal opening at the very top"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Mira Asset Building",
+      "x": 0.49,
+      "y": 0.63,
+      "confidence": 0.95,
+      "matched_landmark_id": null,
+      "id": "lm_4",
+      "name_candidates": [
+        "Mira Asset Building",
+        "Mirae Asset Building"
+      ],
+      "bbox": {
+        "x_min": 0.44,
+        "y_min": 0.36,
+        "x_max": 0.55,
+        "y_max": 0.91
+      },
+      "visual_evidence": [
+        "Green glass facade",
+        "'MIRAE ASSET' text visible near the top"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Aurora Plaza",
+      "x": 0.73,
+      "y": 0.64,
+      "confidence": 0.95,
+      "matched_landmark_id": null,
+      "id": "lm_5",
+      "name_candidates": [
+        "Aurora Plaza"
+      ],
+      "bbox": {
+        "x_min": 0.66,
+        "y_min": 0.32,
+        "x_max": 0.81,
+        "y_max": 0.97
+      },
+      "visual_evidence": [
+        "Cylindrical building shape",
+        "Golden/yellow reflective facade",
+        "'AURORA' text clearly visible on top"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Citi Group Tower",
+      "x": 0.87,
+      "y": 0.66,
+      "confidence": 0.9,
+      "matched_landmark_id": null,
+      "id": "lm_6",
+      "name_candidates": [
+        "Citi Group Tower",
+        "Citigroup Tower"
+      ],
+      "bbox": {
+        "x_min": 0.8,
+        "y_min": 0.36,
+        "x_max": 0.94,
+        "y_max": 0.96
+      },
+      "visual_evidence": [
+        "Green glass facade",
+        "'citi' logo visible on the top right corner"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Shangri-La Hotel",
+      "x": 0.39,
+      "y": 0.75,
+      "confidence": 0.95,
+      "matched_landmark_id": null,
+      "id": "lm_7",
+      "name_candidates": [
+        "Shangri-La Hotel"
+      ],
+      "bbox": {
+        "x_min": 0.32,
+        "y_min": 0.54,
+        "x_max": 0.47,
+        "y_max": 0.97
+      },
+      "visual_evidence": [
+        "Brownish building with classical architectural details",
+        "'Shangri-La' text visible on top"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Super Brand Mall",
+      "x": 0.1,
+      "y": 0.86,
+      "confidence": 0.9,
+      "matched_landmark_id": null,
+      "id": "lm_8",
+      "name_candidates": [
+        "Super Brand Mall"
+      ],
+      "bbox": {
+        "x_min": 0.0,
+        "y_min": 0.75,
+        "x_max": 0.21,
+        "y_max": 0.98
+      },
+      "visual_evidence": [
+        "Curved lower building structure",
+        "'SUPER BRAND MALL' text visible on the facade"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    }
+  ],
+  "scene_features": [
+    "Clear blue sky",
+    "Urban skyline",
+    "Construction crane visible in the lower middle area",
+    "Reflective glass facades"
+  ],
+  "warnings": [
+    "Model confidence is an uncalibrated self-assessment, not a probability."
+  ],
+  "image": {
+    "original_size": {
+      "width": 1024,
+      "height": 683
+    },
+    "oriented_size": {
+      "width": 1024,
+      "height": 683
+    },
+    "processed_size": {
+      "width": 1024,
+      "height": 683
+    },
+    "original_format": "JPEG",
+    "encoded_format": "JPEG",
+    "original_bytes": 206453,
+    "processed_bytes": 160071,
+    "orientation_corrected": false
+  },
+  "relations": [
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_1",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_1",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_7",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_4",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_3",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_7",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_3",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_3",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_4",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_4",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_7",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_4",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_4",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_5",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_7",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_5",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_5",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_7",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_6",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_6",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_8",
+      "object_id": "lm_7",
+      "relation_type": "BELOW",
+      "confidence": null
+    }
+  ],
+  "relation_min_gap": 0.03
+}

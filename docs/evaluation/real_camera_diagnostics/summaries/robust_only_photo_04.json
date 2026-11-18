@@ -1,0 +1,1025 @@
+{
+  "group": "robust_only",
+  "case": "photo_04",
+  "input_sha256": {
+    "vision": "e54b3adc1609bfd7f85edefbd483dfceaba5b02f5e056a9e5360058e0d54487f",
+    "matching": "5a37a6efa360545f1088d8e341904a566d806b97da0b94989108caeacbea540a"
+  },
+  "status": "SEARCH_LIMITED",
+  "seconds": 205.78997190000155,
+  "config": {
+    "search_radius_m": 2200.0,
+    "search_bounds": null,
+    "coarse_spacing_m": 250.0,
+    "fine_spacing_m": 60.0,
+    "max_points_per_hypothesis": 4500,
+    "max_total_points": 24000,
+    "max_hypotheses": 12,
+    "max_refine_components": 6,
+    "refinement_levels": 1,
+    "max_regions_per_hypothesis": 8,
+    "fov_degrees": [
+      60.0,
+      75.0,
+      90.0,
+      110.0,
+      130.0
+    ],
+    "principal_points": [
+      0.47,
+      0.5,
+      0.53
+    ],
+    "angular_tolerance_deg": 0.5,
+    "x_tolerance": 0.03,
+    "minimum_distance_m": 5.0,
+    "score_window": 0.08,
+    "adaptive_extent": true,
+    "footprint_constraints": false,
+    "visibility_soft": false,
+    "max_observation_distance_m": 5000.0,
+    "visibility_max_rays": 12,
+    "viewpoint_fix": true,
+    "record_sample_trace": true,
+    "record_diagnostic_trace": true,
+    "coarse_budget_fraction": 0.6,
+    "fine_budget_fraction": 0.3,
+    "minimum_coarse_spacing_m": 180.0,
+    "maximum_coarse_spacing_m": 600.0,
+    "minimum_visible_fraction": 0.05,
+    "minimum_visible_angle_deg": 0.02,
+    "observation_x_tolerance": 0.06,
+    "max_visibility_points_per_hypothesis": 20,
+    "max_visibility_points_total": 100,
+    "visibility_cache_size": 2048,
+    "robust_geometry": true,
+    "joint_identity": false,
+    "dual_regions": false,
+    "audit_hard_feasibility": true,
+    "max_identity_candidates": 3,
+    "identity_beam_width": 24,
+    "max_joint_hypotheses": 12,
+    "same_object_groups": {},
+    "huber_delta": 1.0,
+    "point_geometry_uncertainty_deg": 2.0,
+    "max_outliers": 1,
+    "outlier_residual_threshold": 2.5,
+    "outlier_loss_improvement": 1.0,
+    "outlier_identity_penalty": 0.08,
+    "contradictory_relation_weight": 0.25,
+    "unknown_projection_score": 0.25,
+    "projection_weight": 0.4,
+    "order_weight": 0.2,
+    "identity_weight": 0.25,
+    "geometry_weight": 0.15,
+    "preferred_tile_size_m": 750.0
+  },
+  "searched_points": 24000,
+  "identity_hypotheses": 10,
+  "generated_hypotheses": 10,
+  "searched_identity_hypotheses": 9,
+  "feasible_regions": 9,
+  "preferred_regions": 72,
+  "feasible_area_m2": 66897825.47890623,
+  "preferred_area_m2": 53531237.690059125,
+  "hypothesis_area_sum_m2": 482339839.5396308,
+  "top1": {
+    "latitude": 31.237912946760932,
+    "longitude": 121.4911198730332
+  },
+  "top1_area_m2": 44227.85399037379,
+  "top1_score": {
+    "feasible": true,
+    "score": 0.8493485,
+    "satisfied": 14,
+    "conflicts": 0,
+    "indeterminate": 13,
+    "landmark_count": 7,
+    "components": {
+      "projection": 0.8778822396968801,
+      "order": 0.7592592592592593,
+      "identity": 0.8603749999999999,
+      "geometry": 0.875,
+      "normalized_huber_loss": 0.0329574776151927,
+      "reliable_landmarks": 7.0,
+      "outlier_count": 0.0,
+      "identity_evidence_coverage": 0.875,
+      "geometry_completeness": 0.875,
+      "visibility_quality": 0.5
+    },
+    "heading": 99.1100815662152,
+    "fov_degrees": 60.0,
+    "principal_point_x": 0.53,
+    "projection_rmse": 0.9473489071448165,
+    "span_deg": null,
+    "camera_assumptions": [],
+    "bearings_deg": {
+      "lm_1": 82.11304872657239,
+      "lm_2": 94.310098484474,
+      "lm_3": 97.47195720974473,
+      "lm_5": 111.11119693451099,
+      "lm_6": 113.35443676248177,
+      "lm_7": 88.16781315540598,
+      "lm_8": 79.64797335172103
+    },
+    "distances_m": {
+      "lm_1": 524.6267146108702,
+      "lm_2": 938.9011913064783,
+      "lm_3": 1109.6315787941755,
+      "lm_5": 399.0931420363768,
+      "lm_6": 461.6590583561388,
+      "lm_7": 419.49428940981323,
+      "lm_8": 234.69477370193687
+    },
+    "reasons": [
+      "physical_hard_constraints_passed; visual evidence is robust and soft",
+      "heuristic_joint_score_not_a_probability",
+      "discrete_camera_hypotheses_not_continuous_optimization"
+    ],
+    "filter_reasons": [],
+    "map_coverage_status": "PARTIAL",
+    "footprint_evidence": [
+      {
+        "image_landmark_id": "lm_1",
+        "center_bearing_deg": 82.11304872657239,
+        "left_bound_deg": 79.37948746802154,
+        "right_bound_deg": 84.84660998512324,
+        "angular_width_deg": 5.4671225171017,
+        "distance_m": 524.6267146108702,
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "valid": true
+      },
+      {
+        "image_landmark_id": "lm_2",
+        "center_bearing_deg": 94.310098484474,
+        "left_bound_deg": 91.52243936879339,
+        "right_bound_deg": 97.09775760015461,
+        "angular_width_deg": 5.575318231361223,
+        "distance_m": 938.9011913064783,
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "valid": true
+      },
+      {
+        "image_landmark_id": "lm_3",
+        "center_bearing_deg": 97.47195720974473,
+        "left_bound_deg": 95.68769242763894,
+        "right_bound_deg": 99.25622199185052,
+        "angular_width_deg": 3.5685295642115875,
+        "distance_m": 1109.6315787941755,
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "valid": true
+      },
+      {
+        "image_landmark_id": "lm_5",
+        "center_bearing_deg": 111.11119693451099,
+        "left_bound_deg": 107.0580652769743,
+        "right_bound_deg": 115.16432859204767,
+        "angular_width_deg": 8.106263315073363,
+        "distance_m": 399.0931420363768,
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "valid": true
+      },
+      {
+        "image_landmark_id": "lm_6",
+        "center_bearing_deg": 113.35443676248177,
+        "left_bound_deg": 106.16391029626332,
+        "right_bound_deg": 120.54496322870021,
+        "angular_width_deg": 14.381052932436887,
+        "distance_m": 461.6590583561388,
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "valid": true
+      },
+      {
+        "image_landmark_id": "lm_7",
+        "center_bearing_deg": 88.16781315540598,
+        "left_bound_deg": 84.57328901020296,
+        "right_bound_deg": 91.762337300609,
+        "angular_width_deg": 7.189048290406049,
+        "distance_m": 419.49428940981323,
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "valid": true
+      },
+      {
+        "image_landmark_id": "lm_8",
+        "center_bearing_deg": 79.64797335172103,
+        "left_bound_deg": 66.67244136807172,
+        "right_bound_deg": 92.62350533537035,
+        "angular_width_deg": 25.951063967298637,
+        "distance_m": 234.69477370193687,
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "valid": true
+      }
+    ],
+    "visibility_evidence": [],
+    "stage1_score": 0.8493485,
+    "stage2_score": null,
+    "visibility_reviewed": false,
+    "partial_visibility_evidence": [
+      {
+        "image_landmark_id": "lm_1",
+        "status": "FULL",
+        "fraction": 1.0,
+        "intervals": [
+          [
+            -19.730594098193677,
+            -14.263471581091977
+          ]
+        ],
+        "sufficient": true
+      },
+      {
+        "image_landmark_id": "lm_2",
+        "status": "FULL",
+        "fraction": 1.0,
+        "intervals": [
+          [
+            -7.587642197421815,
+            -2.012323966060592
+          ]
+        ],
+        "sufficient": true
+      },
+      {
+        "image_landmark_id": "lm_3",
+        "status": "FULL",
+        "fraction": 1.0,
+        "intervals": [
+          [
+            -3.4223891385762784,
+            0.14614042563530916
+          ]
+        ],
+        "sufficient": true
+      },
+      {
+        "image_landmark_id": "lm_5",
+        "status": "FULL",
+        "fraction": 1.0,
+        "intervals": [
+          [
+            7.947983710759104,
+            16.054247025832467
+          ]
+        ],
+        "sufficient": true
+      },
+      {
+        "image_landmark_id": "lm_6",
+        "status": "FULL",
+        "fraction": 1.0,
+        "intervals": [
+          [
+            7.05382873004811,
+            21.434881662484997
+          ]
+        ],
+        "sufficient": true
+      },
+      {
+        "image_landmark_id": "lm_7",
+        "status": "FULL",
+        "fraction": 1.0,
+        "intervals": [
+          [
+            -14.536792556012244,
+            -7.347744265606195
+          ]
+        ],
+        "sufficient": true
+      },
+      {
+        "image_landmark_id": "lm_8",
+        "status": "PARTIAL",
+        "fraction": 0.9060678128181876,
+        "intervals": [
+          [
+            -29.999999999999993,
+            -6.48657623084484
+          ]
+        ],
+        "sufficient": true
+      }
+    ],
+    "projection_evidence": [
+      {
+        "image_landmark_id": "lm_1",
+        "raw_error_deg": 1.7042875642913486,
+        "normalized_error": 0.49583436033092215,
+        "tolerance_deg": 3.437211497714477,
+        "huber_loss": 0.12292585644238738,
+        "status": "INLIER",
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "allowed_angular_width_deg": 5.4671225171017
+      },
+      {
+        "image_landmark_id": "lm_2",
+        "raw_error_deg": 0.0,
+        "normalized_error": 0.0,
+        "tolerance_deg": 3.9444515251239154,
+        "huber_loss": 0.0,
+        "status": "INLIER",
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "allowed_angular_width_deg": 5.575318231361223
+      },
+      {
+        "image_landmark_id": "lm_3",
+        "raw_error_deg": 1.837850255402003,
+        "normalized_error": 0.46427682876482546,
+        "tolerance_deg": 3.958522462323759,
+        "huber_loss": 0.10777648686396153,
+        "status": "INLIER",
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "allowed_angular_width_deg": 3.5685295642115875
+      },
+      {
+        "image_landmark_id": "lm_5",
+        "raw_error_deg": 0.0,
+        "normalized_error": 0.0,
+        "tolerance_deg": 3.764018999754363,
+        "huber_loss": 0.0,
+        "status": "INLIER",
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "allowed_angular_width_deg": 8.106263315073363
+      },
+      {
+        "image_landmark_id": "lm_6",
+        "raw_error_deg": 0.0,
+        "normalized_error": 0.0,
+        "tolerance_deg": 3.4372114977144737,
+        "huber_loss": 0.0,
+        "status": "INLIER",
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "allowed_angular_width_deg": 14.381052932436887
+      },
+      {
+        "image_landmark_id": "lm_7",
+        "raw_error_deg": 0.0,
+        "normalized_error": 0.0,
+        "tolerance_deg": 3.8630664432554194,
+        "huber_loss": 0.0,
+        "status": "INLIER",
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "allowed_angular_width_deg": 7.189048290406049
+      },
+      {
+        "image_landmark_id": "lm_8",
+        "raw_error_deg": 0.0,
+        "normalized_error": 0.0,
+        "tolerance_deg": 3.1836251775259647,
+        "huber_loss": 0.0,
+        "status": "INLIER",
+        "geometry_quality": "COMPLETE_OUTLINE",
+        "allowed_angular_width_deg": 25.951063967298637
+      }
+    ],
+    "order_evidence": [
+      {
+        "left": "lm_1",
+        "right": "lm_2",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_1",
+        "right": "lm_3",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_1",
+        "right": "lm_4",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "INDETERMINATE"
+      },
+      {
+        "left": "lm_1",
+        "right": "lm_5",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_1",
+        "right": "lm_6",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_1",
+        "right": "lm_7",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "INDETERMINATE"
+      },
+      {
+        "left": "lm_2",
+        "right": "lm_3",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "INDETERMINATE"
+      },
+      {
+        "left": "lm_2",
+        "right": "lm_5",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_2",
+        "right": "lm_6",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_3",
+        "right": "lm_5",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_3",
+        "right": "lm_6",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_4",
+        "right": "lm_3",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "INDETERMINATE"
+      },
+      {
+        "left": "lm_4",
+        "right": "lm_5",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "INDETERMINATE"
+      },
+      {
+        "left": "lm_4",
+        "right": "lm_6",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "INDETERMINATE"
+      },
+      {
+        "left": "lm_5",
+        "right": "lm_6",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "INDETERMINATE"
+      },
+      {
+        "left": "lm_7",
+        "right": "lm_2",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "INDETERMINATE"
+      },
+      {
+        "left": "lm_7",
+        "right": "lm_3",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_7",
+        "right": "lm_4",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "INDETERMINATE"
+      },
+      {
+        "left": "lm_7",
+        "right": "lm_5",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_7",
+        "right": "lm_6",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_8",
+        "right": "lm_1",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "INDETERMINATE"
+      },
+      {
+        "left": "lm_8",
+        "right": "lm_2",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "INDETERMINATE"
+      },
+      {
+        "left": "lm_8",
+        "right": "lm_3",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_8",
+        "right": "lm_4",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "INDETERMINATE"
+      },
+      {
+        "left": "lm_8",
+        "right": "lm_5",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_8",
+        "right": "lm_6",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "SATISFIED"
+      },
+      {
+        "left": "lm_8",
+        "right": "lm_7",
+        "weight": 1.0,
+        "sources": [
+          "explicit",
+          "image_x"
+        ],
+        "downweight_reasons": [],
+        "status": "INDETERMINATE"
+      }
+    ],
+    "outlier_image_ids": [],
+    "outlier_comparisons": [
+      {
+        "image_landmark_id": "lm_1",
+        "keep_score": 0.8493484977306038,
+        "exclude_score": 0.7383807870370369,
+        "keep_loss": 0.0329574776151927,
+        "exclude_loss": 0.0,
+        "normalized_residual_if_kept": 0.49583436033092215,
+        "eligible": false,
+        "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+      },
+      {
+        "image_landmark_id": "lm_2",
+        "keep_score": 0.8493484977306038,
+        "exclude_score": 0.7317058232533018,
+        "keep_loss": 0.0329574776151927,
+        "exclude_loss": 0.03845039055105815,
+        "normalized_residual_if_kept": 0.0,
+        "eligible": false,
+        "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+      },
+      {
+        "image_landmark_id": "lm_3",
+        "keep_score": 0.8493484977306038,
+        "exclude_score": 0.7307078775018789,
+        "keep_loss": 0.0329574776151927,
+        "exclude_loss": 0.013318991390143977,
+        "normalized_residual_if_kept": 0.46427682876482546,
+        "eligible": false,
+        "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+      },
+      {
+        "image_landmark_id": "lm_5",
+        "keep_score": 0.8493484977306038,
+        "exclude_score": 0.7233609158458942,
+        "keep_loss": 0.0329574776151927,
+        "exclude_loss": 0.03845039055105815,
+        "normalized_residual_if_kept": 0.0,
+        "eligible": false,
+        "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+      },
+      {
+        "image_landmark_id": "lm_6",
+        "keep_score": 0.8493484977306038,
+        "exclude_score": 0.7242984158458943,
+        "keep_loss": 0.0329574776151927,
+        "exclude_loss": 0.03845039055105815,
+        "normalized_residual_if_kept": 0.0,
+        "eligible": false,
+        "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+      },
+      {
+        "image_landmark_id": "lm_7",
+        "keep_score": 0.8493484977306038,
+        "exclude_score": 0.7325495732533018,
+        "keep_loss": 0.0329574776151927,
+        "exclude_loss": 0.03845039055105815,
+        "normalized_residual_if_kept": 0.0,
+        "eligible": false,
+        "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+      },
+      {
+        "image_landmark_id": "lm_8",
+        "keep_score": 0.8493484977306038,
+        "exclude_score": 0.7307683232533018,
+        "keep_loss": 0.0329574776151927,
+        "exclude_loss": 0.03845039055105815,
+        "normalized_residual_if_kept": 0.0,
+        "eligible": false,
+        "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+      }
+    ],
+    "unknown_image_ids": [
+      "lm_4"
+    ],
+    "reliable_landmark_count": 7,
+    "identifiability": "MULTI_LANDMARK_AMBIGUITY"
+  },
+  "performance": {
+    "process_cpu_seconds": 196.03125,
+    "timings": {
+      "preparation_seconds": 3.4342333000022336,
+      "coarse_seconds": 83.6393531000067,
+      "fine_seconds": 69.18387990000338,
+      "supplemental_seconds": 18.8882378000053,
+      "coverage_accounting_seconds": 4.047844700002315,
+      "regions_seconds": 21.74685729999692,
+      "visibility_seconds": 0.00856010000279639
+    },
+    "strtree_queries": 33547,
+    "visibility_review_points": 0,
+    "context_loads": 1,
+    "identity_generation": {},
+    "original_region_hypotheses": [
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:way:164968674",
+          "lm_2": "osm:way:376075961",
+          "lm_3": "osm:way:10691100",
+          "lm_5": "osm:way:164970992",
+          "lm_6": "osm:way:520990202",
+          "lm_7": "osm:way:281583582",
+          "lm_8": "osm:way:40779113"
+        },
+        "score": 0.860375,
+        "matched_objects": 7,
+        "max_pair_distance_m": 823.6227535411869,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:way:164968674",
+          "lm_2": "osm:way:376075961",
+          "lm_3": "osm:way:10691100",
+          "lm_5": "osm:way:164970992",
+          "lm_6": "osm:way:520990202",
+          "lm_7": "osm:way:428202603",
+          "lm_8": "osm:way:40779113"
+        },
+        "score": 0.85,
+        "matched_objects": 7,
+        "max_pair_distance_m": 1770.5998823432258,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:node:476149515",
+          "lm_2": "osm:way:376075961",
+          "lm_3": "osm:way:10691100",
+          "lm_5": "osm:way:164970992",
+          "lm_6": "osm:way:520990202",
+          "lm_7": "osm:way:281583582",
+          "lm_8": "osm:way:40779113"
+        },
+        "score": 0.844,
+        "matched_objects": 7,
+        "max_pair_distance_m": 1654.1522048983265,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:way:164968674",
+          "lm_2": "osm:way:376075961",
+          "lm_3": "osm:way:10691100",
+          "lm_5": "osm:way:164970992",
+          "lm_6": "osm:way:520990202",
+          "lm_7": "osm:way:281583582",
+          "lm_8": "osm:node:4372839390"
+        },
+        "score": 0.843562,
+        "matched_objects": 7,
+        "max_pair_distance_m": 799.6916807630278,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:way:164968674",
+          "lm_2": "osm:way:376075961",
+          "lm_3": "osm:way:380339835",
+          "lm_5": "osm:way:164970992",
+          "lm_6": "osm:way:520990202",
+          "lm_7": "osm:way:281583582",
+          "lm_8": "osm:way:40779113"
+        },
+        "score": 0.839375,
+        "matched_objects": 7,
+        "max_pair_distance_m": 1855.1589268834234,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:node:476149515",
+          "lm_2": "osm:way:376075961",
+          "lm_3": "osm:way:10691100",
+          "lm_5": "osm:way:164970992",
+          "lm_6": "osm:way:520990202",
+          "lm_7": "osm:way:428202603",
+          "lm_8": "osm:way:40779113"
+        },
+        "score": 0.833625,
+        "matched_objects": 7,
+        "max_pair_distance_m": 1770.5998823432258,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:way:164968674",
+          "lm_2": "osm:way:376075961",
+          "lm_3": "osm:way:10691100",
+          "lm_5": "osm:way:164970992",
+          "lm_6": "osm:way:520990202",
+          "lm_7": "osm:way:428202603",
+          "lm_8": "osm:node:4372839390"
+        },
+        "score": 0.833187,
+        "matched_objects": 7,
+        "max_pair_distance_m": 1770.5998823432258,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:way:164968674",
+          "lm_2": "osm:way:376075961",
+          "lm_3": "osm:way:380339835",
+          "lm_5": "osm:way:164970992",
+          "lm_6": "osm:way:520990202",
+          "lm_7": "osm:way:428202603",
+          "lm_8": "osm:way:40779113"
+        },
+        "score": 0.829,
+        "matched_objects": 7,
+        "max_pair_distance_m": 1855.1589268834234,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:node:476149515",
+          "lm_2": "osm:way:376075961",
+          "lm_3": "osm:way:10691100",
+          "lm_5": "osm:way:164970992",
+          "lm_6": "osm:way:520990202",
+          "lm_7": "osm:way:281583582",
+          "lm_8": "osm:node:4372839390"
+        },
+        "score": 0.827187,
+        "matched_objects": 7,
+        "max_pair_distance_m": 1654.1522048983265,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "beijing",
+        "assignments": {
+          "lm_6": "osm:way:599547918"
+        },
+        "score": 0.099375,
+        "matched_objects": 1,
+        "max_pair_distance_m": 0.0,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      }
+    ],
+    "obstacle_union_cache_hits": 24,
+    "obstacle_union_cache_misses": 4,
+    "obstacle_union_seconds": 11.256373900003382,
+    "area_semantics": "union per local region, then sum disjoint city regions; hypothesis sums are not unique area",
+    "visibility_cache_hits": 0,
+    "visibility_cache_misses": 0,
+    "assigned_budget": 24000,
+    "unused_global_budget": 0
+  },
+  "reliable_landmarks": 7,
+  "outlier_count": 0
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "case": "legacy_beijing_cbd",
+    "ids": [
+      "lm_1",
+      "lm_2"
+    ],
+    "names": [
+      "中国尊",
+      "中央电视台总部大楼"
+    ],
+    "bearings_deg": [
+      116.82469458483394,
+      113.453617054578
+    ],
+    "angular_separation_deg": 3.3710775302559455,
+    "observed_x": [
+      0.565,
+      0.47
+    ],
+    "point_center_implied_fov_deg": 34.42502348485354,
+    "configured_fov_deg": [
+      60,
+      75,
+      90,
+      110,
+      130
+    ],
+    "conclusion": "Point-center angular separation implies a horizontal FOV outside the configured grid",
+    "limitations": "Post-hoc model-consistency calculation only, no new pose or parameter change. Visible bbox centers need not project to OSM representative points; footprint, crop, camera self-report, identity and lens distortion remain uncertain. Not a measured focal length. For same-side rays the smaller admissible FOV is reported; a second solution can exist."
+  },
+  {
+    "case": "legacy_north_bund",
+    "ids": [
+      "lm_1",
+      "lm_2"
+    ],
+    "names": [
+      "东方明珠电视塔",
+      "上海中心大厦"
+    ],
+    "bearings_deg": [
+      158.36430171824705,
+      148.47437321434555
+    ],
+    "angular_separation_deg": 9.889928503901501,
+    "observed_x": [
+      0.495,
+      0.042
+    ],
+    "point_center_implied_fov_deg": 21.792424965878002,
+    "configured_fov_deg": [
+      60,
+      75,
+      90,
+      110,
+      130
+    ],
+    "conclusion": "Point-center angular separation implies a horizontal FOV outside the configured grid",
+    "limitations": "Post-hoc model-consistency calculation only, no new pose or parameter change. Visible bbox centers need not project to OSM representative points; footprint, crop, camera self-report, identity and lens distortion remain uncertain. Not a measured focal length. For same-side rays the smaller admissible FOV is reported; a second solution can exist."
+  }
+]

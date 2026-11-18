@@ -1,0 +1,264 @@
+{
+  "landmarks": [
+    {
+      "name": "Oriental Pearl Tower",
+      "x": 0.18,
+      "y": 0.42,
+      "confidence": 0.9,
+      "matched_landmark_id": null,
+      "id": "lm_1",
+      "name_candidates": [
+        "Oriental Pearl Radio & TV Tower",
+        "Dongfang Mingzhu Guangdianshi Ta"
+      ],
+      "bbox": {
+        "x_min": 0.15,
+        "y_min": 0.15,
+        "x_max": 0.22,
+        "y_max": 0.7
+      },
+      "visual_evidence": [
+        "Tall concrete mast topped by a long thin antenna spire",
+        "Two large reddish-purple spherical observation modules stacked vertically",
+        "Tripod-like splayed legs at the base rising from the waterfront"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Shanghai Tower",
+      "x": 0.733,
+      "y": 0.32,
+      "confidence": 0.85,
+      "matched_landmark_id": null,
+      "id": "lm_2",
+      "name_candidates": [
+        "Shanghai Tower"
+      ],
+      "bbox": {
+        "x_min": 0.71,
+        "y_min": 0.17,
+        "x_max": 0.76,
+        "y_max": 0.47
+      },
+      "visual_evidence": [
+        "Tallest tower in the skyline with a smooth twisting, tapering cylindrical form",
+        "Spiraling glass facade and rounded open crown at the top"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Shanghai World Financial Center",
+      "x": 0.66,
+      "y": 0.5,
+      "confidence": 0.85,
+      "matched_landmark_id": null,
+      "id": "lm_3",
+      "name_candidates": [
+        "Shanghai World Financial Center"
+      ],
+      "bbox": {
+        "x_min": 0.64,
+        "y_min": 0.35,
+        "x_max": 0.68,
+        "y_max": 0.68
+      },
+      "visual_evidence": [
+        "Tall slab tower with a distinctive trapezoidal aperture cut through the upper section",
+        "Angular sloping top edges framing the opening"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Jin Mao Tower",
+      "x": 0.62,
+      "y": 0.52,
+      "confidence": 0.8,
+      "matched_landmark_id": null,
+      "id": "lm_4",
+      "name_candidates": [
+        "Jin Mao Tower"
+      ],
+      "bbox": {
+        "x_min": 0.6,
+        "y_min": 0.38,
+        "x_max": 0.64,
+        "y_max": 0.66
+      },
+      "visual_evidence": [
+        "Stepped, pagoda-like tiered facade narrowing toward a slender needle spire"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    }
+  ],
+  "scene_features": [
+    "Wide river occupying the foreground",
+    "Dense modern high-rise skyline across the water",
+    "Overcast pale grey sky",
+    "Low waterfront band of trees and embankment",
+    "Small boats on the river to the right",
+    "Glass and steel skyscrapers with corporate signage and logos"
+  ],
+  "warnings": [
+    "Building names are inferred from distinctive silhouettes; some mid-rise towers with signage were not individually identified.",
+    "Geographic orientation and exact distances are not inferred.",
+    "Model confidence is an uncalibrated self-assessment, not a probability."
+  ],
+  "image": {
+    "original_size": {
+      "width": 1600,
+      "height": 1067
+    },
+    "oriented_size": {
+      "width": 1600,
+      "height": 1067
+    },
+    "processed_size": {
+      "width": 1600,
+      "height": 1067
+    },
+    "original_format": "JPEG",
+    "encoded_format": "JPEG",
+    "original_bytes": 407477,
+    "processed_bytes": 338944,
+    "orientation_corrected": false
+  },
+  "relations": [
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_1",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_4",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_3",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    }
+  ],
+  "relation_min_gap": 0.03
+}

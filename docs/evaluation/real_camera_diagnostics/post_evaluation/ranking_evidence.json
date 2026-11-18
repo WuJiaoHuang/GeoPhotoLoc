@@ -1,0 +1,4036 @@
+[
+  {
+    "case": "photo_02",
+    "hypothesis_id": "hyp_1",
+    "nearby_best": {
+      "distance_m": 146.1450486798279,
+      "location": {
+        "latitude": 31.23650195752708,
+        "longitude": 121.4886223779667
+      },
+      "trace": {
+        "x": -1560.259148,
+        "y": -387.724804,
+        "feasible": true,
+        "score": 0.97770833,
+        "reasons": [],
+        "outliers": [],
+        "reliable_landmarks": 4,
+        "hard_feasible": true,
+        "phase": "fine",
+        "components": {
+          "projection": 1.0,
+          "order": 0.9166666666666666,
+          "identity": 0.9775,
+          "geometry": 1.0,
+          "normalized_huber_loss": 0.0,
+          "reliable_landmarks": 4,
+          "outlier_count": 0,
+          "identity_evidence_coverage": 1.0,
+          "geometry_completeness": 1.0,
+          "visibility_quality": 0.5
+        },
+        "filters": [],
+        "unknowns": [],
+        "fov": 75.0,
+        "heading": 72.6881115371354,
+        "selection_stage": "region_cap",
+        "score_rank_within_hypothesis": 6,
+        "window_cutoff": 0.89770833
+      },
+      "global_score_rank_lower": 1,
+      "containing_preferred_ranks": [],
+      "detailed_score_audit": {
+        "feasible": true,
+        "score": 0.97770833,
+        "satisfied": 5,
+        "conflicts": 0,
+        "indeterminate": 1,
+        "landmark_count": 4,
+        "components": {
+          "projection": 1.0,
+          "order": 0.9166666666666666,
+          "identity": 0.9775,
+          "geometry": 1.0,
+          "normalized_huber_loss": 0.0,
+          "reliable_landmarks": 4.0,
+          "outlier_count": 0.0,
+          "identity_evidence_coverage": 1.0,
+          "geometry_completeness": 1.0,
+          "visibility_quality": 0.5
+        },
+        "heading": 72.68811155735963,
+        "fov_degrees": 75.0,
+        "principal_point_x": 0.47,
+        "projection_rmse": 0.0,
+        "span_deg": null,
+        "camera_assumptions": [],
+        "bearings_deg": {
+          "lm_1": 47.324751644748396,
+          "lm_2": 94.66780406573726,
+          "lm_3": 89.68556762790874,
+          "lm_4": 86.09573035760081
+        },
+        "distances_m": {
+          "lm_1": 822.4445397593537,
+          "lm_2": 1158.5795388831143,
+          "lm_3": 1341.418194683855,
+          "lm_4": 1176.9803287379443
+        },
+        "reasons": [
+          "physical_hard_constraints_passed; visual evidence is robust and soft",
+          "heuristic_joint_score_not_a_probability",
+          "discrete_camera_hypotheses_not_continuous_optimization"
+        ],
+        "filter_reasons": [],
+        "map_coverage_status": "UNKNOWN",
+        "footprint_evidence": [
+          {
+            "image_landmark_id": "lm_1",
+            "center_bearing_deg": 47.324751644748396,
+            "left_bound_deg": 44.192423647975,
+            "right_bound_deg": 50.457079641521794,
+            "angular_width_deg": 6.264655993546796,
+            "distance_m": 822.4445397593537,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          },
+          {
+            "image_landmark_id": "lm_2",
+            "center_bearing_deg": 94.66780406573726,
+            "left_bound_deg": 92.3794619340383,
+            "right_bound_deg": 96.95614619743621,
+            "angular_width_deg": 4.576684263397908,
+            "distance_m": 1158.5795388831143,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          },
+          {
+            "image_landmark_id": "lm_3",
+            "center_bearing_deg": 89.68556762790874,
+            "left_bound_deg": 88.340765711643,
+            "right_bound_deg": 91.03036954417448,
+            "angular_width_deg": 2.689603832531475,
+            "distance_m": 1341.418194683855,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          },
+          {
+            "image_landmark_id": "lm_4",
+            "center_bearing_deg": 86.09573035760081,
+            "left_bound_deg": 83.8552376499982,
+            "right_bound_deg": 88.33622306520343,
+            "angular_width_deg": 4.480985415205225,
+            "distance_m": 1176.9803287379443,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          }
+        ],
+        "visibility_evidence": [],
+        "stage1_score": 0.97770833,
+        "stage2_score": null,
+        "visibility_reviewed": false,
+        "partial_visibility_evidence": [
+          {
+            "image_landmark_id": "lm_1",
+            "status": "FULL",
+            "fraction": 1.0,
+            "intervals": [
+              [
+                -28.49568790938463,
+                -22.231031915837832
+              ]
+            ],
+            "sufficient": true
+          },
+          {
+            "image_landmark_id": "lm_2",
+            "status": "FULL",
+            "fraction": 1.0,
+            "intervals": [
+              [
+                19.691350376678685,
+                24.268034640076593
+              ]
+            ],
+            "sufficient": true
+          },
+          {
+            "image_landmark_id": "lm_3",
+            "status": "FULL",
+            "fraction": 1.0,
+            "intervals": [
+              [
+                15.652654154283368,
+                18.342257986814843
+              ]
+            ],
+            "sufficient": true
+          },
+          {
+            "image_landmark_id": "lm_4",
+            "status": "FULL",
+            "fraction": 1.0,
+            "intervals": [
+              [
+                11.167126092638568,
+                15.648111507843794
+              ]
+            ],
+            "sufficient": true
+          }
+        ],
+        "projection_evidence": [
+          {
+            "image_landmark_id": "lm_1",
+            "raw_error_deg": 0.0,
+            "normalized_error": 0.0,
+            "tolerance_deg": 4.4000028521965096,
+            "huber_loss": 0.0,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 6.264655993546796
+          },
+          {
+            "image_landmark_id": "lm_2",
+            "raw_error_deg": 0.0,
+            "normalized_error": 0.0,
+            "tolerance_deg": 4.531838463457044,
+            "huber_loss": 0.0,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 4.576684263397908
+          },
+          {
+            "image_landmark_id": "lm_3",
+            "raw_error_deg": 0.0,
+            "normalized_error": 0.0,
+            "tolerance_deg": 4.853662301599075,
+            "huber_loss": 0.0,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 2.689603832531475
+          },
+          {
+            "image_landmark_id": "lm_4",
+            "raw_error_deg": 0.0,
+            "normalized_error": 0.0,
+            "tolerance_deg": 4.999540563993611,
+            "huber_loss": 0.0,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 4.480985415205225
+          }
+        ],
+        "order_evidence": [
+          {
+            "left": "lm_1",
+            "right": "lm_2",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "SATISFIED"
+          },
+          {
+            "left": "lm_1",
+            "right": "lm_3",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "SATISFIED"
+          },
+          {
+            "left": "lm_1",
+            "right": "lm_4",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "SATISFIED"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_2",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "SATISFIED"
+          },
+          {
+            "left": "lm_4",
+            "right": "lm_2",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "SATISFIED"
+          },
+          {
+            "left": "lm_4",
+            "right": "lm_3",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          }
+        ],
+        "outlier_image_ids": [],
+        "outlier_comparisons": [
+          {
+            "image_landmark_id": "lm_1",
+            "keep_score": 0.9777083333333334,
+            "exclude_score": 0.7327083333333333,
+            "keep_loss": 0.0,
+            "exclude_loss": 0.0,
+            "normalized_residual_if_kept": 0.0,
+            "eligible": false,
+            "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+          },
+          {
+            "image_landmark_id": "lm_2",
+            "keep_score": 0.9777083333333334,
+            "exclude_score": 0.7345833333333334,
+            "keep_loss": 0.0,
+            "exclude_loss": 0.0,
+            "normalized_residual_if_kept": 0.0,
+            "eligible": false,
+            "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+          },
+          {
+            "image_landmark_id": "lm_3",
+            "keep_score": 0.9777083333333334,
+            "exclude_score": 0.75125,
+            "keep_loss": 0.0,
+            "exclude_loss": 0.0,
+            "normalized_residual_if_kept": 0.0,
+            "eligible": false,
+            "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+          },
+          {
+            "image_landmark_id": "lm_4",
+            "keep_score": 0.9777083333333334,
+            "exclude_score": 0.75125,
+            "keep_loss": 0.0,
+            "exclude_loss": 0.0,
+            "normalized_residual_if_kept": 0.0,
+            "eligible": false,
+            "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+          }
+        ],
+        "unknown_image_ids": [],
+        "reliable_landmark_count": 4,
+        "identifiability": "MULTI_LANDMARK_AMBIGUITY"
+      },
+      "rounded_trace_score_delta": 0.0,
+      "audit_note": "Existing rounded sample only; detailed scoring cannot change outputs; 1e-6m coordinate rounding can perturb discrete ties."
+    },
+    "top1_score": {
+      "feasible": true,
+      "score": 0.97770833,
+      "satisfied": 5,
+      "conflicts": 0,
+      "indeterminate": 1,
+      "landmark_count": 4,
+      "components": {
+        "projection": 1.0,
+        "order": 0.9166666666666666,
+        "identity": 0.9775,
+        "geometry": 1.0,
+        "normalized_huber_loss": 0.0,
+        "reliable_landmarks": 4.0,
+        "outlier_count": 0.0,
+        "identity_evidence_coverage": 1.0,
+        "geometry_completeness": 1.0,
+        "visibility_quality": 0.5,
+        "visibility_evidence_coverage": 0.0
+      },
+      "heading": 61.497363942931905,
+      "fov_degrees": 60.0,
+      "principal_point_x": 0.47,
+      "projection_rmse": 0.0,
+      "span_deg": null,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 44.61168155263338,
+        "lm_2": 77.05822511019394,
+        "lm_3": 74.94880894641668,
+        "lm_4": 71.20567015911136
+      },
+      "distances_m": {
+        "lm_1": 1443.238103256023,
+        "lm_2": 1600.519961807759,
+        "lm_3": 1808.6273913132316,
+        "lm_4": 1672.0956489320165
+      },
+      "reasons": [
+        "physical_hard_constraints_passed; visual evidence is robust and soft",
+        "heuristic_joint_score_not_a_probability",
+        "discrete_camera_hypotheses_not_continuous_optimization"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "PARTIAL",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 44.61168155263338,
+          "left_bound_deg": 42.76110940913183,
+          "right_bound_deg": 46.46225369613493,
+          "angular_width_deg": 3.7011442870031033,
+          "distance_m": 1443.238103256023,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 77.05822511019394,
+          "left_bound_deg": 75.45129140192077,
+          "right_bound_deg": 78.66515881846712,
+          "angular_width_deg": 3.21386741654635,
+          "distance_m": 1600.519961807759,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 74.94880894641668,
+          "left_bound_deg": 73.87161087326598,
+          "right_bound_deg": 76.02600701956737,
+          "angular_width_deg": 2.1543961463013943,
+          "distance_m": 1808.6273913132316,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 71.20567015911136,
+          "left_bound_deg": 69.6146900705384,
+          "right_bound_deg": 72.79665024768433,
+          "angular_width_deg": 3.1819601771459247,
+          "distance_m": 1672.0956489320165,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 12,
+          "blocked_ratio": 1.0,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": true,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 12,
+          "blocked_ratio": 1.0,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": true,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 12,
+          "blocked_ratio": 1.0,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": true,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 12,
+          "blocked_ratio": 1.0,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": true,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        }
+      ],
+      "stage1_score": 0.97770833,
+      "stage2_score": 0.97770833,
+      "visibility_reviewed": true,
+      "partial_visibility_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              -18.736254533800093,
+              -15.03511024679699
+            ]
+          ],
+          "sufficient": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              13.953927458988858,
+              17.167794875535208
+            ]
+          ],
+          "sufficient": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              12.374246930334067,
+              14.528643076635461
+            ]
+          ],
+          "sufficient": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              8.117326127606503,
+              11.299286304752428
+            ]
+          ],
+          "sufficient": true
+        }
+      ],
+      "projection_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 3.566262787401728,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 3.7011442870031033
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 3.630861244845992,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 3.21386741654635
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 3.7825622187438475,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 2.1543961463013943
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 3.848671419742255,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 3.1819601771459247
+        }
+      ],
+      "order_evidence": [
+        {
+          "left": "lm_1",
+          "right": "lm_2",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "SATISFIED"
+        },
+        {
+          "left": "lm_1",
+          "right": "lm_3",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "SATISFIED"
+        },
+        {
+          "left": "lm_1",
+          "right": "lm_4",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "SATISFIED"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_2",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_4",
+          "right": "lm_2",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "SATISFIED"
+        },
+        {
+          "left": "lm_4",
+          "right": "lm_3",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "SATISFIED"
+        }
+      ],
+      "outlier_image_ids": [],
+      "outlier_comparisons": [
+        {
+          "image_landmark_id": "lm_1",
+          "keep_score": 0.9777083333333334,
+          "exclude_score": 0.7327083333333333,
+          "keep_loss": 0.0,
+          "exclude_loss": 0.0,
+          "normalized_residual_if_kept": 0.0,
+          "eligible": false,
+          "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "keep_score": 0.9777083333333334,
+          "exclude_score": 0.75125,
+          "keep_loss": 0.0,
+          "exclude_loss": 0.0,
+          "normalized_residual_if_kept": 0.0,
+          "eligible": false,
+          "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "keep_score": 0.9777083333333334,
+          "exclude_score": 0.75125,
+          "keep_loss": 0.0,
+          "exclude_loss": 0.0,
+          "normalized_residual_if_kept": 0.0,
+          "eligible": false,
+          "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "keep_score": 0.9777083333333334,
+          "exclude_score": 0.7345833333333334,
+          "keep_loss": 0.0,
+          "exclude_loss": 0.0,
+          "normalized_residual_if_kept": 0.0,
+          "eligible": false,
+          "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+        }
+      ],
+      "unknown_image_ids": [],
+      "reliable_landmark_count": 4,
+      "identifiability": "MULTI_LANDMARK_AMBIGUITY"
+    },
+    "score_difference": 0.0,
+    "interpretation": "Global rank lower bound uses strictly greater scores; rank 1 can be a multi-way tie, never proves uniqueness"
+  },
+  {
+    "case": "photo_08",
+    "hypothesis_id": "hyp_9",
+    "nearby_best": {
+      "distance_m": 141.32674784629128,
+      "location": {
+        "latitude": 39.910399041577165,
+        "longitude": 116.4533383023263
+      },
+      "trace": {
+        "x": -484.105528,
+        "y": -344.293187,
+        "feasible": true,
+        "score": 0.40146429,
+        "reasons": [],
+        "outliers": [],
+        "reliable_landmarks": 2,
+        "hard_feasible": true,
+        "phase": "coarse",
+        "components": {
+          "projection": 0.4642857142857143,
+          "order": 0.525,
+          "identity": 0.2715714285714286,
+          "geometry": 0.2857142857142857,
+          "normalized_huber_loss": 0.0,
+          "reliable_landmarks": 2,
+          "outlier_count": 0,
+          "identity_evidence_coverage": 0.2857142857142857,
+          "geometry_completeness": 0.2857142857142857,
+          "visibility_quality": 0.5
+        },
+        "filters": [],
+        "unknowns": [
+          "lm_construction_highrise",
+          "lm_curved_glass_tower",
+          "lm_dark_rectangular_tower",
+          "lm_elevated_highway",
+          "lm_glass_canopy_building"
+        ],
+        "fov": 60.0,
+        "heading": 69.5154920609064,
+        "selection_stage": "region_cap",
+        "score_rank_within_hypothesis": 9,
+        "window_cutoff": 0.32146429
+      },
+      "global_score_rank_lower": 4293,
+      "containing_preferred_ranks": [],
+      "detailed_score_audit": {
+        "feasible": true,
+        "score": 0.40146429,
+        "satisfied": 1,
+        "conflicts": 0,
+        "indeterminate": 19,
+        "landmark_count": 2,
+        "components": {
+          "projection": 0.4642857142857143,
+          "order": 0.525,
+          "identity": 0.2715714285714286,
+          "geometry": 0.2857142857142857,
+          "normalized_huber_loss": 0.0,
+          "reliable_landmarks": 2.0,
+          "outlier_count": 0.0,
+          "identity_evidence_coverage": 0.2857142857142857,
+          "geometry_completeness": 0.2857142857142857,
+          "visibility_quality": 0.5
+        },
+        "heading": 69.51549204535024,
+        "fov_degrees": 60.0,
+        "principal_point_x": 0.47,
+        "projection_rmse": 0.0,
+        "span_deg": null,
+        "camera_assumptions": [],
+        "bearings_deg": {
+          "lm_cctv_headquarters": 46.27073892426793,
+          "lm_china_zun": 78.05248135984856
+        },
+        "distances_m": {
+          "lm_cctv_headquarters": 432.6348258593582,
+          "lm_china_zun": 556.0365027529057
+        },
+        "reasons": [
+          "physical_hard_constraints_passed; visual evidence is robust and soft",
+          "heuristic_joint_score_not_a_probability",
+          "discrete_camera_hypotheses_not_continuous_optimization"
+        ],
+        "filter_reasons": [],
+        "map_coverage_status": "UNKNOWN",
+        "footprint_evidence": [
+          {
+            "image_landmark_id": "lm_cctv_headquarters",
+            "center_bearing_deg": 46.27073892426793,
+            "left_bound_deg": 34.37373838543235,
+            "right_bound_deg": 58.167739463103516,
+            "angular_width_deg": 23.79400107767117,
+            "distance_m": 432.6348258593582,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          },
+          {
+            "image_landmark_id": "lm_china_zun",
+            "center_bearing_deg": 78.05248135984856,
+            "left_bound_deg": 73.71253246267226,
+            "right_bound_deg": 82.39243025702486,
+            "angular_width_deg": 8.679897794352598,
+            "distance_m": 556.0365027529057,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          }
+        ],
+        "visibility_evidence": [],
+        "stage1_score": 0.40146429,
+        "stage2_score": null,
+        "visibility_reviewed": false,
+        "partial_visibility_evidence": [
+          {
+            "image_landmark_id": "lm_cctv_headquarters",
+            "status": "PARTIAL",
+            "fraction": 0.7839054624258619,
+            "intervals": [
+              [
+                -29.999999999999986,
+                -11.347752582246713
+              ]
+            ],
+            "sufficient": true
+          },
+          {
+            "image_landmark_id": "lm_china_zun",
+            "status": "FULL",
+            "fraction": 1.0,
+            "intervals": [
+              [
+                4.197040417322029,
+                12.876938211674627
+              ]
+            ],
+            "sufficient": true
+          }
+        ],
+        "projection_evidence": [
+          {
+            "image_landmark_id": "lm_cctv_headquarters",
+            "raw_error_deg": 0.0,
+            "normalized_error": 0.0,
+            "tolerance_deg": 3.65710842926383,
+            "huber_loss": 0.0,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 23.79400107767117
+          },
+          {
+            "image_landmark_id": "lm_china_zun",
+            "raw_error_deg": 0.0,
+            "normalized_error": 0.0,
+            "tolerance_deg": 3.8765652499485808,
+            "huber_loss": 0.0,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 8.679897794352598
+          }
+        ],
+        "order_evidence": [
+          {
+            "left": "lm_cctv_headquarters",
+            "right": "lm_china_zun",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "SATISFIED"
+          },
+          {
+            "left": "lm_cctv_headquarters",
+            "right": "lm_construction_highrise",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_cctv_headquarters",
+            "right": "lm_curved_glass_tower",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_cctv_headquarters",
+            "right": "lm_dark_rectangular_tower",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_cctv_headquarters",
+            "right": "lm_elevated_highway",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_cctv_headquarters",
+            "right": "lm_glass_canopy_building",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_china_zun",
+            "right": "lm_construction_highrise",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_china_zun",
+            "right": "lm_curved_glass_tower",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_china_zun",
+            "right": "lm_glass_canopy_building",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_curved_glass_tower",
+            "right": "lm_construction_highrise",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_curved_glass_tower",
+            "right": "lm_glass_canopy_building",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_dark_rectangular_tower",
+            "right": "lm_construction_highrise",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_dark_rectangular_tower",
+            "right": "lm_curved_glass_tower",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_dark_rectangular_tower",
+            "right": "lm_glass_canopy_building",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_elevated_highway",
+            "right": "lm_china_zun",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_elevated_highway",
+            "right": "lm_construction_highrise",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_elevated_highway",
+            "right": "lm_curved_glass_tower",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_elevated_highway",
+            "right": "lm_dark_rectangular_tower",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_elevated_highway",
+            "right": "lm_glass_canopy_building",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_glass_canopy_building",
+            "right": "lm_construction_highrise",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          }
+        ],
+        "outlier_image_ids": [],
+        "outlier_comparisons": [],
+        "unknown_image_ids": [
+          "lm_construction_highrise",
+          "lm_curved_glass_tower",
+          "lm_dark_rectangular_tower",
+          "lm_elevated_highway",
+          "lm_glass_canopy_building"
+        ],
+        "reliable_landmark_count": 2,
+        "identifiability": "AMBIGUOUS_TWO_LANDMARKS"
+      },
+      "rounded_trace_score_delta": 0.0,
+      "audit_note": "Existing rounded sample only; detailed scoring cannot change outputs; 1e-6m coordinate rounding can perturb discrete ties."
+    },
+    "top1_score": {
+      "feasible": true,
+      "score": 0.59221429,
+      "satisfied": 2,
+      "conflicts": 0,
+      "indeterminate": 18,
+      "landmark_count": 4,
+      "components": {
+        "projection": 0.6785714285714286,
+        "order": 0.55,
+        "identity": 0.5002857142857143,
+        "geometry": 0.5714285714285714,
+        "normalized_huber_loss": 0.0,
+        "reliable_landmarks": 4.0,
+        "outlier_count": 0.0,
+        "identity_evidence_coverage": 0.5714285714285714,
+        "geometry_completeness": 0.5714285714285714,
+        "visibility_quality": 0.5,
+        "visibility_evidence_coverage": 0.0
+      },
+      "heading": 79.21833013624439,
+      "fov_degrees": 60.0,
+      "principal_point_x": 0.47,
+      "projection_rmse": 0.0,
+      "span_deg": null,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_cctv_headquarters": 69.29625346804644,
+        "lm_china_zun": 87.7553194507427,
+        "lm_curved_glass_tower": 94.13237406693389,
+        "lm_dark_rectangular_tower": 108.57135987007851
+      },
+      "distances_m": {
+        "lm_cctv_headquarters": 744.3455834692227,
+        "lm_china_zun": 947.4211133637283,
+        "lm_curved_glass_tower": 288.09934370549865,
+        "lm_dark_rectangular_tower": 265.64286587480905
+      },
+      "reasons": [
+        "physical_hard_constraints_passed; visual evidence is robust and soft",
+        "heuristic_joint_score_not_a_probability",
+        "discrete_camera_hypotheses_not_continuous_optimization"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "PARTIAL",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_cctv_headquarters",
+          "center_bearing_deg": 69.29625346804644,
+          "left_bound_deg": 62.11865183479176,
+          "right_bound_deg": 76.47385510130113,
+          "angular_width_deg": 14.355203266509363,
+          "distance_m": 744.3455834692227,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_china_zun",
+          "center_bearing_deg": 87.7553194507427,
+          "left_bound_deg": 85.4411144081859,
+          "right_bound_deg": 90.06952449329951,
+          "angular_width_deg": 4.6284100851136145,
+          "distance_m": 947.4211133637283,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_curved_glass_tower",
+          "center_bearing_deg": 94.13237406693389,
+          "left_bound_deg": 88.38504374251369,
+          "right_bound_deg": 99.8797043913541,
+          "angular_width_deg": 11.494660648840409,
+          "distance_m": 288.09934370549865,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_dark_rectangular_tower",
+          "center_bearing_deg": 108.57135987007851,
+          "left_bound_deg": 71.5839843383927,
+          "right_bound_deg": 145.55873540176432,
+          "angular_width_deg": 73.97475106337163,
+          "distance_m": 265.64286587480905,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [
+        {
+          "image_landmark_id": "lm_cctv_headquarters",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 12,
+          "blocked_ratio": 1.0,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": true,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        },
+        {
+          "image_landmark_id": "lm_china_zun",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 12,
+          "blocked_ratio": 1.0,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": true,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        },
+        {
+          "image_landmark_id": "lm_curved_glass_tower",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 1,
+          "blocked_ratio": 0.08333333333333333,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": false,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        },
+        {
+          "image_landmark_id": "lm_dark_rectangular_tower",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 9,
+          "blocked_ratio": 0.75,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": false,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        }
+      ],
+      "stage1_score": 0.59221429,
+      "stage2_score": 0.59221429,
+      "visibility_reviewed": true,
+      "partial_visibility_evidence": [
+        {
+          "image_landmark_id": "lm_cctv_headquarters",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              -17.099678301452627,
+              -2.744475034943264
+            ]
+          ],
+          "sufficient": true
+        },
+        {
+          "image_landmark_id": "lm_china_zun",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              6.222784271941521,
+              10.851194357055135
+            ]
+          ],
+          "sufficient": true
+        },
+        {
+          "image_landmark_id": "lm_curved_glass_tower",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              9.166713606269298,
+              20.661374255109706
+            ]
+          ],
+          "sufficient": true
+        },
+        {
+          "image_landmark_id": "lm_dark_rectangular_tower",
+          "status": "PARTIAL",
+          "fraction": 0.5087458255264914,
+          "intervals": [
+            [
+              -7.6343457978516795,
+              30.000000000000014
+            ]
+          ],
+          "sufficient": true
+        }
+      ],
+      "projection_evidence": [
+        {
+          "image_landmark_id": "lm_cctv_headquarters",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 3.65710842926383,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 14.355203266509363
+        },
+        {
+          "image_landmark_id": "lm_china_zun",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 3.8765652499485808,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 4.6284100851136145
+        },
+        {
+          "image_landmark_id": "lm_curved_glass_tower",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 3.6911823979965073,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 11.494660648840409
+        },
+        {
+          "image_landmark_id": "lm_dark_rectangular_tower",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 3.9046487964990133,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 73.97475106337163
+        }
+      ],
+      "order_evidence": [
+        {
+          "left": "lm_cctv_headquarters",
+          "right": "lm_china_zun",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "SATISFIED"
+        },
+        {
+          "left": "lm_cctv_headquarters",
+          "right": "lm_construction_highrise",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_cctv_headquarters",
+          "right": "lm_curved_glass_tower",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "SATISFIED"
+        },
+        {
+          "left": "lm_cctv_headquarters",
+          "right": "lm_dark_rectangular_tower",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_cctv_headquarters",
+          "right": "lm_elevated_highway",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_cctv_headquarters",
+          "right": "lm_glass_canopy_building",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_china_zun",
+          "right": "lm_construction_highrise",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_china_zun",
+          "right": "lm_curved_glass_tower",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_china_zun",
+          "right": "lm_glass_canopy_building",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_curved_glass_tower",
+          "right": "lm_construction_highrise",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_curved_glass_tower",
+          "right": "lm_glass_canopy_building",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_dark_rectangular_tower",
+          "right": "lm_construction_highrise",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_dark_rectangular_tower",
+          "right": "lm_curved_glass_tower",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_dark_rectangular_tower",
+          "right": "lm_glass_canopy_building",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_elevated_highway",
+          "right": "lm_china_zun",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_elevated_highway",
+          "right": "lm_construction_highrise",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_elevated_highway",
+          "right": "lm_curved_glass_tower",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_elevated_highway",
+          "right": "lm_dark_rectangular_tower",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_elevated_highway",
+          "right": "lm_glass_canopy_building",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_glass_canopy_building",
+          "right": "lm_construction_highrise",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        }
+      ],
+      "outlier_image_ids": [],
+      "outlier_comparisons": [
+        {
+          "image_landmark_id": "lm_cctv_headquarters",
+          "keep_score": 0.5922142857142858,
+          "exclude_score": 0.4632857142857143,
+          "keep_loss": 0.0,
+          "exclude_loss": 0.0,
+          "normalized_residual_if_kept": 0.0,
+          "eligible": false,
+          "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+        },
+        {
+          "image_landmark_id": "lm_china_zun",
+          "keep_score": 0.5922142857142858,
+          "exclude_score": 0.4696785714285714,
+          "keep_loss": 0.0,
+          "exclude_loss": 0.0,
+          "normalized_residual_if_kept": 0.0,
+          "eligible": false,
+          "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+        },
+        {
+          "image_landmark_id": "lm_curved_glass_tower",
+          "keep_score": 0.5922142857142858,
+          "exclude_score": 0.47130357142857143,
+          "keep_loss": 0.0,
+          "exclude_loss": 0.0,
+          "normalized_residual_if_kept": 0.0,
+          "eligible": false,
+          "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+        },
+        {
+          "image_landmark_id": "lm_dark_rectangular_tower",
+          "keep_score": 0.5922142857142858,
+          "exclude_score": 0.482375,
+          "keep_loss": 0.0,
+          "exclude_loss": 0.0,
+          "normalized_residual_if_kept": 0.0,
+          "eligible": false,
+          "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+        }
+      ],
+      "unknown_image_ids": [
+        "lm_construction_highrise",
+        "lm_elevated_highway",
+        "lm_glass_canopy_building"
+      ],
+      "reliable_landmark_count": 4,
+      "identifiability": "MULTI_LANDMARK_AMBIGUITY"
+    },
+    "score_difference": 0.19075000000000003,
+    "interpretation": "Global rank lower bound uses strictly greater scores; rank 1 can be a multi-way tie, never proves uniqueness"
+  },
+  {
+    "case": "photo_10",
+    "hypothesis_id": "hyp_1",
+    "nearby_best": {
+      "distance_m": 166.2927931439788,
+      "location": {
+        "latitude": 23.104872953748828,
+        "longitude": 113.29947557024379
+      },
+      "trace": {
+        "x": -2409.916987,
+        "y": -1675.059343,
+        "feasible": true,
+        "score": 0.30744441,
+        "reasons": [],
+        "outliers": [],
+        "reliable_landmarks": 2,
+        "hard_feasible": true,
+        "phase": "coarse",
+        "components": {
+          "projection": 0.24625306953995446,
+          "order": 0.5,
+          "identity": 0.26434414285714286,
+          "geometry": 0.2857142857142857,
+          "normalized_huber_loss": 1.440177349493873,
+          "reliable_landmarks": 2,
+          "outlier_count": 0,
+          "identity_evidence_coverage": 0.2857142857142857,
+          "geometry_completeness": 0.2857142857142857,
+          "visibility_quality": 0.5
+        },
+        "filters": [],
+        "unknowns": [
+          "lm_3",
+          "lm_4",
+          "lm_5",
+          "lm_6",
+          "lm_7"
+        ],
+        "fov": 130.0,
+        "heading": 101.34226957901924,
+        "selection_stage": "region_cap",
+        "score_rank_within_hypothesis": 2592,
+        "window_cutoff": 0.22828815999999996
+      },
+      "global_score_rank_lower": 7894,
+      "containing_preferred_ranks": [],
+      "detailed_score_audit": {
+        "feasible": true,
+        "score": 0.30744441,
+        "satisfied": 0,
+        "conflicts": 0,
+        "indeterminate": 20,
+        "landmark_count": 2,
+        "components": {
+          "projection": 0.2462530695384883,
+          "order": 0.5,
+          "identity": 0.26434414285714286,
+          "geometry": 0.2857142857142857,
+          "normalized_huber_loss": 1.4401773495155354,
+          "reliable_landmarks": 2.0,
+          "outlier_count": 0.0,
+          "identity_evidence_coverage": 0.2857142857142857,
+          "geometry_completeness": 0.2857142857142857,
+          "visibility_quality": 0.5
+        },
+        "heading": 101.34226958530374,
+        "fov_degrees": 130.0,
+        "principal_point_x": 0.53,
+        "projection_rmse": 34.330899330486965,
+        "span_deg": null,
+        "camera_assumptions": [],
+        "bearings_deg": {
+          "lm_1": 47.907810232022506,
+          "lm_2": 51.11049007330889
+        },
+        "distances_m": {
+          "lm_1": 2517.888433914308,
+          "lm_2": 2224.1869253563477
+        },
+        "reasons": [
+          "physical_hard_constraints_passed; visual evidence is robust and soft",
+          "heuristic_joint_score_not_a_probability",
+          "discrete_camera_hypotheses_not_continuous_optimization"
+        ],
+        "filter_reasons": [],
+        "map_coverage_status": "UNKNOWN",
+        "footprint_evidence": [
+          {
+            "image_landmark_id": "lm_1",
+            "center_bearing_deg": 47.907810232022506,
+            "left_bound_deg": 47.19481528197189,
+            "right_bound_deg": 48.62080518207312,
+            "angular_width_deg": 1.4259899001012286,
+            "distance_m": 2517.888433914308,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          },
+          {
+            "image_landmark_id": "lm_2",
+            "center_bearing_deg": 51.11049007330889,
+            "left_bound_deg": 48.91999688404548,
+            "right_bound_deg": 53.300983262572295,
+            "angular_width_deg": 4.3809863785268135,
+            "distance_m": 2224.1869253563477,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          }
+        ],
+        "visibility_evidence": [],
+        "stage1_score": 0.30744441,
+        "stage2_score": null,
+        "visibility_reviewed": false,
+        "partial_visibility_evidence": [
+          {
+            "image_landmark_id": "lm_1",
+            "status": "FULL",
+            "fraction": 1.0,
+            "intervals": [
+              [
+                -54.14745430333184,
+                -52.72146440323061
+              ]
+            ],
+            "sufficient": true
+          },
+          {
+            "image_landmark_id": "lm_2",
+            "status": "FULL",
+            "fraction": 1.0,
+            "intervals": [
+              [
+                -52.422272701258265,
+                -48.04128632273145
+              ]
+            ],
+            "sufficient": true
+          }
+        ],
+        "projection_evidence": [
+          {
+            "image_landmark_id": "lm_1",
+            "raw_error_deg": 48.551223441640076,
+            "normalized_error": 3.380354699031071,
+            "tolerance_deg": 14.36276005460509,
+            "huber_loss": 2.880354699031071,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 1.4259899001012286
+          },
+          {
+            "image_landmark_id": "lm_2",
+            "raw_error_deg": 0.0,
+            "normalized_error": 0.0,
+            "tolerance_deg": 5.5514308247560145,
+            "huber_loss": 0.0,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 4.3809863785268135
+          }
+        ],
+        "order_evidence": [
+          {
+            "left": "lm_1",
+            "right": "lm_4",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_1",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_1",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_4",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_6",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_7",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_1",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_2",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_4",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_6",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_7",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_4",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_6",
+            "right": "lm_4",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_6",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_7",
+            "right": "lm_1",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_7",
+            "right": "lm_4",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_7",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_7",
+            "right": "lm_6",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          }
+        ],
+        "outlier_image_ids": [],
+        "outlier_comparisons": [],
+        "unknown_image_ids": [
+          "lm_3",
+          "lm_4",
+          "lm_5",
+          "lm_6",
+          "lm_7"
+        ],
+        "reliable_landmark_count": 2,
+        "identifiability": "AMBIGUOUS_TWO_LANDMARKS"
+      },
+      "rounded_trace_score_delta": 0.0,
+      "audit_note": "Existing rounded sample only; detailed scoring cannot change outputs; 1e-6m coordinate rounding can perturb discrete ties."
+    },
+    "top1_score": {
+      "feasible": true,
+      "score": 0.39965746,
+      "satisfied": 1,
+      "conflicts": 0,
+      "indeterminate": 19,
+      "landmark_count": 2,
+      "components": {
+        "projection": 0.4642857142857143,
+        "order": 0.525,
+        "identity": 0.26434414285714286,
+        "geometry": 0.2857142857142857,
+        "normalized_huber_loss": 0.0,
+        "reliable_landmarks": 2.0,
+        "outlier_count": 0.0,
+        "identity_evidence_coverage": 0.2857142857142857,
+        "geometry_completeness": 0.2857142857142857,
+        "visibility_quality": 0.9375,
+        "visibility_evidence_coverage": 1.0
+      },
+      "heading": 247.1017356331423,
+      "fov_degrees": 60.0,
+      "principal_point_x": 0.47,
+      "projection_rmse": 0.0,
+      "span_deg": null,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 249.9442583452282,
+        "lm_2": 225.22899377073756
+      },
+      "distances_m": {
+        "lm_1": 255.08988144440556,
+        "lm_2": 420.4060014072765
+      },
+      "reasons": [
+        "physical_hard_constraints_passed; visual evidence is robust and soft",
+        "heuristic_joint_score_not_a_probability",
+        "discrete_camera_hypotheses_not_continuous_optimization"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "COMPLETE",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 249.9442583452282,
+          "left_bound_deg": 244.08310288822295,
+          "right_bound_deg": 255.80541380223346,
+          "angular_width_deg": 11.722310914010507,
+          "distance_m": 255.08988144440556,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 225.22899377073756,
+          "left_bound_deg": 214.8742356791781,
+          "right_bound_deg": 235.58375186229702,
+          "angular_width_deg": 20.70951618311892,
+          "distance_m": 420.4060014072765,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "visibility_status": "CLEAR",
+          "valid_rays": 12,
+          "blocked_rays": 0,
+          "blocked_ratio": 0.0,
+          "complete_ray_fraction": 1.0,
+          "fully_blocked_2d": false,
+          "quality": 1.0,
+          "reason": "two_dimensional_only_height_and_pitch_unknown"
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "visibility_status": "POTENTIALLY_OCCLUDED",
+          "valid_rays": 12,
+          "blocked_rays": 3,
+          "blocked_ratio": 0.25,
+          "complete_ray_fraction": 1.0,
+          "fully_blocked_2d": false,
+          "quality": 0.875,
+          "reason": "two_dimensional_only_height_and_pitch_unknown"
+        }
+      ],
+      "stage1_score": 0.39965746,
+      "stage2_score": 0.39965746,
+      "visibility_reviewed": true,
+      "partial_visibility_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              -3.0186327449193584,
+              8.703678169091148
+            ]
+          ],
+          "sufficient": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "status": "PARTIAL",
+          "fraction": 0.892440753600032,
+          "intervals": [
+            [
+              -29.999999999999986,
+              -11.517983770845277
+            ]
+          ],
+          "sufficient": true
+        }
+      ],
+      "projection_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 3.9535654339022184,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 11.722310914010507
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 3.675984849845869,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 20.70951618311892
+        }
+      ],
+      "order_evidence": [
+        {
+          "left": "lm_1",
+          "right": "lm_4",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_1",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_1",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "SATISFIED"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_4",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_6",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_7",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_1",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_2",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_4",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_6",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_7",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_4",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_6",
+          "right": "lm_4",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_6",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_7",
+          "right": "lm_1",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_7",
+          "right": "lm_4",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_7",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_7",
+          "right": "lm_6",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        }
+      ],
+      "outlier_image_ids": [],
+      "outlier_comparisons": [],
+      "unknown_image_ids": [
+        "lm_3",
+        "lm_4",
+        "lm_5",
+        "lm_6",
+        "lm_7"
+      ],
+      "reliable_landmark_count": 2,
+      "identifiability": "AMBIGUOUS_TWO_LANDMARKS"
+    },
+    "score_difference": 0.09221305000000002,
+    "interpretation": "Global rank lower bound uses strictly greater scores; rank 1 can be a multi-way tie, never proves uniqueness"
+  },
+  {
+    "case": "legacy_beijing_cbd",
+    "hypothesis_id": "hyp_1",
+    "nearby_best": {
+      "distance_m": 68.24195466553003,
+      "location": {
+        "latitude": 39.92069551105217,
+        "longitude": 116.43600135003541
+      },
+      "trace": {
+        "x": -1966.213493,
+        "y": 799.192679,
+        "feasible": true,
+        "score": 0.39354761,
+        "reasons": [],
+        "outliers": [],
+        "reliable_landmarks": 2,
+        "hard_feasible": true,
+        "phase": "coarse",
+        "components": {
+          "projection": 0.4642857142857143,
+          "order": 0.5,
+          "identity": 0.25990471428571427,
+          "geometry": 0.2857142857142857,
+          "normalized_huber_loss": 0.0,
+          "reliable_landmarks": 2,
+          "outlier_count": 0,
+          "identity_evidence_coverage": 0.2857142857142857,
+          "geometry_completeness": 0.2857142857142857,
+          "visibility_quality": 0.5
+        },
+        "filters": [],
+        "unknowns": [
+          "lm_3",
+          "lm_4",
+          "lm_5",
+          "lm_6",
+          "lm_7"
+        ],
+        "fov": 60.0,
+        "heading": 109.98732270477981,
+        "selection_stage": "region_cap",
+        "score_rank_within_hypothesis": 1398,
+        "window_cutoff": 0.31354761
+      },
+      "global_score_rank_lower": 1378,
+      "containing_preferred_ranks": [],
+      "detailed_score_audit": {
+        "feasible": true,
+        "score": 0.39354761,
+        "satisfied": 0,
+        "conflicts": 0,
+        "indeterminate": 20,
+        "landmark_count": 2,
+        "components": {
+          "projection": 0.4642857142857143,
+          "order": 0.5,
+          "identity": 0.25990471428571427,
+          "geometry": 0.2857142857142857,
+          "normalized_huber_loss": 0.0,
+          "reliable_landmarks": 2.0,
+          "outlier_count": 0.0,
+          "identity_evidence_coverage": 0.2857142857142857,
+          "geometry_completeness": 0.2857142857142857,
+          "visibility_quality": 0.5
+        },
+        "heading": 109.98732269929324,
+        "fov_degrees": 60.0,
+        "principal_point_x": 0.47,
+        "projection_rmse": 0.0,
+        "span_deg": null,
+        "camera_assumptions": [],
+        "bearings_deg": {
+          "lm_1": 116.247442143801,
+          "lm_2": 112.21636088197062
+        },
+        "distances_m": {
+          "lm_1": 2256.783783920952,
+          "lm_2": 1923.2230885105623
+        },
+        "reasons": [
+          "physical_hard_constraints_passed; visual evidence is robust and soft",
+          "heuristic_joint_score_not_a_probability",
+          "discrete_camera_hypotheses_not_continuous_optimization"
+        ],
+        "filter_reasons": [],
+        "map_coverage_status": "UNKNOWN",
+        "footprint_evidence": [
+          {
+            "image_landmark_id": "lm_1",
+            "center_bearing_deg": 116.247442143801,
+            "left_bound_deg": 114.9513901287092,
+            "right_bound_deg": 117.54349415889278,
+            "angular_width_deg": 2.5921040301835774,
+            "distance_m": 2256.783783920952,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          },
+          {
+            "image_landmark_id": "lm_2",
+            "center_bearing_deg": 112.21636088197062,
+            "left_bound_deg": 109.17938741963235,
+            "right_bound_deg": 115.25333434430888,
+            "angular_width_deg": 6.073946924676534,
+            "distance_m": 1923.2230885105623,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          }
+        ],
+        "visibility_evidence": [],
+        "stage1_score": 0.39354761,
+        "stage2_score": null,
+        "visibility_reviewed": false,
+        "partial_visibility_evidence": [
+          {
+            "image_landmark_id": "lm_1",
+            "status": "FULL",
+            "fraction": 1.0,
+            "intervals": [
+              [
+                4.964067429415962,
+                7.55617145959954
+              ]
+            ],
+            "sufficient": true
+          },
+          {
+            "image_landmark_id": "lm_2",
+            "status": "FULL",
+            "fraction": 1.0,
+            "intervals": [
+              [
+                -0.80793527966091,
+                5.266011645015624
+              ]
+            ],
+            "sufficient": true
+          }
+        ],
+        "projection_evidence": [
+          {
+            "image_landmark_id": "lm_1",
+            "raw_error_deg": 0.0,
+            "normalized_error": 0.0,
+            "tolerance_deg": 3.916477765099585,
+            "huber_loss": 0.0,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 2.5921040301835774
+          },
+          {
+            "image_landmark_id": "lm_2",
+            "raw_error_deg": 0.0,
+            "normalized_error": 0.0,
+            "tolerance_deg": 3.963234967449786,
+            "huber_loss": 0.0,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 6.073946924676534
+          }
+        ],
+        "order_evidence": [
+          {
+            "left": "lm_1",
+            "right": "lm_4",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_1",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_1",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_4",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_7",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_1",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_2",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_4",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_7",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_5",
+            "right": "lm_4",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_6",
+            "right": "lm_1",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_6",
+            "right": "lm_2",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_6",
+            "right": "lm_3",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_6",
+            "right": "lm_4",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_6",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_6",
+            "right": "lm_7",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_7",
+            "right": "lm_4",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_7",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          }
+        ],
+        "outlier_image_ids": [],
+        "outlier_comparisons": [],
+        "unknown_image_ids": [
+          "lm_3",
+          "lm_4",
+          "lm_5",
+          "lm_6",
+          "lm_7"
+        ],
+        "reliable_landmark_count": 2,
+        "identifiability": "AMBIGUOUS_TWO_LANDMARKS"
+      },
+      "rounded_trace_score_delta": 0.0,
+      "audit_note": "Existing rounded sample only; detailed scoring cannot change outputs; 1e-6m coordinate rounding can perturb discrete ties."
+    },
+    "top1_score": {
+      "feasible": true,
+      "score": 0.39854761,
+      "satisfied": 1,
+      "conflicts": 0,
+      "indeterminate": 19,
+      "landmark_count": 2,
+      "components": {
+        "projection": 0.4642857142857143,
+        "order": 0.525,
+        "identity": 0.25990471428571427,
+        "geometry": 0.2857142857142857,
+        "normalized_huber_loss": 0.0,
+        "reliable_landmarks": 2.0,
+        "outlier_count": 0.0,
+        "identity_evidence_coverage": 0.2857142857142857,
+        "geometry_completeness": 0.2857142857142857,
+        "visibility_quality": 0.5,
+        "visibility_evidence_coverage": 0.0
+      },
+      "heading": 61.8787808018644,
+      "fov_degrees": 60.0,
+      "principal_point_x": 0.47,
+      "projection_rmse": 0.0,
+      "span_deg": null,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 67.49035036986615,
+        "lm_2": 63.34678413674434
+      },
+      "distances_m": {
+        "lm_1": 4334.190435960142,
+        "lm_2": 4207.744016719398
+      },
+      "reasons": [
+        "physical_hard_constraints_passed; visual evidence is robust and soft",
+        "heuristic_joint_score_not_a_probability",
+        "discrete_camera_hypotheses_not_continuous_optimization"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "UNKNOWN",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 67.49035036986615,
+          "left_bound_deg": 66.82762144713584,
+          "right_bound_deg": 68.15307929259646,
+          "angular_width_deg": 1.325457845460619,
+          "distance_m": 4334.190435960142,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 63.34678413674434,
+          "left_bound_deg": 61.8787808018644,
+          "right_bound_deg": 64.81478747162427,
+          "angular_width_deg": 2.936006669759877,
+          "distance_m": 4207.744016719398,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 12,
+          "blocked_ratio": 1.0,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": true,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 12,
+          "blocked_ratio": 1.0,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": true,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        }
+      ],
+      "stage1_score": 0.39854761,
+      "stage2_score": 0.39854761,
+      "visibility_reviewed": true,
+      "partial_visibility_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              4.948840645271446,
+              6.274298490732065
+            ]
+          ],
+          "sufficient": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "status": "FULL",
+          "fraction": 0.9999999999999976,
+          "intervals": [
+            [
+              3.552713678800501e-15,
+              2.9360066697598732
+            ]
+          ],
+          "sufficient": true
+        }
+      ],
+      "projection_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 3.916477765099585,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 1.325457845460619
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 3.963234967449786,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 2.936006669759877
+        }
+      ],
+      "order_evidence": [
+        {
+          "left": "lm_1",
+          "right": "lm_4",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_1",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_1",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "SATISFIED"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_4",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_7",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_1",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_2",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_4",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_7",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_5",
+          "right": "lm_4",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_6",
+          "right": "lm_1",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_6",
+          "right": "lm_2",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_6",
+          "right": "lm_3",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_6",
+          "right": "lm_4",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_6",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_6",
+          "right": "lm_7",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_7",
+          "right": "lm_4",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_7",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        }
+      ],
+      "outlier_image_ids": [],
+      "outlier_comparisons": [],
+      "unknown_image_ids": [
+        "lm_3",
+        "lm_4",
+        "lm_5",
+        "lm_6",
+        "lm_7"
+      ],
+      "reliable_landmark_count": 2,
+      "identifiability": "AMBIGUOUS_TWO_LANDMARKS"
+    },
+    "score_difference": 0.0050000000000000044,
+    "interpretation": "Global rank lower bound uses strictly greater scores; rank 1 can be a multi-way tie, never proves uniqueness"
+  },
+  {
+    "case": "legacy_north_bund",
+    "hypothesis_id": "hyp_10",
+    "nearby_best": {
+      "distance_m": 191.46776399235577,
+      "location": {
+        "latitude": 31.246254132703353,
+        "longitude": 121.49316441773551
+      },
+      "trace": {
+        "x": -1127.433415,
+        "y": 693.478931,
+        "feasible": true,
+        "score": 0.59113429,
+        "reasons": [],
+        "outliers": [],
+        "reliable_landmarks": 3,
+        "hard_feasible": true,
+        "phase": "fine",
+        "components": {
+          "projection": 0.6236839316917437,
+          "order": 0.6,
+          "identity": 0.5437857142857142,
+          "geometry": 0.5714285714285714,
+          "normalized_huber_loss": 0.1009846808689169,
+          "reliable_landmarks": 3,
+          "outlier_count": 0,
+          "identity_evidence_coverage": 0.5714285714285714,
+          "geometry_completeness": 0.5714285714285714,
+          "visibility_quality": 0.5
+        },
+        "filters": [],
+        "unknowns": [
+          "lm_2",
+          "lm_5",
+          "lm_7"
+        ],
+        "fov": 60.0,
+        "heading": 156.31882236043728,
+        "selection_stage": "preferred",
+        "score_rank_within_hypothesis": 6,
+        "window_cutoff": 0.51561205
+      },
+      "global_score_rank_lower": 15,
+      "containing_preferred_ranks": [
+        2
+      ],
+      "detailed_score_audit": {
+        "feasible": true,
+        "score": 0.59113429,
+        "satisfied": 3,
+        "conflicts": 0,
+        "indeterminate": 12,
+        "landmark_count": 4,
+        "components": {
+          "projection": 0.623683931733967,
+          "order": 0.6,
+          "identity": 0.5437857142857142,
+          "geometry": 0.5714285714285714,
+          "normalized_huber_loss": 0.10098468078717453,
+          "reliable_landmarks": 3.0,
+          "outlier_count": 0.0,
+          "identity_evidence_coverage": 0.5714285714285714,
+          "geometry_completeness": 0.5714285714285714,
+          "visibility_quality": 0.5
+        },
+        "heading": 156.31882237839378,
+        "fov_degrees": 60.0,
+        "principal_point_x": 0.53,
+        "projection_rmse": 2.2652064469291737,
+        "span_deg": null,
+        "camera_assumptions": [],
+        "bearings_deg": {
+          "lm_1": 158.28722535113883,
+          "lm_3": 138.7501357355642,
+          "lm_4": 141.80413228018705,
+          "lm_6": 169.418278964615
+        },
+        "distances_m": {
+          "lm_1": 482.41769205017806,
+          "lm_3": 1385.1359537215965,
+          "lm_4": 1227.2320792877247,
+          "lm_6": 1066.7362462102517
+        },
+        "reasons": [
+          "physical_hard_constraints_passed; visual evidence is robust and soft",
+          "heuristic_joint_score_not_a_probability",
+          "discrete_camera_hypotheses_not_continuous_optimization"
+        ],
+        "filter_reasons": [],
+        "map_coverage_status": "UNKNOWN",
+        "footprint_evidence": [
+          {
+            "image_landmark_id": "lm_1",
+            "center_bearing_deg": 158.28722535113883,
+            "left_bound_deg": 152.64947857364282,
+            "right_bound_deg": 163.92497212863483,
+            "angular_width_deg": 11.27549355499201,
+            "distance_m": 482.41769205017806,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          },
+          {
+            "image_landmark_id": "lm_3",
+            "center_bearing_deg": 138.7501357355642,
+            "left_bound_deg": 137.0677448415757,
+            "right_bound_deg": 140.43252662955274,
+            "angular_width_deg": 3.3647817879770514,
+            "distance_m": 1385.1359537215965,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          },
+          {
+            "image_landmark_id": "lm_4",
+            "center_bearing_deg": 141.80413228018705,
+            "left_bound_deg": 139.97140044627548,
+            "right_bound_deg": 143.6368641140986,
+            "angular_width_deg": 3.6654636678231327,
+            "distance_m": 1227.2320792877247,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          },
+          {
+            "image_landmark_id": "lm_6",
+            "center_bearing_deg": 169.418278964615,
+            "left_bound_deg": 168.05714410707557,
+            "right_bound_deg": 170.77941382215445,
+            "angular_width_deg": 2.7222697150788804,
+            "distance_m": 1066.7362462102517,
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "valid": true
+          }
+        ],
+        "visibility_evidence": [],
+        "stage1_score": 0.59113429,
+        "stage2_score": null,
+        "visibility_reviewed": false,
+        "partial_visibility_evidence": [
+          {
+            "image_landmark_id": "lm_1",
+            "status": "FULL",
+            "fraction": 1.0,
+            "intervals": [
+              [
+                -3.6693438047509517,
+                7.606149750241059
+              ]
+            ],
+            "sufficient": true
+          },
+          {
+            "image_landmark_id": "lm_3",
+            "status": "FULL",
+            "fraction": 1.0,
+            "intervals": [
+              [
+                -19.251077536818087,
+                -15.886295748841036
+              ]
+            ],
+            "sufficient": true
+          },
+          {
+            "image_landmark_id": "lm_4",
+            "status": "FULL",
+            "fraction": 1.0,
+            "intervals": [
+              [
+                -16.347421932118294,
+                -12.681958264295162
+              ]
+            ],
+            "sufficient": true
+          },
+          {
+            "image_landmark_id": "lm_6",
+            "status": "FULL",
+            "fraction": 1.0,
+            "intervals": [
+              [
+                11.738321728681797,
+                14.460591443760677
+              ]
+            ],
+            "sufficient": true
+          }
+        ],
+        "projection_evidence": [
+          {
+            "image_landmark_id": "lm_1",
+            "raw_error_deg": 0.0,
+            "normalized_error": 0.0,
+            "tolerance_deg": 3.956823459805329,
+            "huber_loss": 0.0,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 11.27549355499201
+          },
+          {
+            "image_landmark_id": "lm_3",
+            "raw_error_deg": 1.7814368332320782,
+            "normalized_error": 0.5154743459266787,
+            "tolerance_deg": 3.455917539464652,
+            "huber_loss": 0.13285690065426864,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 3.3647817879770514
+          },
+          {
+            "image_landmark_id": "lm_4",
+            "raw_error_deg": 4.144968949796862,
+            "normalized_error": 1.0692375034450503,
+            "tolerance_deg": 3.8765652499485843,
+            "huber_loss": 0.5692375034450503,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 3.6654636678231327
+          },
+          {
+            "image_landmark_id": "lm_6",
+            "raw_error_deg": 0.41274229642954197,
+            "normalized_error": 0.11143297336963093,
+            "tolerance_deg": 3.7039512089518336,
+            "huber_loss": 0.0062086537769984376,
+            "status": "INLIER",
+            "geometry_quality": "COMPLETE_OUTLINE",
+            "allowed_angular_width_deg": 2.7222697150788804
+          }
+        ],
+        "order_evidence": [
+          {
+            "left": "lm_1",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_1",
+            "right": "lm_6",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "SATISFIED"
+          },
+          {
+            "left": "lm_1",
+            "right": "lm_7",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_1",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_3",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_6",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_2",
+            "right": "lm_7",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_1",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "SATISFIED"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_5",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_6",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "SATISFIED"
+          },
+          {
+            "left": "lm_3",
+            "right": "lm_7",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_5",
+            "right": "lm_6",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_5",
+            "right": "lm_7",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          },
+          {
+            "left": "lm_6",
+            "right": "lm_7",
+            "weight": 1.0,
+            "sources": [
+              "explicit",
+              "image_x"
+            ],
+            "downweight_reasons": [],
+            "status": "INDETERMINATE"
+          }
+        ],
+        "outlier_image_ids": [],
+        "outlier_comparisons": [
+          {
+            "image_landmark_id": "lm_1",
+            "keep_score": 0.5911342869793011,
+            "exclude_score": 0.45677168060165324,
+            "keep_loss": 0.10098468078717453,
+            "exclude_loss": 0.14395688537746154,
+            "normalized_residual_if_kept": 0.0,
+            "eligible": false,
+            "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+          },
+          {
+            "image_landmark_id": "lm_3",
+            "keep_score": 0.5911342869793011,
+            "exclude_score": 0.4769525181313378,
+            "keep_loss": 0.10098468078717453,
+            "exclude_loss": 0.030243629131726447,
+            "normalized_residual_if_kept": 0.5154743459266787,
+            "eligible": false,
+            "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+          },
+          {
+            "image_landmark_id": "lm_4",
+            "keep_score": 0.5911342869793011,
+            "exclude_score": 0.4876276238904376,
+            "keep_loss": 0.10098468078717453,
+            "exclude_loss": 0.04635518481042236,
+            "normalized_residual_if_kept": 1.0692375034450503,
+            "eligible": false,
+            "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+          },
+          {
+            "image_landmark_id": "lm_6",
+            "keep_score": 0.5911342869793011,
+            "exclude_score": 0.45946795748170693,
+            "keep_loss": 0.10098468078717453,
+            "exclude_loss": 0.14131490504682392,
+            "normalized_residual_if_kept": 0.11143297336963093,
+            "eligible": false,
+            "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+          }
+        ],
+        "unknown_image_ids": [
+          "lm_2",
+          "lm_5",
+          "lm_7"
+        ],
+        "reliable_landmark_count": 3,
+        "identifiability": "MULTI_LANDMARK_AMBIGUITY"
+      },
+      "rounded_trace_score_delta": 0.0,
+      "audit_note": "Existing rounded sample only; detailed scoring cannot change outputs; 1e-6m coordinate rounding can perturb discrete ties."
+    },
+    "top1_score": {
+      "feasible": true,
+      "score": 0.61248873,
+      "satisfied": 3,
+      "conflicts": 0,
+      "indeterminate": 12,
+      "landmark_count": 4,
+      "components": {
+        "projection": 0.6739896828555477,
+        "order": 0.6,
+        "identity": 0.5487142857142857,
+        "geometry": 0.5714285714285714,
+        "normalized_huber_loss": 0.008050372470549955,
+        "reliable_landmarks": 3.0,
+        "outlier_count": 0.0,
+        "identity_evidence_coverage": 0.5714285714285714,
+        "geometry_completeness": 0.5714285714285714,
+        "visibility_quality": 0.5,
+        "visibility_evidence_coverage": 0.0
+      },
+      "heading": 298.69181039179233,
+      "fov_degrees": 90.0,
+      "principal_point_x": 0.53,
+      "projection_rmse": 1.0293145399583155,
+      "span_deg": null,
+      "camera_assumptions": [],
+      "bearings_deg": {
+        "lm_1": 297.9217933060853,
+        "lm_2": 258.7366063387137,
+        "lm_3": 269.772747940081,
+        "lm_4": 277.42990141443073
+      },
+      "distances_m": {
+        "lm_1": 1218.2122935872178,
+        "lm_2": 523.5045486565624,
+        "lm_3": 357.71712830924736,
+        "lm_4": 502.7027052808049
+      },
+      "reasons": [
+        "physical_hard_constraints_passed; visual evidence is robust and soft",
+        "heuristic_joint_score_not_a_probability",
+        "discrete_camera_hypotheses_not_continuous_optimization"
+      ],
+      "filter_reasons": [],
+      "map_coverage_status": "PARTIAL",
+      "footprint_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "center_bearing_deg": 297.9217933060853,
+          "left_bound_deg": 295.8591970554787,
+          "right_bound_deg": 299.9843895566919,
+          "angular_width_deg": 4.125192501213178,
+          "distance_m": 1218.2122935872178,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "center_bearing_deg": 258.7366063387137,
+          "left_bound_deg": 253.915265802607,
+          "right_bound_deg": 263.55794687482046,
+          "angular_width_deg": 9.642681072213463,
+          "distance_m": 523.5045486565624,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "center_bearing_deg": 269.772747940081,
+          "left_bound_deg": 265.02819520904535,
+          "right_bound_deg": 274.51730067111663,
+          "angular_width_deg": 9.48910546207128,
+          "distance_m": 357.71712830924736,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "center_bearing_deg": 277.42990141443073,
+          "left_bound_deg": 272.43495840457365,
+          "right_bound_deg": 282.4248444242878,
+          "angular_width_deg": 9.989886019714163,
+          "distance_m": 502.7027052808049,
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "valid": true
+        }
+      ],
+      "visibility_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 12,
+          "blocked_ratio": 1.0,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": true,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 12,
+          "blocked_ratio": 1.0,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": true,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 12,
+          "blocked_ratio": 1.0,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": true,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "visibility_status": "UNKNOWN",
+          "valid_rays": 12,
+          "blocked_rays": 8,
+          "blocked_ratio": 0.6666666666666666,
+          "complete_ray_fraction": 0.0,
+          "fully_blocked_2d": false,
+          "quality": 0.5,
+          "reason": "ray_corridor_not_fully_covered"
+        }
+      ],
+      "stage1_score": 0.61248873,
+      "stage2_score": 0.61248873,
+      "visibility_reviewed": true,
+      "partial_visibility_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              -2.8326133363136137,
+              1.2925791648995641
+            ]
+          ],
+          "sufficient": true
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              -44.776544589185335,
+              -35.13386351697187
+            ]
+          ],
+          "sufficient": true
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              -33.66361518274698,
+              -24.1745097206757
+            ]
+          ],
+          "sufficient": true
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "status": "FULL",
+          "fraction": 1.0,
+          "intervals": [
+            [
+              -26.25685198721868,
+              -16.266965967504518
+            ]
+          ],
+          "sufficient": true
+        }
+      ],
+      "projection_evidence": [
+        {
+          "image_landmark_id": "lm_1",
+          "raw_error_deg": 1.1715596043957817,
+          "normalized_error": 0.17203048159680784,
+          "tolerance_deg": 6.810186157250872,
+          "huber_loss": 0.01479724329921482,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 4.125192501213178
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 3.0524059669753356,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 9.642681072213463
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "raw_error_deg": 0.0,
+          "normalized_error": 0.0,
+          "tolerance_deg": 4.766403283854876,
+          "huber_loss": 0.0,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 9.48910546207128
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "raw_error_deg": 1.6927497694657632,
+          "normalized_error": 0.2637260968410492,
+          "tolerance_deg": 6.418590309194935,
+          "huber_loss": 0.03477572707750723,
+          "status": "INLIER",
+          "geometry_quality": "COMPLETE_OUTLINE",
+          "allowed_angular_width_deg": 9.989886019714163
+        }
+      ],
+      "order_evidence": [
+        {
+          "left": "lm_1",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_1",
+          "right": "lm_6",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_1",
+          "right": "lm_7",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_1",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "SATISFIED"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_3",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "SATISFIED"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_6",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_2",
+          "right": "lm_7",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_1",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "SATISFIED"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_5",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_6",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_3",
+          "right": "lm_7",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_5",
+          "right": "lm_6",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_5",
+          "right": "lm_7",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        },
+        {
+          "left": "lm_6",
+          "right": "lm_7",
+          "weight": 1.0,
+          "sources": [
+            "explicit",
+            "image_x"
+          ],
+          "downweight_reasons": [],
+          "status": "INDETERMINATE"
+        }
+      ],
+      "outlier_image_ids": [],
+      "outlier_comparisons": [
+        {
+          "image_landmark_id": "lm_1",
+          "keep_score": 0.6124887302850762,
+          "exclude_score": 0.4809880952380952,
+          "keep_loss": 0.008050372470549955,
+          "exclude_loss": 0.0,
+          "normalized_residual_if_kept": 0.17203048159680784,
+          "eligible": false,
+          "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+        },
+        {
+          "image_landmark_id": "lm_2",
+          "keep_score": 0.6124887302850762,
+          "exclude_score": 0.4801887528574628,
+          "keep_loss": 0.008050372470549955,
+          "exclude_loss": 0.010972812268399896,
+          "normalized_residual_if_kept": 0.0,
+          "eligible": false,
+          "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+        },
+        {
+          "image_landmark_id": "lm_3",
+          "keep_score": 0.6124887302850762,
+          "exclude_score": 0.4813355871148155,
+          "keep_loss": 0.008050372470549955,
+          "exclude_loss": 0.011476062883549935,
+          "normalized_residual_if_kept": 0.0,
+          "eligible": false,
+          "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+        },
+        {
+          "image_landmark_id": "lm_4",
+          "keep_score": 0.6124887302850762,
+          "exclude_score": 0.496625,
+          "keep_loss": 0.008050372470549955,
+          "exclude_loss": 0.0,
+          "normalized_residual_if_kept": 0.2637260968410492,
+          "eligible": false,
+          "reason": "Residual, loss improvement, two-independent-landmark support and penalized score are compared"
+        }
+      ],
+      "unknown_image_ids": [
+        "lm_5",
+        "lm_6",
+        "lm_7"
+      ],
+      "reliable_landmark_count": 3,
+      "identifiability": "MULTI_LANDMARK_AMBIGUITY"
+    },
+    "score_difference": 0.021354440000000086,
+    "interpretation": "Global rank lower bound uses strictly greater scores; rank 1 can be a multi-way tie, never proves uniqueness"
+  }
+]

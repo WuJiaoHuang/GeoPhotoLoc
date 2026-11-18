@@ -1,0 +1,72 @@
+[
+  {
+    "id": "photo_01",
+    "file": "images/photo_01.jpg",
+    "image_sha256": "39b458fde26ddfe16679828af64b33daef30b33f05ae9d4c2e3e27b27f201669"
+  },
+  {
+    "id": "photo_02",
+    "file": "images/photo_02.jpg",
+    "image_sha256": "30e051c7e9899ca7e51670d31a464eea9bd9f1f1f6b3b78950ed9bc5675c83c4"
+  },
+  {
+    "id": "photo_03",
+    "file": "images/photo_03.jpg",
+    "image_sha256": "75b036dcbfba34f971a0d04a6d138b7975693dfc6831f89b1c7aba76d57da599"
+  },
+  {
+    "id": "photo_04",
+    "file": "images/photo_04.jpg",
+    "image_sha256": "dc3e98623f9eef553c5c4dedef2df651549abbf8aaa90f338b459b2c56758390"
+  },
+  {
+    "id": "photo_05",
+    "file": "images/photo_05.jpg",
+    "image_sha256": "c849f406d309950eaa125008dc069247264ec0c8f23f6bdd41ba139c7b662f50"
+  },
+  {
+    "id": "photo_06",
+    "file": "images/photo_06.jpg",
+    "image_sha256": "5220b0109525cd024145a1bf59e45ccba4c483502d199e0aac1378b2f9a78e6f"
+  },
+  {
+    "id": "photo_07",
+    "file": "images/photo_07.jpg",
+    "image_sha256": "e95f40b9ea7254ca29418481d07ade0d93034bc7853cf1ae86fafa3a9ea727d7"
+  },
+  {
+    "id": "photo_08",
+    "file": "images/photo_08.jpg",
+    "image_sha256": "9a8bf622ce9140a7c3cc879f22a7d5857d7e9680d7557138a797823cf881ea31"
+  },
+  {
+    "id": "photo_09",
+    "file": "images/photo_09.jpg",
+    "image_sha256": "72f7eebd27caae5707a615b7af5749e889470f2347fa0081c87af59aaa0c9ab6"
+  },
+  {
+    "id": "photo_10",
+    "file": "images/photo_10.jpg",
+    "image_sha256": "1262abc03f6b621196ed15c1d80cd0e29c6b734114e549ae0089a470dfe265cd"
+  },
+  {
+    "id": "photo_11",
+    "file": "images/photo_11.jpg",
+    "image_sha256": "8f92725095ef51973a19112821dd5a714300dccad393a4b78110329b95129164"
+  },
+  {
+    "id": "photo_12",
+    "file": "images/photo_12.jpg",
+    "image_sha256": "6715122645a5a81e156484a9f8ccb3368956ca983cd8bd418250ea9e2fc23fad"
+  },
+  {
+    "id": "legacy_beijing_cbd",
+    "file": "images/legacy_beijing_cbd.jpg",
+    "image_sha256": "e08d498926e24a0f0713488498c0aea3ca2992b38cc0179c3bd28a45084ee361"
+  },
+  {
+    "id": "legacy_north_bund",
+    "file": "images/legacy_north_bund.jpg",
+    "image_sha256": "6fdbce7a51f0dec5de01dbbf30fecee98ebcce0d583fb66bde03e923cc025b13"
+  }
+]

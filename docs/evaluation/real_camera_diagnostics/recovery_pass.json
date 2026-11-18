@@ -1,0 +1,7 @@
+{
+  "total_requests": 17,
+  "request_budget": 20,
+  "timeout_seconds": 120,
+  "policy": "One explicit timeout-only retry, original frozen order, no successful-image repeat, no geometry/identity parameter change",
+  "runner_sha256": "a248d08a67ef34bc892cdf3eaec3aacf9cfcf4f6cbdab4d2b49bc1c77e599bc5"
+}

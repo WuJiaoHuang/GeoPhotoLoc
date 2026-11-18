@@ -314,3 +314,21 @@ uv run pytest -q
 ```
 
 完整实验 JSON 无损压缩保存于 `docs/evaluation/stage5_1b/*.json.gz`，由评估脚本 `read_result` 读取；API 的 `model_dump_json()` 仍是普通完整 JSON。推理文件指纹冻结后才读取参考机位。**378 passed，0 failed，0 skipped**。D 实测北京 3.45 s、北外滩 43.03 s、广州 11.94 s。北京/北外滩 Feasible 保留来源位置，北外滩恢复候选；D Preferred 未命中，Top-1 没有改善，不能把大区域包含率当精确定位成功。详见 [STAGE5_1B_EVALUATION.md](docs/STAGE5_1B_EVALUATION.md)。
+
+
+## 真实机位扩充与误差诊断
+
+新增 12 张有明确 Commons Camera location 的公开许可照片，按摄影者/拍摄批次预先分为 6 张诊断集、6 张保留集。相机坐标均为自报、误差界未知；最终复核为 9 张明确多地标与 3 张压力样本，未经确认的身份不充当标准答案。原始来源、许可、哈希、原始响应、请求账本和完整实验 JSON 保存在 `docs/evaluation/real_camera_diagnostics/`。
+
+本批次累计 17 次百炼请求（上限20、自动重试0）：10张取得有效识别，2张两次均超时；相同图片最多一份有效视觉结果。四组复用同一视觉/地图匹配与原有 OSM 快照，不修改评分权重或搜索参数。新增 `record_diagnostic_trace` 默认关闭，启用后记录已有样点的硬约束、评分分项、窗口阈值、排名与区域截断原因；旧两例八组的区域/分数/几何与历史输出逐项一致。
+
+离线复核指标（不会调用模型）：
+
+```powershell
+uv run python scripts/diagnose_camera_benchmark.py
+uv run python scripts/audit_camera_assumptions.py
+uv run python scripts/report_camera_benchmark.py
+uv run pytest -q
+```
+
+来源和筛选、A/B/C/D完整对照、失败样本与请求记录见 [真实机位评估](docs/REAL_CAMERA_DIAGNOSTICS.md)；已确认问题、仍待验证的假设和下一阶段优先项见 [根因分析](docs/REAL_CAMERA_ROOT_CAUSES.md)。核心指标可从冻结结果离线复核；详细评分重审/重新求解要求匹配原 SHA 的本地 SQLite，不能以最新在线 OSM 冒充原快照。不得并发执行实时评估脚本，也不要为重跑几何再次请求视觉模型。

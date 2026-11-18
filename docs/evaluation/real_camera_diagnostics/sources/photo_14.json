@@ -1,0 +1,140 @@
+{
+  "info": {
+    "pageid": 165087815,
+    "ns": 6,
+    "title": "File:Shanghai Skyline 2012.jpg",
+    "imagerepository": "local",
+    "imageinfo": [
+      {
+        "size": 3011014,
+        "width": 3264,
+        "height": 2448,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Shanghai_Skyline_2012.jpg/1920px-Shanghai_Skyline_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1600,
+        "thumbheight": 1200,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Shanghai_Skyline_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Shanghai_Skyline_2012.jpg/1920px-Shanghai_Skyline_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1600,
+          "height": 1200,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Shanghai_Skyline_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Shanghai_Skyline_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Shanghai_Skyline_2012.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/165087815",
+        "sha1": "125189c67711b1fd37fe69c639fe73749ef06fca",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2025-05-12 06:18:06",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Shanghai Skyline 2012",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "CC-Zero|Self-published work|Files with coordinates missing SDC location of creation|Skylines of Shanghai",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "31.236167",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "121.425500",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Shanghai Skyline 2012",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2012-06-14 08:48:08",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Yourusernamewillbepublic2&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Yourusernamewillbepublic2 (page does not exist)\">Yourusernamewillbepublic2</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Zero, Public Domain Dedication",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    ]
+  },
+  "revision": {
+    "pageid": 165087815,
+    "ns": 6,
+    "title": "File:Shanghai Skyline 2012.jpg",
+    "revisions": [
+      {
+        "revid": 1299007709,
+        "parentid": 1184311351,
+        "slots": {
+          "main": {
+            "contentmodel": "wikitext",
+            "contentformat": "text/x-wiki",
+            "*": "=={{int:filedesc}}==\n{{Information\n|description={{en|1=Shanghai Skyline 2012}}\n|date=2012-06-14 08:48:08\n|source={{own}}\n|author=[[User:Yourusernamewillbepublic2|Yourusernamewillbepublic2]]\n|permission=\n|other versions=\n}}\n{{Location|31.236167|121.4255|heading:275.06293706293707}}\n\n=={{int:license-header}}==\n{{self|cc-zero}}\n\n[[Category:Skylines of Shanghai]]"
+          }
+        }
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-11-17T12:50:17.714714+00:00"
+}

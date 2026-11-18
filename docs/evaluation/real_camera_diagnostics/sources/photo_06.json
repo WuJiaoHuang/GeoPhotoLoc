@@ -1,0 +1,145 @@
+{
+  "info": {
+    "pageid": 124610585,
+    "ns": 6,
+    "title": "File:20191112 Lujiazui skyline-2.jpg",
+    "imagerepository": "local",
+    "imageinfo": [
+      {
+        "size": 7712304,
+        "width": 5760,
+        "height": 3840,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/20191112_Lujiazui_skyline-2.jpg/1920px-20191112_Lujiazui_skyline-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1600,
+        "thumbheight": 1067,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/20191112_Lujiazui_skyline-2.jpg/3840px-20191112_Lujiazui_skyline-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/20191112_Lujiazui_skyline-2.jpg/1920px-20191112_Lujiazui_skyline-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1600,
+          "height": 1067,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/20191112_Lujiazui_skyline-2.jpg/3840px-20191112_Lujiazui_skyline-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/20191112_Lujiazui_skyline-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:20191112_Lujiazui_skyline-2.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/124610585",
+        "sha1": "335fcd8124c34a1a97ac8d300a1c03b23f2030ba",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2022-10-26 16:06:10",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "20191112 Lujiazui skyline-2",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "CC-Zero|Uploaded with pattypan|Self-published work|FoP-China|Files with coordinates missing SDC location of creation|Lujiazui from the Bund|November 2019 in Shanghai",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "31.232172",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "121.491017",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Artist": {
+            "value": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a></div>",
+            "source": "commons-desc-page"
+          },
+          "ImageDescription": {
+            "value": "<div class=\"description\">\nThe Luijiazu skyline viewed from The Bund.</div>",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "12 November 2019, 13:51",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Permission": {
+            "value": "The reproduction of this artistic, architectural, or applied artwork, is covered under the <i>Copyright Law of the People's Republic of China</i>, which allows reproduction of works in public place <b>if the author and the name of the original work is attributed.</b> Note: This does not apply to 2D works of art like outdoor paintings permanently installed in public spaces and murals.\n<hr>\n<dl><dd><i><b><a href=\"https://en.wikisource.org/wiki/Copyright_Law_of_the_People%27s_Republic_of_China_(2020)\" class=\"extiw\" title=\"s:Copyright Law of the People's Republic of China (2020)\">Copyright Law of the People's Republic of China</a></b></i>, Article 24: In the following cases, a work may be used without permission from, and without payment of remuneration to, the copyright owner, provided that the name of the author and the title of the work shall be indicated, the normal use of the work shall not be affected, and the legitimate rights and interests of the copyright owner shall not be infringed unreasonably:</dd>\n<dd>(10) copying, drawing, photographing, or video recording of an artistic work located or on display in a public place;</dd></dl>\nSee <a href=\"//commons.wikimedia.org/wiki/Commons:CRT/China#Freedom_of_panorama\" class=\"mw-redirect\" title=\"Commons:CRT/China\">COM:CRT/China#Freedom of panorama</a> for more information.",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "CC0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Zero, Public Domain Dedication",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "false",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    ]
+  },
+  "revision": {
+    "pageid": 124610585,
+    "ns": 6,
+    "title": "File:20191112 Lujiazui skyline-2.jpg",
+    "revisions": [
+      {
+        "revid": 1016323528,
+        "parentid": 1009654139,
+        "slots": {
+          "main": {
+            "contentmodel": "wikitext",
+            "contentformat": "text/x-wiki",
+            "*": "=={{int:filedesc}}==\n{{Photograph\n |photographer = [[User:Balon Greyjoy|Balon Greyjoy]]\n |title = \n |description = The Luijiazu skyline viewed from The Bund.\n |depicted people = \n |depicted place = \n |date = 2019-11-12 13:51\n |medium = \n |dimensions = \n |institution = \n |department = \n |references = \n |object history = \n |exhibition history = \n |credit line = \n |inscriptions = \n |notes = \n |accession number = \n |source = {{own}}\n |permission = {{FoP-China}}\n |other_versions = \n}}\n{{location|31.2321720|121.4910167|alt:35.34_source:exif}}\n\n=={{int:license-header}}==\n{{self|cc-zero}}\n\n[[Category:November 2019 in Shanghai]]\n[[Category:Lujiazui from the Bund]]\n\n[[Category:Uploaded with pattypan]]"
+          }
+        }
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-11-17T12:49:15.758303+00:00"
+}

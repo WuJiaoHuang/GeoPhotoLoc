@@ -1,0 +1,575 @@
+{
+  "status": "TENTATIVE",
+  "matches": [
+    {
+      "image_landmark_id": "lm_1",
+      "image_name": "Flared-top glass skyscraper",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 599547918,
+            "tags": {
+              "addr:city": "北京市",
+              "addr:district": "朝阳区",
+              "addr:housenumber": "10",
+              "addr:postcode": "100026",
+              "addr:province": "北京市",
+              "addr:street": "光华路",
+              "alt_name": "北京中信大厦;中国尊大厦;中信集团总部",
+              "alt_name:en": "China Zun",
+              "building": "public",
+              "building:levels": "108",
+              "check_date": "2021-03-10",
+              "height": "528",
+              "name": "中国尊",
+              "name:en": "CITIC Tower",
+              "name:ru": "Чайна-Цзунь",
+              "smoking": "isolated",
+              "wikidata": "Q197833",
+              "wikimedia_commons": "Category:China Zun",
+              "wikipedia": "en:China Zun"
+            },
+            "id": "osm:way:599547918",
+            "name": "中国尊",
+            "names": {
+              "alt_name": "北京中信大厦;中国尊大厦;中信集团总部",
+              "alt_name:en": "China Zun",
+              "name": "中国尊",
+              "name:en": "CITIC Tower",
+              "name:ru": "Чайна-Цзунь",
+              "osm_wikipedia_title": "China Zun"
+            },
+            "aliases": [
+              "CITIC Tower",
+              "China Zun",
+              "Чайна-Цзунь",
+              "中信集团总部",
+              "中国尊",
+              "中国尊大厦",
+              "北京中信大厦"
+            ],
+            "location": {
+              "latitude": 39.911501,
+              "longitude": 116.46023567502839
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    116.4597631,
+                    39.9118448
+                  ],
+                  [
+                    116.4597669,
+                    39.9111543
+                  ],
+                  [
+                    116.4607082,
+                    39.9111572
+                  ],
+                  [
+                    116.4607045,
+                    39.9118478
+                  ],
+                  [
+                    116.4597631,
+                    39.9118448
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:40.980207Z",
+            "osm_updated_at": "2023-12-17T08:04:09Z",
+            "region_ids": [
+              "beijing"
+            ],
+            "warnings": []
+          },
+          "score": 0.879333,
+          "score_components": {
+            "name_similarity": 0.9133333333333333,
+            "category_compatibility": 0.8,
+            "identity_evidence_weight": 0.8
+          },
+          "reasons": [
+            "name_containment",
+            "image_category=tower; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "CITIC Tower (China Zun)",
+          "matched_map_name": "CITIC Tower",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "TENTATIVE",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_2",
+      "image_name": "Cantilevered loop tower",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "relation",
+            "osm_id": 7820447,
+            "tags": {
+              "alt_name": "央视总部大楼;央视;中央电视台;央视大楼;大裤衩;中央电视台光华路办公区主楼",
+              "building": "yes",
+              "height": "245",
+              "name": "中央电视台总部大楼",
+              "name:en": "CCTV Headquarters",
+              "official_name": "中央广播电视总台光华路办公区主楼",
+              "type": "multipolygon",
+              "wikidata": "Q754321",
+              "wikipedia": "en:CCTV Headquarters"
+            },
+            "id": "osm:relation:7820447",
+            "name": "中央电视台总部大楼",
+            "names": {
+              "alt_name": "央视总部大楼;央视;中央电视台;央视大楼;大裤衩;中央电视台光华路办公区主楼",
+              "name": "中央电视台总部大楼",
+              "name:en": "CCTV Headquarters",
+              "official_name": "中央广播电视总台光华路办公区主楼",
+              "osm_wikipedia_title": "CCTV Headquarters"
+            },
+            "aliases": [
+              "CCTV Headquarters",
+              "中央广播电视总台光华路办公区主楼",
+              "中央电视台",
+              "中央电视台光华路办公区主楼",
+              "中央电视台总部大楼",
+              "大裤衩",
+              "央视",
+              "央视大楼",
+              "央视总部大楼"
+            ],
+            "location": {
+              "latitude": 39.91382315,
+              "longitude": 116.45738877816441
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    116.4570374,
+                    39.9130576
+                  ],
+                  [
+                    116.457042,
+                    39.9140484
+                  ],
+                  [
+                    116.457042,
+                    39.9145689
+                  ],
+                  [
+                    116.4577381,
+                    39.9145689
+                  ],
+                  [
+                    116.4588952,
+                    39.9145663
+                  ],
+                  [
+                    116.4588915,
+                    39.9135962
+                  ],
+                  [
+                    116.4588954,
+                    39.9130559
+                  ],
+                  [
+                    116.4582699,
+                    39.9130568
+                  ],
+                  [
+                    116.4570374,
+                    39.9130576
+                  ]
+                ],
+                [
+                  [
+                    116.4577361,
+                    39.9140503
+                  ],
+                  [
+                    116.458273,
+                    39.9140491
+                  ],
+                  [
+                    116.4582712,
+                    39.9135976
+                  ],
+                  [
+                    116.4577371,
+                    39.9135979
+                  ],
+                  [
+                    116.4577361,
+                    39.9140503
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:40.980207Z",
+            "osm_updated_at": "2022-01-18T21:09:54Z",
+            "region_ids": [
+              "beijing"
+            ],
+            "warnings": []
+          },
+          "score": 0.94,
+          "score_components": {
+            "name_similarity": 1.0,
+            "category_compatibility": 0.8,
+            "identity_evidence_weight": 0.8
+          },
+          "reasons": [
+            "exact_name_or_alias",
+            "image_category=tower; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed",
+            "Equivalent Wikidata-linked OSM representations grouped, not counted as separate objects"
+          ],
+          "matched_query": "CCTV Headquarters",
+          "matched_map_name": "CCTV Headquarters",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": [
+            "osm:way:345716072"
+          ]
+        }
+      ],
+      "status": "TENTATIVE",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_3",
+      "image_name": "Tower with FFC signage",
+      "candidates": [],
+      "status": "UNMATCHED",
+      "unmatched_reason": "No compatible named entity in loaded map coverage"
+    },
+    {
+      "image_landmark_id": "lm_4",
+      "image_name": "Tapered glass skyscraper",
+      "candidates": [],
+      "status": "UNMATCHED",
+      "unmatched_reason": "No specific identity names or candidates"
+    },
+    {
+      "image_landmark_id": "lm_5",
+      "image_name": "Crowned high-rise",
+      "candidates": [],
+      "status": "UNMATCHED",
+      "unmatched_reason": "No specific identity names or candidates"
+    },
+    {
+      "image_landmark_id": "lm_6",
+      "image_name": "Dark slab skyscraper (left)",
+      "candidates": [],
+      "status": "UNMATCHED",
+      "unmatched_reason": "No specific identity names or candidates"
+    },
+    {
+      "image_landmark_id": "lm_7",
+      "image_name": "Glass pyramid roof structure",
+      "candidates": [],
+      "status": "UNMATCHED",
+      "unmatched_reason": "No specific identity names or candidates"
+    }
+  ],
+  "region_hypotheses": [
+    {
+      "region_id": "beijing",
+      "assignments": {
+        "lm_1": "osm:way:599547918",
+        "lm_2": "osm:relation:7820447"
+      },
+      "score": 0.259905,
+      "matched_objects": 2,
+      "max_pair_distance_m": 354.5853738690653,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    }
+  ],
+  "distinct_image_relations": [
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_6",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_6",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_6",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_5",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_6",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_7",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_6",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_7",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    }
+  ],
+  "consistency_checks": {
+    "duplicate_entity_assignments_rejected": 0,
+    "distant_assignments_rejected": 0,
+    "candidate_regions": 1,
+    "regions_omitted_by_output_limit": 0,
+    "seed_name_candidates": 2,
+    "input_directed_relations": 76,
+    "distinct_pair_axis_relations": 38
+  },
+  "warnings": [
+    "Finite imported map coverage only; absence is not proof that a landmark does not exist",
+    "All scores are uncalibrated heuristics; entity identities remain tentative",
+    "Map entity coordinates and geometry representative points are not photographer locations",
+    "Spatial consistency checks co-region, uniqueness and pair distance only; no camera pose is solved"
+  ],
+  "coverage_regions": [
+    "beijing",
+    "guangzhou",
+    "shanghai"
+  ],
+  "scoring_version": "stage3-heuristic-v1"
+}

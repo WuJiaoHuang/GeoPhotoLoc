@@ -1,0 +1,45 @@
+{
+  "id": "chatcmpl-8b1d91ee-fae8-9e2d-8f48-e92ee5a0dfa6",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"landmarks\": [{\"name\": \"Tall modern skyscraper with horizontal banding\", \"x\": 0.905, \"y\": 0.31, \"id\": \"lm_1\", \"name_candidates\": [], \"bbox\": {\"x_min\": 0.81, \"y_min\": 0.0, \"x_max\": 1.0, \"y_max\": 0.62}, \"visual_evidence\": [\"Extremely tall building dominating the right skyline\", \"Glass facade with distinct horizontal banding patterns\"], \"identity_uncertain\": true, \"coordinates_reliable\": true}, {\"name\": \"White high-rise with pointed roof\", \"x\": 0.475, \"y\": 0.385, \"id\": \"lm_2\", \"name_candidates\": [], \"bbox\": {\"x_min\": 0.46, \"y_min\": 0.31, \"x_max\": 0.49, \"y_max\": 0.46}, \"visual_evidence\": [\"White facade with vertical dark window bands\", \"Distinctive pointed roof structure\"], \"identity_uncertain\": true, \"coordinates_reliable\": true}, {\"name\": \"Large urban construction excavation site\", \"x\": 0.625, \"y\": 0.775, \"id\": \"lm_3\", \"name_candidates\": [], \"bbox\": {\"x_min\": 0.30, \"y_min\": 0.55, \"x_max\": 0.95, \"y_max\": 1.0}, \"visual_evidence\": [\"Deep pit with concrete retaining walls\", \"Construction equipment including cranes visible\", \"Exposed earth and green safety netting\"], \"identity_uncertain\": true, \"coordinates_reliable\": true}, {\"name\": \"Multi-lane urban avenue with green median\", \"x\": 0.225, \"y\": 0.725, \"id\": \"lm_4\", \"name_candidates\": [], \"bbox\": {\"x_min\": 0.0, \"y_min\": 0.45, \"x_max\": 0.45, \"y_max\": 1.0}, \"visual_evidence\": [\"Paved road with multiple lanes in both directions\", \"Wide tree-lined median separating the roadways\", \"Vehicles visible driving on the road\"], \"identity_uncertain\": true, \"coordinates_reliable\": true}], \"scene_features\": [\"Dense urban skyline\", \"Clear blue sky\", \"Modern high-rise architecture\", \"Active construction zone\", \"Major thoroughfare with landscaping\"], \"warnings\": []}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning_content": "[Thinking Process]\n1.  **Analyze the Request:**\n    *   Goal: Extract visible landmarks and scene features from the provided image.\n    *   Output: JSON object matching the `VisionResponse` schema.\n    *   Constraints: Use only visible image semantics, no metadata/GPS, no map directions, no camera positions. Identify landmarks only with distinctive visual evidence. Use generic names if uncertain. Coordinates normalized to [0,1]. No real-world distance inference.\n\n2.  **Examine the Image:**\n    *   **Foreground:** A large construction site with deep excavation, retaining walls, cranes, and some green covering on the ground. There's a multi-lane road on the left with cars driving on it, separated by a median with trees.\n    *   **Midground/Background:** A dense urban skyline with numerous skyscrapers and high-rise buildings. The architecture is modern.\n    *   **Specific Buildings/Landmarks (Visual Evidence):**\n        *   Right side: A very tall, prominent skyscraper with horizontal banding (looks like China World Trade Center Tower 3 in Beijing, but I must use generic names unless 100% sure from *distinctive visual evidence* alone. It's a modern glass and steel tower).\n        *   Center-right: A tall, dark glass building with a distinct grid pattern.\n        *   Center: A white building with vertical dark windows and a pointed roof (looks like a specific tower, maybe Beijing International Hotel or similar, but again, generic name is safer).\n        *   Center-left: A tall building with a slanted, glass roof.\n        *   Left: More high-rise buildings, some residential or office blocks.\n        *   Road: A wide, multi-lane avenue with a green median.\n    *   **Scene Features:**\n        *   Construction site / excavation pit.\n        *   Multi-lane urban road.\n        *   Urban skyline / cluster of skyscrapers.\n        *   Trees / greenery along the road median and construction site edges.\n        *   Clear blue sky.\n\n3.  **Map to Schema:**\n    *   `landmarks`: Array of `VisionLandmark` objects.\n        *   Need to define bounding boxes and coordinates.\n        *   *Landmark 1 (Rightmost tall skyscraper):*\n            *   bbox: [0.81, 0.0, 1.0, 0.62]\n            *   x, y: [0.905, 0.31]\n            *   name: \"Tall modern skyscraper with horizontal banding\"\n            *   visual_evidence: [\"Extremely tall building\", \"Glass facade with horizontal lines\", \"Dominates the right side of the skyline\"]\n            *   identity_uncertain: true\n            *   coordinates_reliable: true\n        *   *Landmark 2 (Central white building with pointed roof):*\n            *   bbox: [0.46, 0.31, 0.49, 0.46]\n            *   x, y: [0.475, 0.385]\n            *   name: \"White high-rise with pointed roof\"\n            *   visual_evidence: [\"White facade\", \"Distinctive pointed roof structure\", \"Vertical dark window bands\"]\n            *   identity_uncertain: true\n            *   coordinates_reliable: true\n        *   *Landmark 3 (Construction site):*\n            *   bbox: [0.30, 0.55, 0.95, 1.0]\n            *   x, y: [0.625, 0.775]\n            *   name: \"Large urban construction excavation site\"\n            *   visual_evidence: [\"Deep pit with retaining walls\", \"Construction equipment (cranes)\", \"Exposed dirt and green netting\"]\n            *   identity_uncertain: true\n            *   coordinates_reliable: true\n        *   *Landmark 4 (Road):*\n            *   bbox: [0.0, 0.45, 0.45, 1.0]\n            *   x, y: [0.225, 0.725]\n            *   name: \"Multi-lane urban avenue with green median\"\n            *   visual_evidence: [\"Paved road with multiple lanes\", \"Cars visible\", \"Wide tree-lined median separating directions\"]\n            *   identity_uncertain: true\n            *   coordinates_reliable: true\n\n4.  **Refine Coordinates and Bounding Boxes (Mental Check):**\n    *   Image dimensions assumed standard 16:9 or similar. Normalized coordinates [0,1].\n    *   Rightmost skyscraper: `x_min=0.81`, `y_min=0.0`, `x_max=1.0`, `y_max=0.62`. Center: `x=0.905`, `y=0.31`.\n    *   White pointed building: `x_min=0.46`, `y_min=0.31`, `x_max=0.49`, `y_max=0.46`. Center: `x=0.475`, `y=0.385`.\n    *   Construction site: `x_min=0.30`, `y_min=0.55`, `x_max=0.95`, `y_max=1.0`. Center: `x=0.625`, `y=0.775`.\n    *   Road: `x_min=0.0`, `y_min=0.45`, `x_max=0.45`, `y_max=1.0`. Center: `x=0.225`, `y=0.725`.\n\n5.  **Construct JSON:**\n    *   Populate `scene_features` with general descriptions.\n    *   Ensure all schema requirements are met (unique IDs, required fields, correct types).\n\n6.  **Final Review against Constraints:**\n    *   No metadata/GPS? Yes.\n    *   No map directions? Yes.\n    *   Generic names used? Yes.\n    *   Only JSON output? Yes.\n"
+      }
+    }
+  ],
+  "created": 1794921826,
+  "model": "qwen3.8-flash",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 1932,
+    "prompt_tokens": 2522,
+    "total_tokens": 4454,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1374,
+      "rejected_prediction_tokens": null,
+      "text_tokens": 557
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 256,
+      "image_tokens": 1402,
+      "text_tokens": 1120
+    }
+  }
+}

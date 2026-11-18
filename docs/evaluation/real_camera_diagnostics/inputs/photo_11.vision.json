@@ -1,0 +1,152 @@
+{
+  "landmarks": [
+    {
+      "name": "Canton Tower",
+      "x": 0.491,
+      "y": 0.395,
+      "confidence": 0.84,
+      "matched_landmark_id": null,
+      "id": "lm_1",
+      "name_candidates": [
+        "Canton Tower",
+        "Guangzhou Tower"
+      ],
+      "bbox": {
+        "x_min": 0.467,
+        "y_min": 0.162,
+        "x_max": 0.515,
+        "y_max": 0.627
+      },
+      "visual_evidence": [
+        "tall slender tower with a narrow waist and lattice-like twisted structure",
+        "long antenna mast extending above the tower",
+        "vertical illuminated markings or characters visible on the shaft",
+        "tower rises above a dark city skyline against a sunset sky"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "high-rise building cluster",
+      "x": 0.152,
+      "y": 0.715,
+      "confidence": 0.45,
+      "matched_landmark_id": null,
+      "id": "lm_2",
+      "name_candidates": [],
+      "bbox": {
+        "x_min": 0.055,
+        "y_min": 0.61,
+        "x_max": 0.25,
+        "y_max": 0.82
+      },
+      "visual_evidence": [
+        "multiple rectangular tall buildings with dark facades",
+        "small lit windows scattered across the building surfaces",
+        "dense urban mid-rise and high-rise forms in silhouette"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": false
+    },
+    {
+      "name": "construction cranes",
+      "x": 0.345,
+      "y": 0.57,
+      "confidence": 0.4,
+      "matched_landmark_id": null,
+      "id": "lm_3",
+      "name_candidates": [],
+      "bbox": {
+        "x_min": 0.25,
+        "y_min": 0.52,
+        "x_max": 0.44,
+        "y_max": 0.62
+      },
+      "visual_evidence": [
+        "thin crane masts and horizontal jibs silhouetted against the sky",
+        "several construction crane structures visible above buildings"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": false
+    },
+    {
+      "name": "illuminated road",
+      "x": 0.405,
+      "y": 0.92,
+      "confidence": 0.35,
+      "matched_landmark_id": null,
+      "id": "lm_4",
+      "name_candidates": [],
+      "bbox": {
+        "x_min": 0.19,
+        "y_min": 0.85,
+        "x_max": 0.62,
+        "y_max": 0.99
+      },
+      "visual_evidence": [
+        "dark roadway surface with curved orange light streaks",
+        "vehicle lights visible along the road in low light"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": false
+    },
+    {
+      "name": "water-like strip",
+      "x": 0.035,
+      "y": 0.75,
+      "confidence": 0.3,
+      "matched_landmark_id": null,
+      "id": "lm_5",
+      "name_candidates": [],
+      "bbox": {
+        "x_min": 0.0,
+        "y_min": 0.68,
+        "x_max": 0.07,
+        "y_max": 0.82
+      },
+      "visual_evidence": [
+        "dark reflective linear area between buildings",
+        "surface appearance consistent with a waterway or river edge"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": false
+    }
+  ],
+  "scene_features": [
+    "sunset sky with orange, pink, and purple clouds",
+    "silhouetted city skyline",
+    "tall lattice tower with antenna",
+    "dense high-rise residential or commercial buildings",
+    "construction cranes visible among buildings",
+    "illuminated road with vehicle light trails",
+    "dark water-like strip visible near the lower left side of the image"
+  ],
+  "warnings": [
+    "Coordinates are approximate because the scene is low-light and many objects are silhouetted.",
+    "Only the tower is identified with a specific name; other landmarks are generic visible objects.",
+    "No geographic orientation, distance, or camera position was inferred.",
+    "Model confidence is an uncalibrated self-assessment, not a probability.",
+    "Unreliable coordinates were excluded from spatial relation extraction."
+  ],
+  "image": {
+    "original_size": {
+      "width": 800,
+      "height": 536
+    },
+    "oriented_size": {
+      "width": 800,
+      "height": 536
+    },
+    "processed_size": {
+      "width": 800,
+      "height": 536
+    },
+    "original_format": "JPEG",
+    "encoded_format": "JPEG",
+    "original_bytes": 80478,
+    "processed_bytes": 64508,
+    "orientation_corrected": false
+  },
+  "relations": [],
+  "relation_min_gap": 0.03
+}

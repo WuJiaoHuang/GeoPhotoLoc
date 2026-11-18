@@ -1,0 +1,74 @@
+[
+  {
+    "id": "photo_01",
+    "title": "Shanghai Skyline 2020.jpg",
+    "status": "acquired_pending_visual_review",
+    "reason": "License and explicit camera template verified; visual eligibility review required"
+  },
+  {
+    "id": "photo_02",
+    "title": "Shanghai, China skyline.jpg",
+    "status": "acquired_pending_visual_review",
+    "reason": "License and explicit camera template verified; visual eligibility review required"
+  },
+  {
+    "id": "photo_03",
+    "title": "Shanghai Skyline from the Bund.jpg",
+    "status": "acquired_pending_visual_review",
+    "reason": "License and explicit camera template verified; visual eligibility review required"
+  },
+  {
+    "id": "photo_04",
+    "title": "Flickr - Shinrya - Shanghai Skyline at Day.jpg",
+    "status": "acquired_pending_visual_review",
+    "reason": "License and explicit camera template verified; visual eligibility review required"
+  },
+  {
+    "id": "photo_05",
+    "title": "Flickr - Shinrya - Shanghai Skyline HDR.jpg",
+    "status": "acquired_pending_visual_review",
+    "reason": "License and explicit camera template verified; visual eligibility review required"
+  },
+  {
+    "id": "photo_06",
+    "title": "20191112 Lujiazui skyline-2.jpg",
+    "status": "acquired_pending_visual_review",
+    "reason": "License and explicit camera template verified; visual eligibility review required"
+  },
+  {
+    "id": "photo_07",
+    "title": "20191112 Lujiazui skyline-13.jpg",
+    "status": "acquired_pending_visual_review",
+    "reason": "License and explicit camera template verified; visual eligibility review required"
+  },
+  {
+    "id": "photo_08",
+    "title": "Beijing Central Business District (20240826163226).jpg",
+    "status": "acquired_pending_visual_review",
+    "reason": "License and explicit camera template verified; visual eligibility review required"
+  },
+  {
+    "id": "photo_09",
+    "title": "Beijing CBD in 2026.jpg",
+    "status": "acquired_pending_visual_review",
+    "reason": "License and explicit camera template verified; visual eligibility review required"
+  },
+  {
+    "id": "photo_10",
+    "title": "Guangzhou skyline (6343573781).jpg",
+    "status": "acquired_pending_visual_review",
+    "reason": "License and explicit camera template verified; visual eligibility review required"
+  },
+  {
+    "id": "photo_11",
+    "title": "广州塔晨曦Scenery in Guangzhou, China - panoramio (1).jpg",
+    "status": "acquired_pending_visual_review",
+    "reason": "License and explicit camera template verified; visual eligibility review required"
+  },
+  {
+    "id": "photo_12",
+    "title": "City Skyline, Shot on Xinhua Kuaisulu, Guangzhou.jpg",
+    "status": "acquired_pending_visual_review",
+    "reason": "License and explicit camera template verified; visual eligibility review required"
+  }
+]

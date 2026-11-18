@@ -1,0 +1,410 @@
+{
+  "group": "baseline",
+  "case": "legacy_north_bund",
+  "input_sha256": {
+    "vision": "3be1ae540a825ab10a8e636eb7fc116bc2cc92fbfedd667099dbd166ed2dd63f",
+    "matching": "1c0000b76ceb020b378e41893a91aadd467c705e802caf5dec58b4e3034978fe"
+  },
+  "status": "SEARCH_LIMITED",
+  "seconds": 83.08215460000065,
+  "config": {
+    "search_radius_m": 2200.0,
+    "search_bounds": null,
+    "coarse_spacing_m": 250.0,
+    "fine_spacing_m": 60.0,
+    "max_points_per_hypothesis": 4500,
+    "max_total_points": 24000,
+    "max_hypotheses": 12,
+    "max_refine_components": 6,
+    "refinement_levels": 1,
+    "max_regions_per_hypothesis": 8,
+    "fov_degrees": [
+      60.0,
+      75.0,
+      90.0,
+      110.0,
+      130.0
+    ],
+    "principal_points": [
+      0.47,
+      0.5,
+      0.53
+    ],
+    "angular_tolerance_deg": 0.5,
+    "x_tolerance": 0.03,
+    "minimum_distance_m": 5.0,
+    "score_window": 0.08,
+    "adaptive_extent": true,
+    "footprint_constraints": false,
+    "visibility_soft": false,
+    "max_observation_distance_m": 5000.0,
+    "visibility_max_rays": 12,
+    "viewpoint_fix": true,
+    "record_sample_trace": true,
+    "record_diagnostic_trace": true,
+    "coarse_budget_fraction": 0.6,
+    "fine_budget_fraction": 0.3,
+    "minimum_coarse_spacing_m": 180.0,
+    "maximum_coarse_spacing_m": 600.0,
+    "minimum_visible_fraction": 0.05,
+    "minimum_visible_angle_deg": 0.02,
+    "observation_x_tolerance": 0.06,
+    "max_visibility_points_per_hypothesis": 20,
+    "max_visibility_points_total": 100,
+    "visibility_cache_size": 2048,
+    "robust_geometry": false,
+    "joint_identity": false,
+    "dual_regions": false,
+    "audit_hard_feasibility": true,
+    "max_identity_candidates": 3,
+    "identity_beam_width": 24,
+    "max_joint_hypotheses": 12,
+    "same_object_groups": {},
+    "huber_delta": 1.0,
+    "point_geometry_uncertainty_deg": 2.0,
+    "max_outliers": 1,
+    "outlier_residual_threshold": 2.5,
+    "outlier_loss_improvement": 1.0,
+    "outlier_identity_penalty": 0.08,
+    "contradictory_relation_weight": 0.25,
+    "unknown_projection_score": 0.25,
+    "projection_weight": 0.4,
+    "order_weight": 0.2,
+    "identity_weight": 0.25,
+    "geometry_weight": 0.15,
+    "preferred_tile_size_m": 750.0
+  },
+  "searched_points": 24000,
+  "identity_hypotheses": 6,
+  "generated_hypotheses": 6,
+  "searched_identity_hypotheses": 6,
+  "feasible_regions": 6,
+  "preferred_regions": 16,
+  "feasible_area_m2": 63439342.29920829,
+  "preferred_area_m2": 6658157.060293172,
+  "hypothesis_area_sum_m2": 328945530.14450896,
+  "top1": {
+    "latitude": 31.2479403387918,
+    "longitude": 121.49318362621263
+  },
+  "top1_area_m2": 246393.34505604484,
+  "top1_score": {
+    "feasible": true,
+    "score": 0.78558993,
+    "satisfied": 5,
+    "conflicts": 0,
+    "indeterminate": 1,
+    "landmark_count": 5,
+    "components": {
+      "order": 0.8333333333333334,
+      "global_fov": 1.0,
+      "horizontal_projection": 0.2836329697450015,
+      "distinct_landmark_support": 1.0,
+      "identity": 0.9553,
+      "geometry_quality": 1.0,
+      "observation_reliability": 0.8,
+      "outline_angular_uncertainty_deg": 4.910383174625963
+    },
+    "heading": 167.35993465870808,
+    "fov_degrees": 60.0,
+    "principal_point_x": 0.53,
+    "projection_rmse": 0.1432734060509997,
+    "span_deg": 27.788040543179477,
+    "camera_assumptions": [
+      {
+        "fov_degrees": 60.0,
+        "principal_point_x": 0.47,
+        "heading": 163.79592919797588,
+        "projection_rmse": 0.14440560906279687
+      },
+      {
+        "fov_degrees": 60.0,
+        "principal_point_x": 0.5,
+        "heading": 165.58404433676463,
+        "projection_rmse": 0.14393817600896505
+      },
+      {
+        "fov_degrees": 60.0,
+        "principal_point_x": 0.53,
+        "heading": 167.35993465870808,
+        "projection_rmse": 0.1432734060509997
+      },
+      {
+        "fov_degrees": 75.0,
+        "principal_point_x": 0.47,
+        "heading": 165.35631326809084,
+        "projection_rmse": 0.17371613515293152
+      },
+      {
+        "fov_degrees": 75.0,
+        "principal_point_x": 0.5,
+        "heading": 167.5829009987361,
+        "projection_rmse": 0.17304493598355009
+      },
+      {
+        "fov_degrees": 75.0,
+        "principal_point_x": 0.53,
+        "heading": 169.78816234520028,
+        "projection_rmse": 0.17213299551816938
+      },
+      {
+        "fov_degrees": 90.0,
+        "principal_point_x": 0.47,
+        "heading": 166.99533995654178,
+        "projection_rmse": 0.19616210232529474
+      },
+      {
+        "fov_degrees": 90.0,
+        "principal_point_x": 0.5,
+        "heading": 169.6561218681613,
+        "projection_rmse": 0.19549179235429825
+      },
+      {
+        "fov_degrees": 90.0,
+        "principal_point_x": 0.53,
+        "heading": 172.2846311692723,
+        "projection_rmse": 0.1945859458882407
+      },
+      {
+        "fov_degrees": 110.0,
+        "principal_point_x": 0.47,
+        "heading": 169.37491024629514,
+        "projection_rmse": 0.21962799754010473
+      },
+      {
+        "fov_degrees": 110.0,
+        "principal_point_x": 0.5,
+        "heading": 172.6217492121591,
+        "projection_rmse": 0.2193376982981152
+      },
+      {
+        "fov_degrees": 110.0,
+        "principal_point_x": 0.53,
+        "heading": 175.81921305780588,
+        "projection_rmse": 0.21890080232287853
+      },
+      {
+        "fov_degrees": 130.0,
+        "principal_point_x": 0.47,
+        "heading": 172.1175334699363,
+        "projection_rmse": 0.2392982779630979
+      },
+      {
+        "fov_degrees": 130.0,
+        "principal_point_x": 0.5,
+        "heading": 176.0696407761082,
+        "projection_rmse": 0.23990604673432703
+      },
+      {
+        "fov_degrees": 130.0,
+        "principal_point_x": 0.53,
+        "heading": 179.94574087588813,
+        "projection_rmse": 0.24052460524145333
+      }
+    ],
+    "bearings_deg": {
+      "lm_1": 163.42816228539127,
+      "lm_2": 150.57242752848293,
+      "lm_3": 146.50084905577037,
+      "lm_4": 143.30716949768015,
+      "lm_6": 171.09521004085963
+    },
+    "distances_m": {
+      "lm_1": 693.3966160042228,
+      "lm_2": 1564.6414147894236,
+      "lm_3": 1421.3882470873468,
+      "lm_4": 1571.3347438910484,
+      "lm_6": 1280.1052626713458
+    },
+    "reasons": [
+      "global_order_and_common_FOV_checked",
+      "horizontal_spacing_is_soft_evidence",
+      "outline_intervals_allow_indeterminate_order",
+      "ABOVE_BELOW_not_used_as_planar_constraints"
+    ],
+    "filter_reasons": [],
+    "map_coverage_status": "PARTIAL",
+    "footprint_evidence": [],
+    "visibility_evidence": [],
+    "stage1_score": 0.78558993,
+    "stage2_score": null,
+    "visibility_reviewed": false,
+    "partial_visibility_evidence": [],
+    "projection_evidence": [],
+    "order_evidence": [],
+    "outlier_image_ids": [],
+    "outlier_comparisons": [],
+    "unknown_image_ids": [
+      "lm_5",
+      "lm_7"
+    ],
+    "reliable_landmark_count": 4,
+    "identifiability": null
+  },
+  "performance": {
+    "process_cpu_seconds": 77.546875,
+    "timings": {
+      "preparation_seconds": 4.994424100004835,
+      "coarse_seconds": 25.278693200001726,
+      "fine_seconds": 8.688768500000151,
+      "supplemental_seconds": 24.55332069999713,
+      "coverage_accounting_seconds": 3.4953506999991077,
+      "regions_seconds": 15.353545300004043,
+      "visibility_seconds": 0.0030020999984117225
+    },
+    "strtree_queries": 24831,
+    "visibility_review_points": 0,
+    "context_loads": 1,
+    "identity_generation": {},
+    "original_region_hypotheses": [
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:way:40778038",
+          "lm_2": "osm:way:165792123",
+          "lm_3": "osm:way:10691100",
+          "lm_4": "osm:way:376075961",
+          "lm_6": "osm:way:164970992"
+        },
+        "score": 0.682357,
+        "matched_objects": 5,
+        "max_pair_distance_m": 950.6684955516446,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:way:40778038",
+          "lm_2": "osm:way:165792123",
+          "lm_3": "osm:way:376075961",
+          "lm_4": "osm:way:10691100",
+          "lm_6": "osm:way:164970992"
+        },
+        "score": 0.682357,
+        "matched_objects": 5,
+        "max_pair_distance_m": 950.6684955516446,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:way:40778038",
+          "lm_2": "osm:way:165792123",
+          "lm_3": "osm:way:10691100",
+          "lm_4": "osm:way:380339835",
+          "lm_6": "osm:way:164970992"
+        },
+        "score": 0.658357,
+        "matched_objects": 5,
+        "max_pair_distance_m": 2007.9606955598726,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:way:40778038",
+          "lm_2": "osm:way:165792123",
+          "lm_3": "osm:way:376075961",
+          "lm_4": "osm:way:380339835",
+          "lm_6": "osm:way:164970992"
+        },
+        "score": 0.658357,
+        "matched_objects": 5,
+        "max_pair_distance_m": 1855.1589268834234,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:way:40778038",
+          "lm_2": "osm:way:165792123",
+          "lm_3": "osm:way:380339835",
+          "lm_4": "osm:way:10691100",
+          "lm_6": "osm:way:164970992"
+        },
+        "score": 0.658357,
+        "matched_objects": 5,
+        "max_pair_distance_m": 2007.9606955598726,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      },
+      {
+        "region_id": "shanghai",
+        "assignments": {
+          "lm_1": "osm:way:40778038",
+          "lm_2": "osm:way:165792123",
+          "lm_3": "osm:way:380339835",
+          "lm_4": "osm:way:376075961",
+          "lm_6": "osm:way:164970992"
+        },
+        "score": 0.658357,
+        "matched_objects": 5,
+        "max_pair_distance_m": 1855.1589268834234,
+        "geographically_consistent": true,
+        "identity_certain": false,
+        "reasons": [
+          "Entities share imported geographic coverage",
+          "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+          "No repeated OSM/Wikidata identity within this combination",
+          "All entity pairs <= 15000 metres",
+          "Image directions were not interpreted as geographic directions",
+          "This is landmark co-occurrence plausibility, not photographer localization"
+        ]
+      }
+    ],
+    "obstacle_union_cache_hits": 8,
+    "obstacle_union_cache_misses": 7,
+    "obstacle_union_seconds": 8.18076229999133,
+    "area_semantics": "union per local region, then sum disjoint city regions; hypothesis sums are not unique area",
+    "visibility_cache_hits": 0,
+    "visibility_cache_misses": 0,
+    "assigned_budget": 24000,
+    "unused_global_budget": 0
+  },
+  "reliable_landmarks": 4,
+  "outlier_count": 0
+}

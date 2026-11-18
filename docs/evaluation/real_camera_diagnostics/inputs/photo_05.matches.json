@@ -1,0 +1,2707 @@
+{
+  "status": "AMBIGUOUS",
+  "matches": [
+    {
+      "image_landmark_id": "lm_1",
+      "image_name": "Shanghai World Financial Center",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 10691100,
+            "tags": {
+              "addr:city": "上海市",
+              "addr:country": "CN",
+              "addr:district": "浦东新区",
+              "addr:housenumber": "100",
+              "addr:street": "世纪大道",
+              "alt_name:ja": "上海ヒルズ",
+              "building": "skyscraper",
+              "building:levels": "101",
+              "building:material": "mirror",
+              "building:use": "office",
+              "check_date": "2021-03-10",
+              "height": "492",
+              "name": "上海环球金融中心",
+              "name:ar": "مركز شانغهاي المالي العالمي",
+              "name:en": "Shanghai World Financial Center",
+              "name:es": "Shanghai World Financial Center",
+              "name:fr": "Centre mondial des finances de Shanghai",
+              "name:hi": "शंघाई विश्व वित्तीय केन्द्र",
+              "name:ja": "上海ワールド・フィナンシャル・センター",
+              "name:ja-Hira": "しゃんはいわーるどふぃなんしゃるせんたー",
+              "name:ko": "상하이 세계금융센터",
+              "name:ru": "Шанхайский всемирный финансовый центр",
+              "name:th": "ศูนย์การเงินโลกเซี่ยงไฮ้",
+              "name:vi": "Trung tâm Tài chính Thế giới Thượng Hải",
+              "name:wuu": "上海环球金融中心",
+              "name:yue": "上海環球金融中心",
+              "name:zh": "上海环球金融中心",
+              "name:zh-Latn-pinyin": "Shànghǎi huánqiú jīnróng zhōngxīn",
+              "note": "Building attributes (e.g., address, name, overall height, operator, etc.) must be tagged on the building outline. https://wiki.openstreetmap.org/wiki/Simple_3D_buildings#Building_outlines",
+              "short_name": "SWFC",
+              "source": "estimation;Bing",
+              "start_date": "1997",
+              "tourism": "attraction",
+              "website": "https://www.swfc-shanghai.com/?&l=cn",
+              "wikidata": "Q80852",
+              "wikimedia_commons": "Category:Shanghai World Financial Center",
+              "wikipedia": "zh:上海环球金融中心"
+            },
+            "id": "osm:way:10691100",
+            "name": "上海环球金融中心",
+            "names": {
+              "alt_name:ja": "上海ヒルズ",
+              "name": "上海环球金融中心",
+              "name:ar": "مركز شانغهاي المالي العالمي",
+              "name:en": "Shanghai World Financial Center",
+              "name:es": "Shanghai World Financial Center",
+              "name:fr": "Centre mondial des finances de Shanghai",
+              "name:hi": "शंघाई विश्व वित्तीय केन्द्र",
+              "name:ja": "上海ワールド・フィナンシャル・センター",
+              "name:ja-Hira": "しゃんはいわーるどふぃなんしゃるせんたー",
+              "name:ko": "상하이 세계금융센터",
+              "name:ru": "Шанхайский всемирный финансовый центр",
+              "name:th": "ศูนย์การเงินโลกเซี่ยงไฮ้",
+              "name:vi": "Trung tâm Tài chính Thế giới Thượng Hải",
+              "name:wuu": "上海环球金融中心",
+              "name:yue": "上海環球金融中心",
+              "name:zh": "上海环球金融中心",
+              "name:zh-Latn-pinyin": "Shànghǎi huánqiú jīnróng zhōngxīn",
+              "short_name": "SWFC",
+              "osm_wikipedia_title": "上海环球金融中心"
+            },
+            "aliases": [
+              "Centre mondial des finances de Shanghai",
+              "SWFC",
+              "Shanghai World Financial Center",
+              "Shànghǎi huánqiú jīnróng zhōngxīn",
+              "Trung tâm Tài chính Thế giới Thượng Hải",
+              "Шанхайский всемирный финансовый центр",
+              "مركز شانغهاي المالي العالمي",
+              "शंघाई विश्व वित्तीय केन्द्र",
+              "ศูนย์การเงินโลกเซี่ยงไฮ้",
+              "しゃんはいわーるどふぃなんしゃるせんたー",
+              "上海ヒルズ",
+              "上海ワールド・フィナンシャル・センター",
+              "上海环球金融中心",
+              "上海環球金融中心",
+              "상하이 세계금융센터"
+            ],
+            "location": {
+              "latitude": 31.2365768,
+              "longitude": 121.50304055090878
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.502698,
+                    31.2368214
+                  ],
+                  [
+                    121.5028363,
+                    31.2368319
+                  ],
+                  [
+                    121.5030457,
+                    31.2368477
+                  ],
+                  [
+                    121.5032097,
+                    31.2368601
+                  ],
+                  [
+                    121.5033275,
+                    31.236869
+                  ],
+                  [
+                    121.503338,
+                    31.2367679
+                  ],
+                  [
+                    121.5033524,
+                    31.2366289
+                  ],
+                  [
+                    121.5033831,
+                    31.2363323
+                  ],
+                  [
+                    121.503035,
+                    31.2363059
+                  ],
+                  [
+                    121.5028799,
+                    31.2362942
+                  ],
+                  [
+                    121.5028721,
+                    31.2362936
+                  ],
+                  [
+                    121.5027536,
+                    31.2362846
+                  ],
+                  [
+                    121.5027432,
+                    31.236385
+                  ],
+                  [
+                    121.5027287,
+                    31.2365247
+                  ],
+                  [
+                    121.502698,
+                    31.2368214
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2026-05-15T03:30:44Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 1.0,
+          "score_components": {
+            "name_similarity": 1.0,
+            "category_compatibility": 1.0,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "exact_name_or_alias",
+            "image_category=building; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Shanghai World Financial Center",
+          "matched_map_name": "Shanghai World Financial Center",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 380339835,
+            "tags": {
+              "addr:housenumber": "209",
+              "addr:street": "福州路",
+              "alt_name:en": "American Club;Former American Club",
+              "building": "yes",
+              "building:levels": "8",
+              "heritage": "4",
+              "heritage:operator": "上海市优秀历史建筑",
+              "heritage:ref": "A-Ⅲ-031",
+              "historic": "building",
+              "name": "上海市高级人民法院",
+              "name:en": "Shanghai American Club",
+              "old_name": "花旗总会",
+              "old_name:en": "Shanghai Financial Court",
+              "old_name:zh": "上海市高级人民法院",
+              "old_name:zh-Hans": "上海市高级人民法院",
+              "old_name:zh-Hant": "上海市高級人民法院",
+              "source": "Bing",
+              "start_date": "1925",
+              "was:amenity": "courthouse",
+              "wikidata": "Q39603201",
+              "wikipedia": "en:Former American Club, Shanghai"
+            },
+            "id": "osm:way:380339835",
+            "name": "上海市高级人民法院",
+            "names": {
+              "alt_name:en": "American Club;Former American Club",
+              "name": "上海市高级人民法院",
+              "name:en": "Shanghai American Club",
+              "old_name": "花旗总会",
+              "old_name:en": "Shanghai Financial Court",
+              "old_name:zh": "上海市高级人民法院",
+              "old_name:zh-Hans": "上海市高级人民法院",
+              "old_name:zh-Hant": "上海市高級人民法院",
+              "osm_wikipedia_title": "Former American Club, Shanghai"
+            },
+            "aliases": [
+              "American Club",
+              "Former American Club",
+              "Former American Club, Shanghai",
+              "Shanghai American Club",
+              "Shanghai Financial Court",
+              "上海市高級人民法院",
+              "上海市高级人民法院",
+              "花旗总会"
+            ],
+            "location": {
+              "latitude": 31.23655095,
+              "longitude": 121.48196353349812
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.4817934,
+                    31.2366919
+                  ],
+                  [
+                    121.4820298,
+                    31.2367437
+                  ],
+                  [
+                    121.4821339,
+                    31.23641
+                  ],
+                  [
+                    121.4818976,
+                    31.2363561
+                  ],
+                  [
+                    121.4817934,
+                    31.2366919
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2026-10-23T16:32:24Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.832,
+          "score_components": {
+            "name_similarity": 0.76,
+            "category_compatibility": 1.0,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=building; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Shanghai World Financial Center",
+          "matched_map_name": "Shanghai Financial Court",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "AMBIGUOUS",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_2",
+      "image_name": "Aurora Plaza",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 164970992,
+            "tags": {
+              "building": "yes",
+              "height": "185",
+              "name": "震旦国际大楼",
+              "name:en": "Aurora Plaza",
+              "wikidata": "Q2109257",
+              "wikimedia_commons": "Category:Aurora Plaza (Shanghai)",
+              "wikipedia": "en:Aurora Plaza"
+            },
+            "id": "osm:way:164970992",
+            "name": "震旦国际大楼",
+            "names": {
+              "name": "震旦国际大楼",
+              "name:en": "Aurora Plaza",
+              "osm_wikipedia_title": "Aurora Plaza"
+            },
+            "aliases": [
+              "Aurora Plaza",
+              "震旦国际大楼"
+            ],
+            "location": {
+              "latitude": 31.236534050000003,
+              "longitude": 121.49526498798836
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.4950827,
+                    31.2363137
+                  ],
+                  [
+                    121.4950532,
+                    31.2363596
+                  ],
+                  [
+                    121.4950264,
+                    31.2364146
+                  ],
+                  [
+                    121.4950103,
+                    31.2364903
+                  ],
+                  [
+                    121.4950156,
+                    31.2365637
+                  ],
+                  [
+                    121.4950371,
+                    31.2366371
+                  ],
+                  [
+                    121.4950728,
+                    31.2367057
+                  ],
+                  [
+                    121.4951532,
+                    31.2367859
+                  ],
+                  [
+                    121.4952255,
+                    31.2367293
+                  ],
+                  [
+                    121.4953291,
+                    31.2367269
+                  ],
+                  [
+                    121.4953357,
+                    31.2367855
+                  ],
+                  [
+                    121.4954259,
+                    31.2367781
+                  ],
+                  [
+                    121.495419,
+                    31.2367168
+                  ],
+                  [
+                    121.4954765,
+                    31.2367121
+                  ],
+                  [
+                    121.4954702,
+                    31.2366559
+                  ],
+                  [
+                    121.4955296,
+                    31.236651
+                  ],
+                  [
+                    121.4955132,
+                    31.2365044
+                  ],
+                  [
+                    121.4955006,
+                    31.2363924
+                  ],
+                  [
+                    121.4954458,
+                    31.2363969
+                  ],
+                  [
+                    121.4954394,
+                    31.2363396
+                  ],
+                  [
+                    121.4953804,
+                    31.2363444
+                  ],
+                  [
+                    121.4953728,
+                    31.2362771
+                  ],
+                  [
+                    121.4952609,
+                    31.2362863
+                  ],
+                  [
+                    121.4952684,
+                    31.2363538
+                  ],
+                  [
+                    121.4951894,
+                    31.2363603
+                  ],
+                  [
+                    121.4950827,
+                    31.2363137
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2023-11-05T22:06:03Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.97,
+          "score_components": {
+            "name_similarity": 1.0,
+            "category_compatibility": 0.8,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "exact_name_or_alias",
+            "image_category=tower; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Aurora Plaza",
+          "matched_map_name": "Aurora Plaza",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "TENTATIVE",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_3",
+      "image_name": "Jin Mao Tower",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 376075961,
+            "tags": {
+              "addr:city": "上海市",
+              "addr:country": "CN",
+              "addr:district": "浦东新区",
+              "addr:housenumber": "88",
+              "addr:street": "世纪大道",
+              "building": "skyscraper",
+              "building:material": "mirror",
+              "check_date": "2021-04-22",
+              "height": "420.5",
+              "layer": "1",
+              "name": "金茂大厦",
+              "name:ar": "برج جن ماو",
+              "name:bn": "জিন মাও টাওয়ার",
+              "name:en": "Jin Mao Tower",
+              "name:fr": "Tour Jin Mao",
+              "name:hi": "जिन माओ टावर",
+              "name:ja": "ジンマオタワー",
+              "name:ko": "진마오 타워",
+              "name:ru": "Цзинь Мао",
+              "name:th": "จินเหมาทาวเวอร์",
+              "name:uk": "Джин Мао",
+              "name:vi": "Tháp Kim Mậu",
+              "name:yue": "金茂大廈",
+              "name:zh": "金茂大厦",
+              "name:zh-Latn-pinyin": "Jīnmào Dàshà",
+              "start_date": "1999",
+              "wikidata": "Q80813",
+              "wikipedia": "zh:金茂大厦",
+              "wikipedia:en": "Jin Mao Tower"
+            },
+            "id": "osm:way:376075961",
+            "name": "金茂大厦",
+            "names": {
+              "name": "金茂大厦",
+              "name:ar": "برج جن ماو",
+              "name:bn": "জিন মাও টাওয়ার",
+              "name:en": "Jin Mao Tower",
+              "name:fr": "Tour Jin Mao",
+              "name:hi": "जिन माओ टावर",
+              "name:ja": "ジンマオタワー",
+              "name:ko": "진마오 타워",
+              "name:ru": "Цзинь Мао",
+              "name:th": "จินเหมาทาวเวอร์",
+              "name:uk": "Джин Мао",
+              "name:vi": "Tháp Kim Mậu",
+              "name:yue": "金茂大廈",
+              "name:zh": "金茂大厦",
+              "name:zh-Latn-pinyin": "Jīnmào Dàshà",
+              "osm_wikipedia_title": "金茂大厦",
+              "osm_wikipedia:en_title": "Jin Mao Tower"
+            },
+            "aliases": [
+              "Jin Mao Tower",
+              "Jīnmào Dàshà",
+              "Tháp Kim Mậu",
+              "Tour Jin Mao",
+              "Джин Мао",
+              "Цзинь Мао",
+              "برج جن ماو",
+              "जिन माओ टावर",
+              "জিন মাও টাওয়ার",
+              "จินเหมาทาวเวอร์",
+              "ジンマオタワー",
+              "金茂大厦",
+              "金茂大廈",
+              "진마오 타워"
+            ],
+            "location": {
+              "latitude": 31.2372504,
+              "longitude": 121.5014196994733
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.5010725,
+                    31.2373315
+                  ],
+                  [
+                    121.5011126,
+                    31.2373316
+                  ],
+                  [
+                    121.5011121,
+                    31.2374952
+                  ],
+                  [
+                    121.5013071,
+                    31.2374957
+                  ],
+                  [
+                    121.501307,
+                    31.2375309
+                  ],
+                  [
+                    121.5013064,
+                    31.2376763
+                  ],
+                  [
+                    121.5014957,
+                    31.2376767
+                  ],
+                  [
+                    121.5014963,
+                    31.2375313
+                  ],
+                  [
+                    121.5014964,
+                    31.2374957
+                  ],
+                  [
+                    121.5016802,
+                    31.2374962
+                  ],
+                  [
+                    121.5016807,
+                    31.2373325
+                  ],
+                  [
+                    121.5017119,
+                    31.2373326
+                  ],
+                  [
+                    121.5018868,
+                    31.2373331
+                  ],
+                  [
+                    121.5018873,
+                    31.2371696
+                  ],
+                  [
+                    121.5017124,
+                    31.2371691
+                  ],
+                  [
+                    121.5016808,
+                    31.237169
+                  ],
+                  [
+                    121.5016813,
+                    31.2370089
+                  ],
+                  [
+                    121.5014971,
+                    31.2370084
+                  ],
+                  [
+                    121.5014972,
+                    31.2369732
+                  ],
+                  [
+                    121.5014978,
+                    31.2368243
+                  ],
+                  [
+                    121.5013064,
+                    31.2368238
+                  ],
+                  [
+                    121.5013058,
+                    31.2370084
+                  ],
+                  [
+                    121.5011131,
+                    31.2370079
+                  ],
+                  [
+                    121.5011126,
+                    31.2371674
+                  ],
+                  [
+                    121.501073,
+                    31.2371673
+                  ],
+                  [
+                    121.5009526,
+                    31.237167
+                  ],
+                  [
+                    121.5009521,
+                    31.2373312
+                  ],
+                  [
+                    121.5010725,
+                    31.2373315
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2024-04-19T11:46:20Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.97,
+          "score_components": {
+            "name_similarity": 1.0,
+            "category_compatibility": 0.8,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "exact_name_or_alias",
+            "image_category=tower; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Jin Mao Tower",
+          "matched_map_name": "Jin Mao Tower",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "TENTATIVE",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_4",
+      "image_name": "HSBC Building",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 164968674,
+            "tags": {
+              "alt_name": "IFC South Tower",
+              "building": "yes",
+              "building:levels": "58",
+              "building:material": "glass",
+              "height": "249.9",
+              "name": "汇丰银行大楼",
+              "name:en": "HSBC Building",
+              "website": "http://www.shanghaiifc.com.cn/",
+              "wikidata": "Q1648492"
+            },
+            "id": "osm:way:164968674",
+            "name": "汇丰银行大楼",
+            "names": {
+              "alt_name": "IFC South Tower",
+              "name": "汇丰银行大楼",
+              "name:en": "HSBC Building"
+            },
+            "aliases": [
+              "HSBC Building",
+              "IFC South Tower",
+              "汇丰银行大楼"
+            ],
+            "location": {
+              "latitude": 31.238601250000002,
+              "longitude": 121.49682277511738
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.4969947,
+                    31.2383687
+                  ],
+                  [
+                    121.4970617,
+                    31.2385174
+                  ],
+                  [
+                    121.4970556,
+                    31.2386851
+                  ],
+                  [
+                    121.4968659,
+                    31.2388111
+                  ],
+                  [
+                    121.4966621,
+                    31.2388064
+                  ],
+                  [
+                    121.4965816,
+                    31.2387192
+                  ],
+                  [
+                    121.496595,
+                    31.238421
+                  ],
+                  [
+                    121.496822,
+                    31.2383598
+                  ],
+                  [
+                    121.4969947,
+                    31.2383687
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2026-01-08T08:23:43Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 1.0,
+          "score_components": {
+            "name_similarity": 1.0,
+            "category_compatibility": 1.0,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "exact_name_or_alias",
+            "image_category=building; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "HSBC Building",
+          "matched_map_name": "HSBC Building",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 965047400,
+            "tags": {
+              "addr:city": "上海市",
+              "addr:district": "浦东新区",
+              "addr:housenumber": "1000号",
+              "addr:province": "上海",
+              "addr:street": "陆家嘴环路",
+              "building": "commercial",
+              "building:levels:underground": "4",
+              "name": "恒生银行大厦",
+              "name:en": "HSBC Tower",
+              "wikidata": "Q5647842"
+            },
+            "id": "osm:way:965047400",
+            "name": "恒生银行大厦",
+            "names": {
+              "name": "恒生银行大厦",
+              "name:en": "HSBC Tower"
+            },
+            "aliases": [
+              "HSBC Tower",
+              "恒生银行大厦"
+            ],
+            "location": {
+              "latitude": 31.24216165,
+              "longitude": 121.5030260036537
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.5028484,
+                    31.2423427
+                  ],
+                  [
+                    121.5027831,
+                    31.2424284
+                  ],
+                  [
+                    121.5030769,
+                    31.2425919
+                  ],
+                  [
+                    121.5032041,
+                    31.2424247
+                  ],
+                  [
+                    121.5031644,
+                    31.2424027
+                  ],
+                  [
+                    121.5033532,
+                    31.2421532
+                  ],
+                  [
+                    121.5033051,
+                    31.2421279
+                  ],
+                  [
+                    121.5033518,
+                    31.2420665
+                  ],
+                  [
+                    121.5033008,
+                    31.2420382
+                  ],
+                  [
+                    121.5034157,
+                    31.2418872
+                  ],
+                  [
+                    121.5031212,
+                    31.2417234
+                  ],
+                  [
+                    121.5030819,
+                    31.2417751
+                  ],
+                  [
+                    121.5029826,
+                    31.2417198
+                  ],
+                  [
+                    121.5028089,
+                    31.241948
+                  ],
+                  [
+                    121.5028604,
+                    31.2419766
+                  ],
+                  [
+                    121.5028338,
+                    31.2420117
+                  ],
+                  [
+                    121.5027862,
+                    31.2419852
+                  ],
+                  [
+                    121.5026677,
+                    31.2421408
+                  ],
+                  [
+                    121.5027204,
+                    31.2421701
+                  ],
+                  [
+                    121.5026883,
+                    31.2422122
+                  ],
+                  [
+                    121.50273,
+                    31.2422354
+                  ],
+                  [
+                    121.5027083,
+                    31.2422652
+                  ],
+                  [
+                    121.5028484,
+                    31.2423427
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2026-10-29T15:19:02Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.903735,
+          "score_components": {
+            "name_similarity": 0.9117647058823529,
+            "category_compatibility": 1.0,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "name_containment",
+            "image_category=building; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Shanghai HSBC Tower",
+          "matched_map_name": "HSBC Tower",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 165792123,
+            "tags": {
+              "addr:city": "上海市",
+              "addr:country": "CN",
+              "addr:district": "浦东新区",
+              "addr:housenumber": "501",
+              "addr:street": "银城中路",
+              "building": "commercial",
+              "building:levels": "128",
+              "building:material": "glass",
+              "check_date": "2021-03-10",
+              "height": "632",
+              "image": "https://commons.wikimedia.org/wiki/File:Shanghai_tower_dec_26,_2014.jpg",
+              "name": "上海中心大厦",
+              "name:ar": "برج شانغهاي",
+              "name:bn": "সাংহাই টাওয়ার",
+              "name:en": "Shanghai Tower",
+              "name:es": "Torre de Shanghái",
+              "name:fr": "Tour Shanghaï",
+              "name:hi": "शंघाई टवर",
+              "name:id": "Menara Shanghai",
+              "name:ja": "上海中心",
+              "name:ja-Hira": "しゃんはい ちゅうしん",
+              "name:ko": "상하이 타워",
+              "name:ml": "ഷാങ്ഹായ് ടവർ",
+              "name:ru": "Шанхайская башня",
+              "name:th": "เซี่ยงไฮ้ทาวเวอร์",
+              "name:tr": "Şanghay Kulesi",
+              "name:vi": "Tháp Thượng Hải",
+              "name:yue": "上海中心大廈",
+              "name:zh": "上海中心大厦",
+              "name:zh-Latn-pinyin": "Shànghǎi Zhōngxīn Dàshà",
+              "note": "Building attributes (e.g., address, name, overall height, operator, etc.) must be tagged on the building outline. https://wiki.openstreetmap.org/wiki/Simple_3D_buildings#Building_outlines",
+              "start_date": "2016",
+              "tourism": "attraction",
+              "website": "https://www.shanghaitower.com/",
+              "wikidata": "Q18547",
+              "wikimedia_commons": "Category:Shanghai Tower",
+              "wikipedia": "en:Shanghai Tower"
+            },
+            "id": "osm:way:165792123",
+            "name": "上海中心大厦",
+            "names": {
+              "name": "上海中心大厦",
+              "name:ar": "برج شانغهاي",
+              "name:bn": "সাংহাই টাওয়ার",
+              "name:en": "Shanghai Tower",
+              "name:es": "Torre de Shanghái",
+              "name:fr": "Tour Shanghaï",
+              "name:hi": "शंघाई टवर",
+              "name:id": "Menara Shanghai",
+              "name:ja": "上海中心",
+              "name:ja-Hira": "しゃんはい ちゅうしん",
+              "name:ko": "상하이 타워",
+              "name:ml": "ഷാങ്ഹായ് ടവർ",
+              "name:ru": "Шанхайская башня",
+              "name:th": "เซี่ยงไฮ้ทาวเวอร์",
+              "name:tr": "Şanghay Kulesi",
+              "name:vi": "Tháp Thượng Hải",
+              "name:yue": "上海中心大廈",
+              "name:zh": "上海中心大厦",
+              "name:zh-Latn-pinyin": "Shànghǎi Zhōngxīn Dàshà",
+              "osm_wikipedia_title": "Shanghai Tower"
+            },
+            "aliases": [
+              "Menara Shanghai",
+              "Shanghai Tower",
+              "Shànghǎi Zhōngxīn Dàshà",
+              "Tháp Thượng Hải",
+              "Torre de Shanghái",
+              "Tour Shanghaï",
+              "Şanghay Kulesi",
+              "Шанхайская башня",
+              "برج شانغهاي",
+              "शंघाई टवर",
+              "সাংহাই টাওয়ার",
+              "ഷാങ്ഹായ് ടവർ",
+              "เซี่ยงไฮ้ทาวเวอร์",
+              "しゃんはい ちゅうしん",
+              "上海中心",
+              "上海中心大厦",
+              "上海中心大廈",
+              "상하이 타워"
+            ],
+            "location": {
+              "latitude": 31.23564965,
+              "longitude": 121.50125438592686
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.5007275,
+                    31.2354993
+                  ],
+                  [
+                    121.5007601,
+                    31.2354319
+                  ],
+                  [
+                    121.500802,
+                    31.2353455
+                  ],
+                  [
+                    121.5008716,
+                    31.2353243
+                  ],
+                  [
+                    121.500846,
+                    31.2352592
+                  ],
+                  [
+                    121.5009721,
+                    31.2352198
+                  ],
+                  [
+                    121.5011559,
+                    31.235189
+                  ],
+                  [
+                    121.5013239,
+                    31.2351902
+                  ],
+                  [
+                    121.501398,
+                    31.2351991
+                  ],
+                  [
+                    121.5014697,
+                    31.2352127
+                  ],
+                  [
+                    121.5016027,
+                    31.2352433
+                  ],
+                  [
+                    121.501674,
+                    31.2352732
+                  ],
+                  [
+                    121.5017446,
+                    31.2353027
+                  ],
+                  [
+                    121.5017848,
+                    31.2353453
+                  ],
+                  [
+                    121.501806,
+                    31.2353988
+                  ],
+                  [
+                    121.5017965,
+                    31.2354427
+                  ],
+                  [
+                    121.5017866,
+                    31.235488
+                  ],
+                  [
+                    121.5017632,
+                    31.2355247
+                  ],
+                  [
+                    121.5017289,
+                    31.2355784
+                  ],
+                  [
+                    121.5016592,
+                    31.2356876
+                  ],
+                  [
+                    121.5015721,
+                    31.2358244
+                  ],
+                  [
+                    121.5014693,
+                    31.2359357
+                  ],
+                  [
+                    121.5013968,
+                    31.2360115
+                  ],
+                  [
+                    121.5013308,
+                    31.2360492
+                  ],
+                  [
+                    121.5012621,
+                    31.2360316
+                  ],
+                  [
+                    121.5012357,
+                    31.2360155
+                  ],
+                  [
+                    121.5011838,
+                    31.2359839
+                  ],
+                  [
+                    121.5010465,
+                    31.2358859
+                  ],
+                  [
+                    121.5008579,
+                    31.235698
+                  ],
+                  [
+                    121.5007998,
+                    31.2356117
+                  ],
+                  [
+                    121.5007275,
+                    31.2354993
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2026-10-29T18:40:16Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.872167,
+          "score_components": {
+            "name_similarity": 0.8666666666666667,
+            "category_compatibility": 1.0,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=building; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Shanghai HSBC Tower",
+          "matched_map_name": "Shanghai Tower",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "node",
+            "osm_id": 476149515,
+            "tags": {
+              "name": "前汇丰银行大楼",
+              "name:en": "Former HSBC Building",
+              "tourism": "attraction"
+            },
+            "id": "osm:node:476149515",
+            "name": "前汇丰银行大楼",
+            "names": {
+              "name": "前汇丰银行大楼",
+              "name:en": "Former HSBC Building"
+            },
+            "aliases": [
+              "Former HSBC Building",
+              "前汇丰银行大楼"
+            ],
+            "location": {
+              "latitude": 31.2380045,
+              "longitude": 121.4857569
+            },
+            "category": "attraction",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                121.4857569,
+                31.2380045
+              ]
+            },
+            "geometry_precision": "node",
+            "complete_geometry": true,
+            "coordinate_meaning": "actual_osm_node; not a photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2018-09-02T16:47:55Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.869,
+          "score_components": {
+            "name_similarity": 0.92,
+            "category_compatibility": 0.5,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "name_containment",
+            "image_category=building; map_category=attraction",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "HSBC Building",
+          "matched_map_name": "Former HSBC Building",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "AMBIGUOUS",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_5",
+      "image_name": "Shangri-La Hotel",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 281583582,
+            "tags": {
+              "brand": "香格里拉",
+              "building": "yes",
+              "building:levels": "43",
+              "name": "香格里拉酒店",
+              "name:en": "Shangri-La",
+              "name:zh": "香格里拉酒店",
+              "name:zh-Hans": "香格里拉酒店",
+              "name:zh-Hant": "香格里拉酒店",
+              "tourism": "hotel",
+              "website": "https://www.shangri-la.com/shanghai/pudongshangrila"
+            },
+            "id": "osm:way:281583582",
+            "name": "香格里拉酒店",
+            "names": {
+              "name": "香格里拉酒店",
+              "name:en": "Shangri-La",
+              "name:zh": "香格里拉酒店",
+              "name:zh-Hans": "香格里拉酒店",
+              "name:zh-Hant": "香格里拉酒店"
+            },
+            "aliases": [
+              "Shangri-La",
+              "香格里拉酒店"
+            ],
+            "location": {
+              "latitude": 31.23803695,
+              "longitude": 121.49585151731517
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.4956961,
+                    31.2382869
+                  ],
+                  [
+                    121.4955039,
+                    31.2382674
+                  ],
+                  [
+                    121.4956912,
+                    31.2380335
+                  ],
+                  [
+                    121.4957731,
+                    31.2380404
+                  ],
+                  [
+                    121.4957719,
+                    31.2379921
+                  ],
+                  [
+                    121.4957673,
+                    31.2377905
+                  ],
+                  [
+                    121.4959385,
+                    31.2378677
+                  ],
+                  [
+                    121.4959212,
+                    31.238213
+                  ],
+                  [
+                    121.4957647,
+                    31.2382053
+                  ],
+                  [
+                    121.4956961,
+                    31.2382869
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2023-08-29T09:57:41Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.943,
+          "score_components": {
+            "name_similarity": 0.9185714285714286,
+            "category_compatibility": 1.0,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "name_containment",
+            "image_category=building; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Shangri-La Hotel",
+          "matched_map_name": "Shangri-La",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 754533223,
+            "tags": {
+              "landuse": "commercial",
+              "name": "香格里拉",
+              "name:en": "Pudong Shangri-La",
+              "name:zh": "香格里拉",
+              "name:zh-Hans": "香格里拉",
+              "name:zh-Hant": "香格里拉",
+              "source": "https://www.shangri-la.com/en/shanghai/pudongshangrila/"
+            },
+            "id": "osm:way:754533223",
+            "name": "香格里拉",
+            "names": {
+              "name": "香格里拉",
+              "name:en": "Pudong Shangri-La",
+              "name:zh": "香格里拉",
+              "name:zh-Hans": "香格里拉",
+              "name:zh-Hant": "香格里拉"
+            },
+            "aliases": [
+              "Pudong Shangri-La",
+              "香格里拉"
+            ],
+            "location": {
+              "latitude": 31.23759415,
+              "longitude": 121.49468456610089
+            },
+            "category": "other",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.4949765,
+                    31.2381827
+                  ],
+                  [
+                    121.4952359,
+                    31.2382953
+                  ],
+                  [
+                    121.4953914,
+                    31.2383481
+                  ],
+                  [
+                    121.4955685,
+                    31.2383756
+                  ],
+                  [
+                    121.4960013,
+                    31.2383894
+                  ],
+                  [
+                    121.4960322,
+                    31.2383861
+                  ],
+                  [
+                    121.4960591,
+                    31.2383724
+                  ],
+                  [
+                    121.4960778,
+                    31.2383518
+                  ],
+                  [
+                    121.4960844,
+                    31.2383294
+                  ],
+                  [
+                    121.4961152,
+                    31.2379039
+                  ],
+                  [
+                    121.4950991,
+                    31.237472
+                  ],
+                  [
+                    121.4952546,
+                    31.2372174
+                  ],
+                  [
+                    121.4944587,
+                    31.2368549
+                  ],
+                  [
+                    121.493904,
+                    31.2377163
+                  ],
+                  [
+                    121.4949765,
+                    31.2381827
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2023-05-09T02:38:13Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.8905,
+          "score_components": {
+            "name_similarity": 1.0,
+            "category_compatibility": 0.5,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "exact_name_or_alias",
+            "image_category=building; map_category=other",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Pudong Shangri-La",
+          "matched_map_name": "Pudong Shangri-La",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 428202603,
+            "tags": {
+              "amenity": "restaurant",
+              "building": "yes",
+              "building:levels": "4",
+              "name": "上海老饭店",
+              "name:en": "Shanghai Old Hotel",
+              "name:zh": "上海老饭店",
+              "opening_hours": "Mo-Su 11:00-14:00; Mo-Su 17:00-21:30",
+              "roof:levels": "1",
+              "roof:shape": "mansard"
+            },
+            "id": "osm:way:428202603",
+            "name": "上海老饭店",
+            "names": {
+              "name": "上海老饭店",
+              "name:en": "Shanghai Old Hotel",
+              "name:zh": "上海老饭店"
+            },
+            "aliases": [
+              "Shanghai Old Hotel",
+              "上海老饭店"
+            ],
+            "location": {
+              "latitude": 31.229457850000003,
+              "longitude": 121.48640450326224
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.486211,
+                    31.2297318
+                  ],
+                  [
+                    121.4865777,
+                    31.2297425
+                  ],
+                  [
+                    121.486603,
+                    31.2292954
+                  ],
+                  [
+                    121.4862544,
+                    31.2292619
+                  ],
+                  [
+                    121.4861827,
+                    31.2296203
+                  ],
+                  [
+                    121.486211,
+                    31.2297318
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2026-03-08T03:49:26Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.86,
+          "score_components": {
+            "name_similarity": 0.8,
+            "category_compatibility": 1.0,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=building; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Shangri-La Hotel",
+          "matched_map_name": "Shanghai Old Hotel",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "AMBIGUOUS",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_6",
+      "image_name": "Mirae Asset Building",
+      "candidates": [],
+      "status": "UNMATCHED",
+      "unmatched_reason": "No compatible named entity in loaded map coverage"
+    },
+    {
+      "image_landmark_id": "lm_7",
+      "image_name": "CITIC Building",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 233134830,
+            "tags": {
+              "building": "yes",
+              "name": "中航工业大厦",
+              "name:en": "Avic Plaza"
+            },
+            "id": "osm:way:233134830",
+            "name": "中航工业大厦",
+            "names": {
+              "name": "中航工业大厦",
+              "name:en": "Avic Plaza"
+            },
+            "aliases": [
+              "Avic Plaza",
+              "中航工业大厦"
+            ],
+            "location": {
+              "latitude": 39.90492505,
+              "longitude": 116.45782172508441
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    116.457377,
+                    39.9051054
+                  ],
+                  [
+                    116.4582636,
+                    39.9051094
+                  ],
+                  [
+                    116.4582665,
+                    39.9047447
+                  ],
+                  [
+                    116.4573798,
+                    39.9047406
+                  ],
+                  [
+                    116.457377,
+                    39.9051054
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:40.980207Z",
+            "osm_updated_at": "2020-08-02T04:50:14Z",
+            "region_ids": [
+              "beijing"
+            ],
+            "warnings": []
+          },
+          "score": 0.781289,
+          "score_components": {
+            "name_similarity": 0.7368421052631579,
+            "category_compatibility": 1.0,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=building; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "CITIC Plaza",
+          "matched_map_name": "Avic Plaza",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "TENTATIVE",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_8",
+      "image_name": "The Bund 18",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 1196704498,
+            "tags": {
+              "addr:housenumber": "18",
+              "addr:street": "中山东一路",
+              "addr:street:en": "East Zhongshan No. 1 Road",
+              "building": "commercial",
+              "building:levels": "7",
+              "heritage": "yes",
+              "heritage:operator": "上海市优秀历史建筑",
+              "heritage:ref": "A-Ⅲ-008",
+              "name": "外滩18号",
+              "name:en": "Bund18",
+              "name:zh": "外滩18号",
+              "name:zh-Hans": "外滩18号",
+              "name:zh-Hant": "外灘18號",
+              "start_date": "1923"
+            },
+            "id": "osm:way:1196704498",
+            "name": "外滩18号",
+            "names": {
+              "name": "外滩18号",
+              "name:en": "Bund18",
+              "name:zh": "外滩18号",
+              "name:zh-Hans": "外滩18号",
+              "name:zh-Hant": "外灘18號"
+            },
+            "aliases": [
+              "Bund18",
+              "外滩18号",
+              "外灘18號"
+            ],
+            "location": {
+              "latitude": 31.240335,
+              "longitude": 121.48502166688513
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.4846985,
+                    31.2403917
+                  ],
+                  [
+                    121.4847948,
+                    31.2401448
+                  ],
+                  [
+                    121.485328,
+                    31.2402783
+                  ],
+                  [
+                    121.485303,
+                    31.2405467
+                  ],
+                  [
+                    121.4851957,
+                    31.2405353
+                  ],
+                  [
+                    121.4851984,
+                    31.2405146
+                  ],
+                  [
+                    121.4846985,
+                    31.2403917
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2023-08-10T07:35:51Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.944,
+          "score_components": {
+            "name_similarity": 0.92,
+            "category_compatibility": 1.0,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "name_containment",
+            "image_category=building; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "The Bund 18",
+          "matched_map_name": "Bund18",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "node",
+            "osm_id": 11290954427,
+            "tags": {
+              "name": "外滩",
+              "name:en": "The Bund",
+              "name:zh": "外滩",
+              "tourism": "attraction"
+            },
+            "id": "osm:node:11290954427",
+            "name": "外滩",
+            "names": {
+              "name": "外滩",
+              "name:en": "The Bund",
+              "name:zh": "外滩"
+            },
+            "aliases": [
+              "The Bund",
+              "外滩"
+            ],
+            "location": {
+              "latitude": 31.2403257,
+              "longitude": 121.4860368
+            },
+            "category": "attraction",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                121.4860368,
+                31.2403257
+              ]
+            },
+            "geometry_precision": "node",
+            "complete_geometry": true,
+            "coordinate_meaning": "actual_osm_node; not a photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2023-10-26T13:28:33Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.873667,
+          "score_components": {
+            "name_similarity": 0.9266666666666666,
+            "category_compatibility": 0.5,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "name_containment",
+            "image_category=building; map_category=attraction",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "The Bund 18",
+          "matched_map_name": "The Bund",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "node",
+            "osm_id": 1887593819,
+            "tags": {
+              "amenity": "parking",
+              "name": "外滩",
+              "name:en": "The Bund",
+              "name:ru": "Бунд",
+              "name:zh": "外滩",
+              "name:zh-Hans": "外滩",
+              "name:zh-Hant": "外灘",
+              "spaces": "400"
+            },
+            "id": "osm:node:1887593819",
+            "name": "外滩",
+            "names": {
+              "name": "外滩",
+              "name:en": "The Bund",
+              "name:ru": "Бунд",
+              "name:zh": "外滩",
+              "name:zh-Hans": "外滩",
+              "name:zh-Hant": "外灘"
+            },
+            "aliases": [
+              "The Bund",
+              "Бунд",
+              "外滩",
+              "外灘"
+            ],
+            "location": {
+              "latitude": 31.2351788,
+              "longitude": 121.4880903
+            },
+            "category": "other",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                121.4880903,
+                31.2351788
+              ]
+            },
+            "geometry_precision": "node",
+            "complete_geometry": true,
+            "coordinate_meaning": "actual_osm_node; not a photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2026-09-22T07:12:08Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.873667,
+          "score_components": {
+            "name_similarity": 0.9266666666666666,
+            "category_compatibility": 0.5,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "name_containment",
+            "image_category=building; map_category=other",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "The Bund 18",
+          "matched_map_name": "The Bund",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "node",
+            "osm_id": 477624806,
+            "tags": {
+              "amenity": "police",
+              "name": "外滩派出所",
+              "name:en": "The Bund"
+            },
+            "id": "osm:node:477624806",
+            "name": "外滩派出所",
+            "names": {
+              "name": "外滩派出所",
+              "name:en": "The Bund"
+            },
+            "aliases": [
+              "The Bund",
+              "外滩派出所"
+            ],
+            "location": {
+              "latitude": 31.2389848,
+              "longitude": 121.4779239
+            },
+            "category": "other",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                121.4779239,
+                31.2389848
+              ]
+            },
+            "geometry_precision": "node",
+            "complete_geometry": true,
+            "coordinate_meaning": "actual_osm_node; not a photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2026-01-12T13:35:22Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.873667,
+          "score_components": {
+            "name_similarity": 0.9266666666666666,
+            "category_compatibility": 0.5,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "name_containment",
+            "image_category=building; map_category=other",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "The Bund 18",
+          "matched_map_name": "The Bund",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "node",
+            "osm_id": 1887575215,
+            "tags": {
+              "amenity": "restaurant",
+              "floor": "7",
+              "name": "米氏西餐厅",
+              "name:en": "M on the Bund",
+              "wikidata": "Q6720556",
+              "wikipedia": "en:M on the Bund"
+            },
+            "id": "osm:node:1887575215",
+            "name": "米氏西餐厅",
+            "names": {
+              "name": "米氏西餐厅",
+              "name:en": "M on the Bund",
+              "osm_wikipedia_title": "M on the Bund"
+            },
+            "aliases": [
+              "M on the Bund",
+              "米氏西餐厅"
+            ],
+            "location": {
+              "latitude": 31.2364221,
+              "longitude": 121.4864006
+            },
+            "category": "other",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                121.4864006,
+                31.2364221
+              ]
+            },
+            "geometry_precision": "node",
+            "complete_geometry": true,
+            "coordinate_meaning": "actual_osm_node; not a photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2023-11-05T22:06:02Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.740789,
+          "score_components": {
+            "name_similarity": 0.7368421052631579,
+            "category_compatibility": 0.5,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=building; map_category=other",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "The Bund 18",
+          "matched_map_name": "M on the Bund",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "AMBIGUOUS",
+      "unmatched_reason": null
+    }
+  ],
+  "region_hypotheses": [
+    {
+      "region_id": "shanghai",
+      "assignments": {
+        "lm_1": "osm:way:10691100",
+        "lm_2": "osm:way:164970992",
+        "lm_3": "osm:way:376075961",
+        "lm_4": "osm:way:164968674",
+        "lm_5": "osm:way:281583582",
+        "lm_8": "osm:way:1196704498"
+      },
+      "score": 0.728375,
+      "matched_objects": 6,
+      "max_pair_distance_m": 1766.4326053985994,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "shanghai",
+      "assignments": {
+        "lm_1": "osm:way:10691100",
+        "lm_2": "osm:way:164970992",
+        "lm_3": "osm:way:376075961",
+        "lm_4": "osm:way:164968674",
+        "lm_5": "osm:way:754533223",
+        "lm_8": "osm:way:1196704498"
+      },
+      "score": 0.721812,
+      "matched_objects": 6,
+      "max_pair_distance_m": 1766.4326053985994,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "shanghai",
+      "assignments": {
+        "lm_1": "osm:way:10691100",
+        "lm_2": "osm:way:164970992",
+        "lm_3": "osm:way:376075961",
+        "lm_4": "osm:way:164968674",
+        "lm_5": "osm:way:281583582",
+        "lm_8": "osm:node:11290954427"
+      },
+      "score": 0.719583,
+      "matched_objects": 6,
+      "max_pair_distance_m": 1672.353348146851,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "shanghai",
+      "assignments": {
+        "lm_1": "osm:way:10691100",
+        "lm_2": "osm:way:164970992",
+        "lm_3": "osm:way:376075961",
+        "lm_4": "osm:way:164968674",
+        "lm_5": "osm:way:281583582",
+        "lm_8": "osm:node:1887593819"
+      },
+      "score": 0.719583,
+      "matched_objects": 6,
+      "max_pair_distance_m": 1432.6954382874628,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "shanghai",
+      "assignments": {
+        "lm_1": "osm:way:10691100",
+        "lm_2": "osm:way:164970992",
+        "lm_3": "osm:way:376075961",
+        "lm_4": "osm:way:164968674",
+        "lm_5": "osm:way:281583582",
+        "lm_8": "osm:node:477624806"
+      },
+      "score": 0.719583,
+      "matched_objects": 6,
+      "max_pair_distance_m": 2407.623318757075,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "shanghai",
+      "assignments": {
+        "lm_1": "osm:way:10691100",
+        "lm_2": "osm:way:164970992",
+        "lm_3": "osm:way:376075961",
+        "lm_4": "osm:way:164968674",
+        "lm_5": "osm:way:428202603",
+        "lm_8": "osm:way:1196704498"
+      },
+      "score": 0.718,
+      "matched_objects": 6,
+      "max_pair_distance_m": 1770.5998823432258,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "shanghai",
+      "assignments": {
+        "lm_1": "osm:way:10691100",
+        "lm_2": "osm:way:164970992",
+        "lm_3": "osm:way:376075961",
+        "lm_4": "osm:way:965047400",
+        "lm_5": "osm:way:281583582",
+        "lm_8": "osm:way:1196704498"
+      },
+      "score": 0.716342,
+      "matched_objects": 6,
+      "max_pair_distance_m": 1766.4326053985994,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "shanghai",
+      "assignments": {
+        "lm_1": "osm:way:10691100",
+        "lm_2": "osm:way:164970992",
+        "lm_3": "osm:way:376075961",
+        "lm_4": "osm:way:164968674",
+        "lm_5": "osm:way:754533223",
+        "lm_8": "osm:node:11290954427"
+      },
+      "score": 0.713021,
+      "matched_objects": 6,
+      "max_pair_distance_m": 1672.353348146851,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "shanghai",
+      "assignments": {
+        "lm_1": "osm:way:10691100",
+        "lm_2": "osm:way:164970992",
+        "lm_3": "osm:way:376075961",
+        "lm_4": "osm:way:164968674",
+        "lm_5": "osm:way:754533223",
+        "lm_8": "osm:node:1887593819"
+      },
+      "score": 0.713021,
+      "matched_objects": 6,
+      "max_pair_distance_m": 1432.6954382874628,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "beijing",
+      "assignments": {
+        "lm_7": "osm:way:233134830"
+      },
+      "score": 0.097661,
+      "matched_objects": 1,
+      "max_pair_distance_m": 0.0,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    }
+  ],
+  "distinct_image_relations": [
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_5",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_6",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_6",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_4",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_5",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_6",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_7",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_8",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_8",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    }
+  ],
+  "consistency_checks": {
+    "duplicate_entity_assignments_rejected": 0,
+    "distant_assignments_rejected": 0,
+    "candidate_regions": 2,
+    "regions_omitted_by_output_limit": 0,
+    "seed_name_candidates": 17,
+    "input_directed_relations": 104,
+    "distinct_pair_axis_relations": 52
+  },
+  "warnings": [
+    "Finite imported map coverage only; absence is not proof that a landmark does not exist",
+    "All scores are uncalibrated heuristics; entity identities remain tentative",
+    "Map entity coordinates and geometry representative points are not photographer locations",
+    "Spatial consistency checks co-region, uniqueness and pair distance only; no camera pose is solved",
+    "Multiple geographically separate region hypotheses remain"
+  ],
+  "coverage_regions": [
+    "beijing",
+    "guangzhou",
+    "shanghai"
+  ],
+  "scoring_version": "stage3-heuristic-v1"
+}

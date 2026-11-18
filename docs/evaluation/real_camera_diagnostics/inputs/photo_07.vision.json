@@ -1,0 +1,375 @@
+{
+  "landmarks": [
+    {
+      "name": "Oriental Pearl Tower",
+      "x": 0.285,
+      "y": 0.48,
+      "confidence": 0.95,
+      "matched_landmark_id": null,
+      "id": "lm_1",
+      "name_candidates": [
+        "Oriental Pearl Tower",
+        "Dongfang Mingzhu Guangchang"
+      ],
+      "bbox": {
+        "x_min": 0.25,
+        "y_min": 0.18,
+        "x_max": 0.32,
+        "y_max": 0.77
+      },
+      "visual_evidence": [
+        "Tall tower with two large pink/red spheres stacked vertically and a thin antenna spire on top",
+        "Tripod-like base structure with diagonal supports",
+        "Distinctive pearl-shaped observation spheres unique to this tower"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Shanghai Tower",
+      "x": 0.76,
+      "y": 0.43,
+      "confidence": 0.93,
+      "matched_landmark_id": null,
+      "id": "lm_2",
+      "name_candidates": [
+        "Shanghai Tower",
+        "Lujiazui Tower"
+      ],
+      "bbox": {
+        "x_min": 0.735,
+        "y_min": 0.27,
+        "x_max": 0.785,
+        "y_max": 0.6
+      },
+      "visual_evidence": [
+        "Tallest skyscraper in the skyline with a twisting, spiraling glass facade",
+        "Rounded tapering top with a visible opening near the crown"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Shanghai World Financial Center",
+      "x": 0.675,
+      "y": 0.53,
+      "confidence": 0.9,
+      "matched_landmark_id": null,
+      "id": "lm_3",
+      "name_candidates": [
+        "Shanghai World Financial Center",
+        "SWFC"
+      ],
+      "bbox": {
+        "x_min": 0.655,
+        "y_min": 0.425,
+        "x_max": 0.7,
+        "y_max": 0.62
+      },
+      "visual_evidence": [
+        "Tall flat-topped tower with a distinctive trapezoidal aperture/opening near the top",
+        "Slim rectangular profile adjacent to the twisting tower"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Jin Mao Tower",
+      "x": 0.652,
+      "y": 0.52,
+      "confidence": 0.78,
+      "matched_landmark_id": null,
+      "id": "lm_4",
+      "name_candidates": [
+        "Jin Mao Tower",
+        "Jinmao Dasha"
+      ],
+      "bbox": {
+        "x_min": 0.635,
+        "y_min": 0.455,
+        "x_max": 0.67,
+        "y_max": 0.6
+      },
+      "visual_evidence": [
+        "Stepped, pagoda-like tiered tower with a pointed spire top",
+        "Set back in front of the flat-topped tower with the opening"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Huangpu River",
+      "x": 0.5,
+      "y": 0.88,
+      "confidence": 0.88,
+      "matched_landmark_id": null,
+      "id": "lm_5",
+      "name_candidates": [
+        "Huangpu River",
+        "Huangpu Jiang"
+      ],
+      "bbox": {
+        "x_min": 0.0,
+        "y_min": 0.78,
+        "x_max": 1.0,
+        "y_max": 1.0
+      },
+      "visual_evidence": [
+        "Wide brownish waterway in the foreground",
+        "Rippled surface spanning the full width of the image in front of the skyline"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    }
+  ],
+  "scene_features": [
+    "Dense modern skyscraper cluster (Lujiazui financial district skyline)",
+    "Overcast grey cloudy sky",
+    "Riverfront promenade with greenery and low buildings at the base of the towers",
+    "Multiple glass and steel high-rise towers of varying heights",
+    "Visible corporate signage and Chinese characters on some building facades"
+  ],
+  "warnings": [
+    "Jin Mao Tower and Shanghai World Financial Center are partially overlapping in the skyline; their bounding boxes may be approximate.",
+    "River identification relies on the characteristic Lujiazui skyline context rather than visible text.",
+    "Model confidence is an uncalibrated self-assessment, not a probability."
+  ],
+  "image": {
+    "original_size": {
+      "width": 1600,
+      "height": 1067
+    },
+    "oriented_size": {
+      "width": 1600,
+      "height": 1067
+    },
+    "processed_size": {
+      "width": 1600,
+      "height": 1067
+    },
+    "original_format": "JPEG",
+    "encoded_format": "JPEG",
+    "original_bytes": 316583,
+    "processed_bytes": 260023,
+    "orientation_corrected": false
+  },
+  "relations": [
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_1",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_5",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_3",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_5",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_4",
+      "relation_type": "BELOW",
+      "confidence": null
+    }
+  ],
+  "relation_min_gap": 0.03
+}

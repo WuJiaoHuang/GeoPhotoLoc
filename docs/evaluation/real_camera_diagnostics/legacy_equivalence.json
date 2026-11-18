@@ -1,0 +1,50 @@
+[
+  {
+    "case": "beijing_cbd",
+    "group": "baseline",
+    "regions_and_feasible_exact": true,
+    "point_counts_exact": true
+  },
+  {
+    "case": "beijing_cbd",
+    "group": "robust_only",
+    "regions_and_feasible_exact": true,
+    "point_counts_exact": true
+  },
+  {
+    "case": "beijing_cbd",
+    "group": "identity_only",
+    "regions_and_feasible_exact": true,
+    "point_counts_exact": true
+  },
+  {
+    "case": "beijing_cbd",
+    "group": "joint_full",
+    "regions_and_feasible_exact": true,
+    "point_counts_exact": true
+  },
+  {
+    "case": "north_bund",
+    "group": "baseline",
+    "regions_and_feasible_exact": true,
+    "point_counts_exact": true
+  },
+  {
+    "case": "north_bund",
+    "group": "robust_only",
+    "regions_and_feasible_exact": true,
+    "point_counts_exact": true
+  },
+  {
+    "case": "north_bund",
+    "group": "identity_only",
+    "regions_and_feasible_exact": true,
+    "point_counts_exact": true
+  },
+  {
+    "case": "north_bund",
+    "group": "joint_full",
+    "regions_and_feasible_exact": true,
+    "point_counts_exact": true
+  }
+]

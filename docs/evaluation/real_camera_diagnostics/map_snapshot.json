@@ -1,0 +1,10 @@
+{
+  "sha256": "d8c6bb1c71c212af1a7b65b16b09cd0ce3a89aa95a9287b940e145e8c1aa8965",
+  "bytes": 39075840,
+  "coverage": [
+    "beijing",
+    "guangzhou",
+    "shanghai"
+  ],
+  "note": "Existing bounded OSM snapshot; no network imports; geographic labels are never supplied to matcher"
+}

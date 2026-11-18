@@ -1,0 +1,1929 @@
+{
+  "status": "AMBIGUOUS",
+  "matches": [
+    {
+      "image_landmark_id": "lm_1",
+      "image_name": "Tall skyscraper with IFC logo",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 184738716,
+            "tags": {
+              "addr:city": "广州市",
+              "addr:country": "CN",
+              "addr:province": "广东省",
+              "alt_name": "广州西塔",
+              "alt_name:en": "Guangzhou West Tower",
+              "building": "commercial",
+              "building:colour": "#000000",
+              "building:levels": "103",
+              "building:material": "glass",
+              "check_date": "2021-03-10",
+              "height": "440.2",
+              "name": "广州国际金融中心(广州西塔)",
+              "name:de": "Internationales Finanzzentrum Guangzhou",
+              "name:en": "Guangzhou International Finance Center",
+              "name:es": "Centro Financiero Internacional de Cantón",
+              "name:ja": "広州国際金融センター",
+              "name:ja-Hira": "こうしゅうこくさいきんゆうせんたー",
+              "name:ko": "광저우 국제금융센터",
+              "name:pt": "Centro Financeiro Internacional de Cantão",
+              "name:ru": "Международный финансовый центр",
+              "name:th": "กว่างโจวอินเตอร์เนชัลนัลไฟแนนซ์เซ็นเตอร์",
+              "name:uk": "Західна вежа Гуанчжоу",
+              "name:vi": "Trung tâm Tài chính Quốc tế Quảng Châu",
+              "name:yue": "廣州國際金融中心",
+              "name:zh": "广州国际金融中心(广州西塔)",
+              "name:zh-Latn-pinyin": "Guǎngzhōu Guójì Jīnróng Zhōngxīn",
+              "short_name": "IFC",
+              "start_date": "2010",
+              "wikidata": "Q1043438",
+              "wikimedia_commons": "Category:Guangzhou West Tower",
+              "wikipedia": "zh:广州国际金融中心",
+              "wikipedia:en": "Guangzhou International Finance Center"
+            },
+            "id": "osm:way:184738716",
+            "name": "广州国际金融中心(广州西塔)",
+            "names": {
+              "alt_name": "广州西塔",
+              "alt_name:en": "Guangzhou West Tower",
+              "name": "广州国际金融中心(广州西塔)",
+              "name:de": "Internationales Finanzzentrum Guangzhou",
+              "name:en": "Guangzhou International Finance Center",
+              "name:es": "Centro Financiero Internacional de Cantón",
+              "name:ja": "広州国際金融センター",
+              "name:ja-Hira": "こうしゅうこくさいきんゆうせんたー",
+              "name:ko": "광저우 국제금융센터",
+              "name:pt": "Centro Financeiro Internacional de Cantão",
+              "name:ru": "Международный финансовый центр",
+              "name:th": "กว่างโจวอินเตอร์เนชัลนัลไฟแนนซ์เซ็นเตอร์",
+              "name:uk": "Західна вежа Гуанчжоу",
+              "name:vi": "Trung tâm Tài chính Quốc tế Quảng Châu",
+              "name:yue": "廣州國際金融中心",
+              "name:zh": "广州国际金融中心(广州西塔)",
+              "name:zh-Latn-pinyin": "Guǎngzhōu Guójì Jīnróng Zhōngxīn",
+              "short_name": "IFC",
+              "osm_wikipedia_title": "广州国际金融中心",
+              "osm_wikipedia:en_title": "Guangzhou International Finance Center"
+            },
+            "aliases": [
+              "Centro Financeiro Internacional de Cantão",
+              "Centro Financiero Internacional de Cantón",
+              "Guangzhou International Finance Center",
+              "Guangzhou West Tower",
+              "Guǎngzhōu Guójì Jīnróng Zhōngxīn",
+              "IFC",
+              "Internationales Finanzzentrum Guangzhou",
+              "Trung tâm Tài chính Quốc tế Quảng Châu",
+              "Західна вежа Гуанчжоу",
+              "Международный финансовый центр",
+              "กว่างโจวอินเตอร์เนชัลนัลไฟแนนซ์เซ็นเตอร์",
+              "こうしゅうこくさいきんゆうせんたー",
+              "广州国际金融中心",
+              "广州国际金融中心(广州西塔)",
+              "广州西塔",
+              "広州国際金融センター",
+              "廣州國際金融中心",
+              "광저우 국제금융센터"
+            ],
+            "location": {
+              "latitude": 23.12025095,
+              "longitude": 113.31786413439931
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    113.3175354,
+                    23.1203287
+                  ],
+                  [
+                    113.3175512,
+                    23.1202892
+                  ],
+                  [
+                    113.3175952,
+                    23.1202367
+                  ],
+                  [
+                    113.3177565,
+                    23.1200712
+                  ],
+                  [
+                    113.3179456,
+                    23.1199586
+                  ],
+                  [
+                    113.3180171,
+                    23.1199851
+                  ],
+                  [
+                    113.318094,
+                    23.1201275
+                  ],
+                  [
+                    113.3181509,
+                    23.1202652
+                  ],
+                  [
+                    113.3181692,
+                    23.1203291
+                  ],
+                  [
+                    113.3181775,
+                    23.1203983
+                  ],
+                  [
+                    113.3181594,
+                    23.1205158
+                  ],
+                  [
+                    113.3180907,
+                    23.1205455
+                  ],
+                  [
+                    113.3180049,
+                    23.1205303
+                  ],
+                  [
+                    113.3179816,
+                    23.1205223
+                  ],
+                  [
+                    113.3177762,
+                    23.1204523
+                  ],
+                  [
+                    113.3176875,
+                    23.1204147
+                  ],
+                  [
+                    113.3175838,
+                    23.1203749
+                  ],
+                  [
+                    113.317541,
+                    23.1203526
+                  ],
+                  [
+                    113.3175354,
+                    23.1203287
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:03:15.929483Z",
+            "osm_updated_at": "2025-11-23T09:38:29Z",
+            "region_ids": [
+              "guangzhou"
+            ],
+            "warnings": []
+          },
+          "score": 0.884909,
+          "score_components": {
+            "name_similarity": 0.9277272727272727,
+            "category_compatibility": 0.8,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "name_containment",
+            "image_category=tower; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Guangzhou International Finance Center (West Tower)",
+          "matched_map_name": "Guangzhou International Finance Center",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 729214974,
+            "tags": {
+              "landuse": "retail",
+              "name:en": "International Finance Center",
+              "wikidata": "Q406446"
+            },
+            "id": "osm:way:729214974",
+            "name": "International Finance Center",
+            "names": {
+              "name:en": "International Finance Center"
+            },
+            "aliases": [
+              "International Finance Center"
+            ],
+            "location": {
+              "latitude": 31.23814565,
+              "longitude": 121.49772235585036
+            },
+            "category": "other",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.497005,
+                    31.2365133
+                  ],
+                  [
+                    121.4967126,
+                    31.236831
+                  ],
+                  [
+                    121.4966345,
+                    31.2369252
+                  ],
+                  [
+                    121.4965687,
+                    31.2370229
+                  ],
+                  [
+                    121.4965029,
+                    31.237131
+                  ],
+                  [
+                    121.4964533,
+                    31.2372496
+                  ],
+                  [
+                    121.4964226,
+                    31.2373367
+                  ],
+                  [
+                    121.496396,
+                    31.2374273
+                  ],
+                  [
+                    121.4963775,
+                    31.2375179
+                  ],
+                  [
+                    121.4963672,
+                    31.237612
+                  ],
+                  [
+                    121.4963289,
+                    31.2380234
+                  ],
+                  [
+                    121.4963026,
+                    31.2383956
+                  ],
+                  [
+                    121.4963009,
+                    31.2389105
+                  ],
+                  [
+                    121.4962911,
+                    31.239422
+                  ],
+                  [
+                    121.4962839,
+                    31.2395572
+                  ],
+                  [
+                    121.4962792,
+                    31.2396667
+                  ],
+                  [
+                    121.4962987,
+                    31.2397631
+                  ],
+                  [
+                    121.4963588,
+                    31.239846
+                  ],
+                  [
+                    121.4964482,
+                    31.2399121
+                  ],
+                  [
+                    121.4965266,
+                    31.239939
+                  ],
+                  [
+                    121.4966112,
+                    31.2399446
+                  ],
+                  [
+                    121.4967324,
+                    31.2399351
+                  ],
+                  [
+                    121.4968236,
+                    31.2399053
+                  ],
+                  [
+                    121.497529,
+                    31.2396324
+                  ],
+                  [
+                    121.4988478,
+                    31.2391286
+                  ],
+                  [
+                    121.4990836,
+                    31.2390364
+                  ],
+                  [
+                    121.4991555,
+                    31.2389929
+                  ],
+                  [
+                    121.4992181,
+                    31.2389334
+                  ],
+                  [
+                    121.4992526,
+                    31.2388599
+                  ],
+                  [
+                    121.4992498,
+                    31.2387884
+                  ],
+                  [
+                    121.4991608,
+                    31.2384292
+                  ],
+                  [
+                    121.4991311,
+                    31.2382425
+                  ],
+                  [
+                    121.4991178,
+                    31.2380488
+                  ],
+                  [
+                    121.4991214,
+                    31.2378713
+                  ],
+                  [
+                    121.4991372,
+                    31.2376973
+                  ],
+                  [
+                    121.4991714,
+                    31.2375109
+                  ],
+                  [
+                    121.4993073,
+                    31.2369282
+                  ],
+                  [
+                    121.4992942,
+                    31.2368636
+                  ],
+                  [
+                    121.499258,
+                    31.2368095
+                  ],
+                  [
+                    121.4992002,
+                    31.236766
+                  ],
+                  [
+                    121.4991286,
+                    31.2367461
+                  ],
+                  [
+                    121.4987108,
+                    31.2367868
+                  ],
+                  [
+                    121.4985515,
+                    31.2367866
+                  ],
+                  [
+                    121.4983991,
+                    31.2367743
+                  ],
+                  [
+                    121.4983765,
+                    31.2370849
+                  ],
+                  [
+                    121.4981374,
+                    31.2373016
+                  ],
+                  [
+                    121.497894,
+                    31.2372596
+                  ],
+                  [
+                    121.497005,
+                    31.2365133
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2026-01-08T13:12:14Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.831318,
+          "score_components": {
+            "name_similarity": 0.9154545454545454,
+            "category_compatibility": 0.5,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "name_containment",
+            "image_category=tower; map_category=other",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Guangzhou International Finance Center (West Tower)",
+          "matched_map_name": "International Finance Center",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 164968674,
+            "tags": {
+              "alt_name": "IFC South Tower",
+              "building": "yes",
+              "building:levels": "58",
+              "building:material": "glass",
+              "height": "249.9",
+              "name": "汇丰银行大楼",
+              "name:en": "HSBC Building",
+              "website": "http://www.shanghaiifc.com.cn/",
+              "wikidata": "Q1648492"
+            },
+            "id": "osm:way:164968674",
+            "name": "汇丰银行大楼",
+            "names": {
+              "alt_name": "IFC South Tower",
+              "name": "汇丰银行大楼",
+              "name:en": "HSBC Building"
+            },
+            "aliases": [
+              "HSBC Building",
+              "IFC South Tower",
+              "汇丰银行大楼"
+            ],
+            "location": {
+              "latitude": 31.238601250000002,
+              "longitude": 121.49682277511738
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.4969947,
+                    31.2383687
+                  ],
+                  [
+                    121.4970617,
+                    31.2385174
+                  ],
+                  [
+                    121.4970556,
+                    31.2386851
+                  ],
+                  [
+                    121.4968659,
+                    31.2388111
+                  ],
+                  [
+                    121.4966621,
+                    31.2388064
+                  ],
+                  [
+                    121.4965816,
+                    31.2387192
+                  ],
+                  [
+                    121.496595,
+                    31.238421
+                  ],
+                  [
+                    121.496822,
+                    31.2383598
+                  ],
+                  [
+                    121.4969947,
+                    31.2383687
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2026-01-08T08:23:43Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.768833,
+          "score_components": {
+            "name_similarity": 0.7619047619047619,
+            "category_compatibility": 0.8,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=tower; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "IFC Tower",
+          "matched_map_name": "IFC South Tower",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 423304682,
+            "tags": {
+              "alt_name": "IFC North Tower",
+              "building": "yes",
+              "building:levels": "56",
+              "building:material": "glass",
+              "height": "259.9",
+              "name": "国金中心二期",
+              "name:en": "Two International Finance Center",
+              "name:zh": "国金中心二期",
+              "name:zh-Hans": "国金中心二期",
+              "name:zh-Hant": "國金中心二期",
+              "website": "http://www.shanghaiifc.com.cn/",
+              "wikidata": "Q27921597"
+            },
+            "id": "osm:way:423304682",
+            "name": "国金中心二期",
+            "names": {
+              "alt_name": "IFC North Tower",
+              "name": "国金中心二期",
+              "name:en": "Two International Finance Center",
+              "name:zh": "国金中心二期",
+              "name:zh-Hans": "国金中心二期",
+              "name:zh-Hant": "國金中心二期"
+            },
+            "aliases": [
+              "IFC North Tower",
+              "Two International Finance Center",
+              "国金中心二期",
+              "國金中心二期"
+            ],
+            "location": {
+              "latitude": 31.2390806,
+              "longitude": 121.49779828510273
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.4976093,
+                    31.2389307
+                  ],
+                  [
+                    121.4978362,
+                    31.2388329
+                  ],
+                  [
+                    121.4979923,
+                    31.2388808
+                  ],
+                  [
+                    121.4981185,
+                    31.2391414
+                  ],
+                  [
+                    121.4979161,
+                    31.2393018
+                  ],
+                  [
+                    121.4977432,
+                    31.2393649
+                  ],
+                  [
+                    121.4976277,
+                    31.2393058
+                  ],
+                  [
+                    121.4975282,
+                    31.2391444
+                  ],
+                  [
+                    121.4974878,
+                    31.2390198
+                  ],
+                  [
+                    121.4976093,
+                    31.2389307
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2026-01-08T08:23:43Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.768833,
+          "score_components": {
+            "name_similarity": 0.7619047619047619,
+            "category_compatibility": 0.8,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=tower; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "IFC Tower",
+          "matched_map_name": "IFC North Tower",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "AMBIGUOUS",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_2",
+      "image_name": "Angular glass building with pointed sail roof",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "relation",
+            "osm_id": 10061850,
+            "tags": {
+              "addr:housenumber": "1",
+              "addr:street": "珠江西路",
+              "air_conditioning": "yes",
+              "amenity": "theatre",
+              "architect": "زها حديد",
+              "architect:wikidata": "Q47780",
+              "building": "yes",
+              "name": "广州大剧院",
+              "name:en": "Guangzhou Opera House",
+              "name:ru": "Большой театр Гуанчжоу",
+              "name:zh": "广州大剧院",
+              "start_date": "2010-5-9",
+              "type": "multipolygon",
+              "website": "https://www.gzdjy.org",
+              "wikidata": "Q3354553",
+              "wikipedia": "zh:广州大剧院"
+            },
+            "id": "osm:relation:10061850",
+            "name": "广州大剧院",
+            "names": {
+              "name": "广州大剧院",
+              "name:en": "Guangzhou Opera House",
+              "name:ru": "Большой театр Гуанчжоу",
+              "name:zh": "广州大剧院",
+              "osm_wikipedia_title": "广州大剧院"
+            },
+            "aliases": [
+              "Guangzhou Opera House",
+              "Большой театр Гуанчжоу",
+              "广州大剧院"
+            ],
+            "location": {
+              "latitude": 23.11776565,
+              "longitude": 113.31674933147991
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    113.3174288,
+                    23.1174557
+                  ],
+                  [
+                    113.3173459,
+                    23.1174964
+                  ],
+                  [
+                    113.3172936,
+                    23.117586
+                  ],
+                  [
+                    113.3173543,
+                    23.1177979
+                  ],
+                  [
+                    113.3171635,
+                    23.1176463
+                  ],
+                  [
+                    113.3169482,
+                    23.1171614
+                  ],
+                  [
+                    113.3165089,
+                    23.1173685
+                  ],
+                  [
+                    113.3164694,
+                    23.1173871
+                  ],
+                  [
+                    113.3164498,
+                    23.1173964
+                  ],
+                  [
+                    113.3161831,
+                    23.1177334
+                  ],
+                  [
+                    113.3162201,
+                    23.1183777
+                  ],
+                  [
+                    113.3165179,
+                    23.1183838
+                  ],
+                  [
+                    113.3167384,
+                    23.1184011
+                  ],
+                  [
+                    113.3171918,
+                    23.1183326
+                  ],
+                  [
+                    113.3173735,
+                    23.1180997
+                  ],
+                  [
+                    113.3174619,
+                    23.1182594
+                  ],
+                  [
+                    113.3177423,
+                    23.1182853
+                  ],
+                  [
+                    113.317981,
+                    23.1181752
+                  ],
+                  [
+                    113.3180168,
+                    23.118138
+                  ],
+                  [
+                    113.3180319,
+                    23.1181223
+                  ],
+                  [
+                    113.3179755,
+                    23.1180789
+                  ],
+                  [
+                    113.3180398,
+                    23.1178298
+                  ],
+                  [
+                    113.3178694,
+                    23.117557
+                  ],
+                  [
+                    113.3174288,
+                    23.1174557
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:03:15.929483Z",
+            "osm_updated_at": "2026-05-07T17:40:33Z",
+            "region_ids": [
+              "guangzhou"
+            ],
+            "warnings": []
+          },
+          "score": 0.9655,
+          "score_components": {
+            "name_similarity": 1.0,
+            "category_compatibility": 1.0,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "exact_name_or_alias",
+            "image_category=building; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Guangzhou Opera House",
+          "matched_map_name": "Guangzhou Opera House",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 240896442,
+            "tags": {
+              "addr:city": "广州市",
+              "addr:district": "天河区",
+              "addr:housenumber": "2号",
+              "addr:street": "珠江东路",
+              "building": "yes",
+              "building:levels": "5",
+              "internet_access": "wlan",
+              "name": "广东省博物馆",
+              "name:en": "Guangdong Museum",
+              "name:zh-Hans": "广东省博物馆",
+              "name:zh-Hant": "廣東省博物館",
+              "opening_hours": "Tu-Su 09:00-17:00",
+              "operator": "Guangdong Museum",
+              "operator:type": "government",
+              "start_date": "2010-5-18",
+              "tourism": "museum",
+              "website": "http://www.gdmuseum.com/",
+              "wheelchair": "yes",
+              "wikidata": "Q5613644",
+              "wikimedia_commons": "Category:Guangdong Museum",
+              "wikipedia": "zh:广东省博物馆"
+            },
+            "id": "osm:way:240896442",
+            "name": "广东省博物馆",
+            "names": {
+              "name": "广东省博物馆",
+              "name:en": "Guangdong Museum",
+              "name:zh-Hans": "广东省博物馆",
+              "name:zh-Hant": "廣東省博物館",
+              "osm_wikipedia_title": "广东省博物馆"
+            },
+            "aliases": [
+              "Guangdong Museum",
+              "广东省博物馆",
+              "廣東省博物館"
+            ],
+            "location": {
+              "latitude": 23.117400449999998,
+              "longitude": 113.3214162728261
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    113.3208811,
+                    23.1179329
+                  ],
+                  [
+                    113.3208698,
+                    23.1175495
+                  ],
+                  [
+                    113.3208648,
+                    23.1174371
+                  ],
+                  [
+                    113.3208669,
+                    23.1173638
+                  ],
+                  [
+                    113.3208637,
+                    23.1169103
+                  ],
+                  [
+                    113.3219521,
+                    23.1168969
+                  ],
+                  [
+                    113.3219819,
+                    23.117925
+                  ],
+                  [
+                    113.3208811,
+                    23.1179329
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:03:15.929483Z",
+            "osm_updated_at": "2023-11-07T19:13:29Z",
+            "region_ids": [
+              "guangzhou"
+            ],
+            "warnings": []
+          },
+          "score": 0.9655,
+          "score_components": {
+            "name_similarity": 1.0,
+            "category_compatibility": 1.0,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "exact_name_or_alias",
+            "image_category=building; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Guangdong Museum",
+          "matched_map_name": "Guangdong Museum",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "node",
+            "osm_id": 3536015133,
+            "tags": {
+              "amenity": "restaurant",
+              "name": "Guangong Mutton Soup"
+            },
+            "id": "osm:node:3536015133",
+            "name": "Guangong Mutton Soup",
+            "names": {
+              "name": "Guangong Mutton Soup"
+            },
+            "aliases": [
+              "Guangong Mutton Soup"
+            ],
+            "location": {
+              "latitude": 39.9263428,
+              "longitude": 116.461036
+            },
+            "category": "other",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                116.461036,
+                39.9263428
+              ]
+            },
+            "geometry_precision": "node",
+            "complete_geometry": true,
+            "coordinate_meaning": "actual_osm_node; not a photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:40.980207Z",
+            "osm_updated_at": "2015-05-22T12:49:52Z",
+            "region_ids": [
+              "beijing"
+            ],
+            "warnings": []
+          },
+          "score": 0.699591,
+          "score_components": {
+            "name_similarity": 0.7272727272727273,
+            "category_compatibility": 0.5,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=building; map_category=other",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Guangdong Museum",
+          "matched_map_name": "Guangong Mutton Soup",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "AMBIGUOUS",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_3",
+      "image_name": "High-rise residential tower cluster (left)",
+      "candidates": [],
+      "status": "UNMATCHED",
+      "unmatched_reason": "No compatible named entity in loaded map coverage"
+    },
+    {
+      "image_landmark_id": "lm_4",
+      "image_name": "White arched stadium/exhibition structure",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 184738716,
+            "tags": {
+              "addr:city": "广州市",
+              "addr:country": "CN",
+              "addr:province": "广东省",
+              "alt_name": "广州西塔",
+              "alt_name:en": "Guangzhou West Tower",
+              "building": "commercial",
+              "building:colour": "#000000",
+              "building:levels": "103",
+              "building:material": "glass",
+              "check_date": "2021-03-10",
+              "height": "440.2",
+              "name": "广州国际金融中心(广州西塔)",
+              "name:de": "Internationales Finanzzentrum Guangzhou",
+              "name:en": "Guangzhou International Finance Center",
+              "name:es": "Centro Financiero Internacional de Cantón",
+              "name:ja": "広州国際金融センター",
+              "name:ja-Hira": "こうしゅうこくさいきんゆうせんたー",
+              "name:ko": "광저우 국제금융센터",
+              "name:pt": "Centro Financeiro Internacional de Cantão",
+              "name:ru": "Международный финансовый центр",
+              "name:th": "กว่างโจวอินเตอร์เนชัลนัลไฟแนนซ์เซ็นเตอร์",
+              "name:uk": "Західна вежа Гуанчжоу",
+              "name:vi": "Trung tâm Tài chính Quốc tế Quảng Châu",
+              "name:yue": "廣州國際金融中心",
+              "name:zh": "广州国际金融中心(广州西塔)",
+              "name:zh-Latn-pinyin": "Guǎngzhōu Guójì Jīnróng Zhōngxīn",
+              "short_name": "IFC",
+              "start_date": "2010",
+              "wikidata": "Q1043438",
+              "wikimedia_commons": "Category:Guangzhou West Tower",
+              "wikipedia": "zh:广州国际金融中心",
+              "wikipedia:en": "Guangzhou International Finance Center"
+            },
+            "id": "osm:way:184738716",
+            "name": "广州国际金融中心(广州西塔)",
+            "names": {
+              "alt_name": "广州西塔",
+              "alt_name:en": "Guangzhou West Tower",
+              "name": "广州国际金融中心(广州西塔)",
+              "name:de": "Internationales Finanzzentrum Guangzhou",
+              "name:en": "Guangzhou International Finance Center",
+              "name:es": "Centro Financiero Internacional de Cantón",
+              "name:ja": "広州国際金融センター",
+              "name:ja-Hira": "こうしゅうこくさいきんゆうせんたー",
+              "name:ko": "광저우 국제금융센터",
+              "name:pt": "Centro Financeiro Internacional de Cantão",
+              "name:ru": "Международный финансовый центр",
+              "name:th": "กว่างโจวอินเตอร์เนชัลนัลไฟแนนซ์เซ็นเตอร์",
+              "name:uk": "Західна вежа Гуанчжоу",
+              "name:vi": "Trung tâm Tài chính Quốc tế Quảng Châu",
+              "name:yue": "廣州國際金融中心",
+              "name:zh": "广州国际金融中心(广州西塔)",
+              "name:zh-Latn-pinyin": "Guǎngzhōu Guójì Jīnróng Zhōngxīn",
+              "short_name": "IFC",
+              "osm_wikipedia_title": "广州国际金融中心",
+              "osm_wikipedia:en_title": "Guangzhou International Finance Center"
+            },
+            "aliases": [
+              "Centro Financeiro Internacional de Cantão",
+              "Centro Financiero Internacional de Cantón",
+              "Guangzhou International Finance Center",
+              "Guangzhou West Tower",
+              "Guǎngzhōu Guójì Jīnróng Zhōngxīn",
+              "IFC",
+              "Internationales Finanzzentrum Guangzhou",
+              "Trung tâm Tài chính Quốc tế Quảng Châu",
+              "Західна вежа Гуанчжоу",
+              "Международный финансовый центр",
+              "กว่างโจวอินเตอร์เนชัลนัลไฟแนนซ์เซ็นเตอร์",
+              "こうしゅうこくさいきんゆうせんたー",
+              "广州国际金融中心",
+              "广州国际金融中心(广州西塔)",
+              "广州西塔",
+              "広州国際金融センター",
+              "廣州國際金融中心",
+              "광저우 국제금융센터"
+            ],
+            "location": {
+              "latitude": 23.12025095,
+              "longitude": 113.31786413439931
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    113.3175354,
+                    23.1203287
+                  ],
+                  [
+                    113.3175512,
+                    23.1202892
+                  ],
+                  [
+                    113.3175952,
+                    23.1202367
+                  ],
+                  [
+                    113.3177565,
+                    23.1200712
+                  ],
+                  [
+                    113.3179456,
+                    23.1199586
+                  ],
+                  [
+                    113.3180171,
+                    23.1199851
+                  ],
+                  [
+                    113.318094,
+                    23.1201275
+                  ],
+                  [
+                    113.3181509,
+                    23.1202652
+                  ],
+                  [
+                    113.3181692,
+                    23.1203291
+                  ],
+                  [
+                    113.3181775,
+                    23.1203983
+                  ],
+                  [
+                    113.3181594,
+                    23.1205158
+                  ],
+                  [
+                    113.3180907,
+                    23.1205455
+                  ],
+                  [
+                    113.3180049,
+                    23.1205303
+                  ],
+                  [
+                    113.3179816,
+                    23.1205223
+                  ],
+                  [
+                    113.3177762,
+                    23.1204523
+                  ],
+                  [
+                    113.3176875,
+                    23.1204147
+                  ],
+                  [
+                    113.3175838,
+                    23.1203749
+                  ],
+                  [
+                    113.317541,
+                    23.1203526
+                  ],
+                  [
+                    113.3175354,
+                    23.1203287
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:03:15.929483Z",
+            "osm_updated_at": "2025-11-23T09:38:29Z",
+            "region_ids": [
+              "guangzhou"
+            ],
+            "warnings": []
+          },
+          "score": 0.802709,
+          "score_components": {
+            "name_similarity": 0.7674418604651163,
+            "category_compatibility": 1.0,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=building; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Guangzhou International Convention and Exhibition Center",
+          "matched_map_name": "Guangzhou International Finance Center",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 40778072,
+            "tags": {
+              "addr:housenumber": "2727",
+              "addr:street": "滨江大道",
+              "amenity": "conference_centre",
+              "building": "yes",
+              "building:levels": "6",
+              "name": "上海国际会议中心",
+              "name:en": "Shanghai International Convention Center",
+              "name:zh": "上海国际会议中心",
+              "name:zh-Hans": "上海国际会议中心",
+              "name:zh-Hant": "上海國際會議中心",
+              "wikidata": "Q6859038"
+            },
+            "id": "osm:way:40778072",
+            "name": "上海国际会议中心",
+            "names": {
+              "name": "上海国际会议中心",
+              "name:en": "Shanghai International Convention Center",
+              "name:zh": "上海国际会议中心",
+              "name:zh-Hans": "上海国际会议中心",
+              "name:zh-Hant": "上海國際會議中心"
+            },
+            "aliases": [
+              "Shanghai International Convention Center",
+              "上海国际会议中心",
+              "上海國際會議中心"
+            ],
+            "location": {
+              "latitude": 31.2414521,
+              "longitude": 121.4924531551271
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.4930859,
+                    31.2418856
+                  ],
+                  [
+                    121.4930444,
+                    31.241866
+                  ],
+                  [
+                    121.4929532,
+                    31.2420128
+                  ],
+                  [
+                    121.4928455,
+                    31.2419053
+                  ],
+                  [
+                    121.4928458,
+                    31.2419456
+                  ],
+                  [
+                    121.4928378,
+                    31.2419853
+                  ],
+                  [
+                    121.492821,
+                    31.2420249
+                  ],
+                  [
+                    121.492796,
+                    31.2420612
+                  ],
+                  [
+                    121.4927291,
+                    31.2421172
+                  ],
+                  [
+                    121.4926743,
+                    31.2421419
+                  ],
+                  [
+                    121.4926144,
+                    31.2421553
+                  ],
+                  [
+                    121.4925209,
+                    31.2421526
+                  ],
+                  [
+                    121.4924548,
+                    31.2421328
+                  ],
+                  [
+                    121.4923969,
+                    31.2420992
+                  ],
+                  [
+                    121.4923627,
+                    31.2420678
+                  ],
+                  [
+                    121.4923192,
+                    31.2419969
+                  ],
+                  [
+                    121.4923065,
+                    31.2419175
+                  ],
+                  [
+                    121.4923139,
+                    31.2418724
+                  ],
+                  [
+                    121.4923314,
+                    31.2418293
+                  ],
+                  [
+                    121.4923549,
+                    31.2417944
+                  ],
+                  [
+                    121.4922907,
+                    31.2417651
+                  ],
+                  [
+                    121.4922145,
+                    31.2418754
+                  ],
+                  [
+                    121.4919956,
+                    31.24171
+                  ],
+                  [
+                    121.4918454,
+                    31.2415381
+                  ],
+                  [
+                    121.4917489,
+                    31.2413661
+                  ],
+                  [
+                    121.4917047,
+                    31.241196
+                  ],
+                  [
+                    121.4916355,
+                    31.2411503
+                  ],
+                  [
+                    121.4915956,
+                    31.2410936
+                  ],
+                  [
+                    121.4915818,
+                    31.2410069
+                  ],
+                  [
+                    121.4916025,
+                    31.2409431
+                  ],
+                  [
+                    121.4916475,
+                    31.2408892
+                  ],
+                  [
+                    121.4917111,
+                    31.2408518
+                  ],
+                  [
+                    121.4917861,
+                    31.2408351
+                  ],
+                  [
+                    121.4918632,
+                    31.2408414
+                  ],
+                  [
+                    121.4919228,
+                    31.240864
+                  ],
+                  [
+                    121.4920493,
+                    31.2409212
+                  ],
+                  [
+                    121.493306,
+                    31.2415507
+                  ],
+                  [
+                    121.4930859,
+                    31.2418856
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2026-01-08T17:57:53Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.7905,
+          "score_components": {
+            "name_similarity": 0.75,
+            "category_compatibility": 1.0,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=building; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "Guangzhou International Convention and Exhibition Center",
+          "matched_map_name": "Shanghai International Convention Center",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "AMBIGUOUS",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_5",
+      "image_name": "Low bridge crossing the water",
+      "candidates": [],
+      "status": "UNMATCHED",
+      "unmatched_reason": "No compatible named entity in loaded map coverage"
+    },
+    {
+      "image_landmark_id": "lm_6",
+      "image_name": "River",
+      "candidates": [],
+      "status": "UNMATCHED",
+      "unmatched_reason": "No specific identity names or candidates"
+    },
+    {
+      "image_landmark_id": "lm_7",
+      "image_name": "Tree-lined embankment",
+      "candidates": [],
+      "status": "UNMATCHED",
+      "unmatched_reason": "No compatible named entity in loaded map coverage"
+    }
+  ],
+  "region_hypotheses": [
+    {
+      "region_id": "guangzhou",
+      "assignments": {
+        "lm_1": "osm:way:184738716",
+        "lm_2": "osm:relation:10061850"
+      },
+      "score": 0.264344,
+      "matched_objects": 2,
+      "max_pair_distance_m": 297.98454555451053,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "guangzhou",
+      "assignments": {
+        "lm_1": "osm:way:184738716",
+        "lm_2": "osm:way:240896442"
+      },
+      "score": 0.264344,
+      "matched_objects": 2,
+      "max_pair_distance_m": 481.7099116694728,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "guangzhou",
+      "assignments": {
+        "lm_2": "osm:relation:10061850",
+        "lm_4": "osm:way:184738716"
+      },
+      "score": 0.252601,
+      "matched_objects": 2,
+      "max_pair_distance_m": 297.98454555451053,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "guangzhou",
+      "assignments": {
+        "lm_2": "osm:way:240896442",
+        "lm_4": "osm:way:184738716"
+      },
+      "score": 0.252601,
+      "matched_objects": 2,
+      "max_pair_distance_m": 481.7099116694728,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "shanghai",
+      "assignments": {
+        "lm_1": "osm:way:729214974",
+        "lm_4": "osm:way:40778072"
+      },
+      "score": 0.231688,
+      "matched_objects": 2,
+      "max_pair_distance_m": 621.582987714234,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "shanghai",
+      "assignments": {
+        "lm_1": "osm:way:164968674",
+        "lm_4": "osm:way:40778072"
+      },
+      "score": 0.222762,
+      "matched_objects": 2,
+      "max_pair_distance_m": 522.6743456916539,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "shanghai",
+      "assignments": {
+        "lm_1": "osm:way:423304682",
+        "lm_4": "osm:way:40778072"
+      },
+      "score": 0.222762,
+      "matched_objects": 2,
+      "max_pair_distance_m": 573.0782150540067,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "beijing",
+      "assignments": {
+        "lm_2": "osm:node:3536015133"
+      },
+      "score": 0.099942,
+      "matched_objects": 1,
+      "max_pair_distance_m": 0.0,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    }
+  ],
+  "distinct_image_relations": [
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_7",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_6",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_7",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_6",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_7",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_7",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_7",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    }
+  ],
+  "consistency_checks": {
+    "duplicate_entity_assignments_rejected": 3,
+    "distant_assignments_rejected": 0,
+    "candidate_regions": 3,
+    "regions_omitted_by_output_limit": 0,
+    "seed_name_candidates": 9,
+    "input_directed_relations": 78,
+    "distinct_pair_axis_relations": 39
+  },
+  "warnings": [
+    "Finite imported map coverage only; absence is not proof that a landmark does not exist",
+    "All scores are uncalibrated heuristics; entity identities remain tentative",
+    "Map entity coordinates and geometry representative points are not photographer locations",
+    "Spatial consistency checks co-region, uniqueness and pair distance only; no camera pose is solved",
+    "Multiple geographically separate region hypotheses remain"
+  ],
+  "coverage_regions": [
+    "beijing",
+    "guangzhou",
+    "shanghai"
+  ],
+  "scoring_version": "stage3-heuristic-v1"
+}

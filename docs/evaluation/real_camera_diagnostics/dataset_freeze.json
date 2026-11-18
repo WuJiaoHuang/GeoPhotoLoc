@@ -1,0 +1,21 @@
+{
+  "images": {
+    "photo_01": "39b458fde26ddfe16679828af64b33daef30b33f05ae9d4c2e3e27b27f201669",
+    "photo_02": "30e051c7e9899ca7e51670d31a464eea9bd9f1f1f6b3b78950ed9bc5675c83c4",
+    "photo_03": "75b036dcbfba34f971a0d04a6d138b7975693dfc6831f89b1c7aba76d57da599",
+    "photo_04": "dc3e98623f9eef553c5c4dedef2df651549abbf8aaa90f338b459b2c56758390",
+    "photo_05": "c849f406d309950eaa125008dc069247264ec0c8f23f6bdd41ba139c7b662f50",
+    "photo_06": "5220b0109525cd024145a1bf59e45ccba4c483502d199e0aac1378b2f9a78e6f",
+    "photo_07": "e95f40b9ea7254ca29418481d07ade0d93034bc7853cf1ae86fafa3a9ea727d7",
+    "photo_08": "9a8bf622ce9140a7c3cc879f22a7d5857d7e9680d7557138a797823cf881ea31",
+    "photo_09": "72f7eebd27caae5707a615b7af5749e889470f2347fa0081c87af59aaa0c9ab6",
+    "photo_10": "1262abc03f6b621196ed15c1d80cd0e29c6b734114e549ae0089a470dfe265cd",
+    "photo_11": "8f92725095ef51973a19112821dd5a714300dccad393a4b78110329b95129164",
+    "photo_12": "6715122645a5a81e156484a9f8ccb3368956ca983cd8bd418250ea9e2fc23fad",
+    "legacy_beijing_cbd": "e08d498926e24a0f0713488498c0aea3ca2992b38cc0179c3bd28a45084ee361",
+    "legacy_north_bund": "6fdbce7a51f0dec5de01dbbf30fecee98ebcce0d583fb66bde03e923cc025b13"
+  },
+  "reference_sha256": "0d33273c2e8144512250ed350d31e9c60fc38b74e0fed4d778d39c33661b0557",
+  "inference_inputs_sha256": "a3d4e09c521108b9e19946cad33b5978cec13756a5c5176fd8d0c028b15077b3",
+  "policy": "Split grouped by photographer/outing before any vision calls; no tuning in this phase. Evaluation cannot change inference artifacts."
+}

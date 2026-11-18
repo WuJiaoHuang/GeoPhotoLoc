@@ -120,9 +120,12 @@ def solve_fixed(store,config,vision,matching):
                 report.component_sampling[cid][phase+'_points']+=1
                 if not within_observation_distance([p],list(distances.values()),config.max_observation_distance_m)[0]:
                     report.distance_filtered_points+=1
-                    trace.append(dict(x=round(p[0],6),y=round(p[1],6),feasible=False,reasons=['outside_exact_distance_domain']));continue
+                    trace.append(dict(x=round(p[0],6),y=round(p[1],6),feasible=False,reasons=['outside_exact_distance_domain']))
+                    if config.record_diagnostic_trace:trace[-1].update(hard_feasible=False,phase=phase,selection_stage='hard_rejected')
+                    continue
                 filters=ctx.filter_reasons(p,list(distances.values()),allow_uncovered=config.adaptive_extent)
-                if not filters and all(g.distance(Point(p))>config.minimum_distance_m for g in distances.values()):
+                hard_pass=not filters and all(g.distance(Point(p))>config.minimum_distance_m for g in distances.values())
+                if hard_pass:
                     (hard_fine if phase=='fine' else hard_coarse).append(p)
                 elif not filters and config.robust_geometry:
                     filters=['target_coincident_or_too_close']
@@ -142,6 +145,10 @@ def solve_fixed(store,config,vision,matching):
                     score.unknown_image_ids=report.unknown_image_ids
                 trace.append(dict(x=round(p[0],6),y=round(p[1],6),feasible=score.feasible,score=score.score,reasons=score.reasons if not score.feasible else [],
                     outliers=score.outlier_image_ids,reliable_landmarks=score.reliable_landmark_count))
+                if config.record_diagnostic_trace:
+                    trace[-1].update(hard_feasible=hard_pass,phase=phase,components=dict(score.components),
+                        filters=list(filters),unknowns=list(report.unknown_image_ids),fov=score.fov_degrees,heading=score.heading,
+                        selection_stage='awaiting_selection' if score.feasible else 'hard_rejected' if not hard_pass else 'visual_rejected')
                 if score.feasible:
                     score.map_coverage_status=ctx.coverage_status(Point(p));scores[p]=score
                     (fine if phase=='fine' else coarse).append(p)
@@ -228,6 +235,9 @@ def solve_fixed(store,config,vision,matching):
         if config.dual_regions and scores:
             region_entries=preferred_entries(scores,fine,plan.spacing,config.fine_spacing_m,hard_geometry,config.score_window,config.preferred_tile_size_m)
         keep=diversified_regions([p for p,_ in region_entries],scores,config.max_regions_per_hypothesis)
+        if config.record_diagnostic_trace:
+            from .diagnostics import annotate_selection
+            annotate_selection(trace,scores,region_entries,keep,config,connected)
         if len(keep)<len(region_entries):report.limited=True;report.reasons.append('diverse_output_region_limit')
         for polygon,members in region_entries:
             if not any(polygon is p for p in keep):continue

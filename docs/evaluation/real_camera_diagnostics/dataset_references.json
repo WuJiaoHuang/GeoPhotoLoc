@@ -1,0 +1,538 @@
+{
+  "samples": [
+    {
+      "id": "photo_01",
+      "file": "images/photo_01.jpg",
+      "split": "development",
+      "source_group": "shihu2020",
+      "title": "Shanghai Skyline 2020.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shanghai_Skyline_2020.jpg",
+      "revision_id": 1214811355,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Shanghai_Skyline_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Shanghai_Skyline_2020.jpg/1920px-Shanghai_Skyline_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Shihu7",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "downloaded_sha256": "bd51143440607172c140569a6f120292ad43232a3d0a29125c80cad165e324e3",
+      "image_sha256": "39b458fde26ddfe16679828af64b33daef30b33f05ae9d4c2e3e27b27f201669",
+      "downloaded_bytes": 629761,
+      "input_dimensions": [
+        1600,
+        1200
+      ],
+      "modifications": "Commons thumbnail resized to <=1600px, re-encoded JPEG; EXIF/GPS/IPTC removed; no crop",
+      "reference": {
+        "latitude": 31.234424590833335,
+        "longitude": 121.48834991444444,
+        "template": "{{Location|31.234424590833335|121.48834991444444}}",
+        "kind": "Commons Location template (camera position)",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null,
+        "quality_basis": "Explicit camera-position template, not surveyed; numeric precision is not accuracy; no asserted metre uncertainty"
+      },
+      "metadata_snapshot_sha256": "56f4a6b9ec17ca23dff2a75d00b24925e3a9394da442498761a17b4e5b335afb",
+      "human_reference_landmarks": [
+        "东方明珠",
+        "上海环球金融中心",
+        "金茂大厦",
+        "上海中心大厦"
+      ],
+      "visual_review": "Distinctive silhouettes checked on acquired image and Commons caption/categories; incomplete target list, not model output",
+      "eligibility": "multi_landmark",
+      "context": "night",
+      "limitations": "Q2, no measured accuracy; skyline/time/occlusion differences; no assertion of surveyed truth"
+    },
+    {
+      "id": "photo_02",
+      "file": "images/photo_02.jpg",
+      "split": "development",
+      "source_group": "quintin2024",
+      "title": "Shanghai, China skyline.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shanghai%2C_China_skyline.jpg",
+      "revision_id": 1230283433,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Shanghai%2C_China_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Shanghai%2C_China_skyline.jpg/1920px-Shanghai%2C_China_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Quintin Soloviev",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "downloaded_sha256": "6bc5e85bad8b2a19a1ec2d4bc97fff5f04b50f66c388658bd83b4a5634ee7f78",
+      "image_sha256": "30e051c7e9899ca7e51670d31a464eea9bd9f1f1f6b3b78950ed9bc5675c83c4",
+      "downloaded_bytes": 471828,
+      "input_dimensions": [
+        1600,
+        1067
+      ],
+      "modifications": "Commons thumbnail resized to <=1600px, re-encoded JPEG; EXIF/GPS/IPTC removed; no crop",
+      "reference": {
+        "latitude": 31.236828,
+        "longitude": 121.487136,
+        "template": "{{Location|31.236828|121.487136|heading:102.8499298737728}}",
+        "kind": "Commons Location template (camera position)",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null,
+        "quality_basis": "Explicit camera-position template, not surveyed; numeric precision is not accuracy; no asserted metre uncertainty"
+      },
+      "metadata_snapshot_sha256": "8e9b30f58b3fb288d5bf8f27151eb7a17e2843f4a1aeeb0a1ad5e7cdce2094e1",
+      "human_reference_landmarks": [
+        "东方明珠",
+        "上海环球金融中心",
+        "金茂大厦",
+        "上海中心大厦"
+      ],
+      "visual_review": "Distinctive silhouettes checked on acquired image and Commons caption/categories; incomplete target list, not model output",
+      "eligibility": "multi_landmark",
+      "context": "day",
+      "limitations": "Q2, no measured accuracy; skyline/time/occlusion differences; no assertion of surveyed truth"
+    },
+    {
+      "id": "photo_03",
+      "file": "images/photo_03.jpg",
+      "split": "development",
+      "source_group": "wilson2014",
+      "title": "Shanghai Skyline from the Bund.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shanghai_Skyline_from_the_Bund.jpg",
+      "revision_id": 1043985496,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Shanghai_Skyline_from_the_Bund.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Shanghai_Skyline_from_the_Bund.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Wilson Hui from Calgary, Canada",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "downloaded_sha256": "9de64fb722ef6955b4545b997926833bc7408996211d9f0b7662bcc9b6466815",
+      "image_sha256": "75b036dcbfba34f971a0d04a6d138b7975693dfc6831f89b1c7aba76d57da599",
+      "downloaded_bytes": 509907,
+      "input_dimensions": [
+        1600,
+        900
+      ],
+      "modifications": "Commons thumbnail resized to <=1600px, re-encoded JPEG; EXIF/GPS/IPTC removed; no crop",
+      "reference": {
+        "latitude": 31.231894,
+        "longitude": 121.493725,
+        "template": "{{Location dec|31.231894|121.493725|source:Flickr}}",
+        "kind": "Commons Location template (camera position)",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null,
+        "quality_basis": "Explicit camera-position template, not surveyed; numeric precision is not accuracy; no asserted metre uncertainty"
+      },
+      "metadata_snapshot_sha256": "83c0a61fa73e6096e66f9be034e03fdb403b984d4f9e44d129d7c20b6b7a0cc6",
+      "human_reference_landmarks": [
+        "东方明珠",
+        "上海环球金融中心",
+        "金茂大厦",
+        "上海中心大厦"
+      ],
+      "visual_review": "Distinctive silhouettes checked on acquired image and Commons caption/categories; incomplete target list, not model output",
+      "eligibility": "multi_landmark",
+      "context": "day",
+      "limitations": "Q2, no measured accuracy; skyline/time/occlusion differences; no assertion of surveyed truth; Shanghai Tower still under construction"
+    },
+    {
+      "id": "photo_04",
+      "file": "images/photo_04.jpg",
+      "split": "holdout",
+      "source_group": "shinrya2012",
+      "title": "Flickr - Shinrya - Shanghai Skyline at Day.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Shinrya_-_Shanghai_Skyline_at_Day.jpg",
+      "revision_id": 1254626900,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flickr_-_Shinrya_-_Shanghai_Skyline_at_Day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Flickr_-_Shinrya_-_Shanghai_Skyline_at_Day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Pete Stewart from Perth, Australia",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "downloaded_sha256": "cd1d3d635d4bb9c402b44a0832b3e11bf24fe54a635222c134cd05d4e80df936",
+      "image_sha256": "dc3e98623f9eef553c5c4dedef2df651549abbf8aaa90f338b459b2c56758390",
+      "downloaded_bytes": 308295,
+      "input_dimensions": [
+        1024,
+        683
+      ],
+      "modifications": "Commons thumbnail resized to <=1600px, re-encoded JPEG; EXIF/GPS/IPTC removed; no crop",
+      "reference": {
+        "latitude": 31.229389,
+        "longitude": 121.478233,
+        "template": "{{Location dec|31.229389|121.478233|source:Flickr}}",
+        "kind": "Commons Location template (camera position)",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null,
+        "quality_basis": "Explicit camera-position template, not surveyed; numeric precision is not accuracy; no asserted metre uncertainty"
+      },
+      "metadata_snapshot_sha256": "1c8d8dbbd93c39a41e707f761bd9089c2124fbe06c1cb7e7ff5197c7a6b5c85a",
+      "human_reference_landmarks": [
+        "上海环球金融中心",
+        "金茂大厦",
+        "震旦国际大楼"
+      ],
+      "visual_review": "Distinctive silhouettes checked on acquired image and Commons caption/categories; incomplete target list, not model output",
+      "eligibility": "multi_landmark",
+      "context": "day",
+      "limitations": "Q2, no measured accuracy; skyline/time/occlusion differences; no assertion of surveyed truth"
+    },
+    {
+      "id": "photo_05",
+      "file": "images/photo_05.jpg",
+      "split": "holdout",
+      "source_group": "shinrya2012",
+      "title": "Flickr - Shinrya - Shanghai Skyline HDR.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Shinrya_-_Shanghai_Skyline_HDR.jpg",
+      "revision_id": 1196747811,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flickr_-_Shinrya_-_Shanghai_Skyline_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flickr_-_Shinrya_-_Shanghai_Skyline_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Pete Stewart from Perth, Australia",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "downloaded_sha256": "419c68482e51a2273a5d6e0286f1e4efbe4a71c8aced0c0a4129aceaefc087b7",
+      "image_sha256": "c849f406d309950eaa125008dc069247264ec0c8f23f6bdd41ba139c7b662f50",
+      "downloaded_bytes": 319050,
+      "input_dimensions": [
+        1024,
+        683
+      ],
+      "modifications": "Commons thumbnail resized to <=1600px, re-encoded JPEG; EXIF/GPS/IPTC removed; no crop",
+      "reference": {
+        "latitude": 31.247709,
+        "longitude": 121.472618,
+        "template": "{{Location dec|31.247709|121.472618|source:Flickr}}",
+        "kind": "Commons Location template (camera position)",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null,
+        "quality_basis": "Explicit camera-position template, not surveyed; numeric precision is not accuracy; no asserted metre uncertainty"
+      },
+      "metadata_snapshot_sha256": "9210e372b91e799a64e3ea342e778cf1725e792071b6e506e056bbeae56fcb08",
+      "human_reference_landmarks": [
+        "上海环球金融中心",
+        "金茂大厦",
+        "震旦国际大楼"
+      ],
+      "visual_review": "Distinctive silhouettes checked on acquired image and Commons caption/categories; incomplete target list, not model output",
+      "eligibility": "multi_landmark",
+      "context": "night",
+      "limitations": "Q2, no measured accuracy; skyline/time/occlusion differences; no assertion of surveyed truth"
+    },
+    {
+      "id": "photo_06",
+      "file": "images/photo_06.jpg",
+      "split": "holdout",
+      "source_group": "lujiazui20191112",
+      "title": "20191112 Lujiazui skyline-2.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20191112_Lujiazui_skyline-2.jpg",
+      "revision_id": 1016323528,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/20191112_Lujiazui_skyline-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/20191112_Lujiazui_skyline-2.jpg/1920px-20191112_Lujiazui_skyline-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "\nBalon Greyjoy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "downloaded_sha256": "3af42ac52a4683c3092e5c35a2b18f18458de9a28a4f0a70858ca2f5c797ca79",
+      "image_sha256": "5220b0109525cd024145a1bf59e45ccba4c483502d199e0aac1378b2f9a78e6f",
+      "downloaded_bytes": 281076,
+      "input_dimensions": [
+        1600,
+        1067
+      ],
+      "modifications": "Commons thumbnail resized to <=1600px, re-encoded JPEG; EXIF/GPS/IPTC removed; no crop",
+      "reference": {
+        "latitude": 31.232172,
+        "longitude": 121.4910167,
+        "template": "{{location|31.2321720|121.4910167|alt:35.34_source:exif}}",
+        "kind": "Commons Location template (camera position)",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null,
+        "quality_basis": "Explicit camera-position template, not surveyed; numeric precision is not accuracy; no asserted metre uncertainty"
+      },
+      "metadata_snapshot_sha256": "3c22524b77c1941dd1670e9cb001799981571bd87610f6270537789964ddb5e6",
+      "human_reference_landmarks": [
+        "东方明珠",
+        "上海环球金融中心",
+        "上海中心大厦"
+      ],
+      "visual_review": "Distinctive silhouettes checked on acquired image and Commons caption/categories; incomplete target list, not model output",
+      "eligibility": "multi_landmark",
+      "context": "day",
+      "limitations": "Q2, no measured accuracy; skyline/time/occlusion differences; no assertion of surveyed truth"
+    },
+    {
+      "id": "photo_07",
+      "file": "images/photo_07.jpg",
+      "split": "holdout",
+      "source_group": "lujiazui20191112",
+      "title": "20191112 Lujiazui skyline-13.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20191112_Lujiazui_skyline-13.jpg",
+      "revision_id": 1016323454,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/20191112_Lujiazui_skyline-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/20191112_Lujiazui_skyline-13.jpg/1920px-20191112_Lujiazui_skyline-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "\nBalon Greyjoy",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "downloaded_sha256": "f7dc369c71dc6652f9a3d537c1c5936daef95cc19ca5d144cc36deeb234c3cfc",
+      "image_sha256": "e95f40b9ea7254ca29418481d07ade0d93034bc7853cf1ae86fafa3a9ea727d7",
+      "downloaded_bytes": 352034,
+      "input_dimensions": [
+        1600,
+        1067
+      ],
+      "modifications": "Commons thumbnail resized to <=1600px, re-encoded JPEG; EXIF/GPS/IPTC removed; no crop",
+      "reference": {
+        "latitude": 31.237353,
+        "longitude": 121.484918,
+        "template": "{{location|31.2373530|121.4849180|alt:11.58_source:exif}}",
+        "kind": "Commons Location template (camera position)",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null,
+        "quality_basis": "Explicit camera-position template, not surveyed; numeric precision is not accuracy; no asserted metre uncertainty"
+      },
+      "metadata_snapshot_sha256": "0538bf290bfdfbc747222db0657e744fac3412f675de4f1b7a629e6248687b76",
+      "human_reference_landmarks": [
+        "东方明珠",
+        "上海环球金融中心",
+        "金茂大厦",
+        "上海中心大厦"
+      ],
+      "visual_review": "Distinctive silhouettes checked on acquired image and Commons caption/categories; incomplete target list, not model output",
+      "eligibility": "multi_landmark",
+      "context": "day",
+      "limitations": "Q2, no measured accuracy; skyline/time/occlusion differences; no assertion of surveyed truth"
+    },
+    {
+      "id": "photo_08",
+      "file": "images/photo_08.jpg",
+      "split": "development",
+      "source_group": "howey2024",
+      "title": "Beijing Central Business District (20240826163226).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Beijing_Central_Business_District_%2820240826163226%29.jpg",
+      "revision_id": 1083667933,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Beijing_Central_Business_District_%2820240826163226%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Beijing_Central_Business_District_%2820240826163226%29.jpg/1920px-Beijing_Central_Business_District_%2820240826163226%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "HoweyYuan",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "downloaded_sha256": "348694d6458f4bdd522968c93474fc37d3f37a85a165651b997e860065682bab",
+      "image_sha256": "9a8bf622ce9140a7c3cc879f22a7d5857d7e9680d7557138a797823cf881ea31",
+      "downloaded_bytes": 725632,
+      "input_dimensions": [
+        1600,
+        1119
+      ],
+      "modifications": "Commons thumbnail resized to <=1600px, re-encoded JPEG; EXIF/GPS/IPTC removed; no crop",
+      "reference": {
+        "latitude": 39.911116,
+        "longitude": 116.454704,
+        "template": "{{Location|39.911116|116.454704}}",
+        "kind": "Commons Location template (camera position)",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null,
+        "quality_basis": "Explicit camera-position template, not surveyed; numeric precision is not accuracy; no asserted metre uncertainty"
+      },
+      "metadata_snapshot_sha256": "0bebbc4b94e1f1b51e9bd103d75dfe12b5fe494849c8fec2b07a528ba9983e74",
+      "human_reference_landmarks": [
+        "中央电视台总部大楼",
+        "中国尊"
+      ],
+      "visual_review": "Distinctive silhouettes checked on acquired image and Commons caption/categories; incomplete target list, not model output",
+      "eligibility": "multi_landmark",
+      "context": "day",
+      "limitations": "Q2, no measured accuracy; skyline/time/occlusion differences; no assertion of surveyed truth"
+    },
+    {
+      "id": "photo_09",
+      "file": "images/photo_09.jpg",
+      "split": "holdout",
+      "source_group": "renek2026",
+      "title": "Beijing CBD in 2026.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Beijing_CBD_in_2026.jpg",
+      "revision_id": 1297569072,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Beijing_CBD_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Beijing_CBD_in_2026.jpg/1920px-Beijing_CBD_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Renek78",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "downloaded_sha256": "83daaed7d8542c7b8dd52ae87f2f33b15a09253996d3218fe77d769bd1f7f85e",
+      "image_sha256": "72f7eebd27caae5707a615b7af5749e889470f2347fa0081c87af59aaa0c9ab6",
+      "downloaded_bytes": 769320,
+      "input_dimensions": [
+        1600,
+        900
+      ],
+      "modifications": "Commons thumbnail resized to <=1600px, re-encoded JPEG; EXIF/GPS/IPTC removed; no crop",
+      "reference": {
+        "latitude": 39.907731,
+        "longitude": 116.463806,
+        "template": "{{Location|39.907731|116.463806}}",
+        "kind": "Commons Location template (camera position)",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null,
+        "quality_basis": "Explicit camera-position template, not surveyed; numeric precision is not accuracy; no asserted metre uncertainty"
+      },
+      "metadata_snapshot_sha256": "becacfdc396d34c46ca17d801c7da2abec9ba8f18585474aab145143ad661524",
+      "human_reference_landmarks": [],
+      "visual_review": "Distinctive silhouettes checked on acquired image and Commons caption/categories; incomplete target list, not model output",
+      "eligibility": "single_or_unresolved_identity_stress",
+      "context": "day",
+      "limitations": "Q2, no measured accuracy; skyline/time/occlusion differences; no assertion of surveyed truth"
+    },
+    {
+      "id": "photo_10",
+      "file": "images/photo_10.jpg",
+      "split": "development",
+      "source_group": "mcgill2011",
+      "title": "Guangzhou skyline (6343573781).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Guangzhou_skyline_%286343573781%29.jpg",
+      "revision_id": 1243146892,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Guangzhou_skyline_%286343573781%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Guangzhou_skyline_%286343573781%29.jpg/1920px-Guangzhou_skyline_%286343573781%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "kevinmcgill from Den Bosch, Netherlands",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "downloaded_sha256": "6363bc09d5502a0b706d5bf5dcd294e1fc9e608914a6b623b5e132ad53432c51",
+      "image_sha256": "1262abc03f6b621196ed15c1d80cd0e29c6b734114e549ae0089a470dfe265cd",
+      "downloaded_bytes": 249642,
+      "input_dimensions": [
+        1600,
+        887
+      ],
+      "modifications": "Commons thumbnail resized to <=1600px, re-encoded JPEG; EXIF/GPS/IPTC removed; no crop",
+      "reference": {
+        "latitude": 23.10624,
+        "longitude": 113.298804,
+        "template": "{{Location dec|23.10624|113.298804|source:Flickr}}",
+        "kind": "Commons Location template (camera position)",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null,
+        "quality_basis": "Explicit camera-position template, not surveyed; numeric precision is not accuracy; no asserted metre uncertainty"
+      },
+      "metadata_snapshot_sha256": "52559e8c62419ed6a5d5079fc6d2f1dd48dc7e01167a4c01bb01481cfbb9e25c",
+      "human_reference_landmarks": [
+        "广州国际金融中心",
+        "星海音乐厅"
+      ],
+      "visual_review": "Distinctive silhouettes checked on acquired image and Commons caption/categories; incomplete target list, not model output",
+      "eligibility": "multi_landmark",
+      "context": "day",
+      "limitations": "Q2, no measured accuracy; skyline/time/occlusion differences; no assertion of surveyed truth"
+    },
+    {
+      "id": "photo_11",
+      "file": "images/photo_11.jpg",
+      "split": "development",
+      "source_group": "jiang2010",
+      "title": "广州塔晨曦Scenery in Guangzhou, China - panoramio (1).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E5%A1%94%E6%99%A8%E6%9B%A6Scenery_in_Guangzhou%2C_China_-_panoramio_%281%29.jpg",
+      "revision_id": 1053183088,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/%E5%B9%BF%E5%B7%9E%E5%A1%94%E6%99%A8%E6%9B%A6Scenery_in_Guangzhou%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/%E5%B9%BF%E5%B7%9E%E5%A1%94%E6%99%A8%E6%9B%A6Scenery_in_Guangzhou%2C_China_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "jiang-wen-jie",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "downloaded_sha256": "6bd3bc023990d9a2f9b4b34ab35f974f5664b41c455030cf0c145d1db3d0108d",
+      "image_sha256": "8f92725095ef51973a19112821dd5a714300dccad393a4b78110329b95129164",
+      "downloaded_bytes": 282785,
+      "input_dimensions": [
+        800,
+        536
+      ],
+      "modifications": "Commons thumbnail resized to <=1600px, re-encoded JPEG; EXIF/GPS/IPTC removed; no crop",
+      "reference": {
+        "latitude": 23.104338,
+        "longitude": 113.308858,
+        "template": "{{Location|23.104338|113.308858|source:Panoramio}}",
+        "kind": "Commons Location template (camera position)",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null,
+        "quality_basis": "Explicit camera-position template, not surveyed; numeric precision is not accuracy; no asserted metre uncertainty"
+      },
+      "metadata_snapshot_sha256": "65ffaa193e8ae4dacf29a0823b161d7f21dff5ae2ef1df1a623f6595814f7811",
+      "human_reference_landmarks": [
+        "广州塔"
+      ],
+      "visual_review": "Distinctive silhouettes checked on acquired image and Commons caption/categories; incomplete target list, not model output",
+      "eligibility": "single_or_unresolved_identity_stress",
+      "context": "sunrise",
+      "limitations": "Q2, no measured accuracy; skyline/time/occlusion differences; no assertion of surveyed truth"
+    },
+    {
+      "id": "photo_12",
+      "file": "images/photo_12.jpg",
+      "split": "holdout",
+      "source_group": "yikyuen2025",
+      "title": "City Skyline, Shot on Xinhua Kuaisulu, Guangzhou.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:City_Skyline%2C_Shot_on_Xinhua_Kuaisulu%2C_Guangzhou.jpg",
+      "revision_id": 1126190714,
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/City_Skyline%2C_Shot_on_Xinhua_Kuaisulu%2C_Guangzhou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/City_Skyline%2C_Shot_on_Xinhua_Kuaisulu%2C_Guangzhou.jpg/1920px-City_Skyline%2C_Shot_on_Xinhua_Kuaisulu%2C_Guangzhou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "YikyuenG",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "downloaded_sha256": "227932db5491d794ab8f301001e2e2407a77bab077d5b8e009e928f0eb06919a",
+      "image_sha256": "6715122645a5a81e156484a9f8ccb3368956ca983cd8bd418250ea9e2fc23fad",
+      "downloaded_bytes": 556307,
+      "input_dimensions": [
+        1600,
+        1200
+      ],
+      "modifications": "Commons thumbnail resized to <=1600px, re-encoded JPEG; EXIF/GPS/IPTC removed; no crop",
+      "reference": {
+        "latitude": 23.083172,
+        "longitude": 113.392589,
+        "template": "{{Location|23.083172|113.392589}}",
+        "kind": "Commons Location template (camera position)",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null,
+        "quality_basis": "Explicit camera-position template, not surveyed; numeric precision is not accuracy; no asserted metre uncertainty"
+      },
+      "metadata_snapshot_sha256": "557c7822c8c2239f0e9fbf57f6f00d5bbdcf2cc990d3370eb6bb8615f70501ea",
+      "human_reference_landmarks": [
+        "广州国际金融中心",
+        "广州周大福金融中心"
+      ],
+      "visual_review": "Distinctive silhouettes checked on acquired image and Commons caption/categories; incomplete target list, not model output",
+      "eligibility": "multi_landmark",
+      "context": "day",
+      "limitations": "Q2, no measured accuracy; skyline/time/occlusion differences; no assertion of surveyed truth; distant highway view, may exceed fixed 5km model or current map coverage"
+    },
+    {
+      "id": "legacy_beijing_cbd",
+      "split": "legacy_diagnostic",
+      "source_group": "legacy_beijing_cbd",
+      "reference": {
+        "case": "beijing_cbd",
+        "kind": "camera_location",
+        "latitude": 39.92115,
+        "longitude": 116.435464,
+        "source": "https://commons.wikimedia.org/wiki/File:Parkview_Green_and_CBD_skyline_(20210927131419).jpg",
+        "source_template": "{{Location|39.92115|116.435464|heading:132.34066767830046}}",
+        "meaning": "Commons page explicitly labels Camera location, not object location; photographer self-report, precision not independently surveyed.",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Parkview_Green_and_CBD_skyline_(20210927131419).jpg",
+      "file": "images/legacy_beijing_cbd.jpg",
+      "historical_input_hashes": {
+        "vision": "4fc19f90556273ceb39eda992668bff2290166415c1d0ee6f47f7c9aa7d375ac",
+        "matching": "d7092fec96caf752e05ff88191a792e7d039b146ea327aeacf9d42fcd866ec8c"
+      },
+      "eligibility": "legacy"
+    },
+    {
+      "id": "legacy_north_bund",
+      "split": "legacy_diagnostic",
+      "source_group": "legacy_north_bund",
+      "reference": {
+        "case": "north_bund",
+        "kind": "camera_location",
+        "latitude": 31.247889,
+        "longitude": 121.492517,
+        "source": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_view_from_the_North_Bund,_Oct._21st,_2026.jpg",
+        "source_template": "{{Location|31.247889|121.492517}}",
+        "meaning": "Commons Camera location, explicitly verified separately from object location; self-report with unknown measurement accuracy.",
+        "quality": "Q2_SELF_REPORTED_UNVERIFIED",
+        "accuracy_m": null
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oriental_Pearl_Tower_view_from_the_North_Bund,_Oct._21st,_2026.jpg",
+      "file": "images/legacy_north_bund.jpg",
+      "historical_input_hashes": {
+        "vision": "dd96d570e45f2addd30a585ab1013975414f85dcb2819011362f3cec0949edd0",
+        "matching": "2e10b27b7b20380b06e77b8cea70e3c1d7379c44f814063ef3ce9e5071e003b6"
+      },
+      "eligibility": "legacy"
+    }
+  ],
+  "policy": "Q1 independently surveyed; Q2 explicit self-reported camera position plausible but unverified; Q3 ambiguous/object-only excluded. No Q1 currently. Split grouped before vision calls."
+}

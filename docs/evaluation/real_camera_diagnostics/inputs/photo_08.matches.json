@@ -1,0 +1,1184 @@
+{
+  "status": "AMBIGUOUS",
+  "matches": [
+    {
+      "image_landmark_id": "lm_cctv_headquarters",
+      "image_name": "CCTV Headquarters",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "relation",
+            "osm_id": 7820447,
+            "tags": {
+              "alt_name": "央视总部大楼;央视;中央电视台;央视大楼;大裤衩;中央电视台光华路办公区主楼",
+              "building": "yes",
+              "height": "245",
+              "name": "中央电视台总部大楼",
+              "name:en": "CCTV Headquarters",
+              "official_name": "中央广播电视总台光华路办公区主楼",
+              "type": "multipolygon",
+              "wikidata": "Q754321",
+              "wikipedia": "en:CCTV Headquarters"
+            },
+            "id": "osm:relation:7820447",
+            "name": "中央电视台总部大楼",
+            "names": {
+              "alt_name": "央视总部大楼;央视;中央电视台;央视大楼;大裤衩;中央电视台光华路办公区主楼",
+              "name": "中央电视台总部大楼",
+              "name:en": "CCTV Headquarters",
+              "official_name": "中央广播电视总台光华路办公区主楼",
+              "osm_wikipedia_title": "CCTV Headquarters"
+            },
+            "aliases": [
+              "CCTV Headquarters",
+              "中央广播电视总台光华路办公区主楼",
+              "中央电视台",
+              "中央电视台光华路办公区主楼",
+              "中央电视台总部大楼",
+              "大裤衩",
+              "央视",
+              "央视大楼",
+              "央视总部大楼"
+            ],
+            "location": {
+              "latitude": 39.91382315,
+              "longitude": 116.45738877816441
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    116.4570374,
+                    39.9130576
+                  ],
+                  [
+                    116.457042,
+                    39.9140484
+                  ],
+                  [
+                    116.457042,
+                    39.9145689
+                  ],
+                  [
+                    116.4577381,
+                    39.9145689
+                  ],
+                  [
+                    116.4588952,
+                    39.9145663
+                  ],
+                  [
+                    116.4588915,
+                    39.9135962
+                  ],
+                  [
+                    116.4588954,
+                    39.9130559
+                  ],
+                  [
+                    116.4582699,
+                    39.9130568
+                  ],
+                  [
+                    116.4570374,
+                    39.9130576
+                  ]
+                ],
+                [
+                  [
+                    116.4577361,
+                    39.9140503
+                  ],
+                  [
+                    116.458273,
+                    39.9140491
+                  ],
+                  [
+                    116.4582712,
+                    39.9135976
+                  ],
+                  [
+                    116.4577371,
+                    39.9135979
+                  ],
+                  [
+                    116.4577361,
+                    39.9140503
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:40.980207Z",
+            "osm_updated_at": "2022-01-18T21:09:54Z",
+            "region_ids": [
+              "beijing"
+            ],
+            "warnings": []
+          },
+          "score": 0.97,
+          "score_components": {
+            "name_similarity": 1.0,
+            "category_compatibility": 0.8,
+            "identity_evidence_weight": 1.0
+          },
+          "reasons": [
+            "exact_name_or_alias",
+            "image_category=tower; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed",
+            "Equivalent Wikidata-linked OSM representations grouped, not counted as separate objects"
+          ],
+          "matched_query": "CCTV Headquarters",
+          "matched_map_name": "CCTV Headquarters",
+          "query_source": "primary",
+          "identity_certain": false,
+          "equivalent_entity_ids": [
+            "osm:way:345716072"
+          ]
+        }
+      ],
+      "status": "TENTATIVE",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_china_zun",
+      "image_name": "China Zun / CITIC Tower",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 599547918,
+            "tags": {
+              "addr:city": "北京市",
+              "addr:district": "朝阳区",
+              "addr:housenumber": "10",
+              "addr:postcode": "100026",
+              "addr:province": "北京市",
+              "addr:street": "光华路",
+              "alt_name": "北京中信大厦;中国尊大厦;中信集团总部",
+              "alt_name:en": "China Zun",
+              "building": "public",
+              "building:levels": "108",
+              "check_date": "2021-03-10",
+              "height": "528",
+              "name": "中国尊",
+              "name:en": "CITIC Tower",
+              "name:ru": "Чайна-Цзунь",
+              "smoking": "isolated",
+              "wikidata": "Q197833",
+              "wikimedia_commons": "Category:China Zun",
+              "wikipedia": "en:China Zun"
+            },
+            "id": "osm:way:599547918",
+            "name": "中国尊",
+            "names": {
+              "alt_name": "北京中信大厦;中国尊大厦;中信集团总部",
+              "alt_name:en": "China Zun",
+              "name": "中国尊",
+              "name:en": "CITIC Tower",
+              "name:ru": "Чайна-Цзунь",
+              "osm_wikipedia_title": "China Zun"
+            },
+            "aliases": [
+              "CITIC Tower",
+              "China Zun",
+              "Чайна-Цзунь",
+              "中信集团总部",
+              "中国尊",
+              "中国尊大厦",
+              "北京中信大厦"
+            ],
+            "location": {
+              "latitude": 39.911501,
+              "longitude": 116.46023567502839
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    116.4597631,
+                    39.9118448
+                  ],
+                  [
+                    116.4597669,
+                    39.9111543
+                  ],
+                  [
+                    116.4607082,
+                    39.9111572
+                  ],
+                  [
+                    116.4607045,
+                    39.9118478
+                  ],
+                  [
+                    116.4597631,
+                    39.9118448
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:40.980207Z",
+            "osm_updated_at": "2023-12-17T08:04:09Z",
+            "region_ids": [
+              "beijing"
+            ],
+            "warnings": []
+          },
+          "score": 0.931,
+          "score_components": {
+            "name_similarity": 1.0,
+            "category_compatibility": 0.8,
+            "identity_evidence_weight": 0.74
+          },
+          "reasons": [
+            "exact_name_or_alias",
+            "image_category=tower; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "China Zun",
+          "matched_map_name": "China Zun",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "TENTATIVE",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_curved_glass_tower",
+      "image_name": "Curved glass office tower",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 116944490,
+            "tags": {
+              "building": "yes",
+              "building:levels": "74",
+              "check_date": "2021-04-22",
+              "height": "330",
+              "name": "中国国际贸易中心三期A座",
+              "name:en": "World Trade Center Tower III",
+              "name:zh": "中国国际贸易中心三期A座",
+              "name:zh-Hans": "中国国际贸易中心三期A座",
+              "name:zh-Hant": "中國國際貿易中心三期A座",
+              "wikidata": "Q2006129",
+              "wikipedia": "en:China World Trade Center Tower III"
+            },
+            "id": "osm:way:116944490",
+            "name": "中国国际贸易中心三期A座",
+            "names": {
+              "name": "中国国际贸易中心三期A座",
+              "name:en": "World Trade Center Tower III",
+              "name:zh": "中国国际贸易中心三期A座",
+              "name:zh-Hans": "中国国际贸易中心三期A座",
+              "name:zh-Hant": "中國國際貿易中心三期A座",
+              "osm_wikipedia_title": "China World Trade Center Tower III"
+            },
+            "aliases": [
+              "China World Trade Center Tower III",
+              "World Trade Center Tower III",
+              "中国国际贸易中心三期A座",
+              "中國國際貿易中心三期A座"
+            ],
+            "location": {
+              "latitude": 39.910975449999995,
+              "longitude": 116.45236545
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    116.4520569,
+                    39.9107124
+                  ],
+                  [
+                    116.4520556,
+                    39.9112376
+                  ],
+                  [
+                    116.452674,
+                    39.9112385
+                  ],
+                  [
+                    116.4526753,
+                    39.9107133
+                  ],
+                  [
+                    116.4520569,
+                    39.9107124
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:40.980207Z",
+            "osm_updated_at": "2026-09-16T02:33:23Z",
+            "region_ids": [
+              "beijing"
+            ],
+            "warnings": []
+          },
+          "score": 0.8855,
+          "score_components": {
+            "name_similarity": 0.9285714285714286,
+            "category_compatibility": 0.8,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=tower; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "China World Trade Center Tower 3",
+          "matched_map_name": "China World Trade Center Tower III",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 233523264,
+            "tags": {
+              "landuse": "commercial",
+              "name": "中国国际贸易中心",
+              "name:en": "The China World Trade Center",
+              "name:zh": "中国国际贸易中心",
+              "name:zh-Hans": "中国国际贸易中心",
+              "name:zh-Hant": "中國國際貿易中心",
+              "wikipedia": "en:The China World Trade Center"
+            },
+            "id": "osm:way:233523264",
+            "name": "中国国际贸易中心",
+            "names": {
+              "name": "中国国际贸易中心",
+              "name:en": "The China World Trade Center",
+              "name:zh": "中国国际贸易中心",
+              "name:zh-Hans": "中国国际贸易中心",
+              "name:zh-Hant": "中國國際貿易中心",
+              "osm_wikipedia_title": "The China World Trade Center"
+            },
+            "aliases": [
+              "The China World Trade Center",
+              "中国国际贸易中心",
+              "中國國際貿易中心"
+            ],
+            "location": {
+              "latitude": 39.910658600000005,
+              "longitude": 116.45352332684203
+            },
+            "category": "other",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    116.4553173,
+                    39.9119622
+                  ],
+                  [
+                    116.4551623,
+                    39.9093613
+                  ],
+                  [
+                    116.4550689,
+                    39.909147
+                  ],
+                  [
+                    116.4545755,
+                    39.9085054
+                  ],
+                  [
+                    116.4546086,
+                    39.9075671
+                  ],
+                  [
+                    116.4518881,
+                    39.9075695
+                  ],
+                  [
+                    116.451773,
+                    39.9119559
+                  ],
+                  [
+                    116.4553173,
+                    39.9119622
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:40.980207Z",
+            "osm_updated_at": "2023-04-01T17:08:44Z",
+            "region_ids": [
+              "beijing"
+            ],
+            "warnings": []
+          },
+          "score": 0.766971,
+          "score_components": {
+            "name_similarity": 0.8235294117647058,
+            "category_compatibility": 0.5,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=tower; map_category=other",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "China World Trade Center Tower 3",
+          "matched_map_name": "The China World Trade Center",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "AMBIGUOUS",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_dark_rectangular_tower",
+      "image_name": "Dark rectangular office tower",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 116944490,
+            "tags": {
+              "building": "yes",
+              "building:levels": "74",
+              "check_date": "2021-04-22",
+              "height": "330",
+              "name": "中国国际贸易中心三期A座",
+              "name:en": "World Trade Center Tower III",
+              "name:zh": "中国国际贸易中心三期A座",
+              "name:zh-Hans": "中国国际贸易中心三期A座",
+              "name:zh-Hant": "中國國際貿易中心三期A座",
+              "wikidata": "Q2006129",
+              "wikipedia": "en:China World Trade Center Tower III"
+            },
+            "id": "osm:way:116944490",
+            "name": "中国国际贸易中心三期A座",
+            "names": {
+              "name": "中国国际贸易中心三期A座",
+              "name:en": "World Trade Center Tower III",
+              "name:zh": "中国国际贸易中心三期A座",
+              "name:zh-Hans": "中国国际贸易中心三期A座",
+              "name:zh-Hant": "中國國際貿易中心三期A座",
+              "osm_wikipedia_title": "China World Trade Center Tower III"
+            },
+            "aliases": [
+              "China World Trade Center Tower III",
+              "World Trade Center Tower III",
+              "中国国际贸易中心三期A座",
+              "中國國際貿易中心三期A座"
+            ],
+            "location": {
+              "latitude": 39.910975449999995,
+              "longitude": 116.45236545
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    116.4520569,
+                    39.9107124
+                  ],
+                  [
+                    116.4520556,
+                    39.9112376
+                  ],
+                  [
+                    116.452674,
+                    39.9112385
+                  ],
+                  [
+                    116.4526753,
+                    39.9107133
+                  ],
+                  [
+                    116.4520569,
+                    39.9107124
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:40.980207Z",
+            "osm_updated_at": "2026-09-16T02:33:23Z",
+            "region_ids": [
+              "beijing"
+            ],
+            "warnings": []
+          },
+          "score": 0.832221,
+          "score_components": {
+            "name_similarity": 0.8524590163934426,
+            "category_compatibility": 0.8,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=tower; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "China World Trade Center office tower",
+          "matched_map_name": "China World Trade Center Tower III",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        },
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 233523264,
+            "tags": {
+              "landuse": "commercial",
+              "name": "中国国际贸易中心",
+              "name:en": "The China World Trade Center",
+              "name:zh": "中国国际贸易中心",
+              "name:zh-Hans": "中国国际贸易中心",
+              "name:zh-Hant": "中國國際貿易中心",
+              "wikipedia": "en:The China World Trade Center"
+            },
+            "id": "osm:way:233523264",
+            "name": "中国国际贸易中心",
+            "names": {
+              "name": "中国国际贸易中心",
+              "name:en": "The China World Trade Center",
+              "name:zh": "中国国际贸易中心",
+              "name:zh-Hans": "中国国际贸易中心",
+              "name:zh-Hant": "中國國際貿易中心",
+              "osm_wikipedia_title": "The China World Trade Center"
+            },
+            "aliases": [
+              "The China World Trade Center",
+              "中国国际贸易中心",
+              "中國國際貿易中心"
+            ],
+            "location": {
+              "latitude": 39.910658600000005,
+              "longitude": 116.45352332684203
+            },
+            "category": "other",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    116.4553173,
+                    39.9119622
+                  ],
+                  [
+                    116.4551623,
+                    39.9093613
+                  ],
+                  [
+                    116.4550689,
+                    39.909147
+                  ],
+                  [
+                    116.4545755,
+                    39.9085054
+                  ],
+                  [
+                    116.4546086,
+                    39.9075671
+                  ],
+                  [
+                    116.4518881,
+                    39.9075695
+                  ],
+                  [
+                    116.451773,
+                    39.9119559
+                  ],
+                  [
+                    116.4553173,
+                    39.9119622
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:40.980207Z",
+            "osm_updated_at": "2023-04-01T17:08:44Z",
+            "region_ids": [
+              "beijing"
+            ],
+            "warnings": []
+          },
+          "score": 0.7155,
+          "score_components": {
+            "name_similarity": 0.75,
+            "category_compatibility": 0.5,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=tower; map_category=other",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "China World Trade Center office tower",
+          "matched_map_name": "The China World Trade Center",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "AMBIGUOUS",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_construction_highrise",
+      "image_name": "Construction high-rise",
+      "candidates": [
+        {
+          "entity": {
+            "osm_type": "way",
+            "osm_id": 166126956,
+            "tags": {
+              "addr:city": "上海市",
+              "addr:district": "浦东新区",
+              "addr:housenumber": "500号",
+              "addr:province": "上海",
+              "addr:street": "浦东南路",
+              "building": "commercial",
+              "name": "国家开发银行大厦",
+              "name:en": "China Development Bank Tower",
+              "name:fr": "Construction Mansion",
+              "name:zh": "国家开发银行大厦",
+              "name:zh-Hans": "国家开发银行大厦",
+              "name:zh-Hant": "國家開發銀行大廈",
+              "wikidata": "Q24341001",
+              "wikipedia": "zh:国家开发银行大厦"
+            },
+            "id": "osm:way:166126956",
+            "name": "国家开发银行大厦",
+            "names": {
+              "name": "国家开发银行大厦",
+              "name:en": "China Development Bank Tower",
+              "name:fr": "Construction Mansion",
+              "name:zh": "国家开发银行大厦",
+              "name:zh-Hans": "国家开发银行大厦",
+              "name:zh-Hant": "國家開發銀行大廈",
+              "osm_wikipedia_title": "国家开发银行大厦"
+            },
+            "aliases": [
+              "China Development Bank Tower",
+              "Construction Mansion",
+              "国家开发银行大厦",
+              "國家開發銀行大廈"
+            ],
+            "location": {
+              "latitude": 31.2390875,
+              "longitude": 121.50607774800363
+            },
+            "category": "building",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    121.5058522,
+                    31.2390431
+                  ],
+                  [
+                    121.505746,
+                    31.2389885
+                  ],
+                  [
+                    121.5056165,
+                    31.2391729
+                  ],
+                  [
+                    121.5058728,
+                    31.2393046
+                  ],
+                  [
+                    121.5060108,
+                    31.239324
+                  ],
+                  [
+                    121.5061576,
+                    31.2393092
+                  ],
+                  [
+                    121.5062856,
+                    31.2392737
+                  ],
+                  [
+                    121.5063901,
+                    31.2392101
+                  ],
+                  [
+                    121.5064179,
+                    31.2391717
+                  ],
+                  [
+                    121.5064462,
+                    31.2391594
+                  ],
+                  [
+                    121.5064479,
+                    31.2391319
+                  ],
+                  [
+                    121.5065679,
+                    31.2389607
+                  ],
+                  [
+                    121.506233,
+                    31.2387892
+                  ],
+                  [
+                    121.5062005,
+                    31.2388356
+                  ],
+                  [
+                    121.5061395,
+                    31.2388036
+                  ],
+                  [
+                    121.5060961,
+                    31.2388633
+                  ],
+                  [
+                    121.5060128,
+                    31.238819
+                  ],
+                  [
+                    121.5058522,
+                    31.2390431
+                  ]
+                ]
+              ]
+            },
+            "geometry_precision": "complete_outline",
+            "complete_geometry": true,
+            "coordinate_meaning": "computed_point_on_geometry; not an entrance or photographer position",
+            "source": "https://overpass-api.de/api/interpreter",
+            "source_type": "osm",
+            "is_manual": false,
+            "fetched_at": "2026-11-13T17:02:09.369900Z",
+            "osm_updated_at": "2026-10-29T16:16:51Z",
+            "region_ids": [
+              "shanghai"
+            ],
+            "warnings": []
+          },
+          "score": 0.7605,
+          "score_components": {
+            "name_similarity": 0.75,
+            "category_compatibility": 0.8,
+            "identity_evidence_weight": 0.77
+          },
+          "reasons": [
+            "fuzzy_name",
+            "image_category=tower; map_category=building",
+            "0.70*name + 0.15*category + 0.15*identity_evidence; type conflict penalty=0.30",
+            "Uncalibrated retrieval score; identity is not independently confirmed"
+          ],
+          "matched_query": "construction site tower",
+          "matched_map_name": "Construction Mansion",
+          "query_source": "candidate",
+          "identity_certain": false,
+          "equivalent_entity_ids": []
+        }
+      ],
+      "status": "TENTATIVE",
+      "unmatched_reason": null
+    },
+    {
+      "image_landmark_id": "lm_glass_canopy_building",
+      "image_name": "Glass canopy building",
+      "candidates": [],
+      "status": "UNMATCHED",
+      "unmatched_reason": "No compatible named entity in loaded map coverage"
+    },
+    {
+      "image_landmark_id": "lm_elevated_highway",
+      "image_name": "Elevated multi-lane highway",
+      "candidates": [],
+      "status": "UNMATCHED",
+      "unmatched_reason": "No compatible named entity in loaded map coverage"
+    }
+  ],
+  "region_hypotheses": [
+    {
+      "region_id": "beijing",
+      "assignments": {
+        "lm_cctv_headquarters": "osm:relation:7820447",
+        "lm_china_zun": "osm:way:599547918",
+        "lm_curved_glass_tower": "osm:way:116944490",
+        "lm_dark_rectangular_tower": "osm:way:233523264"
+      },
+      "score": 0.500286,
+      "matched_objects": 4,
+      "max_pair_distance_m": 675.4635507569342,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "beijing",
+      "assignments": {
+        "lm_cctv_headquarters": "osm:relation:7820447",
+        "lm_china_zun": "osm:way:599547918",
+        "lm_curved_glass_tower": "osm:way:233523264",
+        "lm_dark_rectangular_tower": "osm:way:116944490"
+      },
+      "score": 0.500027,
+      "matched_objects": 4,
+      "max_pair_distance_m": 675.4635507569342,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    },
+    {
+      "region_id": "shanghai",
+      "assignments": {
+        "lm_construction_highrise": "osm:way:166126956"
+      },
+      "score": 0.108643,
+      "matched_objects": 1,
+      "max_pair_distance_m": 0.0,
+      "geographically_consistent": true,
+      "identity_certain": false,
+      "reasons": [
+        "Entities share imported geographic coverage",
+        "Hypothesis score = sum(selected candidate scores) / total image objects; rank by support count first",
+        "No repeated OSM/Wikidata identity within this combination",
+        "All entity pairs <= 15000 metres",
+        "Image directions were not interpreted as geographic directions",
+        "This is landmark co-occurrence plausibility, not photographer localization"
+      ]
+    }
+  ],
+  "distinct_image_relations": [
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_china_zun",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_china_zun",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    }
+  ],
+  "consistency_checks": {
+    "duplicate_entity_assignments_rejected": 8,
+    "distant_assignments_rejected": 0,
+    "candidate_regions": 2,
+    "regions_omitted_by_output_limit": 0,
+    "seed_name_candidates": 7,
+    "input_directed_relations": 80,
+    "distinct_pair_axis_relations": 40
+  },
+  "warnings": [
+    "Finite imported map coverage only; absence is not proof that a landmark does not exist",
+    "All scores are uncalibrated heuristics; entity identities remain tentative",
+    "Map entity coordinates and geometry representative points are not photographer locations",
+    "Spatial consistency checks co-region, uniqueness and pair distance only; no camera pose is solved",
+    "Multiple geographically separate region hypotheses remain"
+  ],
+  "coverage_regions": [
+    "beijing",
+    "guangzhou",
+    "shanghai"
+  ],
+  "scoring_version": "stage3-heuristic-v1"
+}

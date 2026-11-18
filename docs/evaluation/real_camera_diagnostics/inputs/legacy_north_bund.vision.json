@@ -1,0 +1,524 @@
+{
+  "landmarks": [
+    {
+      "name": "Oriental Pearl Tower",
+      "x": 0.495,
+      "y": 0.43,
+      "confidence": 0.98,
+      "matched_landmark_id": null,
+      "id": "lm_1",
+      "name_candidates": [
+        "Oriental Pearl Tower"
+      ],
+      "bbox": {
+        "x_min": 0.415,
+        "y_min": 0.04,
+        "x_max": 0.635,
+        "y_max": 0.815
+      },
+      "visual_evidence": [
+        "Tall tower with multiple spherical modules",
+        "Large pink/magenta illuminated spheres on the structure",
+        "Slender lattice spire rising above the spheres",
+        "Tripod-like supporting legs at the base"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Shanghai Tower",
+      "x": 0.042,
+      "y": 0.55,
+      "confidence": 0.92,
+      "matched_landmark_id": null,
+      "id": "lm_2",
+      "name_candidates": [
+        "Shanghai Tower"
+      ],
+      "bbox": {
+        "x_min": 0.0,
+        "y_min": 0.3,
+        "x_max": 0.085,
+        "y_max": 0.8
+      },
+      "visual_evidence": [
+        "Very tall glass tower with a twisting tapering form",
+        "Spiraling curved facade visible along the height of the building",
+        "Supertall skyscraper located at the left edge of the skyline"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Flat-topped glass skyscraper in Lujiazui skyline",
+      "x": 0.197,
+      "y": 0.667,
+      "confidence": 0.55,
+      "matched_landmark_id": null,
+      "id": "lm_3",
+      "name_candidates": [
+        "Jin Mao Tower",
+        "Shanghai World Financial Center"
+      ],
+      "bbox": {
+        "x_min": 0.125,
+        "y_min": 0.515,
+        "x_max": 0.27,
+        "y_max": 0.82
+      },
+      "visual_evidence": [
+        "Tall rectangular glass tower with vertical ribbing",
+        "Flat or slightly angled top visible against the sky",
+        "Part of a dense high-rise skyline cluster"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Partially occluded glass skyscraper behind the tower",
+      "x": 0.4,
+      "y": 0.671,
+      "confidence": 0.45,
+      "matched_landmark_id": null,
+      "id": "lm_4",
+      "name_candidates": [
+        "Jin Mao Tower",
+        "Shanghai World Financial Center"
+      ],
+      "bbox": {
+        "x_min": 0.345,
+        "y_min": 0.542,
+        "x_max": 0.455,
+        "y_max": 0.8
+      },
+      "visual_evidence": [
+        "Tall glass tower partially hidden behind the spherical tower",
+        "Flat top and vertical facade lines visible",
+        "Only part of the building extent is clearly observable"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": false
+    },
+    {
+      "name": "Teal glass tower with Chinese signage",
+      "x": 0.65,
+      "y": 0.705,
+      "confidence": 0.6,
+      "matched_landmark_id": null,
+      "id": "lm_5",
+      "name_candidates": [
+        "Mirae Asset building"
+      ],
+      "bbox": {
+        "x_min": 0.58,
+        "y_min": 0.63,
+        "x_max": 0.72,
+        "y_max": 0.78
+      },
+      "visual_evidence": [
+        "Blue-green glass facade",
+        "White Chinese characters visible near the top of the building",
+        "Mid-rise office tower within the skyline cluster"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Gold-toned tower with AURORA signage",
+      "x": 0.76,
+      "y": 0.717,
+      "confidence": 0.7,
+      "matched_landmark_id": null,
+      "id": "lm_6",
+      "name_candidates": [
+        "Aurora Plaza",
+        "Aurora Building"
+      ],
+      "bbox": {
+        "x_min": 0.715,
+        "y_min": 0.655,
+        "x_max": 0.805,
+        "y_max": 0.78
+      },
+      "visual_evidence": [
+        "Yellow/gold facade",
+        "Large visible text reading AURORA on the building",
+        "Rectangular tower shape in the skyline"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Blue glass tower with lattice antenna crown",
+      "x": 0.867,
+      "y": 0.69,
+      "confidence": 0.5,
+      "matched_landmark_id": null,
+      "id": "lm_7",
+      "name_candidates": [],
+      "bbox": {
+        "x_min": 0.805,
+        "y_min": 0.55,
+        "x_max": 0.93,
+        "y_max": 0.83
+      },
+      "visual_evidence": [
+        "Blue glass facade",
+        "Stepped crown with a lattice antenna structure on top",
+        "Tall building at the right side of the skyline"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    }
+  ],
+  "scene_features": [
+    "River in the foreground",
+    "Waterfront embankment or promenade",
+    "Line of trees along the base of the skyline",
+    "Dense cluster of modern high-rise buildings",
+    "Clear blue sky with scattered low clouds",
+    "Red buoy floating in the water",
+    "Visible building signage on facades"
+  ],
+  "warnings": [
+    "Several building identities are uncertain because only partial facades, signage, or skyline context are visible.",
+    "Some building extents are approximate due occlusion by the tower, trees, or adjacent structures.",
+    "No geographic location, direction, or distance was inferred from image orientation or apparent size.",
+    "Model confidence is an uncalibrated self-assessment, not a probability.",
+    "Unreliable coordinates were excluded from spatial relation extraction."
+  ],
+  "image": {
+    "original_size": {
+      "width": 1920,
+      "height": 2884
+    },
+    "oriented_size": {
+      "width": 1920,
+      "height": 2884
+    },
+    "processed_size": {
+      "width": 1065,
+      "height": 1600
+    },
+    "original_format": "JPEG",
+    "encoded_format": "JPEG",
+    "original_bytes": 1004747,
+    "processed_bytes": 288369,
+    "orientation_corrected": false
+  },
+  "relations": [
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_1",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_7",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_6",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_6",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_5",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_5",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_6",
+      "object_id": "lm_7",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_7",
+      "object_id": "lm_6",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    }
+  ],
+  "relation_min_gap": 0.03
+}

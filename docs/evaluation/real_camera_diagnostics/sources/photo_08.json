@@ -1,0 +1,145 @@
+{
+  "info": {
+    "pageid": 153523692,
+    "ns": 6,
+    "title": "File:Beijing Central Business District (20240826163226).jpg",
+    "imagerepository": "local",
+    "imageinfo": [
+      {
+        "size": 5394572,
+        "width": 7077,
+        "height": 4950,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Beijing_Central_Business_District_%2820240826163226%29.jpg/1920px-Beijing_Central_Business_District_%2820240826163226%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1600,
+        "thumbheight": 1119,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Beijing_Central_Business_District_%2820240826163226%29.jpg/3840px-Beijing_Central_Business_District_%2820240826163226%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Beijing_Central_Business_District_%2820240826163226%29.jpg/1920px-Beijing_Central_Business_District_%2820240826163226%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1600,
+          "height": 1119,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Beijing_Central_Business_District_%2820240826163226%29.jpg/3840px-Beijing_Central_Business_District_%2820240826163226%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Beijing_Central_Business_District_%2820240826163226%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beijing_Central_Business_District_(20240826163226).jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/153523692",
+        "sha1": "4bea62cdfac523ce62de6499627d3256330b1f33",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2024-10-04 09:13:32",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Beijing Central Business District (20240826163226)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "CCTV Headquarters (2010)|Self-published work|FoP-China|Files with coordinates missing SDC location of creation|China photographs taken on 2024-08-26|August 2024 in Beijing",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "39.911116",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "116.454704",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "​中央电视台总部大楼和北京CBD地区",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2024-08-26 16:32:26",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:HoweyYuan&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:HoweyYuan (page does not exist)\">HoweyYuan</a>",
+            "source": "commons-desc-page"
+          },
+          "Permission": {
+            "value": "The reproduction of this artistic, architectural, or applied artwork, is covered under the <i>Copyright Law of the People's Republic of China</i>, which allows reproduction of works in public place <b>if the author and the name of the original work is attributed.</b> Note: This does not apply to 2D works of art like outdoor paintings permanently installed in public spaces and murals.\n<hr>\n<dl><dd><i><b><a href=\"https://en.wikisource.org/wiki/Copyright_Law_of_the_People%27s_Republic_of_China_(2020)\" class=\"extiw\" title=\"s:Copyright Law of the People's Republic of China (2020)\">Copyright Law of the People's Republic of China</a></b></i>, Article 24: In the following cases, a work may be used without permission from, and without payment of remuneration to, the copyright owner, provided that the name of the author and the title of the work shall be indicated, the normal use of the work shall not be affected, and the legitimate rights and interests of the copyright owner shall not be infringed unreasonably:</dd>\n<dd>(10) copying, drawing, photographing, or video recording of an artistic work located or on display in a public place;</dd></dl>\nSee <a href=\"//commons.wikimedia.org/wiki/Commons:CRT/China#Freedom_of_panorama\" class=\"mw-redirect\" title=\"Commons:CRT/China\">COM:CRT/China#Freedom of panorama</a> for more information.",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    ]
+  },
+  "revision": {
+    "pageid": 153523692,
+    "ns": 6,
+    "title": "File:Beijing Central Business District (20240826163226).jpg",
+    "revisions": [
+      {
+        "revid": 1083667933,
+        "parentid": 949026967,
+        "slots": {
+          "main": {
+            "contentmodel": "wikitext",
+            "contentformat": "text/x-wiki",
+            "*": "=={{int:filedesc}}==\n{{Information\n|description={{zh-cn|1=中央电视台总部大楼和北京CBD地区}}\n|date=2024-08-26 16:32:26\n|source={{own}}\n|author=[[User:HoweyYuan|HoweyYuan]]\n|permission={{FoP-China}}\n|other versions=\n}}\n{{Location|39.911116|116.454704}}\n\n=={{int:license-header}}==\n{{self|cc-by-sa-4.0}}\n\n[[Category:CCTV Headquarters (2010)]]\n[[Category:August 2024 in Beijing]]\n[[Category:China photographs taken on 2024-08-26]]"
+          }
+        }
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-11-17T12:49:21.731146+00:00"
+}

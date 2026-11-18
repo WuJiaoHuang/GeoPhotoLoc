@@ -1,0 +1,266 @@
+{
+  "landmarks": [
+    {
+      "name": "Tall modern skyscraper with horizontal banding",
+      "x": 0.905,
+      "y": 0.31,
+      "confidence": null,
+      "matched_landmark_id": null,
+      "id": "lm_1",
+      "name_candidates": [],
+      "bbox": {
+        "x_min": 0.81,
+        "y_min": 0.0,
+        "x_max": 1.0,
+        "y_max": 0.62
+      },
+      "visual_evidence": [
+        "Extremely tall building dominating the right skyline",
+        "Glass facade with distinct horizontal banding patterns"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "White high-rise with pointed roof",
+      "x": 0.475,
+      "y": 0.385,
+      "confidence": null,
+      "matched_landmark_id": null,
+      "id": "lm_2",
+      "name_candidates": [],
+      "bbox": {
+        "x_min": 0.46,
+        "y_min": 0.31,
+        "x_max": 0.49,
+        "y_max": 0.46
+      },
+      "visual_evidence": [
+        "White facade with vertical dark window bands",
+        "Distinctive pointed roof structure"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Large urban construction excavation site",
+      "x": 0.625,
+      "y": 0.775,
+      "confidence": null,
+      "matched_landmark_id": null,
+      "id": "lm_3",
+      "name_candidates": [],
+      "bbox": {
+        "x_min": 0.3,
+        "y_min": 0.55,
+        "x_max": 0.95,
+        "y_max": 1.0
+      },
+      "visual_evidence": [
+        "Deep pit with concrete retaining walls",
+        "Construction equipment including cranes visible",
+        "Exposed earth and green safety netting"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Multi-lane urban avenue with green median",
+      "x": 0.225,
+      "y": 0.725,
+      "confidence": null,
+      "matched_landmark_id": null,
+      "id": "lm_4",
+      "name_candidates": [],
+      "bbox": {
+        "x_min": 0.0,
+        "y_min": 0.45,
+        "x_max": 0.45,
+        "y_max": 1.0
+      },
+      "visual_evidence": [
+        "Paved road with multiple lanes in both directions",
+        "Wide tree-lined median separating the roadways",
+        "Vehicles visible driving on the road"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    }
+  ],
+  "scene_features": [
+    "Dense urban skyline",
+    "Clear blue sky",
+    "Modern high-rise architecture",
+    "Active construction zone",
+    "Major thoroughfare with landscaping"
+  ],
+  "warnings": [
+    "Model confidence is an uncalibrated self-assessment, not a probability."
+  ],
+  "image": {
+    "original_size": {
+      "width": 1600,
+      "height": 900
+    },
+    "oriented_size": {
+      "width": 1600,
+      "height": 900
+    },
+    "processed_size": {
+      "width": 1600,
+      "height": 900
+    },
+    "original_format": "JPEG",
+    "encoded_format": "JPEG",
+    "original_bytes": 653013,
+    "processed_bytes": 536890,
+    "orientation_corrected": false
+  },
+  "relations": [
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_1",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_1",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_4",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_3",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_4",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    }
+  ],
+  "relation_min_gap": 0.03
+}

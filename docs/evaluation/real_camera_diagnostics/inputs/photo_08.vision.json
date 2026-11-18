@@ -1,0 +1,697 @@
+{
+  "landmarks": [
+    {
+      "name": "CCTV Headquarters",
+      "x": 0.2185,
+      "y": 0.535,
+      "confidence": 0.98,
+      "matched_landmark_id": null,
+      "id": "lm_cctv_headquarters",
+      "name_candidates": [
+        "CCTV Headquarters",
+        "China Central Television Headquarters"
+      ],
+      "bbox": {
+        "x_min": 0.045,
+        "y_min": 0.315,
+        "x_max": 0.392,
+        "y_max": 0.755
+      },
+      "visual_evidence": [
+        "Large irregular looped tower",
+        "Diagonal grid glass facade",
+        "Open void through the center of the building"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "China Zun / CITIC Tower",
+      "x": 0.6,
+      "y": 0.38,
+      "confidence": 0.93,
+      "matched_landmark_id": null,
+      "id": "lm_china_zun",
+      "name_candidates": [
+        "China Zun",
+        "CITIC Tower",
+        "Beijing CBD tall glass tower"
+      ],
+      "bbox": {
+        "x_min": 0.542,
+        "y_min": 0.032,
+        "x_max": 0.658,
+        "y_max": 0.728
+      },
+      "visual_evidence": [
+        "Very tall slender glass skyscraper",
+        "Narrow waist profile",
+        "Flared crown at the top"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Curved glass office tower",
+      "x": 0.706,
+      "y": 0.415,
+      "confidence": 0.72,
+      "matched_landmark_id": null,
+      "id": "lm_curved_glass_tower",
+      "name_candidates": [
+        "China World Trade Center Tower 3",
+        "Beijing CBD curved glass tower"
+      ],
+      "bbox": {
+        "x_min": 0.626,
+        "y_min": 0.13,
+        "x_max": 0.786,
+        "y_max": 0.7
+      },
+      "visual_evidence": [
+        "Tall curved glass facade",
+        "Horizontal banding across the tower",
+        "Rounded cylindrical silhouette"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Dark rectangular office tower",
+      "x": 0.5765,
+      "y": 0.525,
+      "confidence": 0.5,
+      "matched_landmark_id": null,
+      "id": "lm_dark_rectangular_tower",
+      "name_candidates": [
+        "Beijing CBD office tower",
+        "China World Trade Center office tower"
+      ],
+      "bbox": {
+        "x_min": 0.517,
+        "y_min": 0.295,
+        "x_max": 0.636,
+        "y_max": 0.755
+      },
+      "visual_evidence": [
+        "Rectangular dark glass tower",
+        "Regular grid of windows",
+        "Partially occludes the taller tower behind it"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Construction high-rise",
+      "x": 0.9,
+      "y": 0.57,
+      "confidence": 0.9,
+      "matched_landmark_id": null,
+      "id": "lm_construction_highrise",
+      "name_candidates": [
+        "unfinished high-rise",
+        "construction site tower"
+      ],
+      "bbox": {
+        "x_min": 0.8,
+        "y_min": 0.34,
+        "x_max": 1.0,
+        "y_max": 0.8
+      },
+      "visual_evidence": [
+        "Exposed concrete and steel frame",
+        "Scaffolding and incomplete floors",
+        "Tower cranes mounted above the structure"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Glass canopy building",
+      "x": 0.78,
+      "y": 0.75,
+      "confidence": 0.85,
+      "matched_landmark_id": null,
+      "id": "lm_glass_canopy_building",
+      "name_candidates": [
+        "glass canopy entrance building",
+        "curved glass low-rise structure"
+      ],
+      "bbox": {
+        "x_min": 0.65,
+        "y_min": 0.66,
+        "x_max": 0.91,
+        "y_max": 0.84
+      },
+      "visual_evidence": [
+        "Low building with transparent arched glass roof",
+        "Curved metal support ribs",
+        "Large glazed facade facing the roadway"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Elevated multi-lane highway",
+      "x": 0.5,
+      "y": 0.895,
+      "confidence": 0.98,
+      "matched_landmark_id": null,
+      "id": "lm_elevated_highway",
+      "name_candidates": [
+        "elevated expressway",
+        "urban overpass"
+      ],
+      "bbox": {
+        "x_min": 0.0,
+        "y_min": 0.8,
+        "x_max": 1.0,
+        "y_max": 0.99
+      },
+      "visual_evidence": [
+        "Wide elevated roadway spanning the lower part of the image",
+        "Multiple lanes with cars and buses",
+        "Concrete supports and streetlights along the road"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    }
+  ],
+  "scene_features": [
+    "Overcast pale sky",
+    "Modern glass skyscraper cluster",
+    "Urban central business district",
+    "Green trees and landscaped ground areas",
+    "Construction cranes",
+    "Elevated roadway with traffic",
+    "Mixed completed and unfinished buildings"
+  ],
+  "warnings": [
+    "Some skyscraper identities are uncertain because multiple glass towers in this CBD cluster have similar materials and partial occlusion.",
+    "No GPS, metadata, or map information was used; coordinates are approximate normalized visual boxes.",
+    "Generic names were used where distinctive visual evidence was insufficient for a confident landmark identity.",
+    "Model confidence is an uncalibrated self-assessment, not a probability."
+  ],
+  "image": {
+    "original_size": {
+      "width": 1600,
+      "height": 1119
+    },
+    "oriented_size": {
+      "width": 1600,
+      "height": 1119
+    },
+    "processed_size": {
+      "width": 1600,
+      "height": 1119
+    },
+    "original_format": "JPEG",
+    "encoded_format": "JPEG",
+    "original_bytes": 631841,
+    "processed_bytes": 516128,
+    "orientation_corrected": false
+  },
+  "relations": [
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_china_zun",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_cctv_headquarters",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_china_zun",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_cctv_headquarters",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_cctv_headquarters",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_cctv_headquarters",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_cctv_headquarters",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_cctv_headquarters",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_cctv_headquarters",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_glass_canopy_building",
+      "object_id": "lm_cctv_headquarters",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_glass_canopy_building",
+      "object_id": "lm_cctv_headquarters",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_cctv_headquarters",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_cctv_headquarters",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_cctv_headquarters",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_china_zun",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_china_zun",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_china_zun",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_china_zun",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_china_zun",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_glass_canopy_building",
+      "object_id": "lm_china_zun",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_glass_canopy_building",
+      "object_id": "lm_china_zun",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_china_zun",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_china_zun",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_china_zun",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_glass_canopy_building",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_glass_canopy_building",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_curved_glass_tower",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_curved_glass_tower",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_glass_canopy_building",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_glass_canopy_building",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_dark_rectangular_tower",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_dark_rectangular_tower",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_glass_canopy_building",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_glass_canopy_building",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_construction_highrise",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_construction_highrise",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_glass_canopy_building",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_glass_canopy_building",
+      "object_id": "lm_elevated_highway",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_elevated_highway",
+      "object_id": "lm_glass_canopy_building",
+      "relation_type": "BELOW",
+      "confidence": null
+    }
+  ],
+  "relation_min_gap": 0.03
+}

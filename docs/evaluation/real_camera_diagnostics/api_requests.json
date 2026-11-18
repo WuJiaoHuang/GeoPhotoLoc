@@ -1,0 +1,435 @@
+[
+  {
+    "attempt": 1,
+    "sample_id": "photo_01",
+    "image_sha256": "39b458fde26ddfe16679828af64b33daef30b33f05ae9d4c2e3e27b27f201669",
+    "status": "failed",
+    "started_at_utc": "2026-11-17T12:53:44.898018+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Actual charge unavailable; token usage is not an invoice",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 60.0,
+    "stage": "vision",
+    "code": "API_TIMEOUT",
+    "finished_at_utc": "2026-11-17T12:54:45.076186+00:00"
+  },
+  {
+    "attempt": 2,
+    "sample_id": "photo_02",
+    "image_sha256": "30e051c7e9899ca7e51670d31a464eea9bd9f1f1f6b3b78950ed9bc5675c83c4",
+    "status": "failed",
+    "started_at_utc": "2026-11-17T12:54:45.360138+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Actual charge unavailable; token usage is not an invoice",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 60.0,
+    "stage": "vision",
+    "code": "API_TIMEOUT",
+    "finished_at_utc": "2026-11-17T12:55:45.458196+00:00"
+  },
+  {
+    "attempt": 3,
+    "sample_id": "photo_03",
+    "image_sha256": "75b036dcbfba34f971a0d04a6d138b7975693dfc6831f89b1c7aba76d57da599",
+    "status": "failed",
+    "started_at_utc": "2026-11-17T12:55:45.704059+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Actual charge unavailable; token usage is not an invoice",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 60.0,
+    "stage": "vision",
+    "code": "API_TIMEOUT",
+    "finished_at_utc": "2026-11-17T12:56:45.773235+00:00"
+  },
+  {
+    "attempt": 4,
+    "sample_id": "photo_04",
+    "image_sha256": "dc3e98623f9eef553c5c4dedef2df651549abbf8aaa90f338b459b2c56758390",
+    "status": "success",
+    "started_at_utc": "2026-11-17T12:56:45.952015+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Actual charge unavailable; token usage is not an invoice",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 60.0,
+    "usage": {
+      "completion_tokens": 2647,
+      "prompt_tokens": 1794,
+      "total_tokens": 4441,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 1450,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 1196
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 1024,
+        "image_tokens": 674,
+        "text_tokens": 1120
+      }
+    },
+    "finished_at_utc": "2026-11-17T13:02:20.685837+00:00"
+  },
+  {
+    "attempt": 5,
+    "sample_id": "photo_05",
+    "image_sha256": "c849f406d309950eaa125008dc069247264ec0c8f23f6bdd41ba139c7b662f50",
+    "status": "failed",
+    "started_at_utc": "2026-11-17T13:10:09.286403+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Actual charge unavailable; token usage is not an invoice",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 60.0,
+    "stage": "vision",
+    "code": "API_TIMEOUT",
+    "finished_at_utc": "2026-11-17T13:11:09.368295+00:00"
+  },
+  {
+    "attempt": 6,
+    "sample_id": "photo_06",
+    "image_sha256": "5220b0109525cd024145a1bf59e45ccba4c483502d199e0aac1378b2f9a78e6f",
+    "status": "success",
+    "started_at_utc": "2026-11-17T13:11:09.537038+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Actual charge unavailable; token usage is not an invoice",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 60.0,
+    "usage": {
+      "completion_tokens": 3999,
+      "prompt_tokens": 2772,
+      "total_tokens": 6771,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 2993,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 1005
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 1024,
+        "image_tokens": 1652,
+        "text_tokens": 1120
+      }
+    },
+    "finished_at_utc": "2026-11-17T13:14:02.528526+00:00"
+  },
+  {
+    "attempt": 7,
+    "sample_id": "photo_07",
+    "image_sha256": "e95f40b9ea7254ca29418481d07ade0d93034bc7853cf1ae86fafa3a9ea727d7",
+    "status": "failed",
+    "started_at_utc": "2026-11-17T13:16:55.144926+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Actual charge unavailable; token usage is not an invoice",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 60.0,
+    "stage": "vision",
+    "code": "API_TIMEOUT",
+    "finished_at_utc": "2026-11-17T13:17:55.224971+00:00"
+  },
+  {
+    "attempt": 8,
+    "sample_id": "photo_08",
+    "image_sha256": "9a8bf622ce9140a7c3cc879f22a7d5857d7e9680d7557138a797823cf881ea31",
+    "status": "success",
+    "started_at_utc": "2026-11-17T13:17:55.550222+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Actual charge unavailable; token usage is not an invoice",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 60.0,
+    "usage": {
+      "completion_tokens": 3530,
+      "prompt_tokens": 2872,
+      "total_tokens": 6402,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 2335,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 1194
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 1024,
+        "image_tokens": 1752,
+        "text_tokens": 1120
+      }
+    },
+    "finished_at_utc": "2026-11-17T13:21:19.056825+00:00"
+  },
+  {
+    "attempt": 9,
+    "sample_id": "photo_09",
+    "image_sha256": "72f7eebd27caae5707a615b7af5749e889470f2347fa0081c87af59aaa0c9ab6",
+    "status": "success",
+    "started_at_utc": "2026-11-17T13:23:46.789425+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Actual charge unavailable; token usage is not an invoice",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 60.0,
+    "usage": {
+      "completion_tokens": 1932,
+      "prompt_tokens": 2522,
+      "total_tokens": 4454,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 1374,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 557
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 256,
+        "image_tokens": 1402,
+        "text_tokens": 1120
+      }
+    },
+    "finished_at_utc": "2026-11-17T13:24:06.695169+00:00"
+  },
+  {
+    "attempt": 10,
+    "sample_id": "photo_10",
+    "image_sha256": "1262abc03f6b621196ed15c1d80cd0e29c6b734114e549ae0089a470dfe265cd",
+    "status": "success",
+    "started_at_utc": "2026-11-17T13:24:06.997327+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Actual charge unavailable; token usage is not an invoice",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 60.0,
+    "usage": {
+      "completion_tokens": 2475,
+      "prompt_tokens": 2522,
+      "total_tokens": 4997,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 1285,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 1189
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 1024,
+        "image_tokens": 1402,
+        "text_tokens": 1120
+      }
+    },
+    "finished_at_utc": "2026-11-17T13:26:46.046470+00:00"
+  },
+  {
+    "attempt": 11,
+    "sample_id": "photo_11",
+    "image_sha256": "8f92725095ef51973a19112821dd5a714300dccad393a4b78110329b95129164",
+    "status": "success",
+    "started_at_utc": "2026-11-17T13:31:32.432275+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Actual charge unavailable; token usage is not an invoice",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 60.0,
+    "usage": {
+      "completion_tokens": 3453,
+      "prompt_tokens": 1547,
+      "total_tokens": 5000,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 2556,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 896
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": 427,
+        "text_tokens": 1120
+      }
+    },
+    "finished_at_utc": "2026-11-17T13:32:19.329061+00:00"
+  },
+  {
+    "attempt": 12,
+    "sample_id": "photo_12",
+    "image_sha256": "6715122645a5a81e156484a9f8ccb3368956ca983cd8bd418250ea9e2fc23fad",
+    "status": "success",
+    "started_at_utc": "2026-11-17T13:32:19.720869+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Actual charge unavailable; token usage is not an invoice",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 60.0,
+    "usage": {
+      "completion_tokens": 3707,
+      "prompt_tokens": 3022,
+      "total_tokens": 6729,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 2777,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 929
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 1024,
+        "image_tokens": 1902,
+        "text_tokens": 1120
+      }
+    },
+    "finished_at_utc": "2026-11-17T13:33:29.634004+00:00"
+  },
+  {
+    "attempt": 13,
+    "sample_id": "photo_01",
+    "image_sha256": "39b458fde26ddfe16679828af64b33daef30b33f05ae9d4c2e3e27b27f201669",
+    "status": "failed",
+    "retry_of": 1,
+    "started_at_utc": "2026-11-18T09:35:42.228847+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Charge unavailable, timeout may still be billed",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 120.0,
+    "stage": "vision",
+    "code": "API_TIMEOUT",
+    "finished_at_utc": "2026-11-18T09:37:42.308079+00:00"
+  },
+  {
+    "attempt": 14,
+    "sample_id": "photo_02",
+    "image_sha256": "30e051c7e9899ca7e51670d31a464eea9bd9f1f1f6b3b78950ed9bc5675c83c4",
+    "status": "success",
+    "retry_of": 2,
+    "started_at_utc": "2026-11-18T09:37:42.367338+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Charge unavailable, timeout may still be billed",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 120.0,
+    "usage": {
+      "completion_tokens": 1259,
+      "prompt_tokens": 2772,
+      "total_tokens": 4031,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 523,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 735
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 1024,
+        "image_tokens": 1652,
+        "text_tokens": 1120
+      }
+    },
+    "api_response_at_utc": "2026-11-18T09:38:00.725627+00:00",
+    "finished_at_utc": "2026-11-18T09:38:48.675650+00:00"
+  },
+  {
+    "attempt": 15,
+    "sample_id": "photo_03",
+    "image_sha256": "75b036dcbfba34f971a0d04a6d138b7975693dfc6831f89b1c7aba76d57da599",
+    "status": "failed",
+    "retry_of": 3,
+    "started_at_utc": "2026-11-18T09:38:48.737251+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Charge unavailable, timeout may still be billed",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 120.0,
+    "stage": "vision",
+    "code": "API_TIMEOUT",
+    "finished_at_utc": "2026-11-18T09:40:48.781609+00:00"
+  },
+  {
+    "attempt": 16,
+    "sample_id": "photo_05",
+    "image_sha256": "c849f406d309950eaa125008dc069247264ec0c8f23f6bdd41ba139c7b662f50",
+    "status": "success",
+    "retry_of": 5,
+    "started_at_utc": "2026-11-18T09:40:48.822946+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Charge unavailable, timeout may still be billed",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 120.0,
+    "usage": {
+      "completion_tokens": 2313,
+      "prompt_tokens": 1794,
+      "total_tokens": 4107,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 1097,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 1215
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 1024,
+        "image_tokens": 674,
+        "text_tokens": 1120
+      }
+    },
+    "api_response_at_utc": "2026-11-18T09:41:21.906806+00:00",
+    "finished_at_utc": "2026-11-18T09:42:24.961617+00:00"
+  },
+  {
+    "attempt": 17,
+    "sample_id": "photo_07",
+    "image_sha256": "e95f40b9ea7254ca29418481d07ade0d93034bc7853cf1ae86fafa3a9ea727d7",
+    "status": "success",
+    "retry_of": 7,
+    "started_at_utc": "2026-11-18T09:42:25.030814+00:00",
+    "sdk_max_retries": 0,
+    "actual_cost": null,
+    "cost_note": "Charge unavailable, timeout may still be billed",
+    "model": "qwen3.8-flash",
+    "timeout_seconds": 120.0,
+    "usage": {
+      "completion_tokens": 1403,
+      "prompt_tokens": 2772,
+      "total_tokens": 4175,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 496,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 906
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cache_write_tokens": null,
+        "cached_tokens": 1024,
+        "image_tokens": 1652,
+        "text_tokens": 1120
+      }
+    },
+    "api_response_at_utc": "2026-11-18T09:42:49.394124+00:00",
+    "finished_at_utc": "2026-11-18T09:43:08.150498+00:00"
+  }
+]

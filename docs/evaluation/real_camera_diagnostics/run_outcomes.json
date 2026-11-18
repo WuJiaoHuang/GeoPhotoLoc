@@ -1,0 +1,82 @@
+[
+  {
+    "case": "photo_01",
+    "status": "vision_not_cached"
+  },
+  {
+    "case": "photo_02",
+    "status": "completed",
+    "vision_landmarks": 4,
+    "matched_objects": 4
+  },
+  {
+    "case": "photo_03",
+    "status": "vision_not_cached"
+  },
+  {
+    "case": "photo_04",
+    "status": "completed",
+    "vision_landmarks": 8,
+    "matched_objects": 7
+  },
+  {
+    "case": "photo_05",
+    "status": "completed",
+    "vision_landmarks": 8,
+    "matched_objects": 7
+  },
+  {
+    "case": "photo_06",
+    "status": "completed",
+    "vision_landmarks": 5,
+    "matched_objects": 4
+  },
+  {
+    "case": "photo_07",
+    "status": "completed",
+    "vision_landmarks": 5,
+    "matched_objects": 5
+  },
+  {
+    "case": "photo_08",
+    "status": "completed",
+    "vision_landmarks": 7,
+    "matched_objects": 5
+  },
+  {
+    "case": "photo_09",
+    "status": "completed",
+    "vision_landmarks": 4,
+    "matched_objects": 0
+  },
+  {
+    "case": "photo_10",
+    "status": "completed",
+    "vision_landmarks": 7,
+    "matched_objects": 3
+  },
+  {
+    "case": "photo_11",
+    "status": "completed",
+    "vision_landmarks": 5,
+    "matched_objects": 2
+  },
+  {
+    "case": "photo_12",
+    "status": "completed",
+    "vision_landmarks": 5,
+    "matched_objects": 2
+  },
+  {
+    "case": "legacy_beijing_cbd",
+    "status": "completed",
+    "vision_landmarks": 7,
+    "matched_objects": 2
+  },
+  {
+    "case": "legacy_north_bund",
+    "status": "completed",
+    "vision_landmarks": 7,
+    "matched_objects": 5
+  }
+]

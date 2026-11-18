@@ -1,0 +1,347 @@
+{
+  "landmarks": [
+    {
+      "name": "Tall smooth rounded skyscraper",
+      "x": 0.515,
+      "y": 0.56,
+      "confidence": 0.5,
+      "matched_landmark_id": null,
+      "id": "lm_1",
+      "name_candidates": [
+        "Guangzhou CTF Finance Centre"
+      ],
+      "bbox": {
+        "x_min": 0.485,
+        "y_min": 0.4,
+        "x_max": 0.545,
+        "y_max": 0.72
+      },
+      "visual_evidence": [
+        "tall glass tower with a smooth tapering oval cross-section",
+        "rounded crown, dominant vertical element of the skyline",
+        "taller than the neighbouring arched tower"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Skyscraper with arched opening at crown",
+      "x": 0.426,
+      "y": 0.625,
+      "confidence": 0.5,
+      "matched_landmark_id": null,
+      "id": "lm_2",
+      "name_candidates": [
+        "Guangzhou International Finance Center"
+      ],
+      "bbox": {
+        "x_min": 0.405,
+        "y_min": 0.53,
+        "x_max": 0.448,
+        "y_max": 0.72
+      },
+      "visual_evidence": [
+        "high-rise with a distinctive rounded arch / portal opening at its top",
+        "curved crown silhouette",
+        "positioned left of the tallest tower and shorter than it"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Left-side skyline tower cluster",
+      "x": 0.145,
+      "y": 0.62,
+      "confidence": 0.4,
+      "matched_landmark_id": null,
+      "id": "lm_3",
+      "name_candidates": [],
+      "bbox": {
+        "x_min": 0.01,
+        "y_min": 0.54,
+        "x_max": 0.28,
+        "y_max": 0.7
+      },
+      "visual_evidence": [
+        "group of rectangular high-rise blocks with grid facades",
+        "construction crane visible among them",
+        "partially hazed background towers"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Right-side skyline tower cluster",
+      "x": 0.73,
+      "y": 0.61,
+      "confidence": 0.4,
+      "matched_landmark_id": null,
+      "id": "lm_4",
+      "name_candidates": [],
+      "bbox": {
+        "x_min": 0.56,
+        "y_min": 0.51,
+        "x_max": 0.9,
+        "y_max": 0.72
+      },
+      "visual_evidence": [
+        "dense cluster of modern office towers of varied heights",
+        "vertical-striped glass facades",
+        "hazy atmospheric perspective"
+      ],
+      "identity_uncertain": true,
+      "coordinates_reliable": true
+    },
+    {
+      "name": "Elevated multi-lane expressway",
+      "x": 0.5,
+      "y": 0.89,
+      "confidence": 0.9,
+      "matched_landmark_id": null,
+      "id": "lm_5",
+      "name_candidates": [],
+      "bbox": {
+        "x_min": 0.0,
+        "y_min": 0.78,
+        "x_max": 1.0,
+        "y_max": 1.0
+      },
+      "visual_evidence": [
+        "asphalt carriageway with white dashed and solid lane markings",
+        "concrete guardrails on both edges",
+        "green corrugated sound-barrier walls lining the deck",
+        "vehicles travelling away from viewpoint"
+      ],
+      "identity_uncertain": false,
+      "coordinates_reliable": true
+    }
+  ],
+  "scene_features": [
+    "overcast grey sky",
+    "elevated highway curving toward a city CBD skyline",
+    "green corrugated acoustic barriers on both sides of the road",
+    "tall curved street-lamp poles along the right edge",
+    "white sedan, dark SUV and a flatbed truck on the road",
+    "distant construction cranes among the towers"
+  ],
+  "warnings": [
+    "Skyline strongly resembles Guangzhou Zhujiang New Town, but identity of individual towers is not confirmed from visual evidence alone.",
+    "Vehicle plate characters were treated as image content only and not used to infer location.",
+    "Lower portions of skyline towers are occluded by the sound barrier, so vertical extents are approximate.",
+    "Model confidence is an uncalibrated self-assessment, not a probability."
+  ],
+  "image": {
+    "original_size": {
+      "width": 1600,
+      "height": 1200
+    },
+    "oriented_size": {
+      "width": 1600,
+      "height": 1200
+    },
+    "processed_size": {
+      "width": 1600,
+      "height": 1200
+    },
+    "original_format": "JPEG",
+    "encoded_format": "JPEG",
+    "original_bytes": 483333,
+    "processed_bytes": 396550,
+    "orientation_corrected": false
+  },
+  "relations": [
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_1",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_2",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_3",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_1",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_4",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_1",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_1",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_2",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_2",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_2",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_2",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_5",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_3",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_3",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_3",
+      "relation_type": "BELOW",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_5",
+      "relation_type": "RIGHT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_4",
+      "relation_type": "LEFT_OF",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_4",
+      "object_id": "lm_5",
+      "relation_type": "ABOVE",
+      "confidence": null
+    },
+    {
+      "subject_id": "lm_5",
+      "object_id": "lm_4",
+      "relation_type": "BELOW",
+      "confidence": null
+    }
+  ],
+  "relation_min_gap": 0.03
+}

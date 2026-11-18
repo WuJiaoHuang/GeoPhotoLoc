@@ -30,6 +30,7 @@ class PoseSearchConfig(BaseModel):
     visibility_max_rays: int = Field(default=12, ge=1, le=12)
     viewpoint_fix: bool = False
     record_sample_trace: bool = False
+    record_diagnostic_trace: bool = False
     coarse_budget_fraction: float = Field(default=.6,gt=0,lt=1)
     fine_budget_fraction: float = Field(default=.3,ge=0,lt=1)
     minimum_coarse_spacing_m: float = Field(default=180,gt=0)
