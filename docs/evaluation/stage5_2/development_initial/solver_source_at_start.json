@@ -1,0 +1,22 @@
+{
+  "src\\geophotoloc\\localization\\diagnostics.py": "e2b20b455187a9f328db95ceef3cbacadaf3fc7f01041f93e589522548075cec",
+  "src\\geophotoloc\\localization\\enhanced.py": "fef4fc2370236b1d6f9fe273185bf27db24aff1cabd906cdd7f1ea9961c0afdb",
+  "src\\geophotoloc\\localization\\extent.py": "b31bea6686b5e918dce709fcf24d6853b46ffb51aa176610e3232db6fb07074f",
+  "src\\geophotoloc\\localization\\fixed.py": "f0ef779dac5c601bd85bf0c34d791708cf259b34e9270d0e1494ad0249359665",
+  "src\\geophotoloc\\localization\\footprints.py": "f2af119eb18c37b037b63891ab87aeec0204b9bf394b1bf4ed788f9a492182bd",
+  "src\\geophotoloc\\localization\\hypotheses.py": "e5f9935b3c50346faa01fdc20e7412acb2e66b238a33f831d90bc78fc8c1679b",
+  "src\\geophotoloc\\localization\\partial.py": "98067c6c165fdd073dc8b803a4f090ec77ad96a12d3f009437f67185bf3b9a89",
+  "src\\geophotoloc\\localization\\projection.py": "a96a0f7fe981412887c46879be84dde045bde66ea53373fdb4bdb565df1fd2c3",
+  "src\\geophotoloc\\localization\\regions.py": "85d52f91c8cf82c04d496ceb7036292c11aa622ee0fb48dab8c9efd7cc055d8a",
+  "src\\geophotoloc\\localization\\region_selection.py": "a005323107fd10958fa1ecd7c6e1b22f4a3c982cfb54894018079146153b2333",
+  "src\\geophotoloc\\localization\\robust_scoring.py": "dfbcc3c0094142fdc4d326df960eaf13f6f42875547233b8d0605f8729c1ad45",
+  "src\\geophotoloc\\localization\\sampling.py": "0176da8f74dd5e23e3be723a10814d2a7457b000c8d18e01f5aeeab0cdffa466",
+  "src\\geophotoloc\\localization\\scoring.py": "7989ac6131577a1068f7cc0893d502314887b00f293bd2f886f60511ed7e634c",
+  "src\\geophotoloc\\localization\\search.py": "62018ad526af5db4da27b1b21bab5e7753991d868bddcee1c35a88d693fb6f48",
+  "src\\geophotoloc\\localization\\selection_v2.py": "7fa7e9a56685a32a16c132af0f0a2b8f173541963d4e90fbca3c21b9a84b0232",
+  "src\\geophotoloc\\localization\\solver.py": "15d67da88ce19782dc6ab5db5199fc44a40fd9f4136be3a83dedbbcacec91bc4",
+  "src\\geophotoloc\\localization\\spatial_refinement.py": "1324addace44fa9fc3e4cf6f735e086f8713961138e4a588f4906773e8e905e0",
+  "src\\geophotoloc\\localization\\visibility.py": "f0604dcf29d4affb731664fa8e7ff77fe28f1acc3f021e0aec983bd549eed789",
+  "src\\geophotoloc\\localization\\__init__.py": "cf86fc4185ca230b3cb721ee00e418e73241a544b8437c6ab65c86b91804364f",
+  "src\\geophotoloc\\models\\pose.py": "2147b68983c219f9d2171780e7aeaa7c13691e414924489aaf18cdc3789afe8d"
+}

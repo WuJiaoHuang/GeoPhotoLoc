@@ -27,6 +27,7 @@ class DemoResult(BaseModel):
     processed_jpeg: bytes = Field(exclude=True, repr=False)
     cache_hit: bool = False
     vision_cache_hit: bool = False
+    refinement: dict | None = None
 
 
 def api_error_message(error):
@@ -116,12 +117,18 @@ class LocalizationPipeline:
             try:
                 matching = self.matcher_factory(store).match(vision)
                 localization = self.solver_factory(store,self.search_config).solve(vision,matching)
+                refinement=None
+                if self.search_config.selection_strategy=='quality_v2':
+                    from geophotoloc.localization.spatial_refinement import build_spatial_refinement
+                    from geophotoloc.models.maps import GeoBounds
+                    bounds={r:GeoBounds.model_validate_json(store.connection.execute('SELECT bounds_json FROM regions WHERE id=?',(r,)).fetchone()[0]) for r in coverage}
+                    refinement=build_spatial_refinement(vision,matching,localization,bounds)
             except (ValueError,RuntimeError):
                 raise PipelineFailure('geometry','SOLVE_FAILED','地图匹配或几何求解失败，请检查本地覆盖数据和搜索参数。') from None
             result = DemoResult(mode='online',provenance=('复用本会话识别，本次重新执行地图匹配和几何求解。' if vision_cached
                                                         else '本次真实调用视觉模型，并执行地图匹配和几何求解。'),
                                 vision=vision,matching=matching,localization=localization,
-                                vision_cache_hit=vision_cached,
+                                vision_cache_hit=vision_cached,refinement=refinement,
                                 processed_jpeg=base64.b64decode(prepared.data_url.split(',',1)[1]))
             self._result_cache[result_key] = result.model_copy(deep=True)
             for cache in (self._vision_cache,self._result_cache):

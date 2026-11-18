@@ -31,6 +31,7 @@ class PoseSearchConfig(BaseModel):
     viewpoint_fix: bool = False
     record_sample_trace: bool = False
     record_diagnostic_trace: bool = False
+    selection_strategy: Literal['legacy', 'quality_v2'] = 'legacy'
     coarse_budget_fraction: float = Field(default=.6,gt=0,lt=1)
     fine_budget_fraction: float = Field(default=.3,ge=0,lt=1)
     minimum_coarse_spacing_m: float = Field(default=180,gt=0)
@@ -73,6 +74,8 @@ class PoseSearchConfig(BaseModel):
 
     @model_validator(mode="after")
     def valid_search(self):
+        if self.selection_strategy=='quality_v2' and not (self.viewpoint_fix and self.robust_geometry and self.dual_regions):
+            raise ValueError('quality_v2 requires fixed robust dual-region search')
         if abs(self.projection_weight+self.order_weight+self.identity_weight+self.geometry_weight-1)>1e-8:
             raise ValueError('Joint score weights must sum to one')
         if self.coarse_budget_fraction+self.fine_budget_fraction>1:
@@ -153,6 +156,7 @@ class PoseHypothesis(BaseModel):
     visibility_review_points: int = 0
     strtree_queries: int = 0
     unknown_image_ids: list[str] = Field(default_factory=list)
+    selection_audit: dict = Field(default_factory=dict)
 
 
 class CandidateRegion(BaseModel):

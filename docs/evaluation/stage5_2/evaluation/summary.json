@@ -1,0 +1,462 @@
+[
+  {
+    "partition": "all_new",
+    "algorithm": "A",
+    "total": 12,
+    "valid": 8,
+    "missing": 4,
+    "median_m": 1468.9934671277301,
+    "p90_m": 4233.7572583656865,
+    "topk": {
+      "3": {
+        "hits": 1,
+        "denominator": 12
+      },
+      "5": {
+        "hits": 1,
+        "denominator": 12
+      },
+      "10": {
+        "hits": 1,
+        "denominator": 12
+      }
+    }
+  },
+  {
+    "partition": "all_new",
+    "algorithm": "B",
+    "total": 12,
+    "valid": 8,
+    "missing": 4,
+    "median_m": 1220.7905161939275,
+    "p90_m": 4578.547593448611,
+    "topk": {
+      "3": {
+        "hits": 2,
+        "denominator": 12
+      },
+      "5": {
+        "hits": 2,
+        "denominator": 12
+      },
+      "10": {
+        "hits": 2,
+        "denominator": 12
+      }
+    }
+  },
+  {
+    "partition": "all_new",
+    "algorithm": "C",
+    "total": 12,
+    "valid": 8,
+    "missing": 4,
+    "median_m": 1304.9410213780484,
+    "p90_m": 3795.240415423533,
+    "topk": {
+      "3": {
+        "hits": 2,
+        "denominator": 12
+      },
+      "5": {
+        "hits": 2,
+        "denominator": 12
+      },
+      "10": {
+        "hits": 2,
+        "denominator": 12
+      }
+    }
+  },
+  {
+    "partition": "all_new",
+    "algorithm": "D",
+    "total": 12,
+    "valid": 8,
+    "missing": 4,
+    "median_m": 1247.6067331425368,
+    "p90_m": 4818.355630323926,
+    "topk": {
+      "3": {
+        "hits": 1,
+        "denominator": 12
+      },
+      "5": {
+        "hits": 1,
+        "denominator": 12
+      },
+      "10": {
+        "hits": 1,
+        "denominator": 12
+      }
+    }
+  },
+  {
+    "partition": "all_new",
+    "algorithm": "E",
+    "total": 12,
+    "valid": 8,
+    "missing": 4,
+    "median_m": 1247.6067331425368,
+    "p90_m": 3993.2326844203276,
+    "topk": {
+      "3": {
+        "hits": 0,
+        "denominator": 12
+      },
+      "5": {
+        "hits": 0,
+        "denominator": 12
+      },
+      "10": {
+        "hits": 2,
+        "denominator": 12
+      }
+    }
+  },
+  {
+    "partition": "development",
+    "algorithm": "A",
+    "total": 6,
+    "valid": 3,
+    "missing": 3,
+    "median_m": 601.6766178145898,
+    "p90_m": 2663.2010107726865,
+    "topk": {
+      "3": {
+        "hits": 1,
+        "denominator": 6
+      },
+      "5": {
+        "hits": 1,
+        "denominator": 6
+      },
+      "10": {
+        "hits": 1,
+        "denominator": 6
+      }
+    }
+  },
+  {
+    "partition": "development",
+    "algorithm": "B",
+    "total": 6,
+    "valid": 3,
+    "missing": 3,
+    "median_m": 576.2826582669775,
+    "p90_m": 2349.1728618158795,
+    "topk": {
+      "3": {
+        "hits": 1,
+        "denominator": 6
+      },
+      "5": {
+        "hits": 1,
+        "denominator": 6
+      },
+      "10": {
+        "hits": 1,
+        "denominator": 6
+      }
+    }
+  },
+  {
+    "partition": "development",
+    "algorithm": "C",
+    "total": 6,
+    "valid": 3,
+    "missing": 3,
+    "median_m": 451.0611127422141,
+    "p90_m": 2131.915803538607,
+    "topk": {
+      "3": {
+        "hits": 1,
+        "denominator": 6
+      },
+      "5": {
+        "hits": 1,
+        "denominator": 6
+      },
+      "10": {
+        "hits": 1,
+        "denominator": 6
+      }
+    }
+  },
+  {
+    "partition": "development",
+    "algorithm": "D",
+    "total": 6,
+    "valid": 3,
+    "missing": 3,
+    "median_m": 571.3593572121802,
+    "p90_m": 2332.0605592482666,
+    "topk": {
+      "3": {
+        "hits": 0,
+        "denominator": 6
+      },
+      "5": {
+        "hits": 0,
+        "denominator": 6
+      },
+      "10": {
+        "hits": 0,
+        "denominator": 6
+      }
+    }
+  },
+  {
+    "partition": "development",
+    "algorithm": "E",
+    "total": 6,
+    "valid": 3,
+    "missing": 3,
+    "median_m": 571.3593572121802,
+    "p90_m": 2223.855642160632,
+    "topk": {
+      "3": {
+        "hits": 0,
+        "denominator": 6
+      },
+      "5": {
+        "hits": 0,
+        "denominator": 6
+      },
+      "10": {
+        "hits": 1,
+        "denominator": 6
+      }
+    }
+  },
+  {
+    "partition": "holdout",
+    "algorithm": "A",
+    "total": 6,
+    "valid": 5,
+    "missing": 1,
+    "median_m": 1544.5304927298018,
+    "p90_m": 4681.831097084783,
+    "topk": {
+      "3": {
+        "hits": 0,
+        "denominator": 6
+      },
+      "5": {
+        "hits": 0,
+        "denominator": 6
+      },
+      "10": {
+        "hits": 0,
+        "denominator": 6
+      }
+    }
+  },
+  {
+    "partition": "holdout",
+    "algorithm": "B",
+    "total": 6,
+    "valid": 5,
+    "missing": 1,
+    "median_m": 1299.8138008420642,
+    "p90_m": 5867.486295455285,
+    "topk": {
+      "3": {
+        "hits": 1,
+        "denominator": 6
+      },
+      "5": {
+        "hits": 1,
+        "denominator": 6
+      },
+      "10": {
+        "hits": 1,
+        "denominator": 6
+      }
+    }
+  },
+  {
+    "partition": "holdout",
+    "algorithm": "C",
+    "total": 6,
+    "valid": 5,
+    "missing": 1,
+    "median_m": 1332.0582219569203,
+    "p90_m": 4672.575948774491,
+    "topk": {
+      "3": {
+        "hits": 1,
+        "denominator": 6
+      },
+      "5": {
+        "hits": 1,
+        "denominator": 6
+      },
+      "10": {
+        "hits": 1,
+        "denominator": 6
+      }
+    }
+  },
+  {
+    "partition": "holdout",
+    "algorithm": "D",
+    "total": 6,
+    "valid": 5,
+    "missing": 1,
+    "median_m": 1397.398351672576,
+    "p90_m": 6421.260739800373,
+    "topk": {
+      "3": {
+        "hits": 1,
+        "denominator": 6
+      },
+      "5": {
+        "hits": 1,
+        "denominator": 6
+      },
+      "10": {
+        "hits": 1,
+        "denominator": 6
+      }
+    }
+  },
+  {
+    "partition": "holdout",
+    "algorithm": "E",
+    "total": 6,
+    "valid": 5,
+    "missing": 1,
+    "median_m": 1397.398351672576,
+    "p90_m": 4960.373452896536,
+    "topk": {
+      "3": {
+        "hits": 0,
+        "denominator": 6
+      },
+      "5": {
+        "hits": 0,
+        "denominator": 6
+      },
+      "10": {
+        "hits": 1,
+        "denominator": 6
+      }
+    }
+  },
+  {
+    "partition": "legacy_diagnostic",
+    "algorithm": "A",
+    "total": 2,
+    "valid": 2,
+    "missing": 0,
+    "median_m": 979.1148707720525,
+    "p90_m": 1711.4028074079404,
+    "topk": {
+      "3": {
+        "hits": 1,
+        "denominator": 2
+      },
+      "5": {
+        "hits": 1,
+        "denominator": 2
+      },
+      "10": {
+        "hits": 1,
+        "denominator": 2
+      }
+    }
+  },
+  {
+    "partition": "legacy_diagnostic",
+    "algorithm": "B",
+    "total": 2,
+    "valid": 2,
+    "missing": 0,
+    "median_m": 2656.5435457752465,
+    "p90_m": 3221.231313645644,
+    "topk": {
+      "3": {
+        "hits": 1,
+        "denominator": 2
+      },
+      "5": {
+        "hits": 1,
+        "denominator": 2
+      },
+      "10": {
+        "hits": 2,
+        "denominator": 2
+      }
+    }
+  },
+  {
+    "partition": "legacy_diagnostic",
+    "algorithm": "C",
+    "total": 2,
+    "valid": 2,
+    "missing": 0,
+    "median_m": 1999.289042060055,
+    "p90_m": 2083.140442454569,
+    "topk": {
+      "3": {
+        "hits": 1,
+        "denominator": 2
+      },
+      "5": {
+        "hits": 1,
+        "denominator": 2
+      },
+      "10": {
+        "hits": 1,
+        "denominator": 2
+      }
+    }
+  },
+  {
+    "partition": "legacy_diagnostic",
+    "algorithm": "D",
+    "total": 2,
+    "valid": 2,
+    "missing": 0,
+    "median_m": 2616.579623705119,
+    "p90_m": 3213.2385292316185,
+    "topk": {
+      "3": {
+        "hits": 0,
+        "denominator": 2
+      },
+      "5": {
+        "hits": 0,
+        "denominator": 2
+      },
+      "10": {
+        "hits": 0,
+        "denominator": 2
+      }
+    }
+  },
+  {
+    "partition": "legacy_diagnostic",
+    "algorithm": "E",
+    "total": 2,
+    "valid": 2,
+    "missing": 0,
+    "median_m": 3130.0035783777184,
+    "p90_m": 4137.401647642298,
+    "topk": {
+      "3": {
+        "hits": 0,
+        "denominator": 2
+      },
+      "5": {
+        "hits": 0,
+        "denominator": 2
+      },
+      "10": {
+        "hits": 0,
+        "denominator": 2
+      }
+    }
+  }
+]

@@ -4,3 +4,6 @@ from geophotoloc.models.pose import PoseSearchConfig, PoseHypothesis, PoseConstr
 __all__ = ["PoseSolver", "BaselinePoseSolver", "EnhancedPoseSolver", "PoseSearchConfig", "PoseHypothesis", "PoseConstraintScore", "CandidateRegion", "PoseLocalizationResult"]
 __all__.append('FixedPoseSolver')
 __all__.append('JointPoseSolver')
+
+from .solver import Stage52PoseSolver
+__all__.append("Stage52PoseSolver")

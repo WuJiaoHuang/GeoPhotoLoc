@@ -1,0 +1,9 @@
+{
+  "url": "http://localhost:8510/?demo=refinement&case=photo_02",
+  "offline_layers_visible": true,
+  "reference_default_hidden": true,
+  "layer_toggle_verified": true,
+  "reference_only_after_explicit_evaluation": true,
+  "page_errors": [],
+  "screenshot": "offline_refinement_photo02.png"
+}

@@ -332,3 +332,28 @@ uv run pytest -q
 ```
 
 来源和筛选、A/B/C/D完整对照、失败样本与请求记录见 [真实机位评估](docs/REAL_CAMERA_DIAGNOSTICS.md)；已确认问题、仍待验证的假设和下一阶段优先项见 [根因分析](docs/REAL_CAMERA_ROOT_CAUSES.md)。核心指标可从冻结结果离线复核；详细评分重审/重新求解要求匹配原 SHA 的本地 SQLite，不能以最新在线 OSM 冒充原快照。不得并发执行实时评估脚本，也不要为重跑几何再次请求视觉模型。
+
+
+## Stage 5.2 区域保留与空间关系精化
+
+新增独立 E 策略：保持 D 的网格、身份、物理可行域和原分数，先保留高质量证据，再在同档模式中考虑空间多样性。精确合并受单分片面积限制，仍每身份最多8区域；超预算同分模式明确记录，不保证全部保留。旧配置默认 `selection_strategy="legacy"`，历史 A/B/C/D 文件未改。
+
+S0/S1/S2 使用同一候选总体：语义初始范围 → 保守左右关系 → 完整几何与 E 优选。S0/S1 无排名；S2 是受 S1 约束的独立消融层，与保留软关系的 E Preferred 分开。面积缩小和大 Feasible 包含率都不等于精准定位。
+
+```powershell
+uv run python scripts/run_stage52.py --solve-only
+uv run python scripts/run_stage52.py --refine-only
+uv run python scripts/evaluate_stage52.py
+uv run python scripts/report_stage52.py
+uv run python scripts/export_stage52_demo.py --case photo_02
+uv run pytest -q
+uv run streamlit run src/geophotoloc/app/main.py
+```
+
+首次重算需原 SHA 地图快照；已有完整 E/层结果时可直接离线打开 Demo，不需要 SQLite、Key 或网络。选择“空间精化离线”，切换 S0/S1/S2、物理可行和 E 优选图层；独立参考点默认不显示。在线原功能保留，“启用 Stage 5.2 空间精化”复用同会话视觉缓存。浏览器所需 Leaflet/jQuery/CSS 均为本地打包资源，无 CDN。
+
+Python API：`Stage52PoseSolver(store, PoseSearchConfig(record_diagnostic_trace=True)).solve(vision, matching)`；`build_spatial_refinement(vision, matching, pose, bounds)` 输出经过 Pydantic 校验的层结果。评估脚本为固定版本实验，不要在修改算法后混用旧 E 缓存；新方法应使用新的实验目录，成功视觉识别无需重复请求。
+
+本阶段真实 API/地图请求均为0。新增12张中每组8张可计算 Top-1；E 中位约1248m，Top-10包含2/12，Top-3/5为0/12，未宣称普遍精度提升。北京 Top-1 更差，北外滩与 photo_02 保留包含参考点的区域但排名/面积仍有限制；原 holdout 已被查看，只作回归与诊断。
+
+[Stage 5.2 主报告与全部对照](docs/STAGE5_2_EVALUATION.md) · [S0/S1/S2 消融](docs/STAGE5_2_SPATIAL_ABLATION.md) · [运行与测试记录](docs/evaluation/stage5_2/VALIDATION.md) · [自包含离线地图](docs/evaluation/stage5_2/demo/refinement_photo_02.html)。

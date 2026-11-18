@@ -286,3 +286,13 @@ class JointPoseSolver(FixedPoseSolver):
     def __init__(self,store,config=None):
         super().__init__(store,config or PoseSearchConfig(adaptive_extent=True,robust_geometry=True,joint_identity=True,
             dual_regions=True,audit_hard_feasibility=True,visibility_soft=True,max_hypotheses=12))
+
+
+class Stage52PoseSolver(JointPoseSolver):
+    """D geometry/search unchanged; explicit E evidence-first selection."""
+    def __init__(self,store,config=None):
+        base=config or PoseSearchConfig(max_hypotheses=12)
+        values=base.model_dump()
+        values.update(adaptive_extent=True,viewpoint_fix=True,robust_geometry=True,joint_identity=True,
+                      dual_regions=True,audit_hard_feasibility=True,visibility_soft=True,selection_strategy='quality_v2')
+        super().__init__(store,PoseSearchConfig(**values))

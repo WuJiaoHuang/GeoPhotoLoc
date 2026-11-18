@@ -58,15 +58,15 @@ def annotate_image(jpeg,vision):
     return output.getvalue()
 
 
-def build_map(result, *, offline=True, focus=None, sightlines=False):
+def build_map(result, *, offline=True, focus=None, sightlines=False,show_candidates=True):
     m=folium.Map(location=[35,105],zoom_start=4,tiles=None,control_scale=True)
     # No global Folium class mutation: each session's map owns its dependencies.
-    m.default_js=[];m.default_css=[]
+    # streamlit-folium executes dependency URLs, not inline scripts in its header.
+    # Data URLs keep both the real component and standalone exports fully offline.
+    m.default_js=[(name,'data:application/javascript;base64,'+base64.b64encode((ASSETS/name).read_bytes()).decode('ascii')) for name in ('leaflet.js','jquery.js')]
+    m.default_css=[('local_leaflet','data:text/css;base64,'+base64.b64encode((ASSETS/'leaflet.css').read_bytes()).decode('ascii'))]
     root=m.get_root()
     root.header.add_child(Element('<style>.leaflet-control-zoom a{width:44px!important;height:44px!important;line-height:44px!important}</style>'))
-    root.header.add_child(Element('<style>'+ (ASSETS/'leaflet.css').read_text(encoding='utf-8')+'</style>'))
-    for name in ('leaflet.js','jquery.js'):
-        root.header.add_child(Element('<script>'+ (ASSETS/name).read_text(encoding='utf-8')+'</script>'))
     if not offline:
         folium.TileLayer('OpenStreetMap',name='OSM 底图').add_to(m)
     entities={}
@@ -80,7 +80,7 @@ def build_map(result, *, offline=True, focus=None, sightlines=False):
             folium.CircleMarker([entity.location.latitude,entity.location.longitude],radius=5,
                                 color=COLORS[len(entities)%len(COLORS)],fill=True,
                                 tooltip=escape(entity.name),popup=folium.Popup(text,max_width=320)).add_to(m)
-    for index,region in enumerate(result.localization.regions):
+    for index,region in enumerate(result.localization.regions if show_candidates else []):
         color=COLORS[index%len(COLORS)]
         layer=folium.FeatureGroup(name=f'{index+1}. {region.id}')
         properties=dict(区域=region.id,启发式分=region.best_score.score,面积平方米=round(region.area_m2),

@@ -1,0 +1,1380 @@
+[
+  {
+    "case": "photo_01",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "VISION_UNAVAILABLE",
+    "area_m2": null,
+    "reference_contains": null,
+    "nearest_region_distance_m": null,
+    "topk": null
+  },
+  {
+    "case": "photo_01",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "VISION_UNAVAILABLE",
+    "area_m2": null,
+    "reference_contains": null,
+    "nearest_region_distance_m": null,
+    "topk": null
+  },
+  {
+    "case": "photo_01",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "VISION_UNAVAILABLE",
+    "area_m2": null,
+    "reference_contains": null,
+    "nearest_region_distance_m": null,
+    "topk": null
+  },
+  {
+    "case": "photo_02",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 80543648.70620665,
+    "reduction_from_previous": null,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23986,
+    "passed_points": 23986,
+    "reliable_landmarks": 4,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 1.0384854000003543,
+    "E_solve_seconds": null,
+    "ablation_seconds": 17.84217050000734,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_02",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 78423818.63863255,
+    "reduction_from_previous": 0.026319022065991238,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23986,
+    "passed_points": 12845,
+    "reliable_landmarks": 4,
+    "reliable_relations": 6,
+    "topk": null,
+    "phase_seconds": 0.8463651000201935,
+    "E_solve_seconds": null,
+    "ablation_seconds": 17.84217050000734,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": [
+      {
+        "hypothesis_id": "hyp_1",
+        "relations": 6,
+        "S0": 68976494.78287129,
+        "S1": 24660758.25036015
+      },
+      {
+        "hypothesis_id": "hyp_2",
+        "relations": 3,
+        "S0": 58640355.56076688,
+        "S1": 33561642.032959424
+      },
+      {
+        "hypothesis_id": "hyp_3",
+        "relations": 3,
+        "S0": 69765863.09159984,
+        "S1": 37253900.244306095
+      },
+      {
+        "hypothesis_id": "hyp_4",
+        "relations": 3,
+        "S0": 70022152.0301394,
+        "S1": 33913479.86553739
+      },
+      {
+        "hypothesis_id": "hyp_5",
+        "relations": 3,
+        "S0": 68972627.13812992,
+        "S1": 24660758.250402678
+      },
+      {
+        "hypothesis_id": "hyp_6",
+        "relations": 3,
+        "S0": 76478222.96300659,
+        "S1": 29660647.162701957
+      },
+      {
+        "hypothesis_id": "hyp_7",
+        "relations": 1,
+        "S0": 71560311.27558471,
+        "S1": 39263597.12065357
+      },
+      {
+        "hypothesis_id": "hyp_8",
+        "relations": 1,
+        "S0": 69718420.15822811,
+        "S1": 37476169.46401198
+      },
+      {
+        "hypothesis_id": "hyp_9",
+        "relations": 1,
+        "S0": 70253423.11676228,
+        "S1": 38018768.95904045
+      },
+      {
+        "hypothesis_id": "hyp_10",
+        "relations": 1,
+        "S0": 77484486.20675617,
+        "S1": 56228069.72202647
+      },
+      {
+        "hypothesis_id": "hyp_11",
+        "relations": 1,
+        "S0": 77343403.14605655,
+        "S1": 54199125.54711121
+      },
+      {
+        "hypothesis_id": "hyp_12",
+        "relations": 1,
+        "S0": 77243323.84268162,
+        "S1": 54012654.62898007
+      }
+    ]
+  },
+  {
+    "case": "photo_02",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 6582066.5581196705,
+    "reduction_from_previous": 0.9160705679425145,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23986,
+    "passed_points": 619,
+    "reliable_landmarks": 4,
+    "reliable_relations": 6,
+    "topk": {
+      "3": false,
+      "5": false,
+      "10": true
+    },
+    "phase_seconds": 15.155613100010669,
+    "E_solve_seconds": 32.05106359999627,
+    "ablation_seconds": 17.84217050000734,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_03",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "VISION_UNAVAILABLE",
+    "area_m2": null,
+    "reference_contains": null,
+    "nearest_region_distance_m": null,
+    "topk": null
+  },
+  {
+    "case": "photo_03",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "VISION_UNAVAILABLE",
+    "area_m2": null,
+    "reference_contains": null,
+    "nearest_region_distance_m": null,
+    "topk": null
+  },
+  {
+    "case": "photo_03",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "VISION_UNAVAILABLE",
+    "area_m2": null,
+    "reference_contains": null,
+    "nearest_region_distance_m": null,
+    "topk": null
+  },
+  {
+    "case": "photo_04",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 72960855.64095815,
+    "reduction_from_previous": null,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23985,
+    "passed_points": 23985,
+    "reliable_landmarks": 7,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 1.1464296000340255,
+    "E_solve_seconds": null,
+    "ablation_seconds": 12.702606799997739,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_04",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 10885756.842992904,
+    "reduction_from_previous": 0.8508000386321957,
+    "reference_contains": false,
+    "nearest_region_distance_m": 139.57848423531775,
+    "actual_points": 23985,
+    "passed_points": 2897,
+    "reliable_landmarks": 7,
+    "reliable_relations": 15,
+    "topk": null,
+    "phase_seconds": 0.2622218000033172,
+    "E_solve_seconds": null,
+    "ablation_seconds": 12.702606799997739,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": [
+      {
+        "hypothesis_id": "hyp_1",
+        "relations": 15,
+        "S0": 70496220.12175931,
+        "S1": 7494787.489720605
+      },
+      {
+        "hypothesis_id": "hyp_2",
+        "relations": 15,
+        "S0": 60203896.67082175,
+        "S1": 7376366.454233341
+      },
+      {
+        "hypothesis_id": "hyp_3",
+        "relations": 10,
+        "S0": 62049989.58153696,
+        "S1": 7550748.262762402
+      },
+      {
+        "hypothesis_id": "hyp_4",
+        "relations": 10,
+        "S0": 69757699.69030808,
+        "S1": 7447884.132106828
+      },
+      {
+        "hypothesis_id": "hyp_5",
+        "relations": 10,
+        "S0": 60330927.39067185,
+        "S1": 10157757.663181793
+      },
+      {
+        "hypothesis_id": "hyp_6",
+        "relations": 10,
+        "S0": 57731993.44217093,
+        "S1": 7619981.035943899
+      },
+      {
+        "hypothesis_id": "hyp_7",
+        "relations": 15,
+        "S0": 70508011.2904709,
+        "S1": 7483289.553883182
+      },
+      {
+        "hypothesis_id": "hyp_8",
+        "relations": 10,
+        "S0": 70508011.2904709,
+        "S1": 7483289.553883182
+      },
+      {
+        "hypothesis_id": "hyp_9",
+        "relations": 10,
+        "S0": 70454757.75570732,
+        "S1": 7550274.489688606
+      },
+      {
+        "hypothesis_id": "hyp_10",
+        "relations": 10,
+        "S0": 70690323.4109655,
+        "S1": 7664929.916281045
+      },
+      {
+        "hypothesis_id": "hyp_11",
+        "relations": 10,
+        "S0": 71863231.13444182,
+        "S1": 10253373.661732849
+      },
+      {
+        "hypothesis_id": "hyp_12",
+        "relations": 10,
+        "S0": 70786623.80056626,
+        "S1": 9174361.493278965
+      }
+    ]
+  },
+  {
+    "case": "photo_04",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 3810719.2032914087,
+    "reduction_from_previous": 0.6499353000205634,
+    "reference_contains": false,
+    "nearest_region_distance_m": 426.17276251233307,
+    "actual_points": 23985,
+    "passed_points": 376,
+    "reliable_landmarks": 7,
+    "reliable_relations": 15,
+    "topk": {
+      "3": false,
+      "5": false,
+      "10": false
+    },
+    "phase_seconds": 10.79014259998803,
+    "E_solve_seconds": 55.17703340000298,
+    "ablation_seconds": 12.702606799997739,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_05",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 72628314.60477617,
+    "reduction_from_previous": null,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23977,
+    "passed_points": 23977,
+    "reliable_landmarks": 6,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 1.0851564000186045,
+    "E_solve_seconds": null,
+    "ablation_seconds": 16.99968649999937,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_05",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 45020449.75381409,
+    "reduction_from_previous": 0.38012536847642264,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23977,
+    "passed_points": 4564,
+    "reliable_landmarks": 6,
+    "reliable_relations": 6,
+    "topk": null,
+    "phase_seconds": 0.3392924999934621,
+    "E_solve_seconds": null,
+    "ablation_seconds": 16.99968649999937,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": [
+      {
+        "hypothesis_id": "hyp_1",
+        "relations": 6,
+        "S0": 61281845.03396387,
+        "S1": 7327078.799961328
+      },
+      {
+        "hypothesis_id": "hyp_2",
+        "relations": 6,
+        "S0": 61281845.03396387,
+        "S1": 7327078.799961328
+      },
+      {
+        "hypothesis_id": "hyp_3",
+        "relations": 6,
+        "S0": 61762825.548323005,
+        "S1": 7411729.410919807
+      },
+      {
+        "hypothesis_id": "hyp_4",
+        "relations": 6,
+        "S0": 63953516.659015715,
+        "S1": 7508846.924402671
+      },
+      {
+        "hypothesis_id": "hyp_5",
+        "relations": 6,
+        "S0": 56291661.79838611,
+        "S1": 7426989.427404845
+      },
+      {
+        "hypothesis_id": "hyp_6",
+        "relations": 3,
+        "S0": 58994620.83705454,
+        "S1": 17041933.235836912
+      },
+      {
+        "hypothesis_id": "hyp_7",
+        "relations": 6,
+        "S0": 61281845.03396387,
+        "S1": 7327078.799961329
+      },
+      {
+        "hypothesis_id": "hyp_8",
+        "relations": 6,
+        "S0": 70846805.16556768,
+        "S1": 7564474.2244414585
+      },
+      {
+        "hypothesis_id": "hyp_9",
+        "relations": 3,
+        "S0": 61431378.202457644,
+        "S1": 34127546.32056398
+      },
+      {
+        "hypothesis_id": "hyp_10",
+        "relations": 3,
+        "S0": 61281845.03396387,
+        "S1": 7327078.799961329
+      },
+      {
+        "hypothesis_id": "hyp_11",
+        "relations": 3,
+        "S0": 62860308.914176434,
+        "S1": 10109022.358102625
+      },
+      {
+        "hypothesis_id": "hyp_12",
+        "relations": 3,
+        "S0": 61291842.36410097,
+        "S1": 16967945.993878495
+      }
+    ]
+  },
+  {
+    "case": "photo_05",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 2817446.8823862583,
+    "reduction_from_previous": 0.9374185087489587,
+    "reference_contains": false,
+    "nearest_region_distance_m": 440.81973385641044,
+    "actual_points": 23977,
+    "passed_points": 438,
+    "reliable_landmarks": 6,
+    "reliable_relations": 6,
+    "topk": {
+      "3": false,
+      "5": false,
+      "10": false
+    },
+    "phase_seconds": 14.888580399972852,
+    "E_solve_seconds": 46.518625999990036,
+    "ablation_seconds": 16.99968649999937,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_06",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 79949155.98999733,
+    "reduction_from_previous": null,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23984,
+    "passed_points": 23984,
+    "reliable_landmarks": 4,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 1.2374904999887804,
+    "E_solve_seconds": null,
+    "ablation_seconds": 15.97820720000891,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_06",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 78246760.83245583,
+    "reduction_from_previous": 0.021293472538402858,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23984,
+    "passed_points": 8448,
+    "reliable_landmarks": 4,
+    "reliable_relations": 6,
+    "topk": null,
+    "phase_seconds": 0.7770293999928981,
+    "E_solve_seconds": null,
+    "ablation_seconds": 15.97820720000891,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": [
+      {
+        "hypothesis_id": "hyp_1",
+        "relations": 6,
+        "S0": 67178672.1365559,
+        "S1": 4203937.257228015
+      },
+      {
+        "hypothesis_id": "hyp_2",
+        "relations": 3,
+        "S0": 66860345.01471817,
+        "S1": 22377888.25872054
+      },
+      {
+        "hypothesis_id": "hyp_3",
+        "relations": 3,
+        "S0": 59009203.06942544,
+        "S1": 12519896.49934521
+      },
+      {
+        "hypothesis_id": "hyp_4",
+        "relations": 1,
+        "S0": 55586052.037839696,
+        "S1": 33767862.93609784
+      },
+      {
+        "hypothesis_id": "hyp_5",
+        "relations": 3,
+        "S0": 67722786.18574835,
+        "S1": 4953562.822014836
+      },
+      {
+        "hypothesis_id": "hyp_6",
+        "relations": 3,
+        "S0": 67442594.73234974,
+        "S1": 4187728.873154599
+      },
+      {
+        "hypothesis_id": "hyp_7",
+        "relations": 3,
+        "S0": 68437361.16343482,
+        "S1": 12379479.578721765
+      },
+      {
+        "hypothesis_id": "hyp_8",
+        "relations": 3,
+        "S0": 68972627.13812992,
+        "S1": 24660758.250402678
+      },
+      {
+        "hypothesis_id": "hyp_9",
+        "relations": 1,
+        "S0": 68038034.04919857,
+        "S1": 36817568.173713736
+      },
+      {
+        "hypothesis_id": "hyp_10",
+        "relations": 1,
+        "S0": 76871552.45594731,
+        "S1": 49332384.01687773
+      },
+      {
+        "hypothesis_id": "hyp_11",
+        "relations": 1,
+        "S0": 69718420.15822811,
+        "S1": 37476169.46401198
+      },
+      {
+        "hypothesis_id": "hyp_12",
+        "relations": 1,
+        "S0": 69077398.82639232,
+        "S1": 37816596.83016439
+      }
+    ]
+  },
+  {
+    "case": "photo_06",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 8264100.817985537,
+    "reduction_from_previous": 0.8943841159676774,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23984,
+    "passed_points": 416,
+    "reliable_landmarks": 4,
+    "reliable_relations": 6,
+    "topk": {
+      "3": false,
+      "5": false,
+      "10": false
+    },
+    "phase_seconds": 13.090342100011185,
+    "E_solve_seconds": 37.192058900007396,
+    "ablation_seconds": 15.97820720000891,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_07",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 69331750.42838803,
+    "reduction_from_previous": null,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 5995,
+    "passed_points": 5995,
+    "reliable_landmarks": 5,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 0.29825419999542646,
+    "E_solve_seconds": null,
+    "ablation_seconds": 4.510464499995578,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_07",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 36215861.00604645,
+    "reduction_from_previous": 0.4776439252972071,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 5995,
+    "passed_points": 3118,
+    "reliable_landmarks": 5,
+    "reliable_relations": 3,
+    "topk": null,
+    "phase_seconds": 0.26153400001931004,
+    "E_solve_seconds": null,
+    "ablation_seconds": 4.510464499995578,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": [
+      {
+        "hypothesis_id": "hyp_2",
+        "relations": 3,
+        "S0": 54992380.80978078,
+        "S1": 24684970.826142505
+      },
+      {
+        "hypothesis_id": "hyp_6",
+        "relations": 1,
+        "S0": 55028949.2408734,
+        "S1": 35827058.223240666
+      },
+      {
+        "hypothesis_id": "hyp_11",
+        "relations": 3,
+        "S0": 68976494.78287129,
+        "S1": 24660758.25036015
+      }
+    ]
+  },
+  {
+    "case": "photo_07",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 1660444.2662237424,
+    "reduction_from_previous": 0.9541514623676483,
+    "reference_contains": false,
+    "nearest_region_distance_m": 67.43643189405553,
+    "actual_points": 5995,
+    "passed_points": 104,
+    "reliable_landmarks": 5,
+    "reliable_relations": 3,
+    "topk": {
+      "3": false,
+      "5": false,
+      "10": false
+    },
+    "phase_seconds": 3.6923589000070933,
+    "E_solve_seconds": 12.265959900003509,
+    "ablation_seconds": 4.510464499995578,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_08",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 80253506.69461736,
+    "reduction_from_previous": null,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23982,
+    "passed_points": 23982,
+    "reliable_landmarks": 4,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 1.1352770999656059,
+    "E_solve_seconds": null,
+    "ablation_seconds": 8.218538300003274,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_08",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 80253506.69461736,
+    "reduction_from_previous": 0.0,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23982,
+    "passed_points": 23982,
+    "reliable_landmarks": 4,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 0.007042999975965358,
+    "E_solve_seconds": null,
+    "ablation_seconds": 8.218538300003274,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": [
+      {
+        "hypothesis_id": "hyp_1",
+        "relations": 0,
+        "S0": 71819277.08357342,
+        "S1": 71819277.08357342
+      },
+      {
+        "hypothesis_id": "hyp_2",
+        "relations": 0,
+        "S0": 71819277.08357342,
+        "S1": 71819277.08357342
+      },
+      {
+        "hypothesis_id": "hyp_3",
+        "relations": 0,
+        "S0": 71827071.59741479,
+        "S1": 71827071.59741479
+      },
+      {
+        "hypothesis_id": "hyp_4",
+        "relations": 0,
+        "S0": 71827071.59741479,
+        "S1": 71827071.59741479
+      },
+      {
+        "hypothesis_id": "hyp_5",
+        "relations": 0,
+        "S0": 74367444.36503701,
+        "S1": 74367444.36503701
+      },
+      {
+        "hypothesis_id": "hyp_6",
+        "relations": 0,
+        "S0": 74367444.36503698,
+        "S1": 74367444.36503698
+      },
+      {
+        "hypothesis_id": "hyp_7",
+        "relations": 0,
+        "S0": 74228119.72022592,
+        "S1": 74228119.72022592
+      },
+      {
+        "hypothesis_id": "hyp_8",
+        "relations": 0,
+        "S0": 72435735.60051098,
+        "S1": 72435735.60051098
+      },
+      {
+        "hypothesis_id": "hyp_9",
+        "relations": 0,
+        "S0": 76850636.69814566,
+        "S1": 76850636.69814566
+      },
+      {
+        "hypothesis_id": "hyp_10",
+        "relations": 0,
+        "S0": 74228119.72022592,
+        "S1": 74228119.72022592
+      },
+      {
+        "hypothesis_id": "hyp_11",
+        "relations": 0,
+        "S0": 72435735.60051098,
+        "S1": 72435735.60051098
+      },
+      {
+        "hypothesis_id": "hyp_12",
+        "relations": 0,
+        "S0": 74228119.72022592,
+        "S1": 74228119.72022592
+      }
+    ]
+  },
+  {
+    "case": "photo_08",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 6462141.467758107,
+    "reduction_from_previous": 0.919478391239052,
+    "reference_contains": false,
+    "nearest_region_distance_m": 15.323080145191733,
+    "actual_points": 23982,
+    "passed_points": 501,
+    "reliable_landmarks": 4,
+    "reliable_relations": 0,
+    "topk": {
+      "3": false,
+      "5": false,
+      "10": false
+    },
+    "phase_seconds": 6.067815500005963,
+    "E_solve_seconds": 22.232232299997122,
+    "ablation_seconds": 8.218538300003274,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_09",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "INSUFFICIENT_EVIDENCE",
+    "area_m2": 0.0,
+    "reduction_from_previous": null,
+    "reference_contains": false,
+    "nearest_region_distance_m": null,
+    "actual_points": 0,
+    "passed_points": 0,
+    "reliable_landmarks": 0,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 0.0,
+    "E_solve_seconds": null,
+    "ablation_seconds": 0.00013780000153928995,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_09",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "INSUFFICIENT_EVIDENCE",
+    "area_m2": 0.0,
+    "reduction_from_previous": null,
+    "reference_contains": false,
+    "nearest_region_distance_m": null,
+    "actual_points": 0,
+    "passed_points": 0,
+    "reliable_landmarks": 0,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 0.0,
+    "E_solve_seconds": null,
+    "ablation_seconds": 0.00013780000153928995,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": []
+  },
+  {
+    "case": "photo_09",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "INSUFFICIENT_EVIDENCE",
+    "area_m2": 0.0,
+    "reduction_from_previous": null,
+    "reference_contains": false,
+    "nearest_region_distance_m": null,
+    "actual_points": 0,
+    "passed_points": 0,
+    "reliable_landmarks": 0,
+    "reliable_relations": 0,
+    "topk": {
+      "3": false,
+      "5": false,
+      "10": false
+    },
+    "phase_seconds": 0.0,
+    "E_solve_seconds": 0.00024220001068897545,
+    "ablation_seconds": 0.00013780000153928995,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_10",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 153995406.56447035,
+    "reduction_from_previous": null,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23976,
+    "passed_points": 23976,
+    "reliable_landmarks": 3,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 0.8501915999950143,
+    "E_solve_seconds": null,
+    "ablation_seconds": 4.819478999997955,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_10",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 153995406.56447035,
+    "reduction_from_previous": 0.0,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23976,
+    "passed_points": 23976,
+    "reliable_landmarks": 3,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 0.005697299988241866,
+    "E_solve_seconds": null,
+    "ablation_seconds": 4.819478999997955,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": [
+      {
+        "hypothesis_id": "hyp_1",
+        "relations": 0,
+        "S0": 77156019.42915428,
+        "S1": 77156019.42915428
+      },
+      {
+        "hypothesis_id": "hyp_2",
+        "relations": 0,
+        "S0": 74911514.22531539,
+        "S1": 74911514.22531539
+      },
+      {
+        "hypothesis_id": "hyp_3",
+        "relations": 0,
+        "S0": 77156019.42915428,
+        "S1": 77156019.42915428
+      },
+      {
+        "hypothesis_id": "hyp_4",
+        "relations": 0,
+        "S0": 74911514.22531539,
+        "S1": 74911514.22531539
+      },
+      {
+        "hypothesis_id": "hyp_5",
+        "relations": 0,
+        "S0": 75798178.235855,
+        "S1": 75798178.235855
+      },
+      {
+        "hypothesis_id": "hyp_6",
+        "relations": 0,
+        "S0": 74334435.00483519,
+        "S1": 74334435.00483519
+      }
+    ]
+  },
+  {
+    "case": "photo_10",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 8245742.863115307,
+    "reduction_from_previous": 0.9464546180495117,
+    "reference_contains": false,
+    "nearest_region_distance_m": 1762.505367165039,
+    "actual_points": 23976,
+    "passed_points": 810,
+    "reliable_landmarks": 3,
+    "reliable_relations": 0,
+    "topk": {
+      "3": false,
+      "5": false,
+      "10": false
+    },
+    "phase_seconds": 3.564023899991298,
+    "E_solve_seconds": 20.788080800004536,
+    "ablation_seconds": 4.819478999997955,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_11",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "INSUFFICIENT_EVIDENCE",
+    "area_m2": 0.0,
+    "reduction_from_previous": null,
+    "reference_contains": false,
+    "nearest_region_distance_m": null,
+    "actual_points": 0,
+    "passed_points": 0,
+    "reliable_landmarks": 0,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 0.0,
+    "E_solve_seconds": null,
+    "ablation_seconds": 0.0001151999895228073,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_11",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "INSUFFICIENT_EVIDENCE",
+    "area_m2": 0.0,
+    "reduction_from_previous": null,
+    "reference_contains": false,
+    "nearest_region_distance_m": null,
+    "actual_points": 0,
+    "passed_points": 0,
+    "reliable_landmarks": 0,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 0.0,
+    "E_solve_seconds": null,
+    "ablation_seconds": 0.0001151999895228073,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": []
+  },
+  {
+    "case": "photo_11",
+    "split": "development",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "INSUFFICIENT_EVIDENCE",
+    "area_m2": 0.0,
+    "reduction_from_previous": null,
+    "reference_contains": false,
+    "nearest_region_distance_m": null,
+    "actual_points": 0,
+    "passed_points": 0,
+    "reliable_landmarks": 0,
+    "reliable_relations": 0,
+    "topk": {
+      "3": false,
+      "5": false,
+      "10": false
+    },
+    "phase_seconds": 0.0,
+    "E_solve_seconds": 0.0007946999976411462,
+    "ablation_seconds": 0.0001151999895228073,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_12",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 76671781.36812459,
+    "reduction_from_previous": null,
+    "reference_contains": false,
+    "nearest_region_distance_m": 3659.261303664907,
+    "actual_points": 4495,
+    "passed_points": 4495,
+    "reliable_landmarks": 2,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 0.15994430000137072,
+    "E_solve_seconds": null,
+    "ablation_seconds": 0.6770858999952907,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "photo_12",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 76671781.36812459,
+    "reduction_from_previous": 0.0,
+    "reference_contains": false,
+    "nearest_region_distance_m": 3659.261303664907,
+    "actual_points": 4495,
+    "passed_points": 4495,
+    "reliable_landmarks": 2,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 0.0009395999950356781,
+    "E_solve_seconds": null,
+    "ablation_seconds": 0.6770858999952907,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": [
+      {
+        "hypothesis_id": "hyp_1",
+        "relations": 0,
+        "S0": 76671781.36812471,
+        "S1": 76671781.36812471
+      }
+    ]
+  },
+  {
+    "case": "photo_12",
+    "split": "holdout",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 3248621.820356834,
+    "reduction_from_previous": 0.9576294985927194,
+    "reference_contains": false,
+    "nearest_region_distance_m": 4997.457096926286,
+    "actual_points": 4495,
+    "passed_points": 200,
+    "reliable_landmarks": 2,
+    "reliable_relations": 0,
+    "topk": {
+      "3": false,
+      "5": false,
+      "10": false
+    },
+    "phase_seconds": 0.4681962999893585,
+    "E_solve_seconds": 3.6051639999932377,
+    "ablation_seconds": 0.6770858999952907,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "legacy_beijing_cbd",
+    "split": "legacy_diagnostic",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 77356362.26241313,
+    "reduction_from_previous": null,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 4495,
+    "passed_points": 4495,
+    "reliable_landmarks": 2,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 0.18074979999801144,
+    "E_solve_seconds": null,
+    "ablation_seconds": 0.7092487000045367,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "legacy_beijing_cbd",
+    "split": "legacy_diagnostic",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 77356362.26241313,
+    "reduction_from_previous": 0.0,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 4495,
+    "passed_points": 4495,
+    "reliable_landmarks": 2,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 0.0013915000017732382,
+    "E_solve_seconds": null,
+    "ablation_seconds": 0.7092487000045367,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": [
+      {
+        "hypothesis_id": "hyp_1",
+        "relations": 0,
+        "S0": 77356362.26241307,
+        "S1": 77356362.26241307
+      }
+    ]
+  },
+  {
+    "case": "legacy_beijing_cbd",
+    "split": "legacy_diagnostic",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 3236107.7227263753,
+    "reduction_from_previous": 0.9581662370349235,
+    "reference_contains": false,
+    "nearest_region_distance_m": 237.86037939005402,
+    "actual_points": 4495,
+    "passed_points": 195,
+    "reliable_landmarks": 2,
+    "reliable_relations": 0,
+    "topk": {
+      "3": false,
+      "5": false,
+      "10": false
+    },
+    "phase_seconds": 0.4734604999976,
+    "E_solve_seconds": 3.474599399996805,
+    "ablation_seconds": 0.7092487000045367,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "legacy_north_bund",
+    "split": "legacy_diagnostic",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S0",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 74297241.54235853,
+    "reduction_from_previous": null,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23989,
+    "passed_points": 23989,
+    "reliable_landmarks": 4,
+    "reliable_relations": 0,
+    "topk": null,
+    "phase_seconds": 1.1445501000271179,
+    "E_solve_seconds": null,
+    "ablation_seconds": 21.09391759999562,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  },
+  {
+    "case": "legacy_north_bund",
+    "split": "legacy_diagnostic",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S1",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 73125621.50027585,
+    "reduction_from_previous": 0.015769361254343695,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23989,
+    "passed_points": 14223,
+    "reliable_landmarks": 4,
+    "reliable_relations": 1,
+    "topk": null,
+    "phase_seconds": 0.8442982999840751,
+    "E_solve_seconds": null,
+    "ablation_seconds": 21.09391759999562,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": [
+      {
+        "hypothesis_id": "hyp_1",
+        "relations": 1,
+        "S0": 67847332.26633911,
+        "S1": 36797769.56194363
+      },
+      {
+        "hypothesis_id": "hyp_2",
+        "relations": 1,
+        "S0": 67847332.26633911,
+        "S1": 36797769.56194363
+      },
+      {
+        "hypothesis_id": "hyp_3",
+        "relations": 1,
+        "S0": 57821670.64579683,
+        "S1": 27001692.303856906
+      },
+      {
+        "hypothesis_id": "hyp_4",
+        "relations": 1,
+        "S0": 58618532.42937369,
+        "S1": 26825921.17366472
+      },
+      {
+        "hypothesis_id": "hyp_5",
+        "relations": 1,
+        "S0": 57794453.02154179,
+        "S1": 26934778.31463772
+      },
+      {
+        "hypothesis_id": "hyp_6",
+        "relations": 1,
+        "S0": 58638894.250018455,
+        "S1": 26875173.62835134
+      },
+      {
+        "hypothesis_id": "hyp_7",
+        "relations": 1,
+        "S0": 67847332.26633911,
+        "S1": 36797769.56194363
+      },
+      {
+        "hypothesis_id": "hyp_8",
+        "relations": 1,
+        "S0": 67847332.26633911,
+        "S1": 36797769.56194363
+      },
+      {
+        "hypothesis_id": "hyp_9",
+        "relations": 1,
+        "S0": 68976494.78287129,
+        "S1": 38015020.482762754
+      },
+      {
+        "hypothesis_id": "hyp_10",
+        "relations": 0,
+        "S0": 68135653.9655467,
+        "S1": 68135653.9655467
+      },
+      {
+        "hypothesis_id": "hyp_11",
+        "relations": 0,
+        "S0": 71392372.3428526,
+        "S1": 71392372.3428526
+      },
+      {
+        "hypothesis_id": "hyp_12",
+        "relations": 1,
+        "S0": 68887898.53565115,
+        "S1": 36463674.11194276
+      }
+    ]
+  },
+  {
+    "case": "legacy_north_bund",
+    "split": "legacy_diagnostic",
+    "coordinate_quality": "Q2 self reported; unknown accuracy",
+    "stage": "S2",
+    "status": "SEARCH_LIMITED",
+    "area_m2": 4433958.8191892775,
+    "reduction_from_previous": 0.9393651810648536,
+    "reference_contains": true,
+    "nearest_region_distance_m": 0.0,
+    "actual_points": 23989,
+    "passed_points": 522,
+    "reliable_landmarks": 4,
+    "reliable_relations": 1,
+    "topk": {
+      "3": false,
+      "5": false,
+      "10": false
+    },
+    "phase_seconds": 18.18572110000241,
+    "E_solve_seconds": 41.890494899998885,
+    "ablation_seconds": 21.09391759999562,
+    "cost_note": "Fixed E-generated population; phase seconds reuse cached full-geometry scores, not end-to-end latency",
+    "per_hypothesis_relation_reductions": null
+  }
+]

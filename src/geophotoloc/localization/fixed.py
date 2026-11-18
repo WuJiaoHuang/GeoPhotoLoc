@@ -234,11 +234,21 @@ def solve_fixed(store,config,vision,matching):
                 if members:region_entries.append((mode,members))
         if config.dual_regions and scores:
             region_entries=preferred_entries(scores,fine,plan.spacing,config.fine_spacing_m,hard_geometry,config.score_window,config.preferred_tile_size_m)
-        keep=diversified_regions([p for p,_ in region_entries],scores,config.max_regions_per_hypothesis)
+        original_entries=region_entries
+        if config.selection_strategy=='quality_v2':
+            from .selection_v2 import select_quality_modes
+            region_entries,report.selection_audit=select_quality_modes(region_entries,scores,config.max_regions_per_hypothesis,config.preferred_tile_size_m**2)
+            keep=[p for p,_ in region_entries]
+        else:
+            keep=diversified_regions([p for p,_ in region_entries],scores,config.max_regions_per_hypothesis)
         if config.record_diagnostic_trace:
             from .diagnostics import annotate_selection
-            annotate_selection(trace,scores,region_entries,keep,config,connected)
-        if len(keep)<len(region_entries):report.limited=True;report.reasons.append('diverse_output_region_limit')
+            annotate_selection(trace,scores,original_entries,keep,config,connected,
+                retained_members={p for _,members in region_entries for p in members} if config.selection_strategy=='quality_v2' else None)
+        if config.selection_strategy=='quality_v2':
+            if any(not d['retained'] and d['reason']!='covered_by_retained_mode' for d in report.selection_audit['decisions']):
+                report.limited=True;report.reasons.append('quality_output_budget; omitted modes explicitly audited')
+        elif len(keep)<len(region_entries):report.limited=True;report.reasons.append('diverse_output_region_limit')
         for polygon,members in region_entries:
             if not any(polygon is p for p in keep):continue
             best=min(members,key=lambda p:(-scores[p].score,p));medoid=feasible_medoid(members)
@@ -296,7 +306,11 @@ def solve_fixed(store,config,vision,matching):
         w=work[region.id];best=min(w['members'],key=lambda p:(-w['scores'][p].score,p))
         region.best_score=w['scores'][best];region.best_location=w['context'].system.to_geographic(best);region.best_scored_point=region.best_location;region.heading=region.best_score.heading
     timings['visibility_seconds']=perf_counter()-phase_start
-    regions.sort(key=lambda r:(-r.best_score.score,r.hypothesis_id,r.best_location.latitude,r.best_location.longitude))
+    if config.selection_strategy=='quality_v2':
+        from .selection_v2 import evidence_quality
+        regions.sort(key=lambda r:(tuple(-v for v in evidence_quality(r.best_score)),r.hypothesis_id,r.best_location.latitude,r.best_location.longitude))
+    else:
+        regions.sort(key=lambda r:(-r.best_score.score,r.hypothesis_id,r.best_location.latitude,r.best_location.longitude))
     status='INSUFFICIENT_EVIDENCE' if not active else 'SEARCH_LIMITED' if limited else 'INSUFFICIENT_EVIDENCE' if not config.robust_geometry and regions and all(r.best_score.satisfied==0 for r in regions) else 'AMBIGUOUS' if regions else 'NO_FEASIBLE_POSE'
     features=[]
     for r in regions:
@@ -312,7 +326,7 @@ def solve_fixed(store,config,vision,matching):
     preferred_local=defaultdict(list)
     for r in regions:preferred_local[r.region_id].append(work[r.id]['geometry'])
     feasible_area=sum(physical_union_area(geoms,contexts[region_id]) for region_id,geoms in feasible_unmasked.items())
-    preferred_area=sum(tiled_union_area(geoms,config.preferred_tile_size_m) if config.dual_regions else unary_union(geoms).area for geoms in preferred_local.values())
+    preferred_area=sum(tiled_union_area(geoms,config.preferred_tile_size_m) if config.dual_regions and config.selection_strategy=='legacy' else unary_union(geoms).area for geoms in preferred_local.values())
     return PoseLocalizationResult(status=status,regions=regions,hypotheses=reports,config=config,matched_landmarks=list(used.values()),elapsed_seconds=perf_counter()-start,
         geojson=dict(type='FeatureCollection',features=features),reviewed_candidates=reviewed,
         feasible_regions=feasible_regions,preferred_regions=regions,feasible_area_m2=feasible_area,preferred_area_m2=preferred_area,

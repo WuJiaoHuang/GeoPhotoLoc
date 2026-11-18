@@ -19,7 +19,11 @@ def main():
     st.title('GeoPhotoLoc — 基于地标空间关系的旅拍机位粗定位')
     st.caption('从照片中的地标与空间关系出发，展示可能机位区域和可核对的几何证据。')
     st.markdown('<style>button{min-height:44px}:focus-visible{outline:3px solid #2563eb!important;outline-offset:2px}</style>',unsafe_allow_html=True)
-    mode=st.radio('演示模式',['离线案例','在线定位'],horizontal=True,key='mode')
+    mode=st.radio('演示模式',['离线案例','在线定位','空间精化离线'],index=2 if st.query_params.get('demo')=='refinement' else 0,horizontal=True,key='mode')
+    if mode=='空间精化离线':
+        from geophotoloc.app.refinement_demo import render_offline_refinement
+        render_offline_refinement()
+        return
     db=ROOT/'.cache/geophotoloc/maps.sqlite3'
     if mode=='离线案例':
         st.info('离线复现实验结果，非本次实时模型推理。')
@@ -60,8 +64,10 @@ def main():
         else:
             upload=st.file_uploader('上传旅游照片（JPEG / PNG / WebP，最大 20 MiB）',type=['jpg','jpeg','png','webp'])
             with st.expander('搜索参数'):
-                radius=st.number_input('地标分布外扩半径（米）',min_value=200,max_value=10000,value=2200,step=200)
+                use_refinement=st.checkbox('启用 Stage 5.2 空间精化',value=False)
+                radius=st.number_input('地标分布外扩半径（米）',min_value=200,max_value=10000,value=2200,step=200,disabled=use_refinement)
                 budget=st.number_input('最大搜索点数',min_value=100,max_value=100000,value=24000,step=1000)
+                if use_refinement:st.caption('空间精化沿用固定 5 km 观察距离先验；外扩半径仅用于原定位模式。')
             signature=None
             upload_valid=False
             if upload:
@@ -82,6 +88,9 @@ def main():
                     pipeline=st.session_state['_pipeline']
                     pipeline.vision_config=config
                     pipeline.search_config=PoseSearchConfig(search_radius_m=radius,max_total_points=budget)
+                    if use_refinement:
+                        from geophotoloc.localization import Stage52PoseSolver
+                        pipeline.search_config=Stage52PoseSolver(None,pipeline.search_config).config.model_copy(update={'record_diagnostic_trace':True})
                     try:
                         with tempfile.TemporaryDirectory(prefix='geophotoloc-upload-') as folder:
                             path=Path(folder)/('upload'+Path(upload.name).suffix.lower())
@@ -129,12 +138,20 @@ def main():
                 st.warning('未匹配到可靠地图实体：可能名称不足或照片超出本地三个区域覆盖，不能直接判定照片无地标。')
             focus=st.selectbox('聚焦候选区域',['全部候选区域']+[x.id for x in pose.regions])
             lines=st.checkbox('显示代表点到地标的视线',value=False)
-            st_folium(build_map(result,offline=mode=='离线案例',focus=None if focus=='全部候选区域' else focus,sightlines=lines),
+            if result.refinement:
+                from geophotoloc.app.refinement_demo import build_refinement_map
+                display_map=build_refinement_map(result,offline=mode=='离线案例',focus=None if focus=='全部候选区域' else focus)
+            else:
+                display_map=build_map(result,offline=mode=='离线案例',focus=None if focus=='全部候选区域' else focus,sightlines=lines)
+            st_folium(display_map,
                       height=610,use_container_width=True,returned_objects=[],key=f'map-{mode}-{focus}')
             st.caption('离线几何图不加载网络底图。彩色面为采样候选区域；方向线为朝向假设；代表点不是已确认拍摄点。© OpenStreetMap contributors / ODbL')
         else:
             st.info('选择离线案例，或上传照片并点击开始定位。模型不会因页面重绘而自动调用。')
     if result:
+        if result.refinement:
+            from geophotoloc.app.refinement_demo import render_refinement
+            render_refinement(result,offline=mode=='离线案例',show_map=False)
         st.subheader('几何证据与候选排序')
         rows=[]
         for rank,region in enumerate(result.localization.regions,1):

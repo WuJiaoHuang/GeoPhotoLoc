@@ -4,9 +4,10 @@ import numpy as np
 from shapely import intersects_xy
 
 
-def annotate_selection(trace,scores,entries,kept,config,connected):
+def annotate_selection(trace,scores,entries,kept,config,connected,*,retained_members=None):
     before={p for _,members in entries for p in members}
     after={p for polygon,members in entries if any(polygon is k for k in kept) for p in members}
+    if retained_members is not None:after=set(retained_members)
     thresholds={}
     if config.dual_regions:
         maxima={}
