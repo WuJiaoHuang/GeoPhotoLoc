@@ -7,3 +7,5 @@ __all__.append('JointPoseSolver')
 
 from .solver import Stage52PoseSolver
 __all__.append("Stage52PoseSolver")
+from .solver import Stage54PoseSolver
+__all__.append('Stage54PoseSolver')

@@ -375,3 +375,22 @@ uv run streamlit run src/geophotoloc/app/main.py
 本轮新请求0。12新增样本中8份非空：旧S1含参考6/8，S1-R为7/8，但因没有独立完整可见/身份确认，HARD为0、S1-R=S0，没有空间缩减；S2/S2-R均含参考2/8。旧holdout已用于诊断，不宣称独立泛化改善。全量433项测试通过，原结果不覆盖。
 
 [Stage 5.3 全部结果与失败归因](docs/STAGE5_3_EVALUATION.md) · [关系规则及边界](docs/STAGE5_3_SPATIAL_RELATIONS.md) · [实际执行与失败记录](docs/evaluation/stage5_3/VALIDATION.md)。
+
+## Stage 5.4：单图自动关系与 F 排序
+
+默认 `LocalizationPipeline(db).run(photo)` 仅接收照片：自动识别→现有地图全覆盖检索→多身份搜索→F区域排序，不需要城市、GPS、身份核验或相机参数。显式旧search_config和`automatic_relations=False`保留旧行为。固定地图覆盖不足或证据不足仍明确返回失败/低证据，不虚构机位。
+
+F保留E的网格、原分数、物理约束、FOV、距离和区域预算，在相同六位小数几何质量档中用自动关系分排序。视觉bbox连续权重与身份依据分开，完整轮廓顺序一致/冲突为1/0，不可判为0.5；无有效关系null且回退原E。A0=A1范围不缩减，A1增加评分分布，A2直接显示实际F优选，不是物理可行域。
+
+```powershell
+uv run python scripts/evaluate_stage54.py
+uv run python scripts/report_stage54.py
+uv run pytest -q
+uv run streamlit run src/geophotoloc/app/main.py
+```
+
+已有冻结输出可以直接离线评估/展示；`scripts/run_stage54.py`用于原SHA地图快照下的一轮推理，已有正式manifest时拒绝覆盖。新算法需独立实验目录，不混用旧输出；不重新调用视觉API。Demo在“空间精化离线”选择“Stage 5.4 自动关系 F”，在线默认Stage5.4；参考仅主动独立评估时显示。
+
+全量454项通过。本轮新API/地图请求0，8/12新增样本有有效Top1；E/F中位均约1248m，F Top5包含1/12（E为0），Top10仍2/12。photo_02最低包含排名6→4、Top1约571→224m；北外滩仍13，北京/其他主要失败未解决，部分优选面积增加。不宣称独立泛化或精度保证。
+
+[Stage 5.4 全部D/E/F与A层结果](docs/STAGE5_4_EVALUATION.md) · [自动关系规则](docs/STAGE5_4_AUTOMATIC_RELATIONS.md) · [实际命令及失败记录](docs/evaluation/stage5_4/VALIDATION.md)。

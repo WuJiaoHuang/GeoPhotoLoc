@@ -11,20 +11,21 @@ def evidence_quality(score):
             score.reliable_landmark_count)
 
 
-def _mode(geometry,members,scores,origins=None):
+def _mode(geometry,members,scores,origins=None,quality_by_point=None):
     members=sorted(set(members))
-    best=min(members,key=lambda p:(-scores[p].score,p))
+    legacy_best=min(members,key=lambda p:(-scores[p].score,p))
+    best=legacy_best if quality_by_point is None else min(members,key=lambda p:(tuple(-v for v in quality_by_point[p]),p))
     identifier=hashlib.sha256(geometry.normalize().wkb+repr(members).encode()).hexdigest()[:20]
     # Use an existing high-score sample, stable to sub-mm geometry transport.
     anchor=min(members,key=lambda p:(-round(scores[p].score,6),round(p[0],3),round(p[1],3),p))
     center=(round(anchor[0],3),round(anchor[1],3))
     return dict(geometry=geometry,members=members,best=best,id=identifier,
-                origins=origins or [identifier],quality=evidence_quality(scores[best]),center=center,stable_key=(*center,*(round(v,3) for v in geometry.bounds)))
+                origins=origins or [identifier],quality=evidence_quality(scores[best]) if quality_by_point is None else quality_by_point[best],merge_quality=evidence_quality(scores[legacy_best]),center=center,stable_key=(*center,*(round(v,3) for v in geometry.bounds)))
 
 
-def select_quality_modes(entries,scores,limit,max_merge_area_m2):
+def select_quality_modes(entries,scores,limit,max_merge_area_m2,*,quality_by_point=None):
     if limit<1 or max_merge_area_m2<=0:raise ValueError('Positive output and merge budgets required')
-    modes=sorted((_mode(g,m,scores) for g,m in entries if m and not g.is_empty),key=lambda m:(m['stable_key'],m['id']))
+    modes=sorted((_mode(g,m,scores,quality_by_point=quality_by_point) for g,m in entries if m and not g.is_empty),key=lambda m:(m['stable_key'],m['id']))
     original_count=len(modes)
     # Exact connected unions only, bounded by the old single-tile area. No hull/buffer.
     tree=STRtree([m['geometry'] for m in modes]);parents=list(range(len(modes)))
@@ -36,10 +37,10 @@ def select_quality_modes(entries,scores,limit,max_merge_area_m2):
         for j in sorted(map(int,tree.query(item['geometry'],predicate='intersects'))):
             if j<=i:continue
             a,b=root(i),root(j)
-            if a==b or modes[a]['quality']!=modes[b]['quality']:continue
+            if a==b or modes[a]['merge_quality']!=modes[b]['merge_quality']:continue
             union=modes[a]['geometry'].union(modes[b]['geometry'])
             if union.geom_type!='Polygon' or union.area>max_merge_area_m2+1e-6:continue
-            modes[a]=_mode(union,modes[a]['members']+modes[b]['members'],scores,modes[a]['origins']+modes[b]['origins'])
+            modes[a]=_mode(union,modes[a]['members']+modes[b]['members'],scores,modes[a]['origins']+modes[b]['origins'],quality_by_point)
             parents[b]=a
     modes=[m for i,m in enumerate(modes) if root(i)==i]
     remaining=list(modes);chosen=[];decisions=[]

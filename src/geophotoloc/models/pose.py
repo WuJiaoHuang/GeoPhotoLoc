@@ -31,7 +31,7 @@ class PoseSearchConfig(BaseModel):
     viewpoint_fix: bool = False
     record_sample_trace: bool = False
     record_diagnostic_trace: bool = False
-    selection_strategy: Literal['legacy', 'quality_v2'] = 'legacy'
+    selection_strategy: Literal['legacy', 'quality_v2', 'automatic_v1'] = 'legacy'
     coarse_budget_fraction: float = Field(default=.6,gt=0,lt=1)
     fine_budget_fraction: float = Field(default=.3,ge=0,lt=1)
     minimum_coarse_spacing_m: float = Field(default=180,gt=0)
@@ -74,7 +74,7 @@ class PoseSearchConfig(BaseModel):
 
     @model_validator(mode="after")
     def valid_search(self):
-        if self.selection_strategy=='quality_v2' and not (self.viewpoint_fix and self.robust_geometry and self.dual_regions):
+        if self.selection_strategy in {'quality_v2','automatic_v1'} and not (self.viewpoint_fix and self.robust_geometry and self.dual_regions):
             raise ValueError('quality_v2 requires fixed robust dual-region search')
         if abs(self.projection_weight+self.order_weight+self.identity_weight+self.geometry_weight-1)>1e-8:
             raise ValueError('Joint score weights must sum to one')
@@ -157,6 +157,7 @@ class PoseHypothesis(BaseModel):
     strtree_queries: int = 0
     unknown_image_ids: list[str] = Field(default_factory=list)
     selection_audit: dict = Field(default_factory=dict)
+    automatic_relation_audit: dict = Field(default_factory=dict)
 
 
 class CandidateRegion(BaseModel):
@@ -177,6 +178,7 @@ class CandidateRegion(BaseModel):
     map_coverage_status: Literal['COMPLETE','PARTIAL','UNKNOWN'] = 'UNKNOWN'
     best_scored_point: GeoPoint | None = None
     region_medoid: GeoPoint | None = None
+    automatic_relation_score: float | None = Field(default=None,ge=0,le=1)
 
 
 class FeasibleRegion(BaseModel):

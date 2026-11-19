@@ -296,3 +296,10 @@ class Stage52PoseSolver(JointPoseSolver):
         values.update(adaptive_extent=True,viewpoint_fix=True,robust_geometry=True,joint_identity=True,
                       dual_regions=True,audit_hard_feasibility=True,visibility_soft=True,selection_strategy='quality_v2')
         super().__init__(store,PoseSearchConfig(**values))
+
+
+class Stage54PoseSolver(Stage52PoseSolver):
+    """Same E search; F changes only final mode selection and ranking."""
+    def __init__(self,store,config=None):
+        super().__init__(store,config)
+        self.config=self.config.model_copy(update={'selection_strategy':'automatic_v1','record_diagnostic_trace':True})

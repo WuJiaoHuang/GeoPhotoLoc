@@ -62,16 +62,20 @@ def validate_upload(data, filename):
 class LocalizationPipeline:
     def __init__(self, db_path='.cache/geophotoloc/maps.sqlite3', *, vision_config=None,
                  search_config=None, analyzer=None, store_factory=LandmarkStore,
-                 matcher_factory=MapMatcher, solver_factory=PoseSolver):
+                 matcher_factory=MapMatcher, solver_factory=PoseSolver, automatic_relations=None):
         self.db_path = Path(db_path)
         self.vision_config = vision_config
         self.search_config = search_config or PoseSearchConfig()
         self.analyzer = analyzer
+        self.automatic_relations=(search_config is None) if automatic_relations is None else automatic_relations
         self.store_factory, self.matcher_factory, self.solver_factory = store_factory, matcher_factory, solver_factory
         self._vision_cache = {}
         self._result_cache = {}
 
     def run(self, image_path):
+        if self.automatic_relations:
+            from geophotoloc.localization import Stage54PoseSolver
+            self.search_config=Stage54PoseSolver(None,self.search_config).config
         try:
             prepared = prepare_image(image_path)
         except ImageInputError:
@@ -118,11 +122,14 @@ class LocalizationPipeline:
                 matching = self.matcher_factory(store).match(vision)
                 localization = self.solver_factory(store,self.search_config).solve(vision,matching)
                 refinement=None
-                if self.search_config.selection_strategy=='quality_v2':
+                if self.search_config.selection_strategy in {'quality_v2','automatic_v1'}:
                     from geophotoloc.localization.spatial_refinement import build_spatial_refinement
                     from geophotoloc.models.maps import GeoBounds
                     bounds={r:GeoBounds.model_validate_json(store.connection.execute('SELECT bounds_json FROM regions WHERE id=?',(r,)).fetchone()[0]) for r in coverage}
-                    refinement=build_spatial_refinement(vision,matching,localization,bounds)
+                    if self.search_config.selection_strategy=='automatic_v1':
+                        from geophotoloc.localization.automatic_refinement import build_automatic_refinement
+                        refinement=build_automatic_refinement(vision,matching,localization,bounds)
+                    else:refinement=build_spatial_refinement(vision,matching,localization,bounds)
             except (ValueError,RuntimeError):
                 raise PipelineFailure('geometry','SOLVE_FAILED','地图匹配或几何求解失败，请检查本地覆盖数据和搜索参数。') from None
             result = DemoResult(mode='online',provenance=('复用本会话识别，本次重新执行地图匹配和几何求解。' if vision_cached

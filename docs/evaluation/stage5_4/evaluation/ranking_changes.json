@@ -1,0 +1,4158 @@
+[
+  {
+    "case": "photo_02",
+    "regions": [
+      {
+        "mode": "hyp_10:3f71c27357228c7ad9f72ea0bb398102820527acfded13612f6283fc1dce7194",
+        "E_rank": 73,
+        "F_rank": 89,
+        "automatic_relation_score": 0.5148984334749106
+      },
+      {
+        "mode": "hyp_10:4a911b891640bffc6fecda0ca2df225b028fac3625c0ea449c4d75ec633432c3",
+        "E_rank": 76,
+        "F_rank": 92,
+        "automatic_relation_score": 0.5148984334749106
+      },
+      {
+        "mode": "hyp_10:71db1729ebecece6de5c39337637d8cb7b13ef8d14fc6c45b2237d8f668e8d43",
+        "E_rank": 78,
+        "F_rank": 94,
+        "automatic_relation_score": 0.5148984334749106
+      },
+      {
+        "mode": "hyp_10:95e62b6b2c612bb8b71575d493566d4e3f0f0a3bc342d0d213a2533d47afaacc",
+        "E_rank": 74,
+        "F_rank": 90,
+        "automatic_relation_score": 0.5148984334749106
+      },
+      {
+        "mode": "hyp_10:ad8465bd21113845ca61f3529395565f4e412402abf1189eb680466aad3ad741",
+        "E_rank": 75,
+        "F_rank": 91,
+        "automatic_relation_score": 0.5148984334749106
+      },
+      {
+        "mode": "hyp_10:c84b4d48a0d321bba185b55d1e4fa5fe8cdba46f159a796faf38605279c88061",
+        "E_rank": 77,
+        "F_rank": 93,
+        "automatic_relation_score": 0.5148984334749106
+      },
+      {
+        "mode": "hyp_10:f6d5f0f31cc981cdd543cb030463db94151bec262d834fa59b6200d8233977f0",
+        "E_rank": 80,
+        "F_rank": 96,
+        "automatic_relation_score": 0.5148984334749106
+      },
+      {
+        "mode": "hyp_10:fdd7c72f8285f2ac97ab9256a76458deb95ad50816ebbd2b0bf4ff44bda91796",
+        "E_rank": 79,
+        "F_rank": 95,
+        "automatic_relation_score": 0.5148984334749106
+      },
+      {
+        "mode": "hyp_11:39c95b8a4db8a536e315e6746b2ca578cce921e9388a2165e53e3262992dd2ab",
+        "E_rank": 83,
+        "F_rank": 75,
+        "automatic_relation_score": 0.5831026688505466
+      },
+      {
+        "mode": "hyp_11:6f59b1874c515d92f2d590a423be6103345852b418a796ba221d2e4d9a1a4b42",
+        "E_rank": 86,
+        "F_rank": 78,
+        "automatic_relation_score": 0.5831026688505466
+      },
+      {
+        "mode": "hyp_11:87a73efb48e8a27e51a20b82e40eb73a1c2e64a86c78d4e302a3abfc418a7775",
+        "E_rank": 84,
+        "F_rank": 76,
+        "automatic_relation_score": 0.5831026688505466
+      },
+      {
+        "mode": "hyp_11:8a20cae60d0fb3fcc7a46e21c9d7dae4f8e32a1667dfa9915675280b64c6d6fe",
+        "E_rank": 82,
+        "F_rank": 74,
+        "automatic_relation_score": 0.5831026688505466
+      },
+      {
+        "mode": "hyp_11:a54df7b24a4f55f8a6ff8c0d5c3b3c7287a08490ee3afcef3e1f3832eee27071",
+        "E_rank": 81,
+        "F_rank": 73,
+        "automatic_relation_score": 0.5831026688505466
+      },
+      {
+        "mode": "hyp_11:d204bbe96a1f6be3ece356c21edbb52889d530f38e2a7c985e2ee787a992f779",
+        "E_rank": 88,
+        "F_rank": 80,
+        "automatic_relation_score": 0.5831026688505466
+      },
+      {
+        "mode": "hyp_11:f0d67e407c4eb6ed9fabe6716323cbfac4ddc5e9dd7cac2a21be0adc9b1cb979",
+        "E_rank": 85,
+        "F_rank": 77,
+        "automatic_relation_score": 0.5831026688505466
+      },
+      {
+        "mode": "hyp_11:f352f49b218c0e0d80dded249d3b026de31efdca54707480129a4abfc8a50bf6",
+        "E_rank": 87,
+        "F_rank": 79,
+        "automatic_relation_score": 0.5831026688505466
+      },
+      {
+        "mode": "hyp_12:1139854abf396644f0ec4e4846fe09606f1cbf49d296f72d8e6f97c51088fd42",
+        "E_rank": 96,
+        "F_rank": 88,
+        "automatic_relation_score": 0.5403195367467858
+      },
+      {
+        "mode": "hyp_12:17b90d27392a249a0d9d5bf6b01e29515d780542dbac44cb4986b386030897aa",
+        "E_rank": 93,
+        "F_rank": 85,
+        "automatic_relation_score": 0.5403195367467858
+      },
+      {
+        "mode": "hyp_12:2d281025eb0d1e8ad12c30844f6b4f483dfe88a2c66d6fb65ea85c11a7413d25",
+        "E_rank": 92,
+        "F_rank": 84,
+        "automatic_relation_score": 0.5403195367467858
+      },
+      {
+        "mode": "hyp_12:40335c0881a954a332c9e3c77268738ed12f0cffab27d4a747e1b8affd32de3c",
+        "E_rank": 89,
+        "F_rank": 81,
+        "automatic_relation_score": 0.5403195367467858
+      },
+      {
+        "mode": "hyp_12:49103a7e459c46628bc4318a47f39496b0fb074391f1a8032195fc9f33c0d07c",
+        "E_rank": 95,
+        "F_rank": 87,
+        "automatic_relation_score": 0.5403195367467858
+      },
+      {
+        "mode": "hyp_12:530f7cae854a80fe211aa41742eae21a594a98ad342fbe85a1e267b84a1485c5",
+        "E_rank": 91,
+        "F_rank": 83,
+        "automatic_relation_score": 0.5403195367467858
+      },
+      {
+        "mode": "hyp_12:849e2a4898cb332f5d3e59c4addf111092e2ae6987e443fe93669532ae5690ac",
+        "E_rank": 94,
+        "F_rank": 86,
+        "automatic_relation_score": 0.5403195367467858
+      },
+      {
+        "mode": "hyp_12:fe0827d55978cd3886ac4174884979c3afb5771c1878985881fb8c201862e46b",
+        "E_rank": 90,
+        "F_rank": 82,
+        "automatic_relation_score": 0.5403195367467858
+      },
+      {
+        "mode": "hyp_1:0076621ab21e26436eaaeacc29a4cc31eb2525c36aff509051f7299fa77040f7",
+        "E_rank": 5,
+        "F_rank": 3,
+        "automatic_relation_score": 0.9851015665250895
+      },
+      {
+        "mode": "hyp_1:0d963eb104b2f9a3feb3b36c64279e7eb51b5f46331366ec555551963cbbfd7f",
+        "E_rank": 3,
+        "F_rank": 1,
+        "automatic_relation_score": 0.9851015665250895
+      },
+      {
+        "mode": "hyp_1:2292c7efd020f2b860660cba10b423bd94af5062956ab2a1a755d2e0b1db274b",
+        "E_rank": 6,
+        "F_rank": 4,
+        "automatic_relation_score": 0.9851015665250895
+      },
+      {
+        "mode": "hyp_1:3ae0803546dff6070470da9d2db14c3a4f201901135e4e90d47c51c3eb46d453",
+        "E_rank": 7,
+        "F_rank": 5,
+        "automatic_relation_score": 0.9851015665250895
+      },
+      {
+        "mode": "hyp_1:72bfbe0bf37fdfc4e92e041540182429308a38ce2be548e19e17441c6736ffd0",
+        "E_rank": 8,
+        "F_rank": 8,
+        "automatic_relation_score": 0.9596804632532142
+      },
+      {
+        "mode": "hyp_1:7e746ad0081adc99ced811ae7a5379f85f6cc29e3042ba44e20f6cac421b7af3",
+        "E_rank": 2,
+        "F_rank": 7,
+        "automatic_relation_score": 0.9596804632532142
+      },
+      {
+        "mode": "hyp_1:c4bfe880e7bdbbefac5ddfb888195ea8542df7b6d0f649beae562f10866fd650",
+        "E_rank": 1,
+        "F_rank": 6,
+        "automatic_relation_score": 0.9596804632532142
+      },
+      {
+        "mode": "hyp_1:d16e7fd3e25a06bc539a7074e4b42ad97c4456498a894cb07ca63eb1cb7460f5",
+        "E_rank": 4,
+        "F_rank": 2,
+        "automatic_relation_score": 0.9851015665250895
+      },
+      {
+        "mode": "hyp_2:25e7239be4eb35778720fd9b484cda12956f1925ccb9af714cc37cd8e498eb76",
+        "E_rank": 45,
+        "F_rank": null,
+        "automatic_relation_score": null
+      },
+      {
+        "mode": "hyp_2:3180b386cd397f749e743354ff059c0053b0b608c411ca7d54c1bc81b9b9d3cf",
+        "E_rank": null,
+        "F_rank": 44,
+        "automatic_relation_score": 0.7989772341215672
+      },
+      {
+        "mode": "hyp_2:340afd9b5cd29b02d7a83cbcf4b854149eb36a03b278913407b54fdf0693a637",
+        "E_rank": 48,
+        "F_rank": 42,
+        "automatic_relation_score": 0.9193609265064284
+      },
+      {
+        "mode": "hyp_2:3ee100b7a1e1a1ecae803a66f33cfb35ec3d25c402579acf3eb207ad1e8d479b",
+        "E_rank": 46,
+        "F_rank": null,
+        "automatic_relation_score": null
+      },
+      {
+        "mode": "hyp_2:4cfa8a6ddae52f691f8a52964b0ac7cacb0f186a8e11d6a34f937a85a7b4c134",
+        "E_rank": 42,
+        "F_rank": null,
+        "automatic_relation_score": null
+      },
+      {
+        "mode": "hyp_2:576172417be65c1e9e4aebbaa1c69162e113b360288cbc083dcf783e43e1f7f7",
+        "E_rank": 41,
+        "F_rank": 46,
+        "automatic_relation_score": 0.7294357482804567
+      },
+      {
+        "mode": "hyp_2:6b74e80b0521c0157a7b42edc160177114a6e5e739ab69aa3b19d09ac13153cc",
+        "E_rank": null,
+        "F_rank": 45,
+        "automatic_relation_score": 0.7989772341215672
+      },
+      {
+        "mode": "hyp_2:72a7a957e56377bfab90180c3b280c0e45bbec02fd0fc617fdd441d9ea7f9d33",
+        "E_rank": null,
+        "F_rank": 43,
+        "automatic_relation_score": 0.9193609265064284
+      },
+      {
+        "mode": "hyp_2:9c40129568fe36b456091de6293f9a507af46a6af42a156fc976cb0755d4ecd6",
+        "E_rank": null,
+        "F_rank": 41,
+        "automatic_relation_score": 0.9193609265064284
+      },
+      {
+        "mode": "hyp_2:c2fccf6f47c2240131f3274002cb30d202e4b8a9e0aaae283a14a42af19ff3be",
+        "E_rank": 47,
+        "F_rank": null,
+        "automatic_relation_score": null
+      },
+      {
+        "mode": "hyp_2:d50b37567d05d55be232bc42ad23fede9658c725258ba19d980eb19c5fc2295a",
+        "E_rank": 43,
+        "F_rank": 47,
+        "automatic_relation_score": 0.7294357482804567
+      },
+      {
+        "mode": "hyp_2:e4c05128fca3732c9dd02f5299f47d914ed1fcfe5da954e2749f0cd8c27a819d",
+        "E_rank": null,
+        "F_rank": 48,
+        "automatic_relation_score": 0.7294357482804567
+      },
+      {
+        "mode": "hyp_2:e4e0f93139981174bbe9e4e7a3c94204d220d883e2f7f7a560a8aa255e01360f",
+        "E_rank": 44,
+        "F_rank": null,
+        "automatic_relation_score": null
+      },
+      {
+        "mode": "hyp_3:006a5b002031e5f25552c1490364e7daec3a318f6b7023d9f6795f6ec90b2ba5",
+        "E_rank": 27,
+        "F_rank": 27,
+        "automatic_relation_score": 0.7543504061912569
+      },
+      {
+        "mode": "hyp_3:35323a43c03a97b74d45c568a2b9f8c9fbfad2a24247a0d412b305b06e210444",
+        "E_rank": 28,
+        "F_rank": 28,
+        "automatic_relation_score": 0.7543504061912569
+      },
+      {
+        "mode": "hyp_3:3ee0ad058babbba6a9d11c786713f37c7d0436dd74a49e528ce24212da942ba9",
+        "E_rank": 10,
+        "F_rank": 24,
+        "automatic_relation_score": 0.7543504061912569
+      },
+      {
+        "mode": "hyp_3:4f4a82b4e83bcc6788eb87a8a38846b910fb4fec755ce340cf0013587a41c93e",
+        "E_rank": 9,
+        "F_rank": 23,
+        "automatic_relation_score": 0.7543504061912569
+      },
+      {
+        "mode": "hyp_3:727e745457d980e211645d50214c4aab313b08489a47701113e8ba5c84b49a56",
+        "E_rank": 11,
+        "F_rank": 25,
+        "automatic_relation_score": 0.7543504061912569
+      },
+      {
+        "mode": "hyp_3:78ee5c30b6347ad0703f9c2124f85b479b38756f0953d84d761ee3c1d18d713c",
+        "E_rank": 26,
+        "F_rank": 26,
+        "automatic_relation_score": 0.7543504061912569
+      },
+      {
+        "mode": "hyp_3:d7d35081ebd67959f8a40b32504eca47b7d7e458390016b0aee7f9e70a96b4a0",
+        "E_rank": 30,
+        "F_rank": 30,
+        "automatic_relation_score": 0.7543504061912569
+      },
+      {
+        "mode": "hyp_3:eafab516412ede3994756c898cffd2e7f79034fa80849f50191c76fefb8805a8",
+        "E_rank": 34,
+        "F_rank": 34,
+        "automatic_relation_score": 0.7543504061912569
+      },
+      {
+        "mode": "hyp_4:38736c4967d6d3e4d63258d5cd43460c3c8223fc85c02e818b4056f46d5811f4",
+        "E_rank": 15,
+        "F_rank": 12,
+        "automatic_relation_score": 0.8243983373934425
+      },
+      {
+        "mode": "hyp_4:6d31a9b8da3e0b1229b00f14759e8e368ea8c190c94d23a453bf0399264cae8a",
+        "E_rank": 18,
+        "F_rank": 15,
+        "automatic_relation_score": 0.8243983373934425
+      },
+      {
+        "mode": "hyp_4:6e95315c8f08783350f46016ef91b6c81179e09375f29f0da2f62fbc42ee0ac2",
+        "E_rank": 17,
+        "F_rank": 14,
+        "automatic_relation_score": 0.8243983373934425
+      },
+      {
+        "mode": "hyp_4:7ec86f379d93b94e871214db1f714b0ebd6261f3b7b5ff9c3e025bc056b71fa7",
+        "E_rank": 12,
+        "F_rank": 9,
+        "automatic_relation_score": 0.8243983373934425
+      },
+      {
+        "mode": "hyp_4:8cc1cac8d2b4074abcfad2781d15a5bfedf8918ef2844c3329afc111873702a2",
+        "E_rank": 14,
+        "F_rank": 11,
+        "automatic_relation_score": 0.8243983373934425
+      },
+      {
+        "mode": "hyp_4:a3a05f8a676921493a3bddf3cd5c9beca29bcf0e0f5e2f5f617d4c03fa216f04",
+        "E_rank": 19,
+        "F_rank": 16,
+        "automatic_relation_score": 0.8243983373934425
+      },
+      {
+        "mode": "hyp_4:c1351d035df6c818c6522a87a3d877979af92f0cf1e247375ac7c90dc7560df0",
+        "E_rank": 13,
+        "F_rank": 10,
+        "automatic_relation_score": 0.8243983373934425
+      },
+      {
+        "mode": "hyp_4:c90b4bb04b877004969797ed3c9e787bb06a8299e1628b3d2f71892cc47b35b8",
+        "E_rank": 16,
+        "F_rank": 13,
+        "automatic_relation_score": 0.8243983373934425
+      },
+      {
+        "mode": "hyp_5:0d963eb104b2f9a3feb3b36c64279e7eb51b5f46331366ec555551963cbbfd7f",
+        "E_rank": 20,
+        "F_rank": 17,
+        "automatic_relation_score": 0.7829306173430579
+      },
+      {
+        "mode": "hyp_5:3ae0803546dff6070470da9d2db14c3a4f201901135e4e90d47c51c3eb46d453",
+        "E_rank": 24,
+        "F_rank": 21,
+        "automatic_relation_score": 0.7829306173430579
+      },
+      {
+        "mode": "hyp_5:5b7d01cd9e10dbfefb2540693f1d37709c1fb75a3ead0254696da982e66f2d36",
+        "E_rank": 23,
+        "F_rank": 20,
+        "automatic_relation_score": 0.7829306173430579
+      },
+      {
+        "mode": "hyp_5:7e07493e3f51ad7ab6c9952d6752672b2c2cd0d31d59e7834a119078bf684600",
+        "E_rank": 31,
+        "F_rank": 31,
+        "automatic_relation_score": 0.7829306173430579
+      },
+      {
+        "mode": "hyp_5:7fc09425404a13b85f9df8dcdd8a459cd229b1f343555b19b1f9b03ec026c75d",
+        "E_rank": 22,
+        "F_rank": 19,
+        "automatic_relation_score": 0.7829306173430579
+      },
+      {
+        "mode": "hyp_5:c9a2414cfd70f3ec3ee48636387a46325dd6dd26c505a4208a95e6964e55be17",
+        "E_rank": 25,
+        "F_rank": 22,
+        "automatic_relation_score": 0.7829306173430579
+      },
+      {
+        "mode": "hyp_5:ca495daa75ac3fd052578a95a6afd79c14d650980bc67b0c5c1434e0c0632914",
+        "E_rank": 29,
+        "F_rank": 29,
+        "automatic_relation_score": 0.7829306173430579
+      },
+      {
+        "mode": "hyp_5:d16e7fd3e25a06bc539a7074e4b42ad97c4456498a894cb07ca63eb1cb7460f5",
+        "E_rank": 21,
+        "F_rank": 18,
+        "automatic_relation_score": 0.7829306173430579
+      },
+      {
+        "mode": "hyp_6:0a9b4c145c5b771016295b1d99979dfb03f3b840890ec6d3216c476da885c090",
+        "E_rank": 32,
+        "F_rank": 32,
+        "automatic_relation_score": 0.638320639072243
+      },
+      {
+        "mode": "hyp_6:134fc0bfdf01f97767d82c92f7a456de65e67afb0f64a3c5dc19ef4da15ba47f",
+        "E_rank": null,
+        "F_rank": 37,
+        "automatic_relation_score": 0.6234222055973324
+      },
+      {
+        "mode": "hyp_6:359590f4de7036ea055e3266512112de7e2407b7ebfc7c53ff25617d797a914c",
+        "E_rank": 37,
+        "F_rank": null,
+        "automatic_relation_score": null
+      },
+      {
+        "mode": "hyp_6:403612fb5a2189e41e6d4775cd2ee6363c6bc2c65e14eb9554b2165b654621a1",
+        "E_rank": 35,
+        "F_rank": 35,
+        "automatic_relation_score": 0.638320639072243
+      },
+      {
+        "mode": "hyp_6:47c0fc99fea347381c2fd62c3bfcca0292b83cf3cf35247e239c691b87ab2889",
+        "E_rank": 33,
+        "F_rank": 33,
+        "automatic_relation_score": 0.638320639072243
+      },
+      {
+        "mode": "hyp_6:524fe32a3c49c58fc604c045121504edc42913ee41d7757a7aebfb1097033c0a",
+        "E_rank": 40,
+        "F_rank": 40,
+        "automatic_relation_score": 0.6234222055973324
+      },
+      {
+        "mode": "hyp_6:7edecd6813018de7b4a7e1fcbe700bbbc719844beb74deb9e1301b91aeb7b38c",
+        "E_rank": 36,
+        "F_rank": null,
+        "automatic_relation_score": null
+      },
+      {
+        "mode": "hyp_6:84ae016d4b2ab11b67debba4a51fbb212a4850ba9ca5cd8c13f7b5482a9e6909",
+        "E_rank": null,
+        "F_rank": 38,
+        "automatic_relation_score": 0.6234222055973324
+      },
+      {
+        "mode": "hyp_6:b578aa53f3398b1880fc80b9093b7408a7c50f8dc1f337072757dd1f739638bd",
+        "E_rank": 38,
+        "F_rank": 36,
+        "automatic_relation_score": 0.6234222055973324
+      },
+      {
+        "mode": "hyp_6:f15724fef12f87b68d7cc2b1dfee699fff5b7c6a4de5f884d82797d19daaa796",
+        "E_rank": 39,
+        "F_rank": 39,
+        "automatic_relation_score": 0.6234222055973324
+      },
+      {
+        "mode": "hyp_7:3f7cecc7754f68eee02b0e752f361f16f665b7add68cd1aec0f255d72d59857d",
+        "E_rank": 55,
+        "F_rank": 71,
+        "automatic_relation_score": 0.6190682803314852
+      },
+      {
+        "mode": "hyp_7:b2747c1b71bde72de28798f601da3ee1628d01430f21f8e793529d3104f2ddca",
+        "E_rank": 54,
+        "F_rank": 70,
+        "automatic_relation_score": 0.6190682803314852
+      },
+      {
+        "mode": "hyp_7:b4faaac62b8bb877cae06a0431e16f8789899b796c5f119604bfd3735111f912",
+        "E_rank": 56,
+        "F_rank": 72,
+        "automatic_relation_score": 0.6190682803314852
+      },
+      {
+        "mode": "hyp_7:bf1f21f211ea06d9d401b11794b80609ad6e5ee109bf8db4fac25893a766535f",
+        "E_rank": 53,
+        "F_rank": 69,
+        "automatic_relation_score": 0.6190682803314852
+      },
+      {
+        "mode": "hyp_7:cac05af098ddbe5ccd49a3c48f89627dedee14b7d1189d4cae8300d198b5e749",
+        "E_rank": 49,
+        "F_rank": 65,
+        "automatic_relation_score": 0.6190682803314852
+      },
+      {
+        "mode": "hyp_7:d511555aa9728c69eba58f7351edee0059d59f30588ccda7a17af0fa2757e86c",
+        "E_rank": 52,
+        "F_rank": 68,
+        "automatic_relation_score": 0.6190682803314852
+      },
+      {
+        "mode": "hyp_7:d6b670251e2d2fd5b4c018238dd94e1c909d22867c003b7fefc2d6f0a56eb5a8",
+        "E_rank": 51,
+        "F_rank": 67,
+        "automatic_relation_score": 0.6190682803314852
+      },
+      {
+        "mode": "hyp_7:da4511a19b8e8d8615f0fc97a8aa39fd497a1a7a439410e8e738abf29af2802e",
+        "E_rank": 50,
+        "F_rank": 66,
+        "automatic_relation_score": 0.6190682803314852
+      },
+      {
+        "mode": "hyp_8:3d1be940a5fdbd1282e4a1154d24a9dd7906a860133a6770df09c24c3444456e",
+        "E_rank": 62,
+        "F_rank": 62,
+        "automatic_relation_score": 0.6203836923848612
+      },
+      {
+        "mode": "hyp_8:4202cadc68682c70848dbf603b99fc684d4b34a6b3d750da5f75391820be46cc",
+        "E_rank": 57,
+        "F_rank": 57,
+        "automatic_relation_score": 0.6203836923848612
+      },
+      {
+        "mode": "hyp_8:826e0269ac881f24a568eaea75ebda33f97480fd6ad44e73bdb70ddf12f062d1",
+        "E_rank": 64,
+        "F_rank": 64,
+        "automatic_relation_score": 0.6203836923848612
+      },
+      {
+        "mode": "hyp_8:8592a810e9ecd8e094c5c3834a8b2e23a3e4f9594611d6d7604cc9606fa1ec1e",
+        "E_rank": 63,
+        "F_rank": 63,
+        "automatic_relation_score": 0.6203836923848612
+      },
+      {
+        "mode": "hyp_8:a081485f43742eb147c312fa9516b7f9c8b2b3d689a905f89f760c6630407312",
+        "E_rank": 60,
+        "F_rank": 60,
+        "automatic_relation_score": 0.6203836923848612
+      },
+      {
+        "mode": "hyp_8:ab786ac3a07fbc621305f42feff0911ed99166c62ff439586bd2057c0c8de39b",
+        "E_rank": 61,
+        "F_rank": 61,
+        "automatic_relation_score": 0.6203836923848612
+      },
+      {
+        "mode": "hyp_8:b19e4e6815e08401a3a71a3e2bbc08f8e7ed3ec524b257cd0a5327a93157563f",
+        "E_rank": 59,
+        "F_rank": 59,
+        "automatic_relation_score": 0.6203836923848612
+      },
+      {
+        "mode": "hyp_8:cb8e2ed5d0eb1bf2bb19bd9321811edd694070669ff4863e09b4d2414e99843a",
+        "E_rank": 58,
+        "F_rank": 58,
+        "automatic_relation_score": 0.6203836923848612
+      },
+      {
+        "mode": "hyp_9:066f98f4e44541ec963526e868d85ad02e641166af2688fdd7a70a9072d96bf0",
+        "E_rank": 65,
+        "F_rank": 49,
+        "automatic_relation_score": 0.6222273882114109
+      },
+      {
+        "mode": "hyp_9:248be0fd7a21b2576c44458695c89f2a33f2685c42e406d669daa0cb5f775d17",
+        "E_rank": 69,
+        "F_rank": 53,
+        "automatic_relation_score": 0.6222273882114109
+      },
+      {
+        "mode": "hyp_9:4cea855099acc459ebdf0afcf7f7e0aeb6892340e298bbf23695f75c34143cc2",
+        "E_rank": 66,
+        "F_rank": 50,
+        "automatic_relation_score": 0.6222273882114109
+      },
+      {
+        "mode": "hyp_9:50e820c85b321bf07cc06b3ffd026cf00d8f33399a29dcbea93ebb3f823c5308",
+        "E_rank": 70,
+        "F_rank": 54,
+        "automatic_relation_score": 0.6222273882114109
+      },
+      {
+        "mode": "hyp_9:716cf9a5015ea51b29f3a8bf281e2bab79086ada90a1481e0ed63eb53d1d1f29",
+        "E_rank": 67,
+        "F_rank": 51,
+        "automatic_relation_score": 0.6222273882114109
+      },
+      {
+        "mode": "hyp_9:b08f892cffa40e496a42b5ce6685a5e0ec4e50d5f2fbdac17e585ae06dae5ff9",
+        "E_rank": 68,
+        "F_rank": 52,
+        "automatic_relation_score": 0.6222273882114109
+      },
+      {
+        "mode": "hyp_9:bee941563d8fd110775df1d4c7a67fc7971814c7a5241ba4dc44ae6637c5b6f3",
+        "E_rank": 71,
+        "F_rank": 55,
+        "automatic_relation_score": 0.6222273882114109
+      },
+      {
+        "mode": "hyp_9:eecfb1888ef2517e342d0dd902041ab0d11b93d91fdcb9d99aaee824999054bf",
+        "E_rank": 72,
+        "F_rank": 56,
+        "automatic_relation_score": 0.6222273882114109
+      }
+    ],
+    "common_modes": 89,
+    "changed_common_ranks": 68,
+    "new_modes": 7,
+    "dropped_modes": 7
+  },
+  {
+    "case": "photo_04",
+    "regions": [
+      {
+        "mode": "hyp_10:402ac9c4e1e3ca90713e066f198da24bd22460fbe2d1a7c64337a2dc2f8addae",
+        "E_rank": 4,
+        "F_rank": 4,
+        "automatic_relation_score": 0.7599023923161167
+      },
+      {
+        "mode": "hyp_10:4839de593ea67532a71ccb8d2056820e315386a3797b16a23a0e7c8ddd692bcb",
+        "E_rank": 87,
+        "F_rank": 87,
+        "automatic_relation_score": 0.6574471185197224
+      },
+      {
+        "mode": "hyp_10:4918d8387f78c0e59536684e9666556db06cea2999ea9c05f5fe792ecba0be66",
+        "E_rank": 92,
+        "F_rank": 92,
+        "automatic_relation_score": 0.6622572144084805
+      },
+      {
+        "mode": "hyp_10:801a73ee4c649dc4ca6ab1b70278ebc0937e1296d087ca9b571f6ea17d0fa673",
+        "E_rank": 13,
+        "F_rank": 13,
+        "automatic_relation_score": 0.6295010005247983
+      },
+      {
+        "mode": "hyp_10:88b4e2a9c172e48b4b5f590003584a1dbd81f0bfdcaad914ba4c35eb485a04a9",
+        "E_rank": 89,
+        "F_rank": 89,
+        "automatic_relation_score": 0.6232995515070997
+      },
+      {
+        "mode": "hyp_10:8dc30fe00520f98cc42f33977e42fcabbeb753ad96cca93f2473777b38624aee",
+        "E_rank": 78,
+        "F_rank": 78,
+        "automatic_relation_score": 0.6825269313885786
+      },
+      {
+        "mode": "hyp_10:9c8a729dd80d07ce3d2239ea1a079646d401bae676de6ebf4ff6b70016dcf3a3",
+        "E_rank": 83,
+        "F_rank": 83,
+        "automatic_relation_score": 0.6825269313885786
+      },
+      {
+        "mode": "hyp_10:ec4691a0b46cf6f3339c3795489bc2f2778d21d13309e72fb11fd05f51092735",
+        "E_rank": 21,
+        "F_rank": 21,
+        "automatic_relation_score": 0.7432273932350881
+      },
+      {
+        "mode": "hyp_11:1c1d693fd4fd9b050a30c9931074303599384114ca93f6f6e27b3971f4991db4",
+        "E_rank": 46,
+        "F_rank": 46,
+        "automatic_relation_score": 0.6860575580899927
+      },
+      {
+        "mode": "hyp_11:5518d26238ac28c11ca1536b3034fbbf2e596e17ed28d5592f0cab61281c47d3",
+        "E_rank": 20,
+        "F_rank": 20,
+        "automatic_relation_score": 0.7412467741405085
+      },
+      {
+        "mode": "hyp_11:7ba847d0211963b58dff261153118072a3cac32eb954096abb1e611d94fe87f5",
+        "E_rank": 93,
+        "F_rank": 93,
+        "automatic_relation_score": 0.6735808476945749
+      },
+      {
+        "mode": "hyp_11:8f10c1b910cf4f8030425da95f17a12ac762741d30d851b60929b62e2903e8ee",
+        "E_rank": 7,
+        "F_rank": 7,
+        "automatic_relation_score": 0.7260876840668462
+      },
+      {
+        "mode": "hyp_11:9cf8e874649889865dd1a598fb92545ed750c7071e6363d48ec49c5899a743ea",
+        "E_rank": 57,
+        "F_rank": 57,
+        "automatic_relation_score": 0.7519151262524996
+      },
+      {
+        "mode": "hyp_11:a8269bda43fbd7cfd9029eeafaf43d6e9c30058c7a33ac3840ce05bbfc4b856d",
+        "E_rank": 5,
+        "F_rank": 5,
+        "automatic_relation_score": 0.7685901253335282
+      },
+      {
+        "mode": "hyp_11:cee2792b296fbb88e88a9dc4fbc9d79443240703c59130dcef6714c4ca47d9c4",
+        "E_rank": 90,
+        "F_rank": 90,
+        "automatic_relation_score": 0.7315586338678672
+      },
+      {
+        "mode": "hyp_11:fd99ce519a6889e3b0d639d2362382c7bd4282bf12bddd3a7728d1017d2df063",
+        "E_rank": 47,
+        "F_rank": 47,
+        "automatic_relation_score": 0.6602382046742065
+      },
+      {
+        "mode": "hyp_12:0d5ddd4fccb7a4e34ede378e29176e72820b268760f53d3836392cd73d83f6ac",
+        "E_rank": 30,
+        "F_rank": 30,
+        "automatic_relation_score": 0.6804542896269467
+      },
+      {
+        "mode": "hyp_12:2e11ce3e292a9cd21823ca9169a684fd9e9fad033763c440e7b61802b1b7a36e",
+        "E_rank": 42,
+        "F_rank": 42,
+        "automatic_relation_score": 0.4722469241466831
+      },
+      {
+        "mode": "hyp_12:2fad43ecf559ac7e030a911046b6efd3e40442c6909ea1a73e1e279d3a8a9ab9",
+        "E_rank": 24,
+        "F_rank": 24,
+        "automatic_relation_score": 0.6913280215451698
+      },
+      {
+        "mode": "hyp_12:55909562e44c32f29859968de8b2d3d8bc1005334f8ac22f97b08eab330afa4f",
+        "E_rank": 39,
+        "F_rank": 39,
+        "automatic_relation_score": 0.5036222513649343
+      },
+      {
+        "mode": "hyp_12:620a177ad94d5074cde062ff0f1ad828da781ad73bb6005506016ce88dbc4e1a",
+        "E_rank": 40,
+        "F_rank": 40,
+        "automatic_relation_score": 0.6550854876062364
+      },
+      {
+        "mode": "hyp_12:82ed5fef37e3e63cf49a7d4dd36603d400093566212564bd88f3fb8af4e342ac",
+        "E_rank": 45,
+        "F_rank": 45,
+        "automatic_relation_score": 0.6264755907057914
+      },
+      {
+        "mode": "hyp_12:aa4f891726e89bc9f5fa143cb9f5b3a1da40ac7fcf23333b51c16af12d9b47f2",
+        "E_rank": 35,
+        "F_rank": 35,
+        "automatic_relation_score": 0.6550854876062364
+      },
+      {
+        "mode": "hyp_12:d9265476101f640fae90af278e220caa6be7cb4e305bec417641a176ef425baf",
+        "E_rank": 6,
+        "F_rank": 6,
+        "automatic_relation_score": 0.7394354586763735
+      },
+      {
+        "mode": "hyp_1:087644342c4242d261a389c4184d784b4f94e3cd7b1102cf8165319865a74b72",
+        "E_rank": 32,
+        "F_rank": 32,
+        "automatic_relation_score": 0.8218594328890116
+      },
+      {
+        "mode": "hyp_1:6be2fbdf1a2afd0932c43dbad2b07b91f9bb94f8e477d641fdb35adc53ed425e",
+        "E_rank": 28,
+        "F_rank": 28,
+        "automatic_relation_score": 0.7920854982687676
+      },
+      {
+        "mode": "hyp_1:c641e11fc0265d8ab436ab70ce84433794036b0fa6cf463dd488f4d22c258a13",
+        "E_rank": 26,
+        "F_rank": 26,
+        "automatic_relation_score": 0.7532733054109744
+      },
+      {
+        "mode": "hyp_1:ccdbb738f4064d34e4ad3bac5d19a171cdd48378a6e2481f53e45f4146ad8787",
+        "E_rank": 23,
+        "F_rank": 23,
+        "automatic_relation_score": 0.6838830897347561
+      },
+      {
+        "mode": "hyp_1:ce935ec98ac83379f336516f17448e1e57fd492ddf1a1801195691be1d5f2679",
+        "E_rank": 33,
+        "F_rank": 33,
+        "automatic_relation_score": 0.6838830897347561
+      },
+      {
+        "mode": "hyp_1:cf267aabe3ae521115cac9d968c3f4acff0c93a603029d0b255c167557a51d45",
+        "E_rank": 31,
+        "F_rank": 31,
+        "automatic_relation_score": 0.761906600359299
+      },
+      {
+        "mode": "hyp_1:d26326fa90b03005b1019b84715d9d29782cb519b9c83ce90c43b7eaa3ea44ab",
+        "E_rank": 19,
+        "F_rank": 19,
+        "automatic_relation_score": 0.7785815994403277
+      },
+      {
+        "mode": "hyp_1:d7e8a12e19ce115c9fe612cc35b80ba26dce95eff095e299ffc9eaf952f969cf",
+        "E_rank": 1,
+        "F_rank": 1,
+        "automatic_relation_score": 0.8021455033018178
+      },
+      {
+        "mode": "hyp_2:0aedf424db108a4ffcace38aa59a1efb36b1c3b1b0835ac1a38796fbe81b0ad8",
+        "E_rank": 61,
+        "F_rank": 61,
+        "automatic_relation_score": 0.6628848615044354
+      },
+      {
+        "mode": "hyp_2:60d99f733dbacf84c3e782a0efd35703b1d2cff682597d6547ec0d63b9e4be83",
+        "E_rank": 62,
+        "F_rank": 62,
+        "automatic_relation_score": 0.6581205760527129
+      },
+      {
+        "mode": "hyp_2:90e17559c7c5c6ad7a4123e0b92b8ee20e5a5719c64648d72ce222a9210a7e26",
+        "E_rank": 59,
+        "F_rank": 59,
+        "automatic_relation_score": 0.6509060295014726
+      },
+      {
+        "mode": "hyp_2:9bdaee9210efbf334a2e7ca98093b31c9b509e3d9afda8dad95bad472d6e40e2",
+        "E_rank": 69,
+        "F_rank": 69,
+        "automatic_relation_score": 0.679581594047935
+      },
+      {
+        "mode": "hyp_2:b464fecb9cf27df1712a60add08f0380b62110286b7d49ca34644efe09c2815c",
+        "E_rank": 58,
+        "F_rank": 58,
+        "automatic_relation_score": 0.6639504764927324
+      },
+      {
+        "mode": "hyp_2:c14288be01e17411914c12eed632751831a51dc9721503164cedfc3b4bd9fd1f",
+        "E_rank": 8,
+        "F_rank": 8,
+        "automatic_relation_score": 0.7497307512080983
+      },
+      {
+        "mode": "hyp_2:e59102bac7e4462aeffb44acb3344a85a2f810d81956faef08019637cc9e782b",
+        "E_rank": 49,
+        "F_rank": 49,
+        "automatic_relation_score": 0.7286675944741674
+      },
+      {
+        "mode": "hyp_2:ff1ddf7b6dc377e522571cc6276f51dfeace91085e8865b191b814904fe8e384",
+        "E_rank": 22,
+        "F_rank": 22,
+        "automatic_relation_score": 0.7144858667868331
+      },
+      {
+        "mode": "hyp_3:0f781f43b3899eb429dffd4512305584e8799c200249535e39d8c75b08f61045",
+        "E_rank": 9,
+        "F_rank": 9,
+        "automatic_relation_score": 0.7432273932350881
+      },
+      {
+        "mode": "hyp_3:1ab00d6cb223e1fa6185045b9d13519754d5bf2feb60eeac4493c0cce414f213",
+        "E_rank": 29,
+        "F_rank": 29,
+        "automatic_relation_score": 0.7307211439243166
+      },
+      {
+        "mode": "hyp_3:5da962569ec76bfd4071e0e56176700e3aad747dcef9f30edab67dcafed4e1a0",
+        "E_rank": 14,
+        "F_rank": 14,
+        "automatic_relation_score": 0.7307211439243166
+      },
+      {
+        "mode": "hyp_3:69676cc45d702dbf69f8c5a4f2389383fc4e8c6da64ebf93340b31d56a36f8e9",
+        "E_rank": 44,
+        "F_rank": 44,
+        "automatic_relation_score": 0.6825269313885786
+      },
+      {
+        "mode": "hyp_3:816cb3fe72a43f92c858652f92ab786fa0175c836606be9c7e5445bcb84464d3",
+        "E_rank": 67,
+        "F_rank": 67,
+        "automatic_relation_score": 0.6622572144084805
+      },
+      {
+        "mode": "hyp_3:8f967f398903bc3f63282b377e095bb95d5b68f90b52d3efa10a484f1cb98aa8",
+        "E_rank": 66,
+        "F_rank": 66,
+        "automatic_relation_score": 0.6574471185197224
+      },
+      {
+        "mode": "hyp_3:b13f29c46bbc9152b27999e91ec4584163b060cafb340c933047a8289b5a329b",
+        "E_rank": 55,
+        "F_rank": 55,
+        "automatic_relation_score": 0.7079825088138231
+      },
+      {
+        "mode": "hyp_3:d2b843c0464c286fbd8e23e0774a993d93f1b8124493e89012ed6f17de14744e",
+        "E_rank": 50,
+        "F_rank": 50,
+        "automatic_relation_score": 0.6622572144084805
+      },
+      {
+        "mode": "hyp_4:19037a76c91dff42faf53321bd59dad1d688fdd5c57d2ced05709e165312a480",
+        "E_rank": 2,
+        "F_rank": 2,
+        "automatic_relation_score": 0.7491195724380374
+      },
+      {
+        "mode": "hyp_4:1c000747740ff1ea7b52585853924d76c16a40fccb05a2227f7c9d425850f129",
+        "E_rank": 52,
+        "F_rank": 52,
+        "automatic_relation_score": 0.7002473745471941
+      },
+      {
+        "mode": "hyp_4:5d541c2ca5f8ec05a9aea9ed840337b9f82ccffd2fffc5be85ccee735656e1cf",
+        "E_rank": 54,
+        "F_rank": 54,
+        "automatic_relation_score": 0.6838830897347561
+      },
+      {
+        "mode": "hyp_4:652caed526b08151438e6176ae4a0bc8d5c7f09c29a5c184927d3477eb545093",
+        "E_rank": 3,
+        "F_rank": 3,
+        "automatic_relation_score": 0.6947233903709157
+      },
+      {
+        "mode": "hyp_4:89cb6a18c349bf8f5329786808242fa04d2336b6817241bb648f85fa6a8f9861",
+        "E_rank": 70,
+        "F_rank": 70,
+        "automatic_relation_score": 0.7491195724380374
+      },
+      {
+        "mode": "hyp_4:b421c7ef42587bea4180be2f19517cc19ba3e9a55ee4d8f1e106425da6aef099",
+        "E_rank": 18,
+        "F_rank": 18,
+        "automatic_relation_score": 0.7455604817250907
+      },
+      {
+        "mode": "hyp_4:f296d13e5d3acd524f8bc03c12467ff8013c0d3cf7e05d3ae8eeb4a3a327415b",
+        "E_rank": 68,
+        "F_rank": 68,
+        "automatic_relation_score": 0.6838830897347561
+      },
+      {
+        "mode": "hyp_4:fe8a0c6b61e04a400688e9bf962a540d59fadc013864c5955c298a60854841a8",
+        "E_rank": 72,
+        "F_rank": 72,
+        "automatic_relation_score": 0.6645444924614472
+      },
+      {
+        "mode": "hyp_5:17afd3d15fce2525f894872a111792cd7588e507e2f3056519db27f3791c6e1a",
+        "E_rank": 51,
+        "F_rank": 51,
+        "automatic_relation_score": 0.7997816516907807
+      },
+      {
+        "mode": "hyp_5:3193281c43d39f9854f6376ec76cf6c85bea38dcd2d80da75b138aaf66e60667",
+        "E_rank": 63,
+        "F_rank": 63,
+        "automatic_relation_score": 0.7818044525789883
+      },
+      {
+        "mode": "hyp_5:444a36f836b58c2033fc239856fd5d8774210f42bfc92b48c8ef8c0ba60e8636",
+        "E_rank": 48,
+        "F_rank": 48,
+        "automatic_relation_score": 0.7872754023800093
+      },
+      {
+        "mode": "hyp_5:6efb2d56ec1057c23bc89440c376979a2eb2934824d869462a9365d6ef012f4f",
+        "E_rank": 64,
+        "F_rank": 64,
+        "automatic_relation_score": 0.7590658174684948
+      },
+      {
+        "mode": "hyp_5:820a8fb482b44ad3ff224f002691b0f9c6446c21908d475472634b5a99fcfba5",
+        "E_rank": 60,
+        "F_rank": 60,
+        "automatic_relation_score": 0.7739542095051274
+      },
+      {
+        "mode": "hyp_5:a598b9fa320c6a252609d619fd08e8737e7821b65815ae84e15c110acd35d457",
+        "E_rank": 53,
+        "F_rank": 53,
+        "automatic_relation_score": 0.6379668140242437
+      },
+      {
+        "mode": "hyp_5:a6320ddaf66bc5ed8834ab251ac9258e7c12c97d057d6e441435489f9b709211",
+        "E_rank": 65,
+        "F_rank": 65,
+        "automatic_relation_score": 0.7590658174684948
+      },
+      {
+        "mode": "hyp_5:c914838b22884482b15315ecb47098f4b5ecfdcab11672af5303501fc44646c4",
+        "E_rank": 10,
+        "F_rank": 10,
+        "automatic_relation_score": 0.672818376511363
+      },
+      {
+        "mode": "hyp_6:2b477b37c905aff5a087a4584f706423931d575756d45f2d85038a85b1c81698",
+        "E_rank": 84,
+        "F_rank": 84,
+        "automatic_relation_score": 0.5660749268692274
+      },
+      {
+        "mode": "hyp_6:6e69ee9d7501a75e45ca04eee40d275911fe22d73e8a3292db7b7521131eb1c7",
+        "E_rank": 85,
+        "F_rank": 85,
+        "automatic_relation_score": 0.5889831890038864
+      },
+      {
+        "mode": "hyp_6:7d6bbe79044d0ea2ee964d024a2edd31694e621b07a1a8d3bd43198fa09ae480",
+        "E_rank": 81,
+        "F_rank": 81,
+        "automatic_relation_score": 0.5979307494863895
+      },
+      {
+        "mode": "hyp_6:ae100be2fd7667ea885091ab12637d39c5dbf4238484798be70031ee1572eea7",
+        "E_rank": 91,
+        "F_rank": 91,
+        "automatic_relation_score": 0.5889831890038864
+      },
+      {
+        "mode": "hyp_6:cbacb73f9eac99283cf265358cfff9375c5849f9e98f950bc1253d9a8b87ab74",
+        "E_rank": 88,
+        "F_rank": 88,
+        "automatic_relation_score": 0.5979307494863895
+      },
+      {
+        "mode": "hyp_6:ec52b31f0d8b2afd24af54b2cb8468789d70b4973c24e6d8e7fcf18fd9699e12",
+        "E_rank": 80,
+        "F_rank": 80,
+        "automatic_relation_score": 0.5920138143286052
+      },
+      {
+        "mode": "hyp_6:fbd881b872864497bfabf206d9e8293733812ffac19bfdf7b1c08ab082fbb35d",
+        "E_rank": 79,
+        "F_rank": 79,
+        "automatic_relation_score": 0.5979307494863895
+      },
+      {
+        "mode": "hyp_6:fd71d74f294509683ac5b777868e5d0f3d73a9d24d7d0fcceb23d3acaa014adc",
+        "E_rank": 82,
+        "F_rank": 82,
+        "automatic_relation_score": 0.5660749268692274
+      },
+      {
+        "mode": "hyp_7:36365b3d4d1b88e695f098bd1db36527edb1455d9a4045a49a720c372d0e2346",
+        "E_rank": 11,
+        "F_rank": 11,
+        "automatic_relation_score": 0.7384555915299647
+      },
+      {
+        "mode": "hyp_7:4b5725d653bf3a12f6a4e4194bc27f4cdcc259274897d3c1ca55936b511267c9",
+        "E_rank": 25,
+        "F_rank": 25,
+        "automatic_relation_score": 0.7617286118301053
+      },
+      {
+        "mode": "hyp_7:7a330343374079cce943a83592a6945a21cc337acc11cd21ecba6b4f263577a5",
+        "E_rank": 56,
+        "F_rank": 56,
+        "automatic_relation_score": 0.636557462775341
+      },
+      {
+        "mode": "hyp_7:88117e5700343624a6582ae4df57b20b239c9564f05d6e6575db8c006c219484",
+        "E_rank": 71,
+        "F_rank": 71,
+        "automatic_relation_score": 0.6895833936391212
+      },
+      {
+        "mode": "hyp_7:9a757727fb44621a591e031b2281c3d96f2331c4ea4f5cc083ecea5ab0fb5942",
+        "E_rank": 77,
+        "F_rank": 77,
+        "automatic_relation_score": 0.6580851161238015
+      },
+      {
+        "mode": "hyp_7:d11faba5ec6b9107b8ab3f3d48b883e15fe60a335133bd01d07cc8ba1bbd2cdc",
+        "E_rank": 75,
+        "F_rank": 75,
+        "automatic_relation_score": 0.6970114938486702
+      },
+      {
+        "mode": "hyp_7:ef75b6afe1bc7575ef4c3e8a2116891958af97f89fbebee2808eeb650f5f6aea",
+        "E_rank": 86,
+        "F_rank": 86,
+        "automatic_relation_score": 0.7617286118301053
+      },
+      {
+        "mode": "hyp_7:efff07f0ba9942eb893da84d590bb540faf2d1a760fae92280d01d988e4d6c33",
+        "E_rank": 96,
+        "F_rank": 96,
+        "automatic_relation_score": 0.7152372383791652
+      },
+      {
+        "mode": "hyp_8:00a64804d08b600ac5eeeba419e9b2670ce4811fd891be3190a717b860496c1a",
+        "E_rank": 36,
+        "F_rank": 36,
+        "automatic_relation_score": 0.6429220807811359
+      },
+      {
+        "mode": "hyp_8:210e87f3c338e8c7164fe3e3c529765148b95e54db5e8908b082c4752b172613",
+        "E_rank": 95,
+        "F_rank": 95,
+        "automatic_relation_score": 0.6955423267430999
+      },
+      {
+        "mode": "hyp_8:4b5725d653bf3a12f6a4e4194bc27f4cdcc259274897d3c1ca55936b511267c9",
+        "E_rank": 27,
+        "F_rank": 27,
+        "automatic_relation_score": 0.7529157853328697
+      },
+      {
+        "mode": "hyp_8:88117e5700343624a6582ae4df57b20b239c9564f05d6e6575db8c006c219484",
+        "E_rank": 73,
+        "F_rank": 73,
+        "automatic_relation_score": 0.7075480110056318
+      },
+      {
+        "mode": "hyp_8:9a757727fb44621a591e031b2281c3d96f2331c4ea4f5cc083ecea5ab0fb5942",
+        "E_rank": 74,
+        "F_rank": 74,
+        "automatic_relation_score": 0.6865947662605967
+      },
+      {
+        "mode": "hyp_8:d11faba5ec6b9107b8ab3f3d48b883e15fe60a335133bd01d07cc8ba1bbd2cdc",
+        "E_rank": 76,
+        "F_rank": 76,
+        "automatic_relation_score": 0.7051646516008332
+      },
+      {
+        "mode": "hyp_8:d5772ce34b6713e0b94279d5c2aa45988e07fbce722af182848fc4930e1063dc",
+        "E_rank": 12,
+        "F_rank": 12,
+        "automatic_relation_score": 0.7332018557456759
+      },
+      {
+        "mode": "hyp_8:ef75b6afe1bc7575ef4c3e8a2116891958af97f89fbebee2808eeb650f5f6aea",
+        "E_rank": 94,
+        "F_rank": 94,
+        "automatic_relation_score": 0.7529157853328697
+      },
+      {
+        "mode": "hyp_9:03d7a02cea08477ea436a0b50016e712ca924893caa7ecade00339f2f4b7a9b6",
+        "E_rank": 43,
+        "F_rank": 43,
+        "automatic_relation_score": 0.6143941746500058
+      },
+      {
+        "mode": "hyp_9:5b2047ab3e6a16d17616d6509eb35bc615a08102a492f69c161c1325781a19b1",
+        "E_rank": 34,
+        "F_rank": 34,
+        "automatic_relation_score": 0.6369861088888187
+      },
+      {
+        "mode": "hyp_9:83847f2406a1589ce4f0ebce22f76708858029e292c7b539ce9d9c5a00d9f714",
+        "E_rank": 15,
+        "F_rank": 15,
+        "automatic_relation_score": 0.6722827043627969
+      },
+      {
+        "mode": "hyp_9:95552af18923e2f302c29f9f418d08e383fe8f87919ff7c6081528601c675e75",
+        "E_rank": 17,
+        "F_rank": 17,
+        "automatic_relation_score": 0.7178240761356443
+      },
+      {
+        "mode": "hyp_9:a668f7853a775b370e9c8b9ad29ef56b2cce5de2e4445109916750bfa587a5d9",
+        "E_rank": 16,
+        "F_rank": 16,
+        "automatic_relation_score": 0.6891300842104975
+      },
+      {
+        "mode": "hyp_9:c5e9846d7bf1e66bc065ae100a8ac8901291b6b17dbe4fba1bb4a529a3f04e98",
+        "E_rank": 41,
+        "F_rank": 41,
+        "automatic_relation_score": 0.5238464098734558
+      },
+      {
+        "mode": "hyp_9:f50df263e8e6b8d9d3312f23e4d537d603c0515f0f43dbe15bf3800bde186da3",
+        "E_rank": 38,
+        "F_rank": 38,
+        "automatic_relation_score": 0.6369861088888187
+      },
+      {
+        "mode": "hyp_9:fcccb267dd430dc4f7e21ec1e2f33fcb092dc1539475eab6ae0c9afb8184aae8",
+        "E_rank": 37,
+        "F_rank": 37,
+        "automatic_relation_score": 0.6597947461668499
+      }
+    ],
+    "common_modes": 96,
+    "changed_common_ranks": 0,
+    "new_modes": 0,
+    "dropped_modes": 0
+  },
+  {
+    "case": "photo_05",
+    "regions": [
+      {
+        "mode": "hyp_10:3c7eab4c2032ada0eb84399d8768c8b3c837e9278df06ad7720ec75782cf3370",
+        "E_rank": 87,
+        "F_rank": 87,
+        "automatic_relation_score": 0.6657022211016747
+      },
+      {
+        "mode": "hyp_10:575eedf09d9eb58cc3ed2b5b3002da2d3e9ae53055cf83208e4323870257064f",
+        "E_rank": 94,
+        "F_rank": 94,
+        "automatic_relation_score": 0.6584461150653181
+      },
+      {
+        "mode": "hyp_10:71906ddb0db99c764811ccccc9ff87bae9222c720c947010fdd4591a6a97c888",
+        "E_rank": 92,
+        "F_rank": 92,
+        "automatic_relation_score": 0.6584461150653181
+      },
+      {
+        "mode": "hyp_10:95bf49794dfac2132a740798af732d636b01c827d1291d53c003507d3d238c56",
+        "E_rank": 80,
+        "F_rank": 80,
+        "automatic_relation_score": 0.6657022211016747
+      },
+      {
+        "mode": "hyp_10:bab3f0b58049f2ef9539434673913ccfa3b2579345d74b75cec766eae3ca9804",
+        "E_rank": 84,
+        "F_rank": 84,
+        "automatic_relation_score": 0.6584461150653181
+      },
+      {
+        "mode": "hyp_10:c7a3bed7e28445ce494cdf56daeecb602ca466cd38cbe6fcf22e238cb3dfb8b2",
+        "E_rank": 96,
+        "F_rank": 96,
+        "automatic_relation_score": 0.6511900090289615
+      },
+      {
+        "mode": "hyp_10:f24036e3e0a01ae752b30b584c935d72380b6fc8111127a84c016d5caf0ca2eb",
+        "E_rank": 95,
+        "F_rank": 95,
+        "automatic_relation_score": 0.6584461150653181
+      },
+      {
+        "mode": "hyp_10:fae6a9ac44e0a6ad85de9d76ff598551c5b78e6f5128ab2df8d091d9e7d71f17",
+        "E_rank": 63,
+        "F_rank": 63,
+        "automatic_relation_score": 0.6573573932972329
+      },
+      {
+        "mode": "hyp_11:0d0497d10a411791dfc52cc9b1175c0cb416dac0b2c233a943e279fce2bb5732",
+        "E_rank": 78,
+        "F_rank": 78,
+        "automatic_relation_score": 0.6485664740704333
+      },
+      {
+        "mode": "hyp_11:21adda935a1e33d016f09f983ff3fbe264a4f688fbbeee2412e5e1f8a5f4c33c",
+        "E_rank": 89,
+        "F_rank": 89,
+        "automatic_relation_score": 0.6570597322854025
+      },
+      {
+        "mode": "hyp_11:2f7f7b6b1cbe33ec39dd257eae2a5838829f56f8435469d2abfef990a4336598",
+        "E_rank": 73,
+        "F_rank": 73,
+        "automatic_relation_score": 0.6485664740704333
+      },
+      {
+        "mode": "hyp_11:331b5223a32318684ffb1a6ad29fc445fba3b6f45e7fff099c0cb3c09402b57a",
+        "E_rank": 75,
+        "F_rank": 75,
+        "automatic_relation_score": 0.6600224967789964
+      },
+      {
+        "mode": "hyp_11:39851061b381c461091fc74bb51e8bbf81b940bad1e65c1902db503bc68dcbcf",
+        "E_rank": 74,
+        "F_rank": 74,
+        "automatic_relation_score": 0.6485664740704333
+      },
+      {
+        "mode": "hyp_11:4326a67d95e42b2c43343f3ff1e6078bb3ab6b42700115aa2e4f619c243abeb6",
+        "E_rank": 82,
+        "F_rank": 82,
+        "automatic_relation_score": 0.6485664740704333
+      },
+      {
+        "mode": "hyp_11:af897b5a1783f03e3ef2cb0d8f30b6d647ec9308d593f56771d5f72bc17eed5e",
+        "E_rank": 81,
+        "F_rank": 81,
+        "automatic_relation_score": 0.6485664740704333
+      },
+      {
+        "mode": "hyp_11:d4e0482d85a9a28973dc7029ca9453a26add7c29c11d4c8f7abd74b6acdcd722",
+        "E_rank": 88,
+        "F_rank": 88,
+        "automatic_relation_score": 0.6570597322854025
+      },
+      {
+        "mode": "hyp_12:05de5a2382c7eaed5ea35592704ed210032b239acc45e00494502f6b648171be",
+        "E_rank": 65,
+        "F_rank": 65,
+        "automatic_relation_score": 0.6167545589859004
+      },
+      {
+        "mode": "hyp_12:0e7016ac0fb0672cab5e1dedba5a3197870cbce6104a1e742b9cdaaf2758833b",
+        "E_rank": 70,
+        "F_rank": 70,
+        "automatic_relation_score": 0.6068985518809614
+      },
+      {
+        "mode": "hyp_12:22818f91304fa71b9ff8595f732581bc9c78083dd29f6f6284864fb0fdd7a02f",
+        "E_rank": 71,
+        "F_rank": 71,
+        "automatic_relation_score": 0.6240106650222569
+      },
+      {
+        "mode": "hyp_12:23fb40fffef144eaf69a7877f95a59f4ef9a730746b3270c325ba6a0d3355ccb",
+        "E_rank": 45,
+        "F_rank": 45,
+        "automatic_relation_score": 0.6240106650222569
+      },
+      {
+        "mode": "hyp_12:9626d86bd7362c405d50b6fbab57456253e886d1a6ef4efc4eea0e5a04a2ee8a",
+        "E_rank": 67,
+        "F_rank": 67,
+        "automatic_relation_score": 0.6167545589859004
+      },
+      {
+        "mode": "hyp_12:c7a3bed7e28445ce494cdf56daeecb602ca466cd38cbe6fcf22e238cb3dfb8b2",
+        "E_rank": 60,
+        "F_rank": 60,
+        "automatic_relation_score": 0.6167545589859004
+      },
+      {
+        "mode": "hyp_12:fc9ace0f6f308a99d16276e2589234160c1fa93adc895d1c48dbbc39bb173bd9",
+        "E_rank": 46,
+        "F_rank": 46,
+        "automatic_relation_score": 0.6406674286555235
+      },
+      {
+        "mode": "hyp_12:fe0fdcdeb617eb6e8daebe4b11ff28e433b7425ba36f900a9cd7207bd3b7d67c",
+        "E_rank": 34,
+        "F_rank": 34,
+        "automatic_relation_score": 0.6406674286555235
+      },
+      {
+        "mode": "hyp_1:18854fbf571306c4d5c3975621e9422bb8e7223256705aedcbdc2d02c056c85c",
+        "E_rank": 14,
+        "F_rank": 14,
+        "automatic_relation_score": 0.7338281295176539
+      },
+      {
+        "mode": "hyp_1:575eedf09d9eb58cc3ed2b5b3002da2d3e9ae53055cf83208e4323870257064f",
+        "E_rank": 27,
+        "F_rank": 27,
+        "automatic_relation_score": 0.7086781076694181
+      },
+      {
+        "mode": "hyp_1:71906ddb0db99c764811ccccc9ff87bae9222c720c947010fdd4591a6a97c888",
+        "E_rank": 26,
+        "F_rank": 26,
+        "automatic_relation_score": 0.7180787652663282
+      },
+      {
+        "mode": "hyp_1:95bf49794dfac2132a740798af732d636b01c827d1291d53c003507d3d238c56",
+        "E_rank": 13,
+        "F_rank": 13,
+        "automatic_relation_score": 0.7253348713026848
+      },
+      {
+        "mode": "hyp_1:bab3f0b58049f2ef9539434673913ccfa3b2579345d74b75cec766eae3ca9804",
+        "E_rank": 19,
+        "F_rank": 19,
+        "automatic_relation_score": 0.7086781076694181
+      },
+      {
+        "mode": "hyp_1:c7a3bed7e28445ce494cdf56daeecb602ca466cd38cbe6fcf22e238cb3dfb8b2",
+        "E_rank": 28,
+        "F_rank": 28,
+        "automatic_relation_score": 0.7014220016330616
+      },
+      {
+        "mode": "hyp_1:f24036e3e0a01ae752b30b584c935d72380b6fc8111127a84c016d5caf0ca2eb",
+        "E_rank": 25,
+        "F_rank": 25,
+        "automatic_relation_score": 0.7265720234812973
+      },
+      {
+        "mode": "hyp_1:fae6a9ac44e0a6ad85de9d76ff598551c5b78e6f5128ab2df8d091d9e7d71f17",
+        "E_rank": 9,
+        "F_rank": 9,
+        "automatic_relation_score": 0.7169900434982429
+      },
+      {
+        "mode": "hyp_2:3c7eab4c2032ada0eb84399d8768c8b3c837e9278df06ad7720ec75782cf3370",
+        "E_rank": 24,
+        "F_rank": 24,
+        "automatic_relation_score": 0.6800115890191887
+      },
+      {
+        "mode": "hyp_2:575eedf09d9eb58cc3ed2b5b3002da2d3e9ae53055cf83208e4323870257064f",
+        "E_rank": 21,
+        "F_rank": 21,
+        "automatic_relation_score": 0.7086781076694181
+      },
+      {
+        "mode": "hyp_2:71906ddb0db99c764811ccccc9ff87bae9222c720c947010fdd4591a6a97c888",
+        "E_rank": 29,
+        "F_rank": 29,
+        "automatic_relation_score": 0.6727554829828323
+      },
+      {
+        "mode": "hyp_2:95bf49794dfac2132a740798af732d636b01c827d1291d53c003507d3d238c56",
+        "E_rank": 17,
+        "F_rank": 17,
+        "automatic_relation_score": 0.6800115890191887
+      },
+      {
+        "mode": "hyp_2:bab3f0b58049f2ef9539434673913ccfa3b2579345d74b75cec766eae3ca9804",
+        "E_rank": 23,
+        "F_rank": 23,
+        "automatic_relation_score": 0.6727554829828323
+      },
+      {
+        "mode": "hyp_2:c7a3bed7e28445ce494cdf56daeecb602ca466cd38cbe6fcf22e238cb3dfb8b2",
+        "E_rank": 31,
+        "F_rank": 31,
+        "automatic_relation_score": 0.6758995698625703
+      },
+      {
+        "mode": "hyp_2:f24036e3e0a01ae752b30b584c935d72380b6fc8111127a84c016d5caf0ca2eb",
+        "E_rank": 30,
+        "F_rank": 30,
+        "automatic_relation_score": 0.6727554829828323
+      },
+      {
+        "mode": "hyp_2:fae6a9ac44e0a6ad85de9d76ff598551c5b78e6f5128ab2df8d091d9e7d71f17",
+        "E_rank": 10,
+        "F_rank": 10,
+        "automatic_relation_score": 0.6800115890191887
+      },
+      {
+        "mode": "hyp_3:095e5ded20007c640583ab54aad35a96bbb3ffbe842312d3c8f3ec8b9b1f229c",
+        "E_rank": 58,
+        "F_rank": 58,
+        "automatic_relation_score": 0.6374313998625745
+      },
+      {
+        "mode": "hyp_3:3275b25ac45d6f11d46ef6ff110e6cd271378d875497acaa0c965e9243eb5340",
+        "E_rank": 59,
+        "F_rank": 59,
+        "automatic_relation_score": 0.6301752938262178
+      },
+      {
+        "mode": "hyp_3:3b02d5ff050caf63795714b0a02a2647aab6940923cd7f469b35bd8ba568d293",
+        "E_rank": 43,
+        "F_rank": 43,
+        "automatic_relation_score": 0.6374313998625745
+      },
+      {
+        "mode": "hyp_3:4293fe58c28b7c28a9522a313ba463dd2244c673c49c2f2aa5a544e3ece507f8",
+        "E_rank": 15,
+        "F_rank": 15,
+        "automatic_relation_score": 0.6625814217108104
+      },
+      {
+        "mode": "hyp_3:6e3ab8f45ac7f04991f2ae446e645155471ef8fef8caaaef8a5000fd26179a74",
+        "E_rank": 48,
+        "F_rank": 48,
+        "automatic_relation_score": 0.6301752938262178
+      },
+      {
+        "mode": "hyp_3:93452281fc768c63c7bee6726325ce948327efd25cfb92c8d39cc13c8039bebd",
+        "E_rank": 22,
+        "F_rank": 22,
+        "automatic_relation_score": 0.6553253156744537
+      },
+      {
+        "mode": "hyp_3:961eef1639615466e1843ed339cb786ce83c532f7663df1bb6fb1ea5b948c12e",
+        "E_rank": 61,
+        "F_rank": 61,
+        "automatic_relation_score": 0.6301752938262178
+      },
+      {
+        "mode": "hyp_3:f017f987b7fa84a804b78ee1ec15567b51393b222918c679394c0e97dc4b9bce",
+        "E_rank": 20,
+        "F_rank": 20,
+        "automatic_relation_score": 0.6457433356913993
+      },
+      {
+        "mode": "hyp_4:0ebeb3a3c24589ecee731186d6f06b9035028b8ebfb77304b72081087f4eca3a",
+        "E_rank": 44,
+        "F_rank": 44,
+        "automatic_relation_score": 0.620319286721279
+      },
+      {
+        "mode": "hyp_4:4097205f98b42422685cb9ea60b3c57a89dc6f74e40ce9163d2e3144aa991c21",
+        "E_rank": 64,
+        "F_rank": 64,
+        "automatic_relation_score": 0.620319286721279
+      },
+      {
+        "mode": "hyp_4:6bb8047fe388b12151e92d63978db1e0065f3a3fd60735515758abc4ac5ce473",
+        "E_rank": 57,
+        "F_rank": 57,
+        "automatic_relation_score": 0.620319286721279
+      },
+      {
+        "mode": "hyp_4:ad75676e7c74c4694519610674a26290a6f709a875ac8880e03200bf50416941",
+        "E_rank": 35,
+        "F_rank": 35,
+        "automatic_relation_score": 0.6540881634958412
+      },
+      {
+        "mode": "hyp_4:c5c70c1a33fb53b62d38d88342be7ac980044e5157e6b12a0583c93714d8bd20",
+        "E_rank": 16,
+        "F_rank": 16,
+        "automatic_relation_score": 0.6382132025331584
+      },
+      {
+        "mode": "hyp_4:c8165878136b57cd8bd113257f24975b7d397a1b9710434f07933961725049e9",
+        "E_rank": 18,
+        "F_rank": 18,
+        "automatic_relation_score": 0.6553253156744537
+      },
+      {
+        "mode": "hyp_4:ca22fcce296bbb52dfbe9d724af5167f9050839036d5d0a30a24f4380f8da251",
+        "E_rank": 62,
+        "F_rank": 62,
+        "automatic_relation_score": 0.620319286721279
+      },
+      {
+        "mode": "hyp_4:e9ae18e212164bfec174d0158c8b798bab3806d25e8935100b6a24323f1cd759",
+        "E_rank": 32,
+        "F_rank": 32,
+        "automatic_relation_score": 0.620319286721279
+      },
+      {
+        "mode": "hyp_5:0ca547ab8a00503a8bb4014e4fc46cd41ad6c74802afdd0b2206fb23ef633246",
+        "E_rank": 53,
+        "F_rank": 53,
+        "automatic_relation_score": 0.6615847212350451
+      },
+      {
+        "mode": "hyp_5:274dc5176f1897c06152ded00c32718604a840846c071d1be245601a676ad78e",
+        "E_rank": 50,
+        "F_rank": 50,
+        "automatic_relation_score": 0.6615847212350451
+      },
+      {
+        "mode": "hyp_5:284ec4369311a1aec2c30df56c13493f8da0f8b59e51058af722e0c8724d2d3a",
+        "E_rank": 52,
+        "F_rank": 52,
+        "automatic_relation_score": 0.6615847212350451
+      },
+      {
+        "mode": "hyp_5:7266665920217b2b283e3ecabf251687a107d63579e160d78334588659023479",
+        "E_rank": 56,
+        "F_rank": 56,
+        "automatic_relation_score": 0.6501286985264821
+      },
+      {
+        "mode": "hyp_5:9317040419b62e0e62700f176e96d4079b7bfa4a52c2602739abb0de9d3184dc",
+        "E_rank": 51,
+        "F_rank": 51,
+        "automatic_relation_score": 0.6615847212350451
+      },
+      {
+        "mode": "hyp_5:a0ed2da8ba27a67ee5dee5d82731cd7cea3cd437563d2cebaec1ea5b88fdacbb",
+        "E_rank": 55,
+        "F_rank": 55,
+        "automatic_relation_score": 0.6501286985264821
+      },
+      {
+        "mode": "hyp_5:b6c1891eef8ebdf327eb2fe634207f40416ac4ab77bb638e2de21c8418fa6f00",
+        "E_rank": 47,
+        "F_rank": 47,
+        "automatic_relation_score": 0.6615847212350451
+      },
+      {
+        "mode": "hyp_5:eb9005efbf1da379862b35079c439595afdd77ee0a5dbc32f757ce5b49d06298",
+        "E_rank": 54,
+        "F_rank": 54,
+        "automatic_relation_score": 0.6501286985264821
+      },
+      {
+        "mode": "hyp_6:0ddd6619599bd72ca5258667f693ad82d13e8b7ecfb5aca887a3d7bae27989c1",
+        "E_rank": 6,
+        "F_rank": 6,
+        "automatic_relation_score": 0.7169900434982429
+      },
+      {
+        "mode": "hyp_6:6a5d9fe8eeb45242898202b6fd15487f5aeb720d1839f16d9ac7d554280f5f88",
+        "E_rank": 1,
+        "F_rank": 1,
+        "automatic_relation_score": 0.7357383107281958
+      },
+      {
+        "mode": "hyp_6:b0794c5b24dbf98fa2557cb4894e6b8a03c5fd8de4de6928af0ddef50cf96c9f",
+        "E_rank": 4,
+        "F_rank": 4,
+        "automatic_relation_score": 0.7159374602151912
+      },
+      {
+        "mode": "hyp_6:bc66b3ef1447b325f7cf9d909130f0c457a352d38806389cd6f8f75b52e2090c",
+        "E_rank": 2,
+        "F_rank": 2,
+        "automatic_relation_score": 0.7159374602151912
+      },
+      {
+        "mode": "hyp_6:da3438e77fbb6f2ed00787bbf72c4289e2e09d93a8938742f0cc88ad30ff6ba9",
+        "E_rank": 8,
+        "F_rank": 8,
+        "automatic_relation_score": 0.7357383107281958
+      },
+      {
+        "mode": "hyp_6:e21f2e8eea380c547fa830939a69dc9471d397bf58fe55a636bce53916f86e30",
+        "E_rank": 7,
+        "F_rank": 7,
+        "automatic_relation_score": 0.7295347879748912
+      },
+      {
+        "mode": "hyp_6:e900fab7440afe297699ff110d6f62d9c0cafa6b6f378d8c66fa7ba839b7ca0d",
+        "E_rank": 3,
+        "F_rank": 3,
+        "automatic_relation_score": 0.7367908940112476
+      },
+      {
+        "mode": "hyp_6:fcf782ad99d046580b87001fdb066707b85aa4e2d44b3172c831990cb14efcc4",
+        "E_rank": 5,
+        "F_rank": 5,
+        "automatic_relation_score": 0.7148848769321394
+      },
+      {
+        "mode": "hyp_7:3c7eab4c2032ada0eb84399d8768c8b3c837e9278df06ad7720ec75782cf3370",
+        "E_rank": 85,
+        "F_rank": 85,
+        "automatic_relation_score": 0.6715909227547749
+      },
+      {
+        "mode": "hyp_7:417f012257ab8244fb830e3ccf076ca65604f528bb74e33d69ef617fad3b4201",
+        "E_rank": 90,
+        "F_rank": 90,
+        "automatic_relation_score": 0.5134145939553704
+      },
+      {
+        "mode": "hyp_7:575eedf09d9eb58cc3ed2b5b3002da2d3e9ae53055cf83208e4323870257064f",
+        "E_rank": 91,
+        "F_rank": 91,
+        "automatic_relation_score": 0.6464409009065393
+      },
+      {
+        "mode": "hyp_7:71906ddb0db99c764811ccccc9ff87bae9222c720c947010fdd4591a6a97c888",
+        "E_rank": 79,
+        "F_rank": 79,
+        "automatic_relation_score": 0.6643348167184185
+      },
+      {
+        "mode": "hyp_7:95bf49794dfac2132a740798af732d636b01c827d1291d53c003507d3d238c56",
+        "E_rank": 72,
+        "F_rank": 72,
+        "automatic_relation_score": 0.6715909227547749
+      },
+      {
+        "mode": "hyp_7:bab3f0b58049f2ef9539434673913ccfa3b2579345d74b75cec766eae3ca9804",
+        "E_rank": 76,
+        "F_rank": 76,
+        "automatic_relation_score": 0.6643348167184185
+      },
+      {
+        "mode": "hyp_7:c7a3bed7e28445ce494cdf56daeecb602ca466cd38cbe6fcf22e238cb3dfb8b2",
+        "E_rank": 93,
+        "F_rank": 93,
+        "automatic_relation_score": 0.6391847948701826
+      },
+      {
+        "mode": "hyp_7:fae6a9ac44e0a6ad85de9d76ff598551c5b78e6f5128ab2df8d091d9e7d71f17",
+        "E_rank": 49,
+        "F_rank": 49,
+        "automatic_relation_score": 0.6715909227547749
+      },
+      {
+        "mode": "hyp_8:14faa7a96a4555910d074729bf6507a4d3746014d678099150c7241e2eb441c0",
+        "E_rank": 69,
+        "F_rank": 69,
+        "automatic_relation_score": 0.5921097496203674
+      },
+      {
+        "mode": "hyp_8:1d68f8a271b06267d2aa7b7892a3b432b20dd6a128a216d3b4cdb02b508e94d7",
+        "E_rank": 83,
+        "F_rank": 83,
+        "automatic_relation_score": 0.620319286721279
+      },
+      {
+        "mode": "hyp_8:256b98e198a0a906b1772dbe2954bb2659c9d04157aa85c5ef5b0aed8f087e79",
+        "E_rank": 86,
+        "F_rank": 86,
+        "automatic_relation_score": 0.6382132025331584
+      },
+      {
+        "mode": "hyp_8:368dac6d75d8a535f80bf0258b853fbea9cb654a2ef32c0c673587390ad4fdde",
+        "E_rank": 11,
+        "F_rank": 11,
+        "automatic_relation_score": 0.6625814217108104
+      },
+      {
+        "mode": "hyp_8:37212b90723bf230a56d179830530c96ddd441dd0ed467558d5e82f63fbf26f5",
+        "E_rank": 12,
+        "F_rank": 12,
+        "automatic_relation_score": 0.6625814217108104
+      },
+      {
+        "mode": "hyp_8:7588f5d133d6446ff310c3dea7d80d9eea1a8bf6d32fbd1ec1c3c2eb9dc18233",
+        "E_rank": 77,
+        "F_rank": 77,
+        "automatic_relation_score": 0.6207339568860903
+      },
+      {
+        "mode": "hyp_8:7849ab24adbaed00f4521922fcc7ba8110360139163d57845d4a977a91aa6fcd",
+        "E_rank": 68,
+        "F_rank": 68,
+        "automatic_relation_score": 0.6207339568860903
+      },
+      {
+        "mode": "hyp_8:8e4f83a608ead6a8783236887279b78f4b85efde38aa81da7d3ae546b9be6422",
+        "E_rank": 66,
+        "F_rank": 66,
+        "automatic_relation_score": 0.6540881634958412
+      },
+      {
+        "mode": "hyp_9:07f07a0a017bdefe88ff1a043a25a02baa3ec8a0a8c92bdf8e9b484b4a7d9fa5",
+        "E_rank": 42,
+        "F_rank": 42,
+        "automatic_relation_score": 0.6257994193458376
+      },
+      {
+        "mode": "hyp_9:0950d9e4a38bed5d7fd9b1fafcca454aeda633a3045411c79deea48ae237cc32",
+        "E_rank": 37,
+        "F_rank": 37,
+        "automatic_relation_score": 0.6257994193458376
+      },
+      {
+        "mode": "hyp_9:4eb8543babc74f55126c124fc0f676a9d701c0b3eae14ad1a2687bac74a789de",
+        "E_rank": 40,
+        "F_rank": 40,
+        "automatic_relation_score": 0.6257994193458376
+      },
+      {
+        "mode": "hyp_9:6a6dad91978846109e882b03a76c551ac4d0e9199849c093f5d99d13c2b608d6",
+        "E_rank": 38,
+        "F_rank": 38,
+        "automatic_relation_score": 0.6257994193458376
+      },
+      {
+        "mode": "hyp_9:914c5e83799183f76f85d4d34ed535c9f26b1e7d8051ed8b3f0adbe7c6c066ae",
+        "E_rank": 39,
+        "F_rank": 39,
+        "automatic_relation_score": 0.6257994193458376
+      },
+      {
+        "mode": "hyp_9:b53a242c3cfc6e4c4d3b3b3820d45e3cb9695d2147e4741de6f8fa49a7bbc772",
+        "E_rank": 41,
+        "F_rank": 41,
+        "automatic_relation_score": 0.6257994193458376
+      },
+      {
+        "mode": "hyp_9:c8db86c3a1e89f0a4e9bb48dbeebcd50e1173788b416020f1896a67c2275fc93",
+        "E_rank": 36,
+        "F_rank": 36,
+        "automatic_relation_score": 0.6257994193458376
+      },
+      {
+        "mode": "hyp_9:f89ed6402377474a0d4958207e3aeee0bb38f7ee3ac47aacfc341bbbd39f1335",
+        "E_rank": 33,
+        "F_rank": 33,
+        "automatic_relation_score": 0.6257994193458376
+      }
+    ],
+    "common_modes": 96,
+    "changed_common_ranks": 0,
+    "new_modes": 0,
+    "dropped_modes": 0
+  },
+  {
+    "case": "photo_06",
+    "regions": [
+      {
+        "mode": "hyp_10:128b85b741ae542e3b72262235d3e7acf72cba54869ef5da3202b7620b59c1d5",
+        "E_rank": 72,
+        "F_rank": 80,
+        "automatic_relation_score": 0.5524133425568147
+      },
+      {
+        "mode": "hyp_10:19ab45cbe644b60443fe246daeb6db271e30f0884e782e39cdba1c8b63933fa2",
+        "E_rank": 68,
+        "F_rank": 76,
+        "automatic_relation_score": 0.5524133425568147
+      },
+      {
+        "mode": "hyp_10:1f6b0473d8562703cb172d011da56c24f0e26b177d6fcb07e0377f22b365d9df",
+        "E_rank": 65,
+        "F_rank": 73,
+        "automatic_relation_score": 0.5524133425568147
+      },
+      {
+        "mode": "hyp_10:487f70a24e4db835502845f7f323da49b1dc1c3ac252d9642a77680567ab3750",
+        "E_rank": 70,
+        "F_rank": 78,
+        "automatic_relation_score": 0.5524133425568147
+      },
+      {
+        "mode": "hyp_10:53b46283b96e7b5441106424662bed4d95e5db1d4116fe94dde50f30dd5b0d8d",
+        "E_rank": 69,
+        "F_rank": 77,
+        "automatic_relation_score": 0.5524133425568147
+      },
+      {
+        "mode": "hyp_10:571444737cc3c3f6dfbe90816fc167c233791b4d4f2c6e7d79b7fb6ce34a6553",
+        "E_rank": 66,
+        "F_rank": 74,
+        "automatic_relation_score": 0.5524133425568147
+      },
+      {
+        "mode": "hyp_10:a5d988b3c3533616ff3cce0b5cb0213e14d338998f352f78d79e4b9b93cead04",
+        "E_rank": 71,
+        "F_rank": 79,
+        "automatic_relation_score": 0.5524133425568147
+      },
+      {
+        "mode": "hyp_10:ea8d907a033814884f738f097b44dc5c42718bfd3b33b53ea326effae59b446c",
+        "E_rank": 67,
+        "F_rank": 75,
+        "automatic_relation_score": 0.5524133425568147
+      },
+      {
+        "mode": "hyp_11:4d80db7e81170a9ca49ede8262e0848368a3727f213da4ad2a832b81d1f067da",
+        "E_rank": 80,
+        "F_rank": 72,
+        "automatic_relation_score": 0.6119548997013563
+      },
+      {
+        "mode": "hyp_11:4f2b30bde82364b5972683e53a8065d68b878ee113209edeb983dc804bb54a1f",
+        "E_rank": 74,
+        "F_rank": 66,
+        "automatic_relation_score": 0.6119548997013563
+      },
+      {
+        "mode": "hyp_11:666aba87bf1537e2c1408a1925868a2865d263cd9b71dbf2fd068af7783f23d0",
+        "E_rank": 75,
+        "F_rank": 67,
+        "automatic_relation_score": 0.6119548997013563
+      },
+      {
+        "mode": "hyp_11:7fa8dbe666cd125ee703699b30f66f26723483e153ad097e0ac4ef9b10a3321e",
+        "E_rank": 78,
+        "F_rank": 70,
+        "automatic_relation_score": 0.6119548997013563
+      },
+      {
+        "mode": "hyp_11:8bfb1dfe86aea4757ee43d969dcf3c06e3a172917af085e35838d635e13a07ab",
+        "E_rank": 77,
+        "F_rank": 69,
+        "automatic_relation_score": 0.6119548997013563
+      },
+      {
+        "mode": "hyp_11:b48519eb142587ab1736491e54573da7326ffe6a8505eb2829b7617ea974d475",
+        "E_rank": 73,
+        "F_rank": 65,
+        "automatic_relation_score": 0.6119548997013563
+      },
+      {
+        "mode": "hyp_11:dcb04e700046f10067a2adfec857776a580aa8dda436b32fef827348d84ec86d",
+        "E_rank": 79,
+        "F_rank": 71,
+        "automatic_relation_score": 0.6119548997013563
+      },
+      {
+        "mode": "hyp_11:e00021e90b33a7cc1db368366109cac8b88c798e13eb1926504e5c495486db4b",
+        "E_rank": 76,
+        "F_rank": 68,
+        "automatic_relation_score": 0.6119548997013563
+      },
+      {
+        "mode": "hyp_12:1cbdce49959a013e969851778bb838742e048c0af2a3c6bc784b7a9a3c999d20",
+        "E_rank": 95,
+        "F_rank": 95,
+        "automatic_relation_score": 0.5109759705589565
+      },
+      {
+        "mode": "hyp_12:24bac7a1a7823a5cd9cff1c2ced5a93cd39ec52e9997657eca0b5f9500bc66ce",
+        "E_rank": 93,
+        "F_rank": 93,
+        "automatic_relation_score": 0.5109759705589565
+      },
+      {
+        "mode": "hyp_12:7ec09f66caa4ff32aab456e32f4d7299cc4ef242dbbe5fd46c47895402d343ed",
+        "E_rank": 89,
+        "F_rank": 89,
+        "automatic_relation_score": 0.5109759705589565
+      },
+      {
+        "mode": "hyp_12:994ce0ca459a95ea03862e2aa70e0659fcd76a3b7a2a57e52b430ef2e0fe7c7f",
+        "E_rank": 91,
+        "F_rank": 91,
+        "automatic_relation_score": 0.5109759705589565
+      },
+      {
+        "mode": "hyp_12:9c4948abcd11e769756c3dc32e5be42353548bbb6357d735f18ed66840a60c31",
+        "E_rank": 96,
+        "F_rank": 96,
+        "automatic_relation_score": 0.5109759705589565
+      },
+      {
+        "mode": "hyp_12:9e4b7c9218da95df0493ee3f532a3e7bb8a5e47b765c5d4b59bf8c68635836ba",
+        "E_rank": 90,
+        "F_rank": 90,
+        "automatic_relation_score": 0.5109759705589565
+      },
+      {
+        "mode": "hyp_12:a7a3ae793dee01287e5d24a9cf08da762dc6a24c3929db1bf74bb56cffd697ff",
+        "E_rank": 94,
+        "F_rank": 94,
+        "automatic_relation_score": 0.5109759705589565
+      },
+      {
+        "mode": "hyp_12:e1e86038b3e06658d13b717e152c21e8f0cb463f8f7a9c667a912da76644b158",
+        "E_rank": 92,
+        "F_rank": 92,
+        "automatic_relation_score": 0.5109759705589565
+      },
+      {
+        "mode": "hyp_1:103709657b30b091d203ebd73910d14773afa7cb8d59979e5d5b5c1ce856f7ab",
+        "E_rank": 6,
+        "F_rank": 6,
+        "automatic_relation_score": 0.9256210587364161
+      },
+      {
+        "mode": "hyp_1:1ed0b85cc283b3555b16b9d4e5535566cb5c97b02418810b1e9c634cb8124bdf",
+        "E_rank": 7,
+        "F_rank": 7,
+        "automatic_relation_score": 0.9146450881774596
+      },
+      {
+        "mode": "hyp_1:23f3758ccf243ad53df77d0745bb2a88a6a351905cd0f650027b0659172c124a",
+        "E_rank": 2,
+        "F_rank": 2,
+        "automatic_relation_score": 0.9146450881774596
+      },
+      {
+        "mode": "hyp_1:7bc2ff23cea780612e8198096b87c813eac452453a681c276a8139f47cda3731",
+        "E_rank": 4,
+        "F_rank": 4,
+        "automatic_relation_score": 0.8732077161796011
+      },
+      {
+        "mode": "hyp_1:903f6cfdb75ecbaa4b15aa18dcb69d1759ca01495a62c1cc45f2caa6dbe76e6f",
+        "E_rank": 1,
+        "F_rank": 1,
+        "automatic_relation_score": 0.9202993760411644
+      },
+      {
+        "mode": "hyp_1:a59e01318fdc66f4b5ca82199fae013a378aafebc899eaf12683b9d01e04428b",
+        "E_rank": 5,
+        "F_rank": 5,
+        "automatic_relation_score": 0.808344476339808
+      },
+      {
+        "mode": "hyp_1:de1962741b8ba310cc2ad7d2794701f966fcd0b796b8eaab67129175dcf62e03",
+        "E_rank": 3,
+        "F_rank": 3,
+        "automatic_relation_score": 0.8732077161796011
+      },
+      {
+        "mode": "hyp_1:efc5c8474985c4880585d8a192f92aa653798996dc5055ecec3bac67d528ff59",
+        "E_rank": 8,
+        "F_rank": 8,
+        "automatic_relation_score": 0.808344476339808
+      },
+      {
+        "mode": "hyp_2:3af498c33b91d101ed47c3494631b972d93822b07217c6d191fb4d6803e5fa9f",
+        "E_rank": 13,
+        "F_rank": 13,
+        "automatic_relation_score": 0.8105855470265586
+      },
+      {
+        "mode": "hyp_2:594161b131afadb1208009fcdd2d5ab912ff13d1f10ecab5207dbd32591d7c24",
+        "E_rank": 18,
+        "F_rank": 18,
+        "automatic_relation_score": 0.8105855470265586
+      },
+      {
+        "mode": "hyp_2:710c232f011163e8102769ca1b409f8edc7934d464b1ef8b150cfbb2bd28526c",
+        "E_rank": 15,
+        "F_rank": 15,
+        "automatic_relation_score": 0.8105855470265586
+      },
+      {
+        "mode": "hyp_2:a8105b0dd9a82e289900ddc657f83a541f3f23d6a5271e1c2590af867e938247",
+        "E_rank": 14,
+        "F_rank": 14,
+        "automatic_relation_score": 0.8105855470265586
+      },
+      {
+        "mode": "hyp_2:aa3bcf629d06e4be0006820a103b302161ec3b5004c37f1c0e752add027fe157",
+        "E_rank": 10,
+        "F_rank": 10,
+        "automatic_relation_score": 0.799609576467602
+      },
+      {
+        "mode": "hyp_2:ce68a655198d66563bf4b6750b1ff62f8ce9a6ba9fe6bff3025ae935cdefd33f",
+        "E_rank": 9,
+        "F_rank": 9,
+        "automatic_relation_score": 0.8105855470265586
+      },
+      {
+        "mode": "hyp_2:d02138e9bd7592411628415d08c812bf17dc9dd5fe8d43dae9f3235c8153137a",
+        "E_rank": 17,
+        "F_rank": 17,
+        "automatic_relation_score": 0.8052638643313068
+      },
+      {
+        "mode": "hyp_2:ed110c906a35f996b18a438d5c6923c8c4008c0062a3cd1c888784725ffe6088",
+        "E_rank": 19,
+        "F_rank": 19,
+        "automatic_relation_score": 0.8105855470265586
+      },
+      {
+        "mode": "hyp_3:0c1a3fcbd4d126365be1a8e91c38948df2c9cedf5882ce60da00ebf91cdb7f36",
+        "E_rank": 45,
+        "F_rank": 45,
+        "automatic_relation_score": 0.7612528164782447
+      },
+      {
+        "mode": "hyp_3:1d0195879e6374c3e7f83d84888e5ede1165401fb44f02f9329f046a5d95793b",
+        "E_rank": 51,
+        "F_rank": 51,
+        "automatic_relation_score": 0.6549522046405932
+      },
+      {
+        "mode": "hyp_3:33d5cd17c67f44b5a8ff42ca705fe7b1eb6e3419c4f8b15377f2167a21190600",
+        "E_rank": 46,
+        "F_rank": 46,
+        "automatic_relation_score": 0.7612528164782447
+      },
+      {
+        "mode": "hyp_3:80dc0187a09a6195a9d620e295f9aeaafb5d98a2f7410aea4d86600aadc58c8b",
+        "E_rank": 49,
+        "F_rank": 49,
+        "automatic_relation_score": 0.8675534283158962
+      },
+      {
+        "mode": "hyp_3:853531a5957c8f7f2d539f471c4d142398d0d47c5303317e931c81c1c11c0d85",
+        "E_rank": 42,
+        "F_rank": 42,
+        "automatic_relation_score": 0.8675534283158962
+      },
+      {
+        "mode": "hyp_3:d575510e5c1685f3fa1919b0decbd42f544105f126caa66381806062cbc33208",
+        "E_rank": 52,
+        "F_rank": 52,
+        "automatic_relation_score": 0.8675534283158962
+      },
+      {
+        "mode": "hyp_3:f21986f81ef07a533846da0efa34c2bfedd429c71e9811d0c65438fbb41fb334",
+        "E_rank": 48,
+        "F_rank": 48,
+        "automatic_relation_score": 0.8675534283158962
+      },
+      {
+        "mode": "hyp_3:fe9513e6bd999de8ed7748e5dbefb647d0b8117e92f72711ec92cc3830b6bd9a",
+        "E_rank": 44,
+        "F_rank": 44,
+        "automatic_relation_score": 0.8675534283158962
+      },
+      {
+        "mode": "hyp_4:24f553a1fb3632fa8c3638bffea9d2ca7e8e3e38d3cbae26415eab1abf89e003",
+        "E_rank": 20,
+        "F_rank": 20,
+        "automatic_relation_score": 0.9312753466001209
+      },
+      {
+        "mode": "hyp_4:2a0cb730aa8c2b70033b55302a35e5b65036ac8dc2ccc950c8637e2883291bc1",
+        "E_rank": 12,
+        "F_rank": 12,
+        "automatic_relation_score": 0.9312753466001209
+      },
+      {
+        "mode": "hyp_4:6cdc5bb780f013016c41bf874f7ab2e57a8079dad5a30ea99ea34ff4f79c96a8",
+        "E_rank": 22,
+        "F_rank": 22,
+        "automatic_relation_score": 0.9312753466001209
+      },
+      {
+        "mode": "hyp_4:76e17df746bed7c6ca62c8aed19e35745fcdcc33200ef13b2c54d55f01883135",
+        "E_rank": 16,
+        "F_rank": 16,
+        "automatic_relation_score": 0.9256210587364161
+      },
+      {
+        "mode": "hyp_4:8e4d9278bc9cd6b663a5d23e7803aff14c6bfb2b7f110b8f8a7d95260e9ef7ea",
+        "E_rank": 11,
+        "F_rank": 11,
+        "automatic_relation_score": 0.9256210587364161
+      },
+      {
+        "mode": "hyp_4:b34eaa3a12655b12509bcd2913e490fef0f88adb6d942a129b301ed04b7712b6",
+        "E_rank": 24,
+        "F_rank": 24,
+        "automatic_relation_score": 0.9199667708727112
+      },
+      {
+        "mode": "hyp_4:c1e4370725cc53d22908bd089b5219b9c2d41b984c0c88de71000a5fb30f1ef8",
+        "E_rank": 23,
+        "F_rank": 23,
+        "automatic_relation_score": 0.9312753466001209
+      },
+      {
+        "mode": "hyp_4:c927a480125cb0e25e4491c2988902d84939170466f0c4053d8b186b08b6db03",
+        "E_rank": 21,
+        "F_rank": 21,
+        "automatic_relation_score": 0.9199667708727112
+      },
+      {
+        "mode": "hyp_5:51343830ba6985cdab3267bd7dc50b843eb1b032f1ef9ea1202d6389410c072c",
+        "E_rank": 36,
+        "F_rank": 36,
+        "automatic_relation_score": 0.664368242258171
+      },
+      {
+        "mode": "hyp_5:5f31658f56f53d4fa8c7a784a61bc069b70b665ab9f09002486ce42b811221ee",
+        "E_rank": 58,
+        "F_rank": 58,
+        "automatic_relation_score": 0.664368242258171
+      },
+      {
+        "mode": "hyp_5:6442dedefa823f3b3a3527a1fc4e9438515b1c4e734e2c9244fe9b1a5743fedc",
+        "E_rank": 61,
+        "F_rank": 61,
+        "automatic_relation_score": 0.5580676304205197
+      },
+      {
+        "mode": "hyp_5:b5a40acfbc2d86b46853cc1f04711be7480d172816a56a0fee64b73e4d75e581",
+        "E_rank": 34,
+        "F_rank": 34,
+        "automatic_relation_score": 0.664368242258171
+      },
+      {
+        "mode": "hyp_5:d112b28cbf6385296ccf7d0dad8a3cd5bbf0ed81334ef0e42823494ea83c8f8c",
+        "E_rank": 35,
+        "F_rank": 35,
+        "automatic_relation_score": 0.664368242258171
+      },
+      {
+        "mode": "hyp_5:d858c510701a6ad8f903d1443e6b6579d764eb773f7e597597ae826d4ad07436",
+        "E_rank": 55,
+        "F_rank": 55,
+        "automatic_relation_score": 0.664368242258171
+      },
+      {
+        "mode": "hyp_5:e49a11a8b045ad9ca5c162f6023445038d9cd34934e76fb97524c8f75dd65dcc",
+        "E_rank": 57,
+        "F_rank": 57,
+        "automatic_relation_score": 0.5580676304205197
+      },
+      {
+        "mode": "hyp_5:e6056315c4da7ec78bea2e27c23355a844ac264040f24663962ebb3a33f08d2f",
+        "E_rank": 25,
+        "F_rank": 25,
+        "automatic_relation_score": 0.6700225301218758
+      },
+      {
+        "mode": "hyp_6:22036d2802fae32b6e7ee3f8900fd2e0b123d216164ad672a32e1d8eea39a9c5",
+        "E_rank": 40,
+        "F_rank": 40,
+        "automatic_relation_score": 0.6203571944051092
+      },
+      {
+        "mode": "hyp_6:2480fdaa3631870d08e5a73a3c889b3bcb9aa84bc096d3ddebc66e48f4ba59b2",
+        "E_rank": 41,
+        "F_rank": 41,
+        "automatic_relation_score": 0.6150355117098575
+      },
+      {
+        "mode": "hyp_6:3413bf7e5cb1e84c5f03e6b366e64e3be69142a7e9681d51eb0ad873be6b98f8",
+        "E_rank": 53,
+        "F_rank": 53,
+        "automatic_relation_score": 0.6150355117098575
+      },
+      {
+        "mode": "hyp_6:349722229f812c74688067eadd99ba0c40d2395d358c6120bc44e877955395cc",
+        "E_rank": 43,
+        "F_rank": 43,
+        "automatic_relation_score": 0.6150355117098575
+      },
+      {
+        "mode": "hyp_6:5ea18d4bd0520ae35e858c8930a72ae423b9c62dc92da07c8481943be0b41fbf",
+        "E_rank": 50,
+        "F_rank": 50,
+        "automatic_relation_score": 0.6093812238461527
+      },
+      {
+        "mode": "hyp_6:94cd908920424f46f4ca27276673c008ba3fc3c19a4aaf13547f2cdd440834aa",
+        "E_rank": 38,
+        "F_rank": 39,
+        "automatic_relation_score": 0.6150355117098575
+      },
+      {
+        "mode": "hyp_6:a9a66270d9ed01881da1a280d3f5403dd3460ac3b6b6a8833982ebb2739b6614",
+        "E_rank": 47,
+        "F_rank": 47,
+        "automatic_relation_score": 0.6203571944051092
+      },
+      {
+        "mode": "hyp_6:f22aad6807b182f15d02f552151e2872e59dbd7a0782d4cd544baac1e08e214a",
+        "E_rank": 54,
+        "F_rank": 54,
+        "automatic_relation_score": 0.6150355117098575
+      },
+      {
+        "mode": "hyp_7:0f827827d2c88ce18161ace0f3d978f1b7ee3ddd2edeb677de560b609cd7dac2",
+        "E_rank": 64,
+        "F_rank": 64,
+        "automatic_relation_score": 0.7042849351889068
+      },
+      {
+        "mode": "hyp_7:1df3025c3bb585f630062db2d96dccfbc58442a042084c793bb045b4b6450259",
+        "E_rank": 62,
+        "F_rank": 62,
+        "automatic_relation_score": 0.7042849351889068
+      },
+      {
+        "mode": "hyp_7:35e986a45d371fc8f33a17c69f5fc4aec732a676b900590f8d92d7972285bd4a",
+        "E_rank": 37,
+        "F_rank": 37,
+        "automatic_relation_score": 0.7042849351889068
+      },
+      {
+        "mode": "hyp_7:710ca961ade8ab5d70c8e25f9f68aadfcc69c07dc27379ef9e44db4c3d7df8c9",
+        "E_rank": 60,
+        "F_rank": 60,
+        "automatic_relation_score": 0.6933089646299503
+      },
+      {
+        "mode": "hyp_7:89b5d3522c15e7f6ac326393a0113d5f1be75fe2cc9ca5f2e964a6f5c01fbf6d",
+        "E_rank": 39,
+        "F_rank": 38,
+        "automatic_relation_score": 0.6933089646299503
+      },
+      {
+        "mode": "hyp_7:a7ff53eb1c17be1378d5d1beb0ffd542260be09a5573c3a3aa4b27b18a03b9e2",
+        "E_rank": 63,
+        "F_rank": 63,
+        "automatic_relation_score": 0.651871592632092
+      },
+      {
+        "mode": "hyp_7:c2149f4647b09d43a7f7d217ca2d8b0194e51b5cbcc61618e89b0d11f4b2698e",
+        "E_rank": 59,
+        "F_rank": 59,
+        "automatic_relation_score": 0.6933089646299503
+      },
+      {
+        "mode": "hyp_7:c45f2581280422a184a92731e081b4a5706d80303e9af81785a474d464dd3268",
+        "E_rank": 56,
+        "F_rank": 56,
+        "automatic_relation_score": 0.651871592632092
+      },
+      {
+        "mode": "hyp_8:5b7d01cd9e10dbfefb2540693f1d37709c1fb75a3ead0254696da982e66f2d36",
+        "E_rank": 29,
+        "F_rank": 29,
+        "automatic_relation_score": 0.8622317456206446
+      },
+      {
+        "mode": "hyp_8:6b232fd31743cee5ad9d229504e10f0854d0b250829877b4468f0376dde62dd2",
+        "E_rank": 33,
+        "F_rank": 33,
+        "automatic_relation_score": 0.8622317456206446
+      },
+      {
+        "mode": "hyp_8:7d579f6fb08b71471ffd9e7008ba72554aab88e70d3be3edbcb3fc78cc7acf38",
+        "E_rank": 26,
+        "F_rank": 26,
+        "automatic_relation_score": 0.8622317456206446
+      },
+      {
+        "mode": "hyp_8:859a22d20777fa5219139497a30ba05de2b72e5b5fe1f3f64cf50d8e38f3338b",
+        "E_rank": 32,
+        "F_rank": 32,
+        "automatic_relation_score": 0.8622317456206446
+      },
+      {
+        "mode": "hyp_8:972c0be05f1bf7ec124e6f7ba61f9a43516aa28bb25b8679363a0acd37793a44",
+        "E_rank": 30,
+        "F_rank": 30,
+        "automatic_relation_score": 0.8622317456206446
+      },
+      {
+        "mode": "hyp_8:9a2ea8d34eb26ada519c0c90328d6a0c183b6b6c4de22349698eef0c73a46bb8",
+        "E_rank": 28,
+        "F_rank": 28,
+        "automatic_relation_score": 0.8622317456206446
+      },
+      {
+        "mode": "hyp_8:beadd4b87c709440c4b8b505bed45f070ba837baa919a0b521dafb844ab6d2a8",
+        "E_rank": 27,
+        "F_rank": 27,
+        "automatic_relation_score": 0.8622317456206446
+      },
+      {
+        "mode": "hyp_8:d16e7fd3e25a06bc539a7074e4b42ad97c4456498a894cb07ca63eb1cb7460f5",
+        "E_rank": 31,
+        "F_rank": 31,
+        "automatic_relation_score": 0.8622317456206446
+      },
+      {
+        "mode": "hyp_9:0603348d95f03cd45228e3b48f2d779322e0332446a7b4f0eb38ef5c33bf891a",
+        "E_rank": 81,
+        "F_rank": 81,
+        "automatic_relation_score": 0.5056542878637048
+      },
+      {
+        "mode": "hyp_9:2247528fec99fdd53b2233dfd2bdfbf00d441631941ad88494ede4ef5ae0555a",
+        "E_rank": 84,
+        "F_rank": 84,
+        "automatic_relation_score": 0.5056542878637048
+      },
+      {
+        "mode": "hyp_9:47260430a30d0953dc4ef1e6f4a0bdb131146d773748fe4f4b416ab77bff447f",
+        "E_rank": 82,
+        "F_rank": 82,
+        "automatic_relation_score": 0.5056542878637048
+      },
+      {
+        "mode": "hyp_9:487bd55dffe4c8b9fe92d1254e9e11ddc6f11069fe9707b4fd203fa0e92af1a3",
+        "E_rank": 86,
+        "F_rank": 86,
+        "automatic_relation_score": 0.5056542878637048
+      },
+      {
+        "mode": "hyp_9:6ebf7334a10a70f24a95db723038ceecb5ce5edb4e309b4ebe1731c3f68c9901",
+        "E_rank": 85,
+        "F_rank": 85,
+        "automatic_relation_score": 0.5056542878637048
+      },
+      {
+        "mode": "hyp_9:d2dd9e6785ef732a3e8ed4c5541dc4c88c526f4aa809c4cc78f94172af247a7e",
+        "E_rank": 88,
+        "F_rank": 88,
+        "automatic_relation_score": 0.5056542878637048
+      },
+      {
+        "mode": "hyp_9:d2f5bc80ef8dc0c3bfbde932e2a9e453b561e98f22166f0b502422c5987c7d27",
+        "E_rank": 83,
+        "F_rank": 83,
+        "automatic_relation_score": 0.5056542878637048
+      },
+      {
+        "mode": "hyp_9:e0c239abe2e10b64f5d5a1a0013df1585e0e2efb36d0ababbbad7724867977eb",
+        "E_rank": 87,
+        "F_rank": 87,
+        "automatic_relation_score": 0.5056542878637048
+      }
+    ],
+    "common_modes": 96,
+    "changed_common_ranks": 18,
+    "new_modes": 0,
+    "dropped_modes": 0
+  },
+  {
+    "case": "photo_07",
+    "regions": [
+      {
+        "mode": "hyp_11:2292c7efd020f2b860660cba10b423bd94af5062956ab2a1a755d2e0b1db274b",
+        "E_rank": 4,
+        "F_rank": 4,
+        "automatic_relation_score": 0.9602965163633658
+      },
+      {
+        "mode": "hyp_11:3ae0803546dff6070470da9d2db14c3a4f201901135e4e90d47c51c3eb46d453",
+        "E_rank": 6,
+        "F_rank": 6,
+        "automatic_relation_score": 0.9602965163633658
+      },
+      {
+        "mode": "hyp_11:564f602e341c36f230dd7df3b4a0e332c8b838c9f293874780b8252f0de503d1",
+        "E_rank": 9,
+        "F_rank": 9,
+        "automatic_relation_score": 0.9602965163633658
+      },
+      {
+        "mode": "hyp_11:859a22d20777fa5219139497a30ba05de2b72e5b5fe1f3f64cf50d8e38f3338b",
+        "E_rank": 10,
+        "F_rank": 10,
+        "automatic_relation_score": 0.9602965163633658
+      },
+      {
+        "mode": "hyp_11:c9a2414cfd70f3ec3ee48636387a46325dd6dd26c505a4208a95e6964e55be17",
+        "E_rank": 8,
+        "F_rank": 8,
+        "automatic_relation_score": 0.9602965163633658
+      },
+      {
+        "mode": "hyp_11:d16e7fd3e25a06bc539a7074e4b42ad97c4456498a894cb07ca63eb1cb7460f5",
+        "E_rank": 3,
+        "F_rank": 3,
+        "automatic_relation_score": 0.9602965163633658
+      },
+      {
+        "mode": "hyp_11:f51b99a4ed3665a48600f06a52fc74116767fa4f333cdde81e6528e0bf0831b6",
+        "E_rank": 7,
+        "F_rank": 7,
+        "automatic_relation_score": 0.9602965163633658
+      },
+      {
+        "mode": "hyp_11:f5a15072911398eb385c71e450fe009b8c0698c4bbfff845bb7faed20beacd9d",
+        "E_rank": 5,
+        "F_rank": 5,
+        "automatic_relation_score": 0.9602965163633658
+      },
+      {
+        "mode": "hyp_2:13d6a27f1fa34365174d1bd2f92b1611aede4829dbe5646ed45ac240a2ae3128",
+        "E_rank": 13,
+        "F_rank": 13,
+        "automatic_relation_score": 0.9602965163633658
+      },
+      {
+        "mode": "hyp_2:26989c43be4762bd84a13c4735749dd9ca225ab366bee117a95dd726687e7f17",
+        "E_rank": 16,
+        "F_rank": 16,
+        "automatic_relation_score": 0.9602965163633658
+      },
+      {
+        "mode": "hyp_2:31237f49f614552cf30aca714d8629105f6716f75bf88becab80728f2692c7fa",
+        "E_rank": 1,
+        "F_rank": 1,
+        "automatic_relation_score": 0.9103099198564844
+      },
+      {
+        "mode": "hyp_2:343c4a7196df971dd3dd09fb85edf67ab353de08a258c5d78fc313c0631f8638",
+        "E_rank": 15,
+        "F_rank": 15,
+        "automatic_relation_score": 0.9602965163633658
+      },
+      {
+        "mode": "hyp_2:47ed7775f4bf86f01cf4aab9d1cfb966deaa238398b854ebb0206d18a22d4889",
+        "E_rank": 2,
+        "F_rank": 2,
+        "automatic_relation_score": 0.9103099198564844
+      },
+      {
+        "mode": "hyp_2:78f9f283bf007280dc3ef2defa910c7e42fc38bb6fb65e055fb7bf2541289466",
+        "E_rank": 12,
+        "F_rank": 12,
+        "automatic_relation_score": 0.9602965163633658
+      },
+      {
+        "mode": "hyp_2:995e1472352365c4c1eff880eed44f9ef3046d56442276c69eb31130b4e21fe8",
+        "E_rank": 14,
+        "F_rank": 14,
+        "automatic_relation_score": 0.9602965163633658
+      },
+      {
+        "mode": "hyp_2:ac2d982e4168079d7e66bc0b95dafb2e51c7ab90aaadbec0673348462416dd78",
+        "E_rank": 11,
+        "F_rank": 11,
+        "automatic_relation_score": 0.9103099198564844
+      },
+      {
+        "mode": "hyp_6:259249057be8e80fce7ec9be0b2795d831d35fbef920b65223cdea2e930bb6b7",
+        "E_rank": 24,
+        "F_rank": 24,
+        "automatic_relation_score": 0.2791929368677915
+      },
+      {
+        "mode": "hyp_6:5075b13977854ecf155c9791098ea977d3a0adcbbc8d5271569496b0596c204d",
+        "E_rank": 21,
+        "F_rank": 21,
+        "automatic_relation_score": 0.2791929368677915
+      },
+      {
+        "mode": "hyp_6:516883a8a80ba2ffda3d73180e395c0727fce782808668d06d05f86e9117386e",
+        "E_rank": 23,
+        "F_rank": 23,
+        "automatic_relation_score": 0.2791929368677915
+      },
+      {
+        "mode": "hyp_6:61955d8ae44f607c59717e9047a4079044feff458e5d6291f45b7e622e46b80e",
+        "E_rank": 18,
+        "F_rank": 18,
+        "automatic_relation_score": 0.2791929368677915
+      },
+      {
+        "mode": "hyp_6:ad2f11076b707a2a90bbeac0211cc1f0308065f470c58d799d11c65b6b8a82dd",
+        "E_rank": 20,
+        "F_rank": 20,
+        "automatic_relation_score": 0.2791929368677915
+      },
+      {
+        "mode": "hyp_6:aeb726d4c137ecf0b47e3a5e217ec7fea19eae7288e81ede4e83f9010cca7286",
+        "E_rank": 19,
+        "F_rank": 19,
+        "automatic_relation_score": 0.2791929368677915
+      },
+      {
+        "mode": "hyp_6:bc31177b89a6f5a6049a612114de45776553a123acfe65d816c25a0017c43f74",
+        "E_rank": 22,
+        "F_rank": 22,
+        "automatic_relation_score": 0.2791929368677915
+      },
+      {
+        "mode": "hyp_6:d15c4d74ad3abf08d65503a016e37085877942634c078bf718470f531a598f34",
+        "E_rank": 17,
+        "F_rank": 17,
+        "automatic_relation_score": 0.2791929368677915
+      }
+    ],
+    "common_modes": 24,
+    "changed_common_ranks": 0,
+    "new_modes": 0,
+    "dropped_modes": 0
+  },
+  {
+    "case": "photo_08",
+    "regions": [
+      {
+        "mode": "hyp_10:0c873a469011e79c29ebaf56e53d1a1748cd476166d6460213a08f60ef529428",
+        "E_rank": 73,
+        "F_rank": 73,
+        "automatic_relation_score": 0.5480760471025381
+      },
+      {
+        "mode": "hyp_10:1e36533f3683894377f2fa560f04a2154daf14f4d65de8115e5c3d0a666bcb37",
+        "E_rank": 76,
+        "F_rank": 76,
+        "automatic_relation_score": 0.5480760471025381
+      },
+      {
+        "mode": "hyp_10:59722655b21923eafe880798ec84f30927e1349eceac9532dff1a68352b4f646",
+        "E_rank": 94,
+        "F_rank": 94,
+        "automatic_relation_score": 0.5
+      },
+      {
+        "mode": "hyp_10:8e32fff7d3aab8b97ffc0809dbb1785d79f8c15780c7333d9ab26b27245db6bf",
+        "E_rank": 95,
+        "F_rank": 95,
+        "automatic_relation_score": 0.5480760471025381
+      },
+      {
+        "mode": "hyp_10:8e78da241ef523a58a45a259dee46327bdfbd534f447ec33d2dbec68b717201a",
+        "E_rank": 96,
+        "F_rank": 96,
+        "automatic_relation_score": 0.5480760471025381
+      },
+      {
+        "mode": "hyp_10:aa541ab31535f9a772c9a799f1a649928d6bd7d597eeab34613d0c73e258cd36",
+        "E_rank": 75,
+        "F_rank": 75,
+        "automatic_relation_score": 0.5480760471025381
+      },
+      {
+        "mode": "hyp_10:ac8111b88e46197a7fdb7e5be6a89f60ccafbe45daf09f9c7f5ce5d5fc3b8464",
+        "E_rank": 77,
+        "F_rank": 77,
+        "automatic_relation_score": 0.5480760471025381
+      },
+      {
+        "mode": "hyp_10:f0273ca628e2d7c3eb5408aff4b1c0ab156ad04188ea2f3e2274b40f240ea90e",
+        "E_rank": 74,
+        "F_rank": 74,
+        "automatic_relation_score": 0.5480760471025381
+      },
+      {
+        "mode": "hyp_11:1fc92d28214523f86a6a7e8239ae64fb8767543e695566f88b6ce9c53b9d3787",
+        "E_rank": 83,
+        "F_rank": 83,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_11:3808c7bb88465989f4de29e19e93764462f97917a32be2711b7a7ed4db754af5",
+        "E_rank": 80,
+        "F_rank": 80,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_11:530001f34abddfe014571059cd185cd5bdc03b9a8afdbc1580fcb3c9b6632e54",
+        "E_rank": 84,
+        "F_rank": 84,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_11:5eff255e3f286ef759d783d10524436d6940a58e08c5a31f57d025bdda59a898",
+        "E_rank": 85,
+        "F_rank": 85,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_11:73f451350298a29b474fc6a078842142c6a6fe81b72576732a0db0e2c7e87d89",
+        "E_rank": 78,
+        "F_rank": 78,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_11:81cb70d8d3ac9c77ac61b03096de0030ad5c6825399896738f1580212ed25b12",
+        "E_rank": 82,
+        "F_rank": 81,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_11:c84ff473ffa6be0b8cf58bded8a054e4ac9e8eed0a737dae3c50a4da0fde6c2b",
+        "E_rank": 79,
+        "F_rank": 79,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_11:f80b6f872cf3992c5b2a116fcf9cb5e715ed5ac34832bcdbf7578a0018abe7b9",
+        "E_rank": 81,
+        "F_rank": 82,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_12:1e36533f3683894377f2fa560f04a2154daf14f4d65de8115e5c3d0a666bcb37",
+        "E_rank": 92,
+        "F_rank": 92,
+        "automatic_relation_score": 0.537023220945198
+      },
+      {
+        "mode": "hyp_12:3bf35d84aefdd341702fc5b22e0a9e63a8309ae21c2a3c5eabc14bfd871c939c",
+        "E_rank": 90,
+        "F_rank": 90,
+        "automatic_relation_score": 0.537023220945198
+      },
+      {
+        "mode": "hyp_12:828a057475d9d53defe1898472b2686f0c31f10404cfcb54702eb07c01313e2f",
+        "E_rank": 86,
+        "F_rank": 86,
+        "automatic_relation_score": 0.537023220945198
+      },
+      {
+        "mode": "hyp_12:aa541ab31535f9a772c9a799f1a649928d6bd7d597eeab34613d0c73e258cd36",
+        "E_rank": 88,
+        "F_rank": 88,
+        "automatic_relation_score": 0.537023220945198
+      },
+      {
+        "mode": "hyp_12:ac8111b88e46197a7fdb7e5be6a89f60ccafbe45daf09f9c7f5ce5d5fc3b8464",
+        "E_rank": 93,
+        "F_rank": 93,
+        "automatic_relation_score": 0.537023220945198
+      },
+      {
+        "mode": "hyp_12:be364c3fc9c4dbdbd0210414389043bc1a10e17815d680473ab3ebacf31a2dce",
+        "E_rank": 89,
+        "F_rank": 89,
+        "automatic_relation_score": 0.537023220945198
+      },
+      {
+        "mode": "hyp_12:f0273ca628e2d7c3eb5408aff4b1c0ab156ad04188ea2f3e2274b40f240ea90e",
+        "E_rank": 87,
+        "F_rank": 87,
+        "automatic_relation_score": 0.537023220945198
+      },
+      {
+        "mode": "hyp_12:f819c7ffb40a146ebbf8f5e147ccc149ec38166c029140e5bce5dc18ac08ce75",
+        "E_rank": 91,
+        "F_rank": 91,
+        "automatic_relation_score": 0.537023220945198
+      },
+      {
+        "mode": "hyp_1:2e92a574b689eebfc2de25489ba14f04ea769b83ce228030d34ef4449f5bad19",
+        "E_rank": 1,
+        "F_rank": 1,
+        "automatic_relation_score": 0.5879353525561054
+      },
+      {
+        "mode": "hyp_1:45bca8ff6ef63c1bb62c5b3a7058d9bc51962daac9070f2ac2dbb9280fdbad5e",
+        "E_rank": 2,
+        "F_rank": 2,
+        "automatic_relation_score": 0.5879353525561054
+      },
+      {
+        "mode": "hyp_1:69b57fb0d227e324c5de707d6c31143b1a40975415e87212678ec986321194ab",
+        "E_rank": 11,
+        "F_rank": 11,
+        "automatic_relation_score": 0.6415837193990066
+      },
+      {
+        "mode": "hyp_1:a531602afc9b4aec6741b402893eface56a87a3227303ec06b0e27b2f3e1e347",
+        "E_rank": 5,
+        "F_rank": 5,
+        "automatic_relation_score": 0.6415837193990066
+      },
+      {
+        "mode": "hyp_1:bf82c93dce2b9e225e41c85fe50e016fdda8e6fd3790c1e16a1f1a1dc6df9cd0",
+        "E_rank": 9,
+        "F_rank": 9,
+        "automatic_relation_score": 0.6415837193990066
+      },
+      {
+        "mode": "hyp_1:c009b8b0707e5fd96d73711dd399e7fb7e686c9c2f7ba2ebd6bf0a3eacb7d861",
+        "E_rank": 15,
+        "F_rank": 15,
+        "automatic_relation_score": 0.6415837193990066
+      },
+      {
+        "mode": "hyp_1:c0877941c8bc97341f8e3c049dc5ab38116f4a65dd4e681a82ded355ddbdff7d",
+        "E_rank": 21,
+        "F_rank": 21,
+        "automatic_relation_score": 0.6017244139454393
+      },
+      {
+        "mode": "hyp_1:e6a44504c9546ff959b7934ede44415bac77cba7cf4023f255c4bc357c0b3246",
+        "E_rank": 6,
+        "F_rank": 6,
+        "automatic_relation_score": 0.6415837193990066
+      },
+      {
+        "mode": "hyp_2:43dbdd3924d521ee818d330c6a230ccd797747478b079e9fa4f9c328766cbc5a",
+        "E_rank": 8,
+        "F_rank": 8,
+        "automatic_relation_score": 0.6249585735013033
+      },
+      {
+        "mode": "hyp_2:69b57fb0d227e324c5de707d6c31143b1a40975415e87212678ec986321194ab",
+        "E_rank": 10,
+        "F_rank": 10,
+        "automatic_relation_score": 0.6249585735013033
+      },
+      {
+        "mode": "hyp_2:bf82c93dce2b9e225e41c85fe50e016fdda8e6fd3790c1e16a1f1a1dc6df9cd0",
+        "E_rank": 47,
+        "F_rank": 47,
+        "automatic_relation_score": 0.6415837193990066
+      },
+      {
+        "mode": "hyp_2:d18c981af079f8a14f14e67da1b021f0f54218efbb66f11421dd703c97ac5c17",
+        "E_rank": 50,
+        "F_rank": 50,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_2:e6a44504c9546ff959b7934ede44415bac77cba7cf4023f255c4bc357c0b3246",
+        "E_rank": 7,
+        "F_rank": 7,
+        "automatic_relation_score": 0.6249585735013033
+      },
+      {
+        "mode": "hyp_2:ebc35f9315e561b935fe514f50ff9f20dc3a2b379fb1e5397991dcecbf3af7fa",
+        "E_rank": 4,
+        "F_rank": 4,
+        "automatic_relation_score": 0.5768825263987654
+      },
+      {
+        "mode": "hyp_2:f4c894a38adf0db4f1136569956c943f1549656c7f6115712b326ab182bca100",
+        "E_rank": 3,
+        "F_rank": 3,
+        "automatic_relation_score": 0.5768825263987654
+      },
+      {
+        "mode": "hyp_2:fe2b79a530a8295d53f366e8d45aa701d00b32915cb659be3872be398588e2ec",
+        "E_rank": 49,
+        "F_rank": 49,
+        "automatic_relation_score": 0.6249585735013033
+      },
+      {
+        "mode": "hyp_3:073e9d25a3b7a4e97af74013a9293034d99bac8b9276b2a7ec8ba5d49132065d",
+        "E_rank": 14,
+        "F_rank": 14,
+        "automatic_relation_score": 0.5879353525561054
+      },
+      {
+        "mode": "hyp_3:12792fd7630ee6782f3255e689408110e9c4a38a2746213b7f456f68560addbe",
+        "E_rank": 61,
+        "F_rank": 61,
+        "automatic_relation_score": 0.6045604984538087
+      },
+      {
+        "mode": "hyp_3:3cf86b69a67c6b91b291206867a4c8acc939f721e689ca904c1dcb2f74f6fff6",
+        "E_rank": 13,
+        "F_rank": 13,
+        "automatic_relation_score": 0.5879353525561054
+      },
+      {
+        "mode": "hyp_3:6f7342983ad7ace825729564e0fd278dbbb8524818a49fad8f97126e95d1a7c5",
+        "E_rank": 16,
+        "F_rank": 16,
+        "automatic_relation_score": 0.6045604984538087
+      },
+      {
+        "mode": "hyp_3:c2a0882d579cace8c89aebb1c6d692d0711b003630d9677c4ff80141e030c222",
+        "E_rank": 54,
+        "F_rank": 54,
+        "automatic_relation_score": 0.6045604984538087
+      },
+      {
+        "mode": "hyp_3:e8095b3158ce19d537d0409ac3c7d46307fee072f17c188290d309593821444a",
+        "E_rank": 55,
+        "F_rank": 55,
+        "automatic_relation_score": 0.6045604984538087
+      },
+      {
+        "mode": "hyp_3:f0b8a2ca764f675a279b92c86e50eb103ce08ce32c15bab75edbd712f36247e7",
+        "E_rank": 58,
+        "F_rank": 58,
+        "automatic_relation_score": 0.6045604984538087
+      },
+      {
+        "mode": "hyp_3:fbfc35c99685bc657dabb8afe5e8573c4d3e97908c452ac9a84044171e147fbe",
+        "E_rank": 59,
+        "F_rank": 59,
+        "automatic_relation_score": 0.6045604984538087
+      },
+      {
+        "mode": "hyp_4:073e9d25a3b7a4e97af74013a9293034d99bac8b9276b2a7ec8ba5d49132065d",
+        "E_rank": 18,
+        "F_rank": 18,
+        "automatic_relation_score": 0.5768825263987654
+      },
+      {
+        "mode": "hyp_4:12792fd7630ee6782f3255e689408110e9c4a38a2746213b7f456f68560addbe",
+        "E_rank": 60,
+        "F_rank": 60,
+        "automatic_relation_score": 0.5768825263987654
+      },
+      {
+        "mode": "hyp_4:36a9ae98de8c243dc8a358dcbe1bc2c2e01d623bb37eb2c5e3ae35324fd6707c",
+        "E_rank": 62,
+        "F_rank": 62,
+        "automatic_relation_score": 0.5768825263987654
+      },
+      {
+        "mode": "hyp_4:70b1065fa939fcffeda14f8ddfb11bf411a79eb083bb623096aecf6a6e5a49cc",
+        "E_rank": 56,
+        "F_rank": 56,
+        "automatic_relation_score": 0.5768825263987654
+      },
+      {
+        "mode": "hyp_4:84164c2f917a8ecaaff034ca806c9de771c188e11d45431952c9b89ef20a156b",
+        "E_rank": 17,
+        "F_rank": 17,
+        "automatic_relation_score": 0.5768825263987654
+      },
+      {
+        "mode": "hyp_4:c2a0882d579cace8c89aebb1c6d692d0711b003630d9677c4ff80141e030c222",
+        "E_rank": 57,
+        "F_rank": 57,
+        "automatic_relation_score": 0.5768825263987654
+      },
+      {
+        "mode": "hyp_4:e8095b3158ce19d537d0409ac3c7d46307fee072f17c188290d309593821444a",
+        "E_rank": 64,
+        "F_rank": 64,
+        "automatic_relation_score": 0.5768825263987654
+      },
+      {
+        "mode": "hyp_4:f0b8a2ca764f675a279b92c86e50eb103ce08ce32c15bab75edbd712f36247e7",
+        "E_rank": 63,
+        "F_rank": 63,
+        "automatic_relation_score": 0.5768825263987654
+      },
+      {
+        "mode": "hyp_5:0ab9e1a0c5b5f10f7c5750958107dc8658299bd42ba4ff02ed8b005a0022227b",
+        "E_rank": 31,
+        "F_rank": 31,
+        "automatic_relation_score": 0.5879353525561054
+      },
+      {
+        "mode": "hyp_5:17c873b2887bbd854a5c0c971641ea838ef6b692422529ade0516dc1426efc1d",
+        "E_rank": 45,
+        "F_rank": 45,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_5:18bf8e67a1fa0bd1b84d9562f437154313ed42e107f3c8a15ed77ed70aa2c5b7",
+        "E_rank": 30,
+        "F_rank": 30,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_5:21f98832ff7a4a25620651d52fba01698ea43c6ccb99b6a05e311ae115eb961a",
+        "E_rank": 19,
+        "F_rank": 19,
+        "automatic_relation_score": 0.5879353525561054
+      },
+      {
+        "mode": "hyp_5:30c36b5e3c1ffba405be4f52b65b9a27f69ed9d18f29432fc64c26b6de3eab16",
+        "E_rank": 12,
+        "F_rank": 12,
+        "automatic_relation_score": 0.6045604984538087
+      },
+      {
+        "mode": "hyp_5:429a20a2ee8918d3fe08d4367cf6362fe81c464ef2cc37229faa55ae5c85267a",
+        "E_rank": 20,
+        "F_rank": 20,
+        "automatic_relation_score": 0.5879353525561054
+      },
+      {
+        "mode": "hyp_5:58e53971a2a974111637d37f9efdb41da0d05779934977558506a3c17a9757db",
+        "E_rank": 28,
+        "F_rank": 28,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_5:956eed2a7d1ba0725d2843b46bda7da085385a96c3c09a3dc68ae546df66475f",
+        "E_rank": 29,
+        "F_rank": 29,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_6:0ab9e1a0c5b5f10f7c5750958107dc8658299bd42ba4ff02ed8b005a0022227b",
+        "E_rank": 35,
+        "F_rank": 35,
+        "automatic_relation_score": 0.5768825263987654
+      },
+      {
+        "mode": "hyp_6:17c873b2887bbd854a5c0c971641ea838ef6b692422529ade0516dc1426efc1d",
+        "E_rank": 46,
+        "F_rank": 46,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_6:18bf8e67a1fa0bd1b84d9562f437154313ed42e107f3c8a15ed77ed70aa2c5b7",
+        "E_rank": 34,
+        "F_rank": 34,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_6:21f98832ff7a4a25620651d52fba01698ea43c6ccb99b6a05e311ae115eb961a",
+        "E_rank": 22,
+        "F_rank": 22,
+        "automatic_relation_score": 0.5768825263987654
+      },
+      {
+        "mode": "hyp_6:4a282ae83114742b50aa033d6c7bae2bfeda400dafef8f6236c1954d3aab5306",
+        "E_rank": 36,
+        "F_rank": 36,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_6:58e53971a2a974111637d37f9efdb41da0d05779934977558506a3c17a9757db",
+        "E_rank": 32,
+        "F_rank": 32,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_6:590ef09cd777c5ab072cfe6cee3098f30db05a77beb5d397fa95d221b66c6cd2",
+        "E_rank": 52,
+        "F_rank": 52,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_6:956eed2a7d1ba0725d2843b46bda7da085385a96c3c09a3dc68ae546df66475f",
+        "E_rank": 33,
+        "F_rank": 33,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_7:0c873a469011e79c29ebaf56e53d1a1748cd476166d6460213a08f60ef529428",
+        "E_rank": 23,
+        "F_rank": 23,
+        "automatic_relation_score": 0.585099268047736
+      },
+      {
+        "mode": "hyp_7:1e36533f3683894377f2fa560f04a2154daf14f4d65de8115e5c3d0a666bcb37",
+        "E_rank": 26,
+        "F_rank": 26,
+        "automatic_relation_score": 0.585099268047736
+      },
+      {
+        "mode": "hyp_7:69116613e0f3c2ef0a8394759ea9d6fa5c78557c53dc92c8d107a33210b1a42f",
+        "E_rank": 24,
+        "F_rank": 24,
+        "automatic_relation_score": 0.585099268047736
+      },
+      {
+        "mode": "hyp_7:6c3509b2d31a19f7cb3f4b6d1119aeb2d55d2bbe87d4874bd7fe0728ed0ed434",
+        "E_rank": 27,
+        "F_rank": 27,
+        "automatic_relation_score": 0.585099268047736
+      },
+      {
+        "mode": "hyp_7:8e78da241ef523a58a45a259dee46327bdfbd534f447ec33d2dbec68b717201a",
+        "E_rank": 53,
+        "F_rank": 53,
+        "automatic_relation_score": 0.585099268047736
+      },
+      {
+        "mode": "hyp_7:be364c3fc9c4dbdbd0210414389043bc1a10e17815d680473ab3ebacf31a2dce",
+        "E_rank": 51,
+        "F_rank": 51,
+        "automatic_relation_score": 0.5480760471025381
+      },
+      {
+        "mode": "hyp_7:de2404deab9a2634274b4ee95bee1811ca00103fc2da78d1a15c561b2a05c127",
+        "E_rank": 25,
+        "F_rank": 25,
+        "automatic_relation_score": 0.585099268047736
+      },
+      {
+        "mode": "hyp_7:eead7043e814982f22d1b0ba825a89ad2729d8018f12a9f17eaa700ef76e6d83",
+        "E_rank": 48,
+        "F_rank": 48,
+        "automatic_relation_score": 0.5
+      },
+      {
+        "mode": "hyp_8:04d0b3e4f91639f9b340acaa8981cedf6adc64b7af0281e7e8a1ec97389e2e2d",
+        "E_rank": 38,
+        "F_rank": 38,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_8:3808c7bb88465989f4de29e19e93764462f97917a32be2711b7a7ed4db754af5",
+        "E_rank": 42,
+        "F_rank": 42,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_8:73f451350298a29b474fc6a078842142c6a6fe81b72576732a0db0e2c7e87d89",
+        "E_rank": 39,
+        "F_rank": 39,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_8:8e272a626cf94808bd8e225a643904a81eb6651dc5ab30dedef9aee1fe95ddbb",
+        "E_rank": 43,
+        "F_rank": 43,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_8:97c7d631b1968d362cde23fb7bdcf3ee3ef7a58b46e3c769bcb0c8e7cae218e6",
+        "E_rank": 37,
+        "F_rank": 37,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_8:a62d30007a2968f79cb778adaaeb3db673df9676bf8b1aa1f66974880169bbf4",
+        "E_rank": 44,
+        "F_rank": 44,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_8:d52e1064d1b30770c960ed672568723595200924180abb5f6561ba30c11f1327",
+        "E_rank": 41,
+        "F_rank": 41,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_8:e902aa31aa38a20fe6582981543067c37aec6ac12bce62471c7a5ae5f2d8b695",
+        "E_rank": 40,
+        "F_rank": 40,
+        "automatic_relation_score": 0.5166251458977033
+      },
+      {
+        "mode": "hyp_9:187ebb8dca900d00618fd7020ce897b7034b53a4e03fd5ffb96a4de31af7901b",
+        "E_rank": 66,
+        "F_rank": 66,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_9:405242c836033997a57ee01f4473313cf38e0b1389659fcdcc76ca48f6464a0e",
+        "E_rank": 69,
+        "F_rank": 69,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_9:5acb9c6b9087b6ffcc3fbd38a2d824430cca57c5fc3fa5cd1ad4b6c8141c4674",
+        "E_rank": 71,
+        "F_rank": 71,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_9:75b1922d5c89d07a1719905b87b554be7a88c08bb540ddfc13da5b8c35c8affb",
+        "E_rank": 67,
+        "F_rank": 67,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_9:8053a1a88afe01719915e44f671078e49ab58514f60d7ede4bff56c080aa0de8",
+        "E_rank": 68,
+        "F_rank": 68,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_9:adbec5cda4ca37108659c50ed0472b67a9fdfd0dc1f732fd7d472a5e27d7408f",
+        "E_rank": 72,
+        "F_rank": 72,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_9:f9d688b44cb0625079885c7ec3791b1c6ae465741cdf33f09ebff44c96f093e8",
+        "E_rank": 70,
+        "F_rank": 70,
+        "automatic_relation_score": 0.5398593054535674
+      },
+      {
+        "mode": "hyp_9:fbef8c7d511d6c43a420aaa2ac04b2e5375526186e0f03a70e6e01d318bb738f",
+        "E_rank": 65,
+        "F_rank": 65,
+        "automatic_relation_score": 0.5398593054535674
+      }
+    ],
+    "common_modes": 96,
+    "changed_common_ranks": 2,
+    "new_modes": 0,
+    "dropped_modes": 0
+  },
+  {
+    "case": "photo_09",
+    "regions": [],
+    "common_modes": 0,
+    "changed_common_ranks": 0,
+    "new_modes": 0,
+    "dropped_modes": 0
+  },
+  {
+    "case": "photo_10",
+    "regions": [
+      {
+        "mode": "hyp_1:3223bf74a2ed26560e507b589c509fca78ad55be92be268e8ef78d05ee55da74",
+        "E_rank": 29,
+        "F_rank": 29,
+        "automatic_relation_score": 0.5
+      },
+      {
+        "mode": "hyp_1:328638332474cc6d775331d05e0b36299cbdf679fa0af913191136d575de1f97",
+        "E_rank": 5,
+        "F_rank": 5,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_1:4f0186474cd564a0da9f79f339b9a8e6f3a106d7ed562f850997e47f2aadfbd4",
+        "E_rank": 4,
+        "F_rank": 4,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_1:5e01e21740cd0065d1244476f8353bc022b8c733976722ccf17352748dde8017",
+        "E_rank": 3,
+        "F_rank": 3,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_1:82a7aa2817c51f34ff30debbdcdc51c2de19bdb4b205b75fd893f22a2696e8c6",
+        "E_rank": 1,
+        "F_rank": 1,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_1:8557faa545e49cd79449f3d67a31e6fcd7007524d4477684265adffcaabb5f37",
+        "E_rank": 38,
+        "F_rank": 38,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_1:ab55865b9ff0de72061e6e5f7dd00dfe17c5846b3911fcf59e3be7f3b55d993d",
+        "E_rank": 19,
+        "F_rank": 19,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_1:f9c0586fbdf9191b64b006b9f763ce68fd819c981473fdc0b8e1a89080db6e99",
+        "E_rank": 2,
+        "F_rank": 2,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_2:0c205288446c47731f752cd2914c0edd6dd09dc4a5c17b5d26d573a1800ffd70",
+        "E_rank": 12,
+        "F_rank": 12,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_2:0c6bb49ad2c526c0cffe735c5b2b406876e87e84c47102c249f6168d923cca94",
+        "E_rank": 9,
+        "F_rank": 9,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_2:0fd4b04b5e34026bf89de62d691d2b2bbe5d3bc0f0503e6bd77da39e1e75db99",
+        "E_rank": 11,
+        "F_rank": 11,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_2:a4564c67913fbd7464d34ab00d252ba058d5762b488284a27df4c2be31e4a994",
+        "E_rank": 7,
+        "F_rank": 7,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_2:bfce37513a114332ec8114b4b3f3a672f3866616f7eb3f5082667cfe452ebb7a",
+        "E_rank": 10,
+        "F_rank": 10,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_2:c7a386b54d54b968b08acec53875aa2e9266dc6406e2970f15b96099c8c99deb",
+        "E_rank": 8,
+        "F_rank": 8,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_2:ed7c3bf96801de99d8b25a8431108d2e2f9ae1480e7c025b42a8aca626610e94",
+        "E_rank": 13,
+        "F_rank": 13,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_2:f2636ecd44151ac0b96aeb221c707ae36724d54f3c8450eb0281fd56aff21b4d",
+        "E_rank": 6,
+        "F_rank": 6,
+        "automatic_relation_score": 0.5455580796576258
+      },
+      {
+        "mode": "hyp_3:4f0186474cd564a0da9f79f339b9a8e6f3a106d7ed562f850997e47f2aadfbd4",
+        "E_rank": 41,
+        "F_rank": 41,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_3:678bb0fee18eb5adfeeb7b8fe628a25ad26ee46285ddeb73ed468870e7316732",
+        "E_rank": 43,
+        "F_rank": 43,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_3:6f0e17c467af85e81428ae971854ec079a8e30e28b0b7939a8a26ad0fa615ff8",
+        "E_rank": 48,
+        "F_rank": 48,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_3:82a7aa2817c51f34ff30debbdcdc51c2de19bdb4b205b75fd893f22a2696e8c6",
+        "E_rank": 45,
+        "F_rank": 45,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_3:8557faa545e49cd79449f3d67a31e6fcd7007524d4477684265adffcaabb5f37",
+        "E_rank": 47,
+        "F_rank": 47,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_3:ab55865b9ff0de72061e6e5f7dd00dfe17c5846b3911fcf59e3be7f3b55d993d",
+        "E_rank": 46,
+        "F_rank": 46,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_3:bf9697358df2791787614600cabcff615d6bd768921265fa1807b50c9e6434ea",
+        "E_rank": 14,
+        "F_rank": 14,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_3:f9c0586fbdf9191b64b006b9f763ce68fd819c981473fdc0b8e1a89080db6e99",
+        "E_rank": 44,
+        "F_rank": 44,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_4:2b746cb5344d0574921436212625b62e106f491b76e0338c473355920b2ec1e2",
+        "E_rank": 15,
+        "F_rank": 15,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_4:52fe9eb593fec4b653a9782b9d44ee6344c7366ebfa0cc2f76b09b5a630bf1f2",
+        "E_rank": 39,
+        "F_rank": 39,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_4:58c572c61605e5eec9b8d10ad4fe07ebaaa11c1df05ef9bb459e66902dfc416e",
+        "E_rank": 42,
+        "F_rank": 42,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_4:5e62032fad2f50f8617231fac6cc5c5957e0c51064cf025a3dbdb32d35da2155",
+        "E_rank": 16,
+        "F_rank": 16,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_4:9f5797fec8101f2292fe26deff640bbeeedd7e42138038f8f788c64df6c14351",
+        "E_rank": 20,
+        "F_rank": 20,
+        "automatic_relation_score": 0.5
+      },
+      {
+        "mode": "hyp_4:bfce37513a114332ec8114b4b3f3a672f3866616f7eb3f5082667cfe452ebb7a",
+        "E_rank": 40,
+        "F_rank": 40,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_4:e0777e72c44503e46f3951a4f5cc2a6c03f6e81d58b8d48b5e43923cb13ce2ed",
+        "E_rank": 17,
+        "F_rank": 17,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_4:fafeadca82c3c410eba75928ad5e6ca704a43f272f87a00ca855ce897996fbbf",
+        "E_rank": 18,
+        "F_rank": 18,
+        "automatic_relation_score": 0.5556943292720036
+      },
+      {
+        "mode": "hyp_5:4e5d06a7e5b5d250ea55546126bdec98991a91041b741ae1c3cd48b2d33ea73b",
+        "E_rank": 22,
+        "F_rank": 22,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_5:6c8d253796d280feb117a0638e119a5c03c2396a1c11ba092d292d5e97b4f507",
+        "E_rank": 27,
+        "F_rank": 27,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_5:6e6ae2a5b43a1ac664500909c42a3f75b18feed1ad29df0f3adf9b4050cbb929",
+        "E_rank": 24,
+        "F_rank": 24,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_5:6fc42649a847c6b66a6bc1d6b6ee53b7bcc32434d480f5e3037d23f69846313f",
+        "E_rank": 26,
+        "F_rank": 26,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_5:74fa4141bf1fac9ec9a0ad563142394fb795ea548e1c4762a750d3d53055c60a",
+        "E_rank": 28,
+        "F_rank": 28,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_5:d94127c1abd23be98605126e5d8cd1606fbe8803c51b278c8cfcd89b0bd1beed",
+        "E_rank": 23,
+        "F_rank": 23,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_5:e2493068b7845b625445f532ee1939b5d2218311d0fbd3e8dda383c4005f2a9d",
+        "E_rank": 25,
+        "F_rank": 25,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_5:fa4f658baa12c38ffea5d29f18feaf1e359a0d6c1a5aad612b4c7baad0a9a75c",
+        "E_rank": 21,
+        "F_rank": 21,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_6:02ee85cf4d87fc602224a6563563924c0bff74511ac6f9f263ebefa44d111e43",
+        "E_rank": 34,
+        "F_rank": 34,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_6:18723436dd93722c844fff34ad0208962b18b4c715c17014fc843815304380b3",
+        "E_rank": 32,
+        "F_rank": 32,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_6:2a0220ca28ebb0d5878a8d27b06d7602e16683300e9a898971f1ae4767917695",
+        "E_rank": 37,
+        "F_rank": 37,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_6:2d770d076e384781b14ce4be7f25af6fe1e10b6d55191361164e79a89b3a7766",
+        "E_rank": 35,
+        "F_rank": 35,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_6:68a5061f08d3e203e40bfc86d16d1eb0be0a94db3f9839eb0b76f62f2d962e15",
+        "E_rank": 33,
+        "F_rank": 33,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_6:6c4b9b8943dfc950c2eb144e88302199c44c361af05d97057fbf47a8b5f1cf9f",
+        "E_rank": 36,
+        "F_rank": 36,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_6:d2780e1b527a1041d5e4bb73523f51bada7416bd7efc54f898a8d6073a893326",
+        "E_rank": 31,
+        "F_rank": 31,
+        "automatic_relation_score": 0.5484810082304366
+      },
+      {
+        "mode": "hyp_6:ebad3f692a297e56f4cb7deef2553c56044786fdfd675a8df7530dcd59483b14",
+        "E_rank": 30,
+        "F_rank": 30,
+        "automatic_relation_score": 0.5484810082304366
+      }
+    ],
+    "common_modes": 48,
+    "changed_common_ranks": 0,
+    "new_modes": 0,
+    "dropped_modes": 0
+  },
+  {
+    "case": "photo_11",
+    "regions": [],
+    "common_modes": 0,
+    "changed_common_ranks": 0,
+    "new_modes": 0,
+    "dropped_modes": 0
+  },
+  {
+    "case": "photo_12",
+    "regions": [
+      {
+        "mode": "hyp_1:0f53a181b69f8760d3553ddbb327c6de1c0fbcf759da5d8062e815905147c8b0",
+        "E_rank": 2,
+        "F_rank": 2,
+        "automatic_relation_score": 0.5662486142288242
+      },
+      {
+        "mode": "hyp_1:3a10361687118aca9fbd2736813e57e3e7b68c6ccea3ce19e4c14c41a16e430d",
+        "E_rank": 8,
+        "F_rank": 8,
+        "automatic_relation_score": 0.5662486142288242
+      },
+      {
+        "mode": "hyp_1:6cabb595926cdb130199d692a550cb34e1ec186827c4a22dca2de95b9f6e0903",
+        "E_rank": 6,
+        "F_rank": 6,
+        "automatic_relation_score": 0.5662486142288242
+      },
+      {
+        "mode": "hyp_1:982ff5ea26d6cf6f2b0ed29deb04351c005cdd93a948d7d428519a5eb4bc8bff",
+        "E_rank": 7,
+        "F_rank": 7,
+        "automatic_relation_score": 0.5662486142288242
+      },
+      {
+        "mode": "hyp_1:c503bb13d2ea4b703bdf3d5b77b5b9a826c62e5545fbaf40040a3185e6ee8796",
+        "E_rank": 4,
+        "F_rank": 4,
+        "automatic_relation_score": 0.5662486142288242
+      },
+      {
+        "mode": "hyp_1:ce190bb69c06fbfcf95df130865a1bbd5f3bfe0e480bf869513ee31f8a3ceb2c",
+        "E_rank": 1,
+        "F_rank": 1,
+        "automatic_relation_score": 0.5662486142288242
+      },
+      {
+        "mode": "hyp_1:cfc0218a9853f087891a2833c1406f4015627d10b90b44a1083e5a237a3f95b5",
+        "E_rank": 3,
+        "F_rank": 3,
+        "automatic_relation_score": 0.5662486142288242
+      },
+      {
+        "mode": "hyp_1:d45c12aeb43d7b666965bf6944c219cddc7db1c5483b6d4cd608f1a486d8cb19",
+        "E_rank": 5,
+        "F_rank": 5,
+        "automatic_relation_score": 0.5662486142288242
+      }
+    ],
+    "common_modes": 8,
+    "changed_common_ranks": 0,
+    "new_modes": 0,
+    "dropped_modes": 0
+  },
+  {
+    "case": "legacy_beijing_cbd",
+    "regions": [
+      {
+        "mode": "hyp_1:0ad0ec829a26d3ad11c54127ff9d0c1217cf99d4a415acedfd82562d805d0a8e",
+        "E_rank": 3,
+        "F_rank": 3,
+        "automatic_relation_score": 0.5095831231743692
+      },
+      {
+        "mode": "hyp_1:29c5fe76ea8453f5334124d49f4b7d101c3f80dc0e0cb43a7cfe5ed3feac2acc",
+        "E_rank": 5,
+        "F_rank": 5,
+        "automatic_relation_score": 0.5095831231743692
+      },
+      {
+        "mode": "hyp_1:4076279d2c876891316c003cc5c8b61c2dc620f334f109685f095116c636a3fd",
+        "E_rank": 1,
+        "F_rank": 1,
+        "automatic_relation_score": 0.5095831231743692
+      },
+      {
+        "mode": "hyp_1:4775695ed989b07acceb91de79f248aba5074815772acd3f469ad4839e9b6cb6",
+        "E_rank": 8,
+        "F_rank": 8,
+        "automatic_relation_score": 0.5095831231743692
+      },
+      {
+        "mode": "hyp_1:63f852207d8ec75a6f086db31871cf67690dee3c49d3e68697a21db3863e0006",
+        "E_rank": 2,
+        "F_rank": 2,
+        "automatic_relation_score": 0.5095831231743692
+      },
+      {
+        "mode": "hyp_1:a20a844751cd8903be28a4f874af7dc4223e56f36ac78c81f5a2dd7fefa274f3",
+        "E_rank": 6,
+        "F_rank": 6,
+        "automatic_relation_score": 0.5095831231743692
+      },
+      {
+        "mode": "hyp_1:bd66dc93395fd9c74693e3906e3673c1840c73273c4a83fa68b2ab2db1e15d42",
+        "E_rank": 7,
+        "F_rank": 7,
+        "automatic_relation_score": 0.5095831231743692
+      },
+      {
+        "mode": "hyp_1:d1ddd530f91dd9be6b71f9876524f34febe7fcba39659296ac4931d6100c3b5a",
+        "E_rank": 4,
+        "F_rank": 4,
+        "automatic_relation_score": 0.5095831231743692
+      }
+    ],
+    "common_modes": 8,
+    "changed_common_ranks": 0,
+    "new_modes": 0,
+    "dropped_modes": 0
+  },
+  {
+    "case": "legacy_north_bund",
+    "regions": [
+      {
+        "mode": "hyp_10:0227d4c81630780dc7c692e1558a1e3895a11fed032a4891383956a2465b9893",
+        "E_rank": 3,
+        "F_rank": 3,
+        "automatic_relation_score": 0.6007102096780269
+      },
+      {
+        "mode": "hyp_10:023f2abf26aefa5cbacdd0fb172bd7342fa67d14f8be451f581fd7c20c33f761",
+        "E_rank": 69,
+        "F_rank": 69,
+        "automatic_relation_score": 0.5055578366534478
+      },
+      {
+        "mode": "hyp_10:36fe31ec50814b170c23e50929a0f0250d93aaa2ab7fbffe51583d09bf61d6e8",
+        "E_rank": 72,
+        "F_rank": 73,
+        "automatic_relation_score": 0.5520086198394063
+      },
+      {
+        "mode": "hyp_10:906e6bb9afc84c5121fe826e8d04d144c78b006aa113ca0862bc7d2a435ae3b9",
+        "E_rank": 64,
+        "F_rank": 64,
+        "automatic_relation_score": 0.5708015781052688
+      },
+      {
+        "mode": "hyp_10:a1546ff18823b9f79ec19fd91f33ac994225b8be91919d19cf66cb390a2401f3",
+        "E_rank": 73,
+        "F_rank": 74,
+        "automatic_relation_score": 0.5520086198394063
+      },
+      {
+        "mode": "hyp_10:bd6bc28618c71634e2da447b9d29519783186be62571b772a9833c99a1d7547b",
+        "E_rank": 71,
+        "F_rank": 72,
+        "automatic_relation_score": 0.5520086198394063
+      },
+      {
+        "mode": "hyp_10:c8772a7b1b65e600b3eb5b8e72c6aa1cf455fa744c76a69522378e8695727846",
+        "E_rank": 75,
+        "F_rank": 75,
+        "automatic_relation_score": 0.5520086198394063
+      },
+      {
+        "mode": "hyp_10:f2c2f1e6b41210b53a5dab5c91ae677f9562e73819bc5df0dc27ac3d033801b8",
+        "E_rank": 13,
+        "F_rank": 13,
+        "automatic_relation_score": 0.6007102096780269
+      },
+      {
+        "mode": "hyp_11:07d93f0f7bc4726f179b41330faa88ccd3ec6924dfd1d15b1786fa4568f0027d",
+        "E_rank": 79,
+        "F_rank": 79,
+        "automatic_relation_score": 0.5791033955403498
+      },
+      {
+        "mode": "hyp_11:2129ac08326c364a50990a3210d7103de62bb18e105c69a276523b498ac6bf57",
+        "E_rank": 74,
+        "F_rank": 71,
+        "automatic_relation_score": 0.5791033955403498
+      },
+      {
+        "mode": "hyp_11:7af7c0e38d15b541c635bde820f49b3cd72f7d4d32b011b727530d94c86e0f02",
+        "E_rank": 81,
+        "F_rank": 81,
+        "automatic_relation_score": 0.5791033955403498
+      },
+      {
+        "mode": "hyp_11:b24aede9d13a061f16720d54abe6fbec00508e5f839cb1aef24165a9c030df90",
+        "E_rank": 76,
+        "F_rank": 76,
+        "automatic_relation_score": 0.5791033955403498
+      },
+      {
+        "mode": "hyp_11:d5d12ca0217c60d073c6c372fc96eafe8d247793099cd55ae6745ecf9d091ff6",
+        "E_rank": 56,
+        "F_rank": 56,
+        "automatic_relation_score": 0.5978813717219076
+      },
+      {
+        "mode": "hyp_11:dafed344b2dd1eddfb230c5561c9a1c6bee7f3fa44670c1d98a5d360f70b7900",
+        "E_rank": 65,
+        "F_rank": 65,
+        "automatic_relation_score": 0.5978813717219076
+      },
+      {
+        "mode": "hyp_11:ecc85028753e093734ac4260d262e3a2fd9cdf2201dc6b015a8f10ad44414a96",
+        "E_rank": 82,
+        "F_rank": 82,
+        "automatic_relation_score": 0.5791033955403498
+      },
+      {
+        "mode": "hyp_11:fb7c4e4a9557076c2552c61a49e17b609a3b754013b900f05b6d339f87bb7a53",
+        "E_rank": 50,
+        "F_rank": 50,
+        "automatic_relation_score": 0.5978813717219076
+      },
+      {
+        "mode": "hyp_12:53af64b46bc54febde3110ec9e87bdf69ac4f410f1a45ec2ee3f8f9288300f3c",
+        "E_rank": 90,
+        "F_rank": null,
+        "automatic_relation_score": null
+      },
+      {
+        "mode": "hyp_12:60268f40fc8734c228df693bc1d117190b0056bdf3d12c44a32e485bc1e022be",
+        "E_rank": 96,
+        "F_rank": null,
+        "automatic_relation_score": null
+      },
+      {
+        "mode": "hyp_12:72aeb293f9bdf52941488036e70a9c335c4e6eb5936c1408072e8335387cb044",
+        "E_rank": null,
+        "F_rank": 90,
+        "automatic_relation_score": 0.5908219821799686
+      },
+      {
+        "mode": "hyp_12:7ceba1de27287262d155d5064316eb6aef05f4aa4462b54e697d20e254116d83",
+        "E_rank": 94,
+        "F_rank": null,
+        "automatic_relation_score": null
+      },
+      {
+        "mode": "hyp_12:92a08d6ec97a9c616e02ad2646d0a261f0255dce91f21d014745d4aabe4e2055",
+        "E_rank": 93,
+        "F_rank": null,
+        "automatic_relation_score": null
+      },
+      {
+        "mode": "hyp_12:97cacb5c65abfc2a28becba22667d9385d56133cbf9c85b3577b07ae7d2a2a26",
+        "E_rank": 92,
+        "F_rank": 93,
+        "automatic_relation_score": 0.5664711872606583
+      },
+      {
+        "mode": "hyp_12:b27d109f942cc8316d51a4315260d2f29fcd3c16d0e2b3b8c14bba67a236c864",
+        "E_rank": 84,
+        "F_rank": 84,
+        "automatic_relation_score": 0.5908219821799686
+      },
+      {
+        "mode": "hyp_12:bfe06a5214be4d2606e689bdad997ef5f7ad52b932cbed64a1e3e4b12a2474f0",
+        "E_rank": null,
+        "F_rank": 91,
+        "automatic_relation_score": 0.5664711872606583
+      },
+      {
+        "mode": "hyp_12:ca1f403dc1d7bce53761d2d8b1e7145618608cf6318b1edfbcdef39b67061eee",
+        "E_rank": 95,
+        "F_rank": 95,
+        "automatic_relation_score": 0.5664711872606583
+      },
+      {
+        "mode": "hyp_12:d6fc3b2efb2492f883d530e1e00ecf9d1fe8d94ec502458ca35a2a7254092b4f",
+        "E_rank": 91,
+        "F_rank": 92,
+        "automatic_relation_score": 0.5664711872606583
+      },
+      {
+        "mode": "hyp_12:d87318291b33e4bdf11cae689d1280c9027cac928e507b73f53cb46527f9da81",
+        "E_rank": null,
+        "F_rank": 96,
+        "automatic_relation_score": 0.5664711872606583
+      },
+      {
+        "mode": "hyp_12:e5e0ab8b03a3437ab59932cb802870eb8936e9df726d71e2492a7369a1d5edb0",
+        "E_rank": null,
+        "F_rank": 94,
+        "automatic_relation_score": 0.5664711872606583
+      },
+      {
+        "mode": "hyp_1:1617f901214e4ede7ebf2f20047f40b1bffbbf23974e6056b2bb6259e13e029b",
+        "E_rank": 27,
+        "F_rank": 27,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_1:66c614bfed576e32fdfbc164a71d0df0300a765d0d1dd53a2c885121d6a94d89",
+        "E_rank": 4,
+        "F_rank": 4,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_1:8250f3b19f00706a3d86d79ea270a6c44110df83805cba2fb9b8ec31b2f98605",
+        "E_rank": 17,
+        "F_rank": 17,
+        "automatic_relation_score": 0.6727542156764379
+      },
+      {
+        "mode": "hyp_1:8fbe121eedc5eadc02b296538c0ac55f29d5303662549f3e8879fc177218b1fa",
+        "E_rank": 62,
+        "F_rank": 62,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_1:a2a36ea330ded385e0f8807b185e3d4f1eff70d5543013da8edf1244d68c6d26",
+        "E_rank": 41,
+        "F_rank": 41,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_1:ba5851388c32e20f6df16dcbd041b9b4f4bbaee6c487d2a6ed84a10e745611f5",
+        "E_rank": 21,
+        "F_rank": 21,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_1:e8326fbd94a731a2d0f200acfdeae7b54030315ee0af7b7ae73b6de2c16b4647",
+        "E_rank": 46,
+        "F_rank": 46,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_1:fdbdd6bcaed93f458609306270b178373e56009dfbaf99d4bfa0743475696e07",
+        "E_rank": 51,
+        "F_rank": 51,
+        "automatic_relation_score": 0.6333628220324182
+      },
+      {
+        "mode": "hyp_2:2d1c2df53354f0139a461a0759452f7f8017c0ab7d04617562f05f262851fb33",
+        "E_rank": 38,
+        "F_rank": 38,
+        "automatic_relation_score": 0.6034541904596601
+      },
+      {
+        "mode": "hyp_2:66c614bfed576e32fdfbc164a71d0df0300a765d0d1dd53a2c885121d6a94d89",
+        "E_rank": 23,
+        "F_rank": 23,
+        "automatic_relation_score": 0.5687070118290156
+      },
+      {
+        "mode": "hyp_2:8c9276d131175715c0e058da3bbcc2dc2742297f997ea9c58eea3b8e56d33b94",
+        "E_rank": 49,
+        "F_rank": 49,
+        "automatic_relation_score": 0.6616085782009326
+      },
+      {
+        "mode": "hyp_2:a2a36ea330ded385e0f8807b185e3d4f1eff70d5543013da8edf1244d68c6d26",
+        "E_rank": 37,
+        "F_rank": 37,
+        "automatic_relation_score": 0.6616085782009326
+      },
+      {
+        "mode": "hyp_2:ba5851388c32e20f6df16dcbd041b9b4f4bbaee6c487d2a6ed84a10e745611f5",
+        "E_rank": 34,
+        "F_rank": 34,
+        "automatic_relation_score": 0.5687070118290156
+      },
+      {
+        "mode": "hyp_2:c26d34ca5287f6e7f5fd4c0f121f5000dfed0d74be39ea301fdb3c68f1512b2a",
+        "E_rank": 47,
+        "F_rank": 47,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_2:cc9f8bbe3209d9b4ac14bc723dca98146a87d9950648ce1784aba6e40d8fedf4",
+        "E_rank": 44,
+        "F_rank": 44,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_2:e8326fbd94a731a2d0f200acfdeae7b54030315ee0af7b7ae73b6de2c16b4647",
+        "E_rank": 53,
+        "F_rank": 53,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_3:06569c07de4c95903815ba3592d4727777a719c690a12d290c6850a6f824bfd1",
+        "E_rank": 14,
+        "F_rank": 14,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_3:17ccbdb79e4419ef26e4332d992eed845c75cb745f0c0e7fda99037f42a4c6e7",
+        "E_rank": 15,
+        "F_rank": 15,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_3:26baef21fc5ea12fac46125be23a60e24b9669cdd876fa1f7f425dcb141f4b6b",
+        "E_rank": 20,
+        "F_rank": 20,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_3:2eccdc43b1e053838fd68285c39e170901dc26fe02f647fb12c39951569d2a14",
+        "E_rank": 30,
+        "F_rank": 30,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_3:866d6bf3180d90057fa585a5bbce6ddefb4567e2aa45ba14afd80b389d6886ff",
+        "E_rank": 32,
+        "F_rank": 32,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_3:a49672b8d30ff615731b21a2c243c5c5da7b45e76296137dd7ab6e109a874851",
+        "E_rank": 33,
+        "F_rank": 33,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_3:d8929211daf363a225acf3e25a3e685a6031a44d7298eda63df55ee4bd137d62",
+        "E_rank": 40,
+        "F_rank": 40,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_3:f9842ea52042763b2b70ada70d182e945fcf81b9eb6371621a7e2c7274e92b36",
+        "E_rank": 31,
+        "F_rank": 31,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_4:03eb42f9347e172c43b7f0e8d4b019be5a8c1c7af3fe1f437ef99d8e8b77812f",
+        "E_rank": 8,
+        "F_rank": 8,
+        "automatic_relation_score": 0.6616085782009326
+      },
+      {
+        "mode": "hyp_4:0fa6a2a386cb7866c9f5f6bb6471f2ee7351c48da2cc2a60a02109de39655fa5",
+        "E_rank": 5,
+        "F_rank": 5,
+        "automatic_relation_score": 0.6616085782009326
+      },
+      {
+        "mode": "hyp_4:11501e4f422ca6b19082936da699b87407704b423c30f3386277899e491cff85",
+        "E_rank": 7,
+        "F_rank": 7,
+        "automatic_relation_score": 0.6616085782009326
+      },
+      {
+        "mode": "hyp_4:82fa7cd58c5d3d9f304af9abbc2cadd034468ddf19362508ac3a5fdc39b4e8c1",
+        "E_rank": 11,
+        "F_rank": 11,
+        "automatic_relation_score": 0.6616085782009326
+      },
+      {
+        "mode": "hyp_4:83957a21de966f0557e27003b2655a216b9ee4bded8a3adb3a0df766a9981aa8",
+        "E_rank": 12,
+        "F_rank": 12,
+        "automatic_relation_score": 0.6616085782009326
+      },
+      {
+        "mode": "hyp_4:86560beb4c92147230b50787e816e781388dd546744c726980c3c184ce8044aa",
+        "E_rank": 10,
+        "F_rank": 10,
+        "automatic_relation_score": 0.6616085782009326
+      },
+      {
+        "mode": "hyp_4:e03250fa584bea30ffd92a79a702f3a696f9feb9928cdb717d198c2cbc7e3546",
+        "E_rank": 6,
+        "F_rank": 6,
+        "automatic_relation_score": 0.6616085782009326
+      },
+      {
+        "mode": "hyp_4:fcdd3190719cc4aeb50a3034d6a9b82b6db67c5f1c3af053e7d0f351e1e65280",
+        "E_rank": 9,
+        "F_rank": 9,
+        "automatic_relation_score": 0.6616085782009326
+      },
+      {
+        "mode": "hyp_5:1e1024d9453fe3fc679301494ec9ee7ba7402da3cf96aa6c05af5ec12a89c246",
+        "E_rank": 35,
+        "F_rank": 35,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_5:246053fa1f27108fb5b473f91a40e958a22e3b064db4f95d66b9a6134ee09da9",
+        "E_rank": 54,
+        "F_rank": 54,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_5:31e5a7a397d47600775aa00960ae60029bde8f90348cc44df8e51aaca24137fd",
+        "E_rank": 48,
+        "F_rank": 48,
+        "automatic_relation_score": 0.5914000134834259
+      },
+      {
+        "mode": "hyp_5:a708d535b713378ce39a9ebe7daa93328050ffd58c9d76252b20a45efdc552f5",
+        "E_rank": 52,
+        "F_rank": 52,
+        "automatic_relation_score": 0.5914000134834259
+      },
+      {
+        "mode": "hyp_5:ad437229e2aa7f259a8553387871802011880ca4339de4d36bc82d430a38a497",
+        "E_rank": 43,
+        "F_rank": 43,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_5:ce42b1ff2c2ab3e6a3569d89b999f8e8df62e6d5607a2d3eff5dcaa0721357e9",
+        "E_rank": 42,
+        "F_rank": 42,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_5:def660d61096a5b78ab645ce31ecf8e51145954ae379ad79b0fa55b23c59228a",
+        "E_rank": 55,
+        "F_rank": 55,
+        "automatic_relation_score": 0.5687070118290156
+      },
+      {
+        "mode": "hyp_5:ebb430ae59c2baf62c5aba7cbc76facde0b3a69f5784bd813b012b537d57e552",
+        "E_rank": 45,
+        "F_rank": 45,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_6:132a715ef4f93c2322a632876063b13d6873fbd5137f1937d6577f558202a732",
+        "E_rank": 18,
+        "F_rank": 18,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_6:16899c0a5efba46f63e607199e89b3053254249c3c27b69c718c8e79da64cfae",
+        "E_rank": 25,
+        "F_rank": 25,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_6:3f6c3dae3737ebe3acf536482df41638c175034d594e9b880120b5bf2e1c1533",
+        "E_rank": 26,
+        "F_rank": 26,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_6:5c25f3d51fa4312dda40e9a53a46452734ab657b224b8fbc2c16d7b6ac5262ed",
+        "E_rank": 19,
+        "F_rank": 19,
+        "automatic_relation_score": 0.5914000134834259
+      },
+      {
+        "mode": "hyp_6:666d8096d2e5ddc0405864b1516ea19bae31b2ce2ca482661d44796286090097",
+        "E_rank": 28,
+        "F_rank": 28,
+        "automatic_relation_score": 0.5914000134834259
+      },
+      {
+        "mode": "hyp_6:6e341e73160a01d95c0e10badda5092359eac1d2be891b70e8aaf2e480934774",
+        "E_rank": 22,
+        "F_rank": 22,
+        "automatic_relation_score": 0.5914000134834259
+      },
+      {
+        "mode": "hyp_6:89068bd32eff928dd28df4832f1ad2ec30fcb42682d0f6ae430fd43a501c1b9c",
+        "E_rank": 39,
+        "F_rank": 39,
+        "automatic_relation_score": 0.5449492302974673
+      },
+      {
+        "mode": "hyp_6:e2e522b481825b5863c53fe648f631b3dce5915f73fab3ff43cd1eabcec080f8",
+        "E_rank": 24,
+        "F_rank": 24,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_7:477b26c44dc8f6f4a4cb4f684465c79b057e97f060182b296e8033925252d7fd",
+        "E_rank": 87,
+        "F_rank": 87,
+        "automatic_relation_score": 0.6151727770992789
+      },
+      {
+        "mode": "hyp_7:492d1e42717683045058f7fcafc7a7094416a15a59967253b76263ce412d705c",
+        "E_rank": 85,
+        "F_rank": 85,
+        "automatic_relation_score": 0.5363899898112399
+      },
+      {
+        "mode": "hyp_7:6166e3bef6840e76a8e104b66efddbc7f2ec1ffc6f5743c56e29f2b0123f8dd5",
+        "E_rank": 66,
+        "F_rank": 66,
+        "automatic_relation_score": 0.5757813834552593
+      },
+      {
+        "mode": "hyp_7:66c614bfed576e32fdfbc164a71d0df0300a765d0d1dd53a2c885121d6a94d89",
+        "E_rank": 70,
+        "F_rank": 70,
+        "automatic_relation_score": 0.5150405987247092
+      },
+      {
+        "mode": "hyp_7:713e204a4fbc88f045d53b58b09df9c7989f9648712e73447d6d3cc2eb6383f6",
+        "E_rank": 78,
+        "F_rank": 78,
+        "automatic_relation_score": 0.5150405987247092
+      },
+      {
+        "mode": "hyp_7:73bcf1ecbdd9f5fa4424c2d0655cc5e0425bb6c0f3fc62f1655faf55c18ea379",
+        "E_rank": 67,
+        "F_rank": 67,
+        "automatic_relation_score": 0.5757813834552593
+      },
+      {
+        "mode": "hyp_7:91d75c3d862cc828d145527b92628ff47655b51e10f121015abd29e541431f1b",
+        "E_rank": 68,
+        "F_rank": 68,
+        "automatic_relation_score": 0.5757813834552593
+      },
+      {
+        "mode": "hyp_7:d858c510701a6ad8f903d1443e6b6579d764eb773f7e597597ae826d4ad07436",
+        "E_rank": 88,
+        "F_rank": 88,
+        "automatic_relation_score": 0.5363899898112399
+      },
+      {
+        "mode": "hyp_8:18fe24b0cd2440af4427e65b6b6ac3f5b355cab660937ecca7b0b58271e05fca",
+        "E_rank": 83,
+        "F_rank": 83,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_8:66c614bfed576e32fdfbc164a71d0df0300a765d0d1dd53a2c885121d6a94d89",
+        "E_rank": 60,
+        "F_rank": 60,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_8:a2a36ea330ded385e0f8807b185e3d4f1eff70d5543013da8edf1244d68c6d26",
+        "E_rank": 80,
+        "F_rank": 80,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_8:a2c93a63b27041091428f743ac60b2ce6b8f3fe1d3fd4574802f272e3944a95e",
+        "E_rank": 63,
+        "F_rank": 63,
+        "automatic_relation_score": 0.6727542156764379
+      },
+      {
+        "mode": "hyp_8:ba5851388c32e20f6df16dcbd041b9b4f4bbaee6c487d2a6ed84a10e745611f5",
+        "E_rank": 61,
+        "F_rank": 61,
+        "automatic_relation_score": 0.615157795014974
+      },
+      {
+        "mode": "hyp_8:ca0d0a067867a35d7e3924b9f5a01580c0c688fb0e55bd551dc3b55aab09e634",
+        "E_rank": 89,
+        "F_rank": 89,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_8:e8326fbd94a731a2d0f200acfdeae7b54030315ee0af7b7ae73b6de2c16b4647",
+        "E_rank": 77,
+        "F_rank": 77,
+        "automatic_relation_score": 0.6428306020193749
+      },
+      {
+        "mode": "hyp_8:fdbdd6bcaed93f458609306270b178373e56009dfbaf99d4bfa0743475696e07",
+        "E_rank": 86,
+        "F_rank": 86,
+        "automatic_relation_score": 0.6484034207571275
+      },
+      {
+        "mode": "hyp_9:18250cd252a88812d0fa173ec97a926523d4cd1444b29eb0bc1b73a1653e2967",
+        "E_rank": 36,
+        "F_rank": 36,
+        "automatic_relation_score": 0.5693000252167776
+      },
+      {
+        "mode": "hyp_9:4772d8f3dd45deb1183c9a72959a014ca073123cee738b04a63b8a375ebf41f8",
+        "E_rank": 2,
+        "F_rank": 2,
+        "automatic_relation_score": 0.5693000252167776
+      },
+      {
+        "mode": "hyp_9:658b1cd84e5a4fe2ffd103ea97d24ae60eb766b370b09d1fc7aae2365dc62b5b",
+        "E_rank": 29,
+        "F_rank": 29,
+        "automatic_relation_score": 0.5693000252167776
+      },
+      {
+        "mode": "hyp_9:6ce8acc12f3d3420c7c9dd61b63e0288478f0672214da14962f0f9a7325b5e6c",
+        "E_rank": 59,
+        "F_rank": 59,
+        "automatic_relation_score": 0.5693000252167776
+      },
+      {
+        "mode": "hyp_9:b3e29de84c837be6e137b0c2f163d7596fd93ca534c4da35094a4ff9a63920f0",
+        "E_rank": 16,
+        "F_rank": 16,
+        "automatic_relation_score": 0.5880780013983353
+      },
+      {
+        "mode": "hyp_9:b4b0f655151948ad91a2e0620df829ebdfb2d66ec34666576969c3858b2d0d53",
+        "E_rank": 57,
+        "F_rank": 57,
+        "automatic_relation_score": 0.5693000252167776
+      },
+      {
+        "mode": "hyp_9:e3121083b28c27fc472b2ecb7b024de1b0df6f6c0126ddd9cd30b8b35bb39597",
+        "E_rank": 58,
+        "F_rank": 58,
+        "automatic_relation_score": 0.5693000252167776
+      },
+      {
+        "mode": "hyp_9:fc57cf0e0e1735154754d78efc02e11a64b5b75edd27209336fe4e6b2942fd06",
+        "E_rank": 1,
+        "F_rank": 1,
+        "automatic_relation_score": 0.5880780013983353
+      }
+    ],
+    "common_modes": 92,
+    "changed_common_ranks": 6,
+    "new_modes": 4,
+    "dropped_modes": 4
+  }
+]

@@ -35,6 +35,7 @@ def diversified_regions(polygons,scores,limit):
 
 def solve_fixed(store,config,vision,matching):
     start=perf_counter();cpu_start=process_time()
+    quality_selection=config.selection_strategy in {'quality_v2','automatic_v1'}
     if not store.coverage_regions():raise ValueError('Map database is empty; import map coverage first')
     observations={o.id:o for o in vision.landmarks}
     lookup={(m.image_landmark_id,c.entity.id):c for m in matching.matches for c in m.candidates}
@@ -235,23 +236,35 @@ def solve_fixed(store,config,vision,matching):
         if config.dual_regions and scores:
             region_entries=preferred_entries(scores,fine,plan.spacing,config.fine_spacing_m,hard_geometry,config.score_window,config.preferred_tile_size_m)
         original_entries=region_entries
-        if config.selection_strategy=='quality_v2':
+        relation_scores={};point_quality=None
+        if config.selection_strategy=='automatic_v1':
+            from .automatic_relation_scoring import automatic_relation_scores,automatic_quality
+            auto_points=[p for (p,_),t in zip(visited,trace) if 'outside_exact_distance_domain' not in t.get('reasons',[])]
+            auto=automatic_relation_scores(auto_points,observations,dict(selected),geometries,vision.relations,config)
+            report.automatic_relation_audit=dict(points=[[round(x,6),round(y,6)] for x,y in auto_points],**auto)
+            relation_scores=dict(zip(auto_points,auto['scores']))
+            if any(relation_scores.get(p) is not None for p in scores):
+                point_quality={p:automatic_quality(s,relation_scores.get(p)) for p,s in scores.items()}
+        if quality_selection:
             from .selection_v2 import select_quality_modes
-            region_entries,report.selection_audit=select_quality_modes(region_entries,scores,config.max_regions_per_hypothesis,config.preferred_tile_size_m**2)
+            region_entries,report.selection_audit=select_quality_modes(region_entries,scores,config.max_regions_per_hypothesis,config.preferred_tile_size_m**2,quality_by_point=point_quality)
+            if config.selection_strategy=='automatic_v1':
+                report.selection_audit['strategy']='automatic_v1' if point_quality is not None else 'automatic_v1_E_fallback'
+                for d in report.selection_audit['decisions']:d['automatic_relation_score']=relation_scores.get(tuple(d['best_xy']))
             keep=[p for p,_ in region_entries]
         else:
             keep=diversified_regions([p for p,_ in region_entries],scores,config.max_regions_per_hypothesis)
         if config.record_diagnostic_trace:
             from .diagnostics import annotate_selection
             annotate_selection(trace,scores,original_entries,keep,config,connected,
-                retained_members={p for _,members in region_entries for p in members} if config.selection_strategy=='quality_v2' else None)
-        if config.selection_strategy=='quality_v2':
+                retained_members={p for _,members in region_entries for p in members} if quality_selection else None)
+        if quality_selection:
             if any(not d['retained'] and d['reason']!='covered_by_retained_mode' for d in report.selection_audit['decisions']):
                 report.limited=True;report.reasons.append('quality_output_budget; omitted modes explicitly audited')
         elif len(keep)<len(region_entries):report.limited=True;report.reasons.append('diverse_output_region_limit')
         for polygon,members in region_entries:
             if not any(polygon is p for p in keep):continue
-            best=min(members,key=lambda p:(-scores[p].score,p));medoid=feasible_medoid(members)
+            best=min(members,key=lambda p:(-scores[p].score,p)) if point_quality is None else min(members,key=lambda p:(tuple(-v for v in point_quality[p]),p));medoid=feasible_medoid(members)
             if config.robust_geometry:
                 for point in {best,medoid}:
                     detailed=evaluate_robust_pose(point,observations,entities,xy,geometries,[c.score for _,c in selected],vision.relations,config,ctx)
@@ -262,10 +275,10 @@ def solve_fixed(store,config,vision,matching):
             region=CandidateRegion(id=f'{hid}_area_{len(regions)+1}',hypothesis_id=hid,region_id=h.region_id,
                 geometry=geographic,best_location=ctx.system.to_geographic(best),best_scored_point=ctx.system.to_geographic(best),region_medoid=ctx.system.to_geographic(medoid),
                 best_score=scores[best],area_m2=polygon.area,bounds_wgs84=shape(geographic).bounds,candidate_point_count=len(members),assignments=h.assignments,heading=scores[best].heading,
-                refined=any(p in fine for p in members),touches_search_boundary=polygon.distance(search.boundary)<config.fine_spacing_m,
+                automatic_relation_score=relation_scores.get(best),refined=any(p in fine for p in members),touches_search_boundary=polygon.distance(search.boundary)<config.fine_spacing_m,
                 uncertainty=['sampled_cells_not_statistical_confidence','partial_horizontal_visibility_not_3D','best_point_and_medoid_are_candidates_not_verified_locations','uncalibrated_intrinsics_and_identity'],map_coverage_status=ctx.coverage_status(polygon))
             regions.append(region)
-            work[region.id]=dict(context=ctx,entities=entities,geometries=geometries,scores=scores,members=members,best=best,medoid=medoid,report=report,geometry=polygon)
+            work[region.id]=dict(context=ctx,entities=entities,geometries=geometries,scores=scores,members=members,best=best,medoid=medoid,report=report,geometry=polygon,point_quality=point_quality,relation_scores=relation_scores)
         report.timings['regions_seconds']=perf_counter()-phase_start
         report.elapsed_seconds=perf_counter()-begin;report.strtree_queries=ctx.strtree_queries-before_queries
         limited|=report.limited
@@ -303,10 +316,13 @@ def solve_fixed(store,config,vision,matching):
             report=work[hregions[0].id]['report'];report.limited=True
             report.reasons.append('visibility_review_budget; unreviewed_candidates_remain_UNKNOWN')
     for region in regions:
-        w=work[region.id];best=min(w['members'],key=lambda p:(-w['scores'][p].score,p))
+        w=work[region.id];best=min(w['members'],key=lambda p:(-w['scores'][p].score,p)) if w['point_quality'] is None else min(w['members'],key=lambda p:(tuple(-v for v in w['point_quality'][p]),p))
         region.best_score=w['scores'][best];region.best_location=w['context'].system.to_geographic(best);region.best_scored_point=region.best_location;region.heading=region.best_score.heading
     timings['visibility_seconds']=perf_counter()-phase_start
-    if config.selection_strategy=='quality_v2':
+    if config.selection_strategy=='automatic_v1':
+        from .automatic_relation_scoring import automatic_quality
+        regions.sort(key=lambda r:(tuple(-v for v in automatic_quality(r.best_score,r.automatic_relation_score)),r.hypothesis_id,r.best_location.latitude,r.best_location.longitude))
+    elif config.selection_strategy=='quality_v2':
         from .selection_v2 import evidence_quality
         regions.sort(key=lambda r:(tuple(-v for v in evidence_quality(r.best_score)),r.hypothesis_id,r.best_location.latitude,r.best_location.longitude))
     else:
@@ -318,6 +334,7 @@ def solve_fixed(store,config,vision,matching):
                    satisfied=r.best_score.satisfied,conflicts=r.best_score.conflicts,indeterminate=r.best_score.indeterminate,candidate_point_count=r.candidate_point_count,
                    stage1_score=r.best_score.stage1_score,stage2_score=r.best_score.stage2_score,visibility_reviewed=r.best_score.visibility_reviewed)
         if config.dual_regions:props.update(layer_type='preferred_region',priority='PREFERRED_HEURISTIC',explanation='Ranked proposal, not a calibrated probability')
+        if config.selection_strategy=='automatic_v1':props['automatic_relation_score']=r.automatic_relation_score
         features.append(dict(type='Feature',geometry=r.geometry,properties={**props,'kind':'candidate_region'}))
         features.append(dict(type='Feature',geometry=dict(type='Point',coordinates=[r.best_location.longitude,r.best_location.latitude]),properties={**props,'kind':'searched_representative_pose'}))
         features.append(dict(type='Feature',geometry=dict(type='Point',coordinates=[r.region_medoid.longitude,r.region_medoid.latitude]),properties={**props,'kind':'region_medoid'}))

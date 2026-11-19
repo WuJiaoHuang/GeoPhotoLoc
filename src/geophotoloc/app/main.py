@@ -64,6 +64,7 @@ def main():
         else:
             upload=st.file_uploader('上传旅游照片（JPEG / PNG / WebP，最大 20 MiB）',type=['jpg','jpeg','png','webp'])
             with st.expander('搜索参数'):
+                use_automatic=st.checkbox('Stage 5.4 单图自动关系排序',value=True)
                 use_refinement=st.checkbox('启用 Stage 5.2 空间精化',value=False)
                 radius=st.number_input('地标分布外扩半径（米）',min_value=200,max_value=10000,value=2200,step=200,disabled=use_refinement)
                 budget=st.number_input('最大搜索点数',min_value=100,max_value=100000,value=24000,step=1000)
@@ -87,6 +88,7 @@ def main():
                         st.session_state['_pipeline']=LocalizationPipeline(db,vision_config=config)
                     pipeline=st.session_state['_pipeline']
                     pipeline.vision_config=config
+                    pipeline.automatic_relations=use_automatic
                     pipeline.search_config=PoseSearchConfig(search_radius_m=radius,max_total_points=budget)
                     if use_refinement:
                         from geophotoloc.localization import Stage52PoseSolver
@@ -176,7 +178,8 @@ def main():
                      for h in result.localization.hypotheses])
         st.caption(result.provenance)
         with st.expander('独立机位评估（历史求解完成后核验）'):
-            evaluations=load_camera_evaluations()
+            show_historical=st.checkbox('主动加载历史独立机位评估',value=False,key='show_historical_evaluation')
+            evaluations=load_camera_evaluations() if show_historical else []
             st.caption('以下是独立来源自报 Camera location 的小样本核验，不是测量级真值；未输入视觉、地图匹配或求解器。北外滩为新增真实 Pipeline 案例。')
             st.dataframe([{'案例':x['case'],'是否有可评估坐标':x['evaluated'],'状态':x.get('status','仅粗地点描述'),
                            '真值在候选区域内':x.get('truth_inside_any'),
