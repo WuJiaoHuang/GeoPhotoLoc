@@ -1,0 +1,22 @@
+{
+  "artifacts": {
+    "inference_checks.json": "d9fe77e962c12d49b34612202113f1094f5757cba3ccc9ab5d066f28d5de6132",
+    "rules_frozen_before_inference.json": "d5026e38b0a674c48feb02c5984f53f5293e7b91f0b7b5313af41af37a2bcc47",
+    "refinement\\legacy_beijing_cbd.json.gz": "8413e62afdebdbf52007fbdebe2587d91c56736424cc40d843c56f98c379ab9a",
+    "refinement\\legacy_north_bund.json.gz": "980cefbe00d257332a5ecf03932a21e24535eb5399976f07d53645522feca25a",
+    "refinement\\photo_02.json.gz": "3c1ad8040215f9e3647f30f25b658f02c26d7061e0b0be8232825da18935f774",
+    "refinement\\photo_04.json.gz": "f3631ab412a8f1106f71c807d2904e176bad032077a460e749c1b98dfd3ee2de",
+    "refinement\\photo_05.json.gz": "d1594f40cc0dd03f36a5aa8c74fecf535bba64e1318970331e483b10837d8bde",
+    "refinement\\photo_06.json.gz": "59d77a6a1b2d97d4ce8a66666b4f9fb22fad2ca6f87a85cff14e235b3ddcfb62",
+    "refinement\\photo_07.json.gz": "9a6f672199b2d004fd171d408e8a7daaed0ea1ad14716548113f0eab06c67838",
+    "refinement\\photo_08.json.gz": "4d35df32e415f2edac4dc098af98f2194505d5862779692aa861d737d669a7b3",
+    "refinement\\photo_09.json.gz": "9ae9cf12dc4d37e3455cf3ab9a9ddbf6d73f7705f1861a7afdaa0eb1f050ffbe",
+    "refinement\\photo_10.json.gz": "0452793cd5b520cad3f6806c050569cffda90c7fa18129795d157fb1ada8997a",
+    "refinement\\photo_11.json.gz": "05142708cd8289d72c7447260fbbc2deb53739a2b7bf004cd239f46085b00418",
+    "refinement\\photo_12.json.gz": "fd4d3f8e52aae2b2ab33eece46298e7546f48b53284a3b26511d28b6477553aa"
+  },
+  "historical_manifest_sha256": "a1f8403f11e981df8d538be509c48dc8b8fae5b327ddc07536e37230b5f22f64",
+  "map_sha256": "d8c6bb1c71c212af1a7b65b16b09cd0ce3a89aa95a9287b940e145e8c1aa8965",
+  "total_seconds": 151.93716279999353,
+  "new_api_requests": 0
+}

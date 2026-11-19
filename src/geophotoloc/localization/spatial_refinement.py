@@ -153,3 +153,9 @@ def build_spatial_refinement(vision,matching,pose,bounds):
 def to_geographic(geometry,system):
     from .projection import to_wgs84_geometry
     return to_wgs84_geometry(geometry,system)
+
+
+def build_reliable_spatial_refinement(vision,matching,pose,bounds,historical,*,evidence=None):
+    """Independent Stage 5.3 path; historical S0/S1/S2 remain byte-preserved."""
+    from .refinement_reliable import build_reliable_refinement
+    return build_reliable_refinement(vision,matching,pose,bounds,historical,evidence=evidence)

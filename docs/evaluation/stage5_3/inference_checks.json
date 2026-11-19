@@ -1,0 +1,108 @@
+[
+  {
+    "case": "photo_01",
+    "status": "VISION_UNAVAILABLE",
+    "reason": "Historical failed request; no retry"
+  },
+  {
+    "case": "photo_02",
+    "status": "SEARCH_LIMITED",
+    "grid_fingerprint": "13ed8af51e37a12015ab70ecb34197489b9d02ae26a886cd9b0bf7d7b19445fc",
+    "historical_layers_equal": true,
+    "seconds": 21.703426700012642,
+    "source_pose_sha256": "456553142736a9433f30e9c83e5483bc471415ada305a45a0b1e5d17699026ab"
+  },
+  {
+    "case": "photo_03",
+    "status": "VISION_UNAVAILABLE",
+    "reason": "Historical failed request; no retry"
+  },
+  {
+    "case": "photo_04",
+    "status": "SEARCH_LIMITED",
+    "grid_fingerprint": "b7b1355ffda22ca387fc0a5e8cd23056a16606dbde93daa24a383739bbfbe05b",
+    "historical_layers_equal": true,
+    "seconds": 20.33016339999449,
+    "source_pose_sha256": "8e77640adccf43ea8f5829cf069bfd5ac423b2d47c2e741f6cde40d1247e9b5f"
+  },
+  {
+    "case": "photo_05",
+    "status": "SEARCH_LIMITED",
+    "grid_fingerprint": "5378f8b83cbdc6dc8cbc7ffeacff9e80b4af38685c2fd6ff0ad197bb1b76cf23",
+    "historical_layers_equal": true,
+    "seconds": 23.38149749999866,
+    "source_pose_sha256": "0c8f925d7075f64a5503630b65a58ea01538693bd8444bcfce8315347513aee6"
+  },
+  {
+    "case": "photo_06",
+    "status": "SEARCH_LIMITED",
+    "grid_fingerprint": "5cf306bbc084ce5886d37059b32646a149bb716986e3e3fc5ba87f0156f5fefd",
+    "historical_layers_equal": true,
+    "seconds": 21.704397000008612,
+    "source_pose_sha256": "8a29110a06d0fd640f90c9d8ee1a5e929d2877de0b908adf9d48cf1f1e08127c"
+  },
+  {
+    "case": "photo_07",
+    "status": "SEARCH_LIMITED",
+    "grid_fingerprint": "dde20a2f73c2d4b26a7eb8a57326c5e8a911a559ea5390cfda97f8307a7acb35",
+    "historical_layers_equal": true,
+    "seconds": 5.899337599999853,
+    "source_pose_sha256": "cda61ee37a04a5933504b465c31f58f99a6ecc8694b3731920b2927ea637e17b"
+  },
+  {
+    "case": "photo_08",
+    "status": "SEARCH_LIMITED",
+    "grid_fingerprint": "61cc40a87226374734c7885f1cf81e505c3d82ced5d329f792023790402d5804",
+    "historical_layers_equal": true,
+    "seconds": 8.378398899993044,
+    "source_pose_sha256": "8cb018f582b9ff42b1b36821053dd7f6f38ddeafb893389148cb13ba8a199d2d"
+  },
+  {
+    "case": "photo_09",
+    "status": "INSUFFICIENT_EVIDENCE",
+    "grid_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "historical_layers_equal": true,
+    "seconds": 0.0002536999963922426,
+    "source_pose_sha256": "9b3b8a7e49dfb2a46684f025dd3151e4b0485fdb761278dffa335d7ab44b1413"
+  },
+  {
+    "case": "photo_10",
+    "status": "SEARCH_LIMITED",
+    "grid_fingerprint": "aeee07fecb809462d6599c45324476d0c99b016f26ac100f0727f81c2b752d40",
+    "historical_layers_equal": true,
+    "seconds": 5.004745500002173,
+    "source_pose_sha256": "73ed7d65b737a0a6e7b7f59e9fdad686d290a2db6b526c5fe4709dee9ffd4ed5"
+  },
+  {
+    "case": "photo_11",
+    "status": "INSUFFICIENT_EVIDENCE",
+    "grid_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "historical_layers_equal": true,
+    "seconds": 0.00038729999505449086,
+    "source_pose_sha256": "2a5d6ed6fc58baf54d3d5b7590326054d8457f15c35094eb58ee4ac8328d7efc"
+  },
+  {
+    "case": "photo_12",
+    "status": "SEARCH_LIMITED",
+    "grid_fingerprint": "f78bdc4647773ffa6110350bbce1ee168c0918df9e06bccd01c5c2b2ca77802f",
+    "historical_layers_equal": true,
+    "seconds": 0.6964186999975936,
+    "source_pose_sha256": "278541d675ee62603423dbc3a4d698b1064619ec9854cd6d73a01a4ba1eee333"
+  },
+  {
+    "case": "legacy_beijing_cbd",
+    "status": "SEARCH_LIMITED",
+    "grid_fingerprint": "1091e5f6af03a76fb284261f3f68edddfd5d8e28b74c6c4de25fa0e5b5cadcd4",
+    "historical_layers_equal": true,
+    "seconds": 0.6629276999883587,
+    "source_pose_sha256": "3dc887059a699c3c91299c899000182a7972ca139503fa185a624443e4df6c08"
+  },
+  {
+    "case": "legacy_north_bund",
+    "status": "SEARCH_LIMITED",
+    "grid_fingerprint": "ef37f5b5dfb9bed15310432f66525456ce8b370fc509618eddc51d7e50de388a",
+    "historical_layers_equal": true,
+    "seconds": 24.51027179999801,
+    "source_pose_sha256": "2a6d211e7e882b9eb31ce842367119cfa278c8a22dd627e036498aa3f79fadb6"
+  }
+]

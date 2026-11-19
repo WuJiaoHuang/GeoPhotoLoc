@@ -357,3 +357,21 @@ Python API：`Stage52PoseSolver(store, PoseSearchConfig(record_diagnostic_trace=
 本阶段真实 API/地图请求均为0。新增12张中每组8张可计算 Top-1；E 中位约1248m，Top-10包含2/12，Top-3/5为0/12，未宣称普遍精度提升。北京 Top-1 更差，北外滩与 photo_02 保留包含参考点的区域但排名/面积仍有限制；原 holdout 已被查看，只作回归与诊断。
 
 [Stage 5.2 主报告与全部对照](docs/STAGE5_2_EVALUATION.md) · [S0/S1/S2 消融](docs/STAGE5_2_SPATIAL_ABLATION.md) · [运行与测试记录](docs/evaluation/stage5_2/VALIDATION.md) · [自包含离线地图](docs/evaluation/stage5_2/demo/refinement_photo_02.html)。
+
+## Stage 5.3：关系可靠性与保守精化
+
+保留原S0/S1/S2与A/B/C/D/E，新增独立 `build_reliable_spatial_refinement(vision, matching, pose, bounds, historical, evidence=None)`。逐点判定HARD/SOFT/UNKNOWN，仅HARD冲突排除；SOFT为1/0.5/0诊断均值，无SOFT为null。HARD额外要求带来源的独立身份和完整可见证据，名称精确命中不等于确认。S1-R与S1并列，S2-R只从S1-R继续，原评分/FOV/网格/预算不变。
+
+```powershell
+uv run python scripts/run_stage53.py
+uv run python scripts/evaluate_stage53.py
+uv run python scripts/report_stage53.py
+uv run pytest -q
+uv run streamlit run src/geophotoloc/app/main.py
+```
+
+已有完整冻结输出可直接评估和离线演示；`run_stage53.py`正式输出存在时拒绝覆盖。重算需要相同SHA的SQLite快照；不自动下载地图或重新识别。选择“空间精化离线”→“Stage 5.3 可靠性分级”查看五组图层/面积/分类计数，旧Stage5.2仍可选。参考机位默认隐藏，仅主动独立评估时显示。
+
+本轮新请求0。12新增样本中8份非空：旧S1含参考6/8，S1-R为7/8，但因没有独立完整可见/身份确认，HARD为0、S1-R=S0，没有空间缩减；S2/S2-R均含参考2/8。旧holdout已用于诊断，不宣称独立泛化改善。全量433项测试通过，原结果不覆盖。
+
+[Stage 5.3 全部结果与失败归因](docs/STAGE5_3_EVALUATION.md) · [关系规则及边界](docs/STAGE5_3_SPATIAL_RELATIONS.md) · [实际执行与失败记录](docs/evaluation/stage5_3/VALIDATION.md)。

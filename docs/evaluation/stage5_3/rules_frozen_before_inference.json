@@ -1,0 +1,19 @@
+{
+  "version": "5.3",
+  "source_sha256": {
+    "src\\geophotoloc\\localization\\relation_reliability.py": "ce918fe7fc56fd6b5aab650f57350f8f45f9e8325d7ccf7e2315838208ad01b4",
+    "src\\geophotoloc\\localization\\refinement_reliable.py": "c35bd71d13846750e3d6eb2a46d7d529cff76575b3dc334db4ed3b2e8498ba8d",
+    "src\\geophotoloc\\localization\\spatial_refinement.py": "ddeb3e82b11ad490859323dbcf6e6c8a927ad0cdb8de4cb3bf558e398d5a929b",
+    "src\\geophotoloc\\models\\refinement.py": "b39251e102e65a9b6b5a651cddc8c1736ccbc3c1d3cd3077adb989277f1d9930"
+  },
+  "evidence_policy": "No independent identity/full silhouette confirmations in frozen inputs; conservative defaults only",
+  "angular_tolerance": "Reuse pose.config.angular_tolerance_deg",
+  "image_tolerance": "Reuse pose.config.x_tolerance",
+  "soft_rule": {
+    "satisfied": 1.0,
+    "indeterminate": 0.5,
+    "conflict": 0.0,
+    "no_soft": null
+  },
+  "new_api_budget": 0
+}

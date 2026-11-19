@@ -8,3 +8,4 @@ docs/evaluation/stage5_1a_fix/** -text whitespace=trailing-space,space-before-ta
 docs/evaluation/stage5_1b/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
 docs/evaluation/real_camera_diagnostics/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
 docs/evaluation/stage5_2/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+docs/evaluation/stage5_3/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

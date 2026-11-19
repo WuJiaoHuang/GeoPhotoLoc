@@ -5,7 +5,7 @@ from pathlib import Path
 import folium
 from shapely.geometry import shape
 from geophotoloc.models import VisionExtractionResult,PoseLocalizationResult,MapMatchingResult,GeoPoint
-from geophotoloc.models.refinement import SpatialRefinementResult
+from geophotoloc.models.refinement import SpatialRefinementResult,ReliableRefinementResult
 from geophotoloc.vision import prepare_image
 from .pipeline import DemoResult
 from .visualization import build_map,annotate_image
@@ -16,6 +16,8 @@ DATA=ROOT/'docs/evaluation/real_camera_diagnostics'
 CONSTRAINT_LABELS={'S0':'地标身份与地图分布；固定距离和共同网格；不按图像关系排名',
  'S1':'加入可靠左右关系；朝向未知；重叠与身份不明保留歧义',
  'S2':'加入轮廓、视场、投影和站立约束；有界优选并保留歧义'}
+CONSTRAINT_LABELS.update({'S1-R':'仅 HARD 冲突排除；SOFT 只诊断；UNKNOWN 中立（与 S1 并列）',
+ 'S2-R':'从 S1-R 继续完整几何精化；评分与预算保持不变'})
 
 
 def available_cases():
@@ -40,13 +42,21 @@ def load_reference_for_evaluation(case):
     return GeoPoint(latitude=row['reference']['latitude'],longitude=row['reference']['longitude'])
 
 
+def load_reliable_refinement_case(case):
+    result=load_refinement_case(case)
+    target=ROOT/'docs/evaluation/stage5_3/refinement'/f'{case}.json.gz'
+    result.refinement=ReliableRefinementResult.model_validate_json(gzip.decompress(target.read_bytes())).model_dump(mode='json')
+    result.provenance='Stage 5.3 冻结输入离线对照；S1/S1-R 并列，无新增视觉或地图请求。'
+    return result
+
+
 def build_refinement_map(result,*,offline=True,reference=None,focus=None):
     m=build_map(result,offline=offline,show_candidates=False,focus=focus)
-    colors={'S0':'#2563eb','S1':'#d97706','S2':'#059669'}
+    colors={'S0':'#2563eb','S1':'#d97706','S1-R':'#0891b2','S2':'#059669','S2-R':'#db2777'}
     for layer in result.refinement['layers']:
         g=shape(layer['geometry'])
         if g.is_empty:continue
-        name={'S0':'S0 语义初始范围（无排名）','S1':'S1 加入可靠左右关系（无排名）','S2':'S2 完整几何与有界优选'}[layer['stage']]
+        name={'S0':'S0 语义初始范围（无排名）','S1':'S1 原空间关系精化（并列对照）','S1-R':'S1-R 三级可靠性关系精化（并列对照）','S2':'S2 原完整几何（从 S1）','S2-R':'S2-R 完整几何（从 S1-R）'}[layer['stage']]
         group=folium.FeatureGroup(name=name,show=layer['stage']=='S2')
         props=dict(阶段=layer['stage'],面积km2=round(layer['area_m2']/1e6,4),说明=CONSTRAINT_LABELS[layer['stage']])
         folium.GeoJson(dict(type='Feature',geometry=layer['geometry'],properties=props),
@@ -76,10 +86,15 @@ def render_refinement(result,*,offline=True,reference=None,show_map=True):
     st.subheader('语义检索 → 空间关系 → 完整几何精化')
     st.caption('地图圆点为检索地标，面状区域为可能机位；地标中心不是摄影师位置。')
     st.caption('S0/S1 无机位排名；S2 是在同一网格上施加 S1 的受控精化层，与保持软关系的 E 优选结果分开显示。')
+    if result.refinement.get('version')=='stage5.3':
+        st.caption('S1 与 S1-R 是并列实验；S2 从 S1、S2-R 从 S1-R 继续。SOFT 分数仅供诊断，不改变覆盖；缺少独立身份和完整可见证据时允许零 HARD、零收缩。')
     rows=[]
+    s0=next(l['area_m2'] for l in result.refinement['layers'] if l['stage']=='S0')
     for layer in result.refinement['layers']:
         reduction=layer['reduction_from_previous']
         rows.append({'层次':layer['stage'],'面积 km²':round(layer['area_m2']/1e6,4),'相对上一层缩小':None if reduction is None else f'{reduction:.1%}',
+          '相对 S0 缩小':None if not s0 else f"{1-layer['area_m2']/s0:.1%}",
+          'HARD/SOFT/UNKNOWN 点关系计数':'/'.join(str(layer['relation_counts'].get(k,0)) for k in ('HARD','SOFT','UNKNOWN')) if 'relation_counts' in layer else None,
           '实际网格点':layer['actual_points'],'通过点':layer['passed_points'],'关系数':layer['reliable_relations'],'使用约束':CONSTRAINT_LABELS[layer['stage']]})
     st.dataframe(rows,hide_index=True)
     if not any(layer['actual_points'] for layer in result.refinement['layers']):st.info('独立锚点或身份不足，三层均无机位输出；面积为0不表示零误差。')
@@ -97,7 +112,12 @@ def render_offline_refinement():
         st.warning('空间精化离线结果尚未生成，请运行 scripts/run_stage52.py。');return
     default=st.query_params.get('case','photo_02')
     case=st.selectbox('空间精化真实案例',cases,index=cases.index(default) if default in cases else 0,key='refinement_case')
-    result=load_refinement_case(case)
+    version=st.selectbox('空间关系对照版本',['Stage 5.2 历史','Stage 5.3 可靠性分级'],key='refinement_version')
+    if version=='Stage 5.3 可靠性分级':
+        if not (ROOT/'docs/evaluation/stage5_3/refinement'/f'{case}.json.gz').exists():
+            st.warning('此案例尚无 Stage 5.3 冻结输出。');return
+        result=load_reliable_refinement_case(case)
+    else:result=load_refinement_case(case)
     st.info(result.provenance)
     st.image(annotate_image(result.processed_jpeg,result.vision),caption='缓存真实照片与地标识别框；照片作者、来源及许可见下方链接。',width=850)
     st.dataframe([{'图像ID':o.id,'识别名称':o.name,'模型自报身份':'不确定' if o.identity_uncertain else '给出名称（未独立核验）','地图候选数':len(next(m for m in result.matching.matches if m.image_landmark_id==o.id).candidates)} for o in result.vision.landmarks],hide_index=True)

@@ -1,0 +1,37 @@
+[
+  {
+    "stage": "S0",
+    "total": 12,
+    "nonempty": 8,
+    "covered": 7,
+    "median_area_m2": 78310468.67906097
+  },
+  {
+    "stage": "S1",
+    "total": 12,
+    "nonempty": 8,
+    "covered": 6,
+    "median_area_m2": 77459271.10029021
+  },
+  {
+    "stage": "S1-R",
+    "total": 12,
+    "nonempty": 8,
+    "covered": 7,
+    "median_area_m2": 78310468.67906097
+  },
+  {
+    "stage": "S2",
+    "total": 12,
+    "nonempty": 8,
+    "covered": 2,
+    "median_area_m2": 5136430.335524758
+  },
+  {
+    "stage": "S2-R",
+    "total": 12,
+    "nonempty": 8,
+    "covered": 2,
+    "median_area_m2": 6137588.274065774
+  }
+]
